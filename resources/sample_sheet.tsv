@@ -1,0 +1,16 @@
+sample_name	path
+CE_SC_5FU_Conti_1	/data/cephfs-1/work/projects/crc-patients-treatment-and-relapse/work/scRNA/raw_data/CE_SC_5FU_Conti_1/count/sample_filtered_feature_bc_matrix.h5
+CE_SC_5FU_Conti_2	/data/cephfs-1/work/projects/crc-patients-treatment-and-relapse/work/scRNA/raw_data/CE_SC_5FU_Conti_2/count/sample_filtered_feature_bc_matrix.h5
+CE_SC_5FU_Conti_3	/data/cephfs-1/work/projects/crc-patients-treatment-and-relapse/work/scRNA/raw_data/CE_SC_5FU_Conti_3/count/sample_filtered_feature_bc_matrix.h5
+CE_SC_5FU_Conti_4	/data/cephfs-1/work/projects/crc-patients-treatment-and-relapse/work/scRNA/raw_data/CE_SC_5FU_Conti_4/count/sample_filtered_feature_bc_matrix.h5
+CE_SC_5FU_Conti_5	/data/cephfs-1/work/projects/crc-patients-treatment-and-relapse/work/scRNA/raw_data/CE_SC_5FU_Conti_5/count/sample_filtered_feature_bc_matrix.h5
+CE_SC_5FU_OnOff_1	/data/cephfs-1/work/projects/crc-patients-treatment-and-relapse/work/scRNA/raw_data/CE_SC_5FU_OnOff_1/count/sample_filtered_feature_bc_matrix.h5
+CE_SC_5FU_OnOff_2	/data/cephfs-1/work/projects/crc-patients-treatment-and-relapse/work/scRNA/raw_data/CE_SC_5FU_OnOff_2/count/sample_filtered_feature_bc_matrix.h5
+CE_SC_5FU_OnOff_3	/data/cephfs-1/work/projects/crc-patients-treatment-and-relapse/work/scRNA/raw_data/CE_SC_5FU_OnOff_3/count/sample_filtered_feature_bc_matrix.h5
+CE_SC_5FU_OnOff_4	/data/cephfs-1/work/projects/crc-patients-treatment-and-relapse/work/scRNA/raw_data/CE_SC_5FU_OnOff_4/count/sample_filtered_feature_bc_matrix.h5
+CE_SC_5FU_OnOff_5	/data/cephfs-1/work/projects/crc-patients-treatment-and-relapse/work/scRNA/raw_data/CE_SC_5FU_OnOff_5/count/sample_filtered_feature_bc_matrix.h5
+CE_SC_C_1	/data/cephfs-1/work/projects/crc-patients-treatment-and-relapse/work/scRNA/raw_data/CE_SC_C_1/count/sample_filtered_feature_bc_matrix.h5
+CE_SC_C_2	/data/cephfs-1/work/projects/crc-patients-treatment-and-relapse/work/scRNA/raw_data/CE_SC_C_2/count/sample_filtered_feature_bc_matrix.h5
+CE_SC_C_3	/data/cephfs-1/work/projects/crc-patients-treatment-and-relapse/work/scRNA/raw_data/CE_SC_C_3/count/sample_filtered_feature_bc_matrix.h5
+CE_SC_C_4	/data/cephfs-1/work/projects/crc-patients-treatment-and-relapse/work/scRNA/raw_data/CE_SC_C_4/count/sample_filtered_feature_bc_matrix.h5
+CE_SC_C_5	/data/cephfs-1/work/projects/crc-patients-treatment-and-relapse/work/scRNA/raw_data/CE_SC_C_5/count/sample_filtered_feature_bc_matrix.h5

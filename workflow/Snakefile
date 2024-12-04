@@ -1,0 +1,35 @@
+import pandas as pd
+from pathlib import Path
+import os
+from scripts.samples_auto import read_sample
+
+
+# load the configuration file
+configfile: 'config.yaml'
+
+
+# load sample sheet from a TSV file or create new from samples in 'data' folder
+if config['data']['sample_sheet_path']:
+  samples = pd.read_csv(config['data']['sample_sheet_path'], index_col = 'sample_name', sep = '\t')
+elif config['samples_in_directory']:
+  samples = read_sample(config['data']['samples_in_directory'])
+else:
+  print('no samples detected')
+wc = samples.index # store samples in wildcard
+
+
+# location of conda environments
+if config['conda_envs']['use_existing_envs']:
+  env_prefix = config['conda_envs']['envs_path']
+  env_suffix = ''
+else:
+  env_prefix = '../envs/'
+  env_suffix = '.yaml'
+
+
+include: 'rules/preprocessing.smk'
+
+
+rule all:
+    input:
+        expand('results/preprocessing/{sample}/dimensionality_reduction.h5ad', sample=wc),
