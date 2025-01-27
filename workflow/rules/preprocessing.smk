@@ -67,3 +67,23 @@ rule dimensionality_reduction:
             "results/preprocessing/{wildcards.sample}/dimensionality_reduction.ipynb "
             "-p input_file {input} "
             "-p output_dir results/preprocessing/{wildcards.sample}/"
+
+
+rule scAutoQC:
+    input: lambda wildcards: samples.at[wildcards.sample, 'path']
+    output: 'results/preprocessing/{sample}/scAutoQC.h5ad'
+        # Excluded because the pipeline should not choke on this side product:
+        # nb = 'results/preprocessing/{sample}/scAutoQC.ipynb'
+    benchmark: 'benchmarks/scAutoQC/{sample}.tsv'
+    threads: 8
+    resources:
+        mem=lambda wildcards, attempt: '%dG' % (32 * attempt),
+        runtime=lambda wildcards, attempt: 1*60 if attempt == 1 else 4*60,
+    conda: env_prefix + "sctk" + env_suffix
+    shell:
+        "papermill "
+            "workflow/notebooks/sctk_scAutoQC.ipynb "
+            "results/preprocessing/{wildcards.sample}/scAutoQC.ipynb "
+            "-p input_file {input} "
+            "-p output_dir results/preprocessing/{wildcards.sample}/"
+

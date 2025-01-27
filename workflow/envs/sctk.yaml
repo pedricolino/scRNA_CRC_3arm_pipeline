@@ -1,0 +1,9 @@
+name: sctk
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+      - sctk # for scAutoQC only
