@@ -32,5 +32,6 @@ include: 'rules/preprocessing.smk'
 
 rule all:
     input:
-        expand('results/preprocessing/{sample}/scAutoQC.h5ad', sample=wc),
-        # expand('results/preprocessing/{sample}/dimensionality_reduction.h5ad', sample=wc),
+        'results/preprocessing/merged.h5ad',
+        # expand('results/preprocessing/{sample}/annotation.h5ad', sample=wc),
+        # expand('results/preprocessing/{sample}/scAutoQC.h5ad', sample=wc),

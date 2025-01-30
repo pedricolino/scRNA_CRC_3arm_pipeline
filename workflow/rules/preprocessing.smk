@@ -87,3 +87,47 @@ rule scAutoQC:
             "-p input_file {input} "
             "-p output_dir results/preprocessing/{wildcards.sample}/"
 
+
+rule clustering_per_sample:
+    input: 'results/preprocessing/{sample}/dimensionality_reduction.h5ad'
+    output: 'results/preprocessing/{sample}/clustering.h5ad'
+    benchmark: 'benchmarks/clustering/{sample}.tsv'
+    threads: 8
+    resources:
+        mem=lambda wildcards, attempt: '%dG' % (32 * attempt),
+        runtime=lambda wildcards, attempt: 1*60 if attempt == 1 else 4*60,
+    conda: env_prefix + "preprocessing" + env_suffix
+    shell:
+        "papermill "
+            "workflow/notebooks/clustering.ipynb "
+            "results/preprocessing/{wildcards.sample}/clustering.ipynb "
+            "-p input_file {input} "
+            "-p output_dir results/preprocessing/{wildcards.sample}/"
+
+rule annotate_per_sample:
+    input: 'results/preprocessing/{sample}/clustering.h5ad'
+    output: 'results/preprocessing/{sample}/annotation.h5ad'
+    benchmark: 'benchmarks/annotation/{sample}.tsv'
+    threads: 8
+    resources:
+        mem=lambda wildcards, attempt: '%dG' % (32 * attempt),
+        runtime=lambda wildcards, attempt: 1*60 if attempt == 1 else 4*60,
+    conda: env_prefix + "annotation_no_versions" + env_suffix
+    shell:
+        "papermill "
+            "workflow/notebooks/annotation.ipynb "
+            "results/preprocessing/{wildcards.sample}/annotation.ipynb "
+            "-p input_file {input} "
+            "-p output_dir results/preprocessing/{wildcards.sample}/"
+
+# if this rule does not work with the script, then do it with the merge_anndata_samples.ipynb notebook instead
+rule merge_anndata_samples:
+    input: expand('results/preprocessing/{sample}/annotation.h5ad', sample=wc)
+    output: 'results/preprocessing/merged.h5ad'
+    benchmark: 'benchmarks/merge_anndata_samples.tsv'
+    resources:
+        mem=lambda wildcards, attempt: '%dG' % (64 * attempt),
+        runtime=lambda wildcards, attempt: 1*60 if attempt == 1 else 4*60,
+    conda: env_prefix + "preprocessing" + env_suffix
+    script:
+        "scripts/merge_anndata_samples.py"
