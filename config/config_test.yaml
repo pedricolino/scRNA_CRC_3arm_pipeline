@@ -1,0 +1,12 @@
+# Use existing conda environments (must be the same names) or create new ones just for this pipeline?
+conda_envs:
+  use_existing_envs: true
+  envs_path: "~/work/miniconda/envs/" # path to conda envs if use_existing_envs is true
+
+data:
+  samples_in_directory: false # boolean, are samples or their symlinks in resource/data?
+  # if previous is false, give path to sample sheet
+  sample_sheet_path: "resources/sample_sheet_test.tsv" # tab-separated columns: sample_name|path
+
+# Count matrix/layer to use for analysis downstream of normalization
+count_layer_to_use: "soupX_counts" # usually "soupX_counts" or "counts"

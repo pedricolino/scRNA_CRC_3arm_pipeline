@@ -5,7 +5,7 @@ from scripts.samples_auto import read_sample
 
 
 # load the configuration file
-configfile: 'config.yaml'
+configfile: 'config/config.yaml'
 
 
 # load sample sheet from a TSV file or create new from samples in 'data' folder
@@ -32,6 +32,6 @@ include: 'rules/preprocessing.smk'
 
 rule all:
     input:
-        'results/preprocessing/merged.h5ad',
+        'results/preprocessing/subset.h5ad',
         # expand('results/preprocessing/{sample}/annotation.h5ad', sample=wc),
         # expand('results/preprocessing/{sample}/scAutoQC.h5ad', sample=wc),

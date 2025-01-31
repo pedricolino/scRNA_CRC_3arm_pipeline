@@ -7,3 +7,6 @@ data:
   samples_in_directory: false # boolean, are samples or their symlinks in resource/data?
   # if previous is false, give path to sample sheet
   sample_sheet_path: "resources/sample_sheet.tsv" # tab-separated columns: sample_name|path
+
+# Count matrix/layer to use for analysis downstream of normalization
+count_layer_to_use: "soupX_counts" # usually "soupX_counts" or "counts"
