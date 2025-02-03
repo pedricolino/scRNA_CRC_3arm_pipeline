@@ -148,7 +148,7 @@ rule merge_anndata_samples:
     output: 'results/preprocessing/merged.h5ad'
     benchmark: 'benchmarks/merge_anndata_samples.tsv'
     resources:
-        mem=lambda wildcards, attempt: '%dG' % (64 * attempt),
+        mem=lambda wildcards, attempt: '%dG' % (160 * attempt**0.5), # square root to avoid overdoing
         runtime=lambda wildcards, attempt: 1*60 if attempt == 1 else 4*60,
     conda: env_prefix + "preprocessing" + env_suffix
     shell:
@@ -159,7 +159,7 @@ rule subsample:
     output: 'results/preprocessing/subset.h5ad'
     benchmark: 'benchmarks/subsample.tsv'
     resources:
-        mem=lambda wildcards, attempt: '%dG' % (32 * attempt),
+        mem=lambda wildcards, attempt: '%dG' % (100 * attempt**0.5),
         runtime=lambda wildcards, attempt: 1*30 if attempt == 1 else 4*60
     conda: env_prefix + "preprocessing" + env_suffix
     params: fraction = 0.1 # what fraction of the data to keep
