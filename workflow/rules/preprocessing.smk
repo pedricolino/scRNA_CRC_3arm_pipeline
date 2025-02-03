@@ -162,7 +162,7 @@ rule subsample:
         mem=lambda wildcards, attempt: '%dG' % (100 * attempt**0.5),
         runtime=lambda wildcards, attempt: 1*30 if attempt == 1 else 4*60
     conda: env_prefix + "preprocessing" + env_suffix
-    params: fraction = 0.1 # what fraction of the data to keep
+    params: fraction = config['subset']['fraction'] # what fraction of the data to keep
     shell:
         "python -c 'import scanpy as sc; adata = sc.read_h5ad(\"{input}\"); sc.pp.subsample(adata, {params.fraction}); adata.write(\"{output}\")'"
 

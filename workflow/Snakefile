@@ -27,11 +27,27 @@ else:
   env_suffix = '.yaml'
 
 
-include: 'rules/preprocessing.smk'
+# set variables depending on whether to use subset or full dataset
+if config['subset']['use']:
+    filename = 'subset'
+else:
+    filename = 'merged'
 
+
+include: 'rules/preprocessing.smk'
+include: 'rules/analyse_merged_ds.smk'
 
 rule all:
     input:
         'results/preprocessing/subset.h5ad',
+
+        expand('results/analysis/' + filename + '/dim_reduc/checkpoints/{layer_to_use}__{scale_data_before_pca}__{genes_for_pca}__{cc_method}__{pca_n_components}__{umap_n_neighbors}.done',
+            layer_to_use = config['dim_reduc']['layer_to_use'],
+            scale_data_before_pca = config['dim_reduc']['scale_data_before_pca'],
+            genes_for_pca = config['dim_reduc']['genes_for_pca'],
+            cc_method = config['dim_reduc']['cc_method'],
+            pca_n_components = config['dim_reduc']['pca_n_components'],
+            umap_n_neighbors = config['dim_reduc']['umap_n_neighbors']
+        ),
         # expand('results/preprocessing/{sample}/annotation.h5ad', sample=wc),
         # expand('results/preprocessing/{sample}/scAutoQC.h5ad', sample=wc),

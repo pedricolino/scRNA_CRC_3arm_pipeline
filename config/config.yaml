@@ -1,12 +1,25 @@
 # Use existing conda environments (must be the same names) or create new ones just for this pipeline?
 conda_envs:
   use_existing_envs: true
-  envs_path: "~/work/miniconda/envs/" # path to conda envs if use_existing_envs is true
+  envs_path: '~/work/miniconda/envs/' # path to conda envs if use_existing_envs is true
 
 data:
   samples_in_directory: false # boolean, are samples or their symlinks in resource/data?
   # if previous is false, give path to sample sheet
-  sample_sheet_path: "resources/sample_sheet.tsv" # tab-separated columns: sample_name|path
+  sample_sheet_path: 'resources/sample_sheet.tsv' # tab-separated columns: sample_name|path
 
 # Count matrix/layer to use for analysis downstream of normalization
-count_layer_to_use: "soupX_counts" # usually "soupX_counts" or "counts"
+count_layer_to_use: 'soupX_counts' # usually 'soupX_counts' or 'counts'
+
+subset:
+  use: True # perform analysis after merging of samples on subset (true) or full (false) dataset?
+  fraction: 0.3 # fraction of cells to use for subset analysis
+
+# different methods for dimensionality reduction of the merged data
+dim_reduc:
+  layer_to_use: 'log1p_norm_of_soupX_counts'
+  scale_data_before_pca: [True, False] # scale data before PCA?
+  genes_for_pca: ['all', 'globally_highly_variable', 'highly_variable_per_sample'] # which genes to use for PCA
+  cc_method: ['None', 'regress_out', 'cc_genes_out', 'cc_difference_regressed_out'] # method to remove cell cycle effect
+  pca_n_components: 50 # number of components to use for PCA
+  umap_n_neighbors: 30 # number of neighbors to use for UMAP
