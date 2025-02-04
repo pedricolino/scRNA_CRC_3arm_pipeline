@@ -4,9 +4,9 @@ rule dim_reduc_concatenated_ds:
     benchmark: 'benchmarks/dim_reduc/' + filename + '{layer_to_use}_{scale_data_before_pca}_{genes_for_pca}_{cc_method}_{pca_n_components}_{umap_n_neighbors}.tsv'
     threads: 8
     resources:
-        mem=lambda wildcards, attempt: '%dG' % (32 * attempt),
+        mem=lambda wildcards, attempt: '%dG' % (100 * attempt),
         runtime=lambda wildcards, attempt: 1*60 if attempt == 1 else 4*60,
-    conda: env_prefix + "annotation_no_versions" + env_suffix
+    conda: env_prefix + "preprocessing" + env_suffix
     shell:
         "papermill "
         "workflow/notebooks/merged_dim_reduc_diff_params.ipynb "
@@ -17,5 +17,6 @@ rule dim_reduc_concatenated_ds:
         "-p layer_to_use {wildcards.layer_to_use} "
         "-p cc_method {wildcards.cc_method} "
         "-p pca_n_components {wildcards.pca_n_components} "
+        "-p tsv_file results/analysis/" + filename + "/dim_reduc/distances_between_week1_samples.tsv "
         "-p umap_n_neighbors {wildcards.umap_n_neighbors} && "
         "touch {output}"
