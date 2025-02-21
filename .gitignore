@@ -6,5 +6,5 @@ __pycache__/
 
 # specific to snakemake
 .snakemake/
-benchmarks/
-results/
+benchmarks*
+results*
