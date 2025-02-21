@@ -18,7 +18,7 @@ editor_options:
 ---
 
 ```{r setup, include=FALSE}
-.packages <- c("tidyverse","plotly")
+.packages <- c("tidyverse")
 .bioconductor_packages <- c()
 
 # Install CRAN packages (if not already installed)
@@ -65,51 +65,24 @@ recorded by Snakemake using ``psutil``
 | mean_load | float (-) | CPU usage over time, divided by the total running time (first row) |
 | cpu_time | float (-) | CPU time summed for user and system |
 
+
 # Time distribution
-
-Note that scales differ.
-
-```{r, fig.width = 10}
-# plot time distribution per rule with facet_wrap
-d %>% 
-  ggplot(aes(x = h, fill = rule)) +
-  geom_histogram(bins = 30) +
-  facet_wrap(~rule, scale = "free") +
-  theme(legend.position="none") +
-  labs(x = "Time (h)",
-       y = "Count") -> p_h_each
-p_h_each
-```
 
 ```{r}
 # boxplots of time per rule
 d %>% 
-  ggplot(aes(x = rule, y = h, fill = rule)) +
+  ggplot(aes(x = rule, y = m, fill = rule)) +
   geom_boxplot() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   theme(legend.position="none") +
   labs(x = "Rule",
-       y = "Time (h)") -> p_boxplot_time
-ggplotly(p_boxplot_time)
+       y = "Time (min)")
 ```
+
 
 # RAM usage distribution
 
 Using max_rss (Maximum Resident Set Size) as measurement for RAM/memory.  
-Note that scales differ.
-
-```{r, fig.width = 10}
-# plot max_rss distribution per rule with facet_wrap
-d %>% 
-  ggplot(aes(x = max_rss, fill = rule)) +
-  geom_histogram(bins = 30) +
-  facet_wrap(~rule, scale = "free") +
-  theme(legend.position="none") +
-  labs(x = "max_rss (GB)",
-       y = "Count") -> p_max_rss_each
-p_max_rss_each
-```
-
 
 ```{r}
 # boxplots of max_rss per rule with log10 scale
@@ -124,24 +97,9 @@ d %>%
   theme(legend.position="none") +
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   labs(x = "Rule",
-       y = "max_rss") -> p_boxplot_max_rss_log10
-p_boxplot_max_rss_log10
+       y = "max_rss")
 ```
 
-# Maximum and 75th percentile of RAM usage and time
-
-```{r}
-# maximum and 75th percentile of rss and time per rule as table
-d %>%
-  group_by(rule) %>%
-  summarise(
-    max_max_rss = max(max_rss, na.rm = T) %>% round(2),
-    rss_75 = quantile(max_rss, 0.50, na.rm = T) %>% round(2),
-    max_h = max(h, na.rm = T) %>% round(2),
-    h_75 = quantile(h, 0.75, na.rm = T) %>% round(2)
-  ) %>%
-  knitr::kable()
-```
 
 # Recommended values for resources
 
@@ -151,8 +109,8 @@ by taking the maximum +10% and rounding up
 d %>%
   group_by(rule) %>%
   summarise(
-    max_max_rss = (1.05*max(max_rss, na.rm = T)) %>% round(),
-    max_min = (1.05*max(m, na.rm = T)) %>% round()
+    memory_GB = (1.05*max(max_rss, na.rm = T)) %>% round(),
+    time_minutes = (1.05*max(m, na.rm = T)) %>% round()
   ) %>%
   knitr::kable()
 ```
