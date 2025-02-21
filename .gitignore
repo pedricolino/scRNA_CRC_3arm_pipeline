@@ -8,3 +8,4 @@ __pycache__/
 .snakemake/
 benchmarks*
 results*
+dryrun.log
