@@ -9,17 +9,26 @@ data:
   sample_sheet_path: 'resources/sample_sheet.tsv' # tab-separated columns: sample_name|path
 
 # Count matrix/layer to use for analysis downstream of normalization
-count_layer_to_use: 'soupX_counts' # usually 'soupX_counts' or 'counts'
+count_layer: ['soupX_counts', 'counts'] # usually 'soupX_counts' or 'counts'
+
+# quality control method to use
+# 'theislab_tutorial', 'theislab_tutorial_then_scAutoQC' or 'scAutoQC' (which failed miserably in my case)
+# only choose one of the methods including scAutoQC
+qc_method: ['theislab_tutorial', 'scAutoQC']
 
 subset:
-  use: True # perform analysis after merging of samples on subset (true) or full (false) dataset?
-  fraction: 0.3 # fraction of cells to use for subset analysis
+  use: False # perform analysis after merging of samples on subset (true) or full (false) dataset?
+  fraction: 0.2 # fraction of cells to use for subset analysis
 
 # different methods for dimensionality reduction of the merged data
 dim_reduc:
-  layer_to_use: 'log1p_norm_of_soupX_counts'
+  normalization: 'log1p_norm'
   scale_data_before_pca: [True, False] # scale data before PCA?
   genes_for_pca: ['all', 'globally_highly_variable', 'highly_variable_per_sample'] # which genes to use for PCA
-  cc_method: ['None', 'regress_out', 'cc_genes_out', 'cc_difference_regressed_out'] # method to remove cell cycle effect
+  cc_method: ['None', 'regress_out', 'cc_genes_out', 'cc_difference_regressed_out', 'cPCA'] # method to remove cell cycle effect
   pca_n_components: 50 # number of components to use for PCA
   umap_n_neighbors: 30 # number of neighbors to use for UMAP
+
+chosen_branch: 'results/merged/dim_reduc_potential_cc_removal/count_layer__counts/normalization__log1p_norm/scale_data_before_pca__False/genes_for_pca__highly_variable_per_sample/cc_method__cc_genes_out/pca_n_components__50/umap_n_neighbors__30/qc_method__theislab_tutorial'
+
+chosen_clustering: 'results/chosen_branch/leiden_res0.4.csv'

@@ -1,0 +1,40 @@
+name: scpca
+
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - bioconda::bioconductor-scpca
+  - scanpy
+  - anndata
+  - numpy
+  - pandas
+  - matplotlib
+  - celltypist
+  - jupyterlab
+  - r-base
+  - r-sctransform
+  - rpy2
+  - bioconda::r-anndata
+  - jupyter-server
+  - conda-forge::r-irkernel
+  - bioconda::r-monocle3
+  - conda-forge::r-terra # required by monocle3
+  - bioconda::bioconductor-deseq2
+  - conda-forge::papermill
+  # - bioconda::bioconductor-progeny
+  # - conda-forge::decoupler-py
+  - schist
+  - graph-tool # for schist
+  - gseapy
+  - lxml
+  - datashader
+  - bokeh
+  - holoviews
+  - scikit-image
+  - colorcet
+  - pip
+  - pip:
+    - ipywidgets
+    - scanpro

@@ -1,0 +1,24 @@
+name: pathway_mod
+
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - scanpy
+  - conda-forge::marsilea
+  - scipy<1.15 # does not work with scipy version >=1.15
+  - conda-forge::decoupler-py
+  - pandas
+  - pydeseq2
+  - conda-forge::formulaic
+  - conda-forge::rpy2
+  - conda-forge::r-base
+  - conda-forge::ipykernel
+  - conda-forge::scikit-misc
+  - bioconda::bioconductor-limma
+  - bioconda::bioconductor-edger
+  - pip
+  - pip:
+    - formulaic-contrasts
+    - papermill

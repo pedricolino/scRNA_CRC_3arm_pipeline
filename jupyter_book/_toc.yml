@@ -1,0 +1,17 @@
+format: jb-book
+root: intro  # Change this to your actual root file
+chapters:
+  - file: chosen_branch/CMS_CellTypist
+  - file: chosen_branch/CMScaller
+  - file: chosen_branch/GO_enrichment
+  - file: chosen_branch/PDS_classifier
+  - file: chosen_branch/clustering_monocle3
+  - file: chosen_branch/clustering_scMiko
+  - file: chosen_branch/clustering_silhouette
+  - file: chosen_branch/gene_lists
+  - file: chosen_branch/is_our_umap_misleading
+  - file: chosen_branch/kill_rate_curves
+  - file: chosen_branch/phase_cluster_over_time
+  - file: chosen_branch/progeny
+  - file: chosen_branch/punzi_2024_like_analysis
+  - file: chosen_branch/reactome_like_punzi_with_cc_diff_regr_out

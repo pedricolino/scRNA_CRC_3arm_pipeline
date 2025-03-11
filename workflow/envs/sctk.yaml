@@ -7,3 +7,5 @@ dependencies:
   - pip
   - pip:
       - sctk # for scAutoQC only
+      - jupyterlab
+      - papermill

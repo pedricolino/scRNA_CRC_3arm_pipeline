@@ -1,0 +1,20 @@
+name: decoupler
+
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - scanpy
+  - conda-forge::marsilea
+  - scipy<1.15 # does not work with scipy version >=1.15
+  - conda-forge::decoupler-py
+  - pandas
+  - jupyter
+  - pydeseq2
+  - conda-forge::formulaic
+  - conda-forge::papermill
+  - pip
+  - pip:
+    - formulaic-contrasts
+    - scikit-misc

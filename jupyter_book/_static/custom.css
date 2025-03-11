@@ -1,0 +1,25 @@
+img {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+/* Remove max-width restrictions on the main page container */
+.bd-page-width {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+/* Expand content to use full width */
+.bd-main .bd-content .bd-article-container {
+    max-width: 100% !important;
+    width: 90% !important;  /* Adjust to your preference */
+    margin: 0 auto;
+}
+
+/* Ensure figures and images don't get cut off */
+.figure, .output_png, .output_svg, img {
+    max-width: 100% !important;
+    width: auto !important;
+    display: block;
+    margin: 0 auto;
+}

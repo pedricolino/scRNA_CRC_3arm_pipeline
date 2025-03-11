@@ -33,10 +33,68 @@ if config['subset']['use']:
 else:
     filename = 'merged'
 
+chosen_branch = config['chosen_branch']
+
+
+# analysis notebook per conda environment
+analysis_in_R = [
+  'CMScaller',
+  # 'disentanglement_by_canonical_factors_scDECAF',
+  'GO_enrichment',
+  # 'Lina_analysis_with_my_data',
+  'PDS_classifier',
+  'phase_cluster_over_time'
+]
+
+analysis_with_decoupler = [
+  'progeny',
+]
+
+analysis_with_scpca = [
+  'CMS_CellTypist',
+  'gene_lists',
+  'kill_rate_curves',
+  'punzi_2024_like_analysis',
+  'reactome_like_punzi_with_cc_diff_regr_out',
+]
+
+analysis_with_pathway_mod = [
+  # 'gsea_pathway',
+]
+
+print(expand('results/chosen_branch/checkpoint/{in_R}.done', in_R = analysis_in_R))
+
 
 include: 'rules/combined.smk'
 include: 'rules/per_sample.smk'
 
 rule all:
     input:
-        expand('results/per_sample/{sample}/checkpoints/normalize_{count_layer}.done', sample=wc, count_layer=config['count_layer']),
+        'results/' + filename + '/dim_reduc_potential_cc_removal/compare_parameter_options.ipynb',
+        'results/chosen_branch/checkpoint/which_clustering_to_choose.done',
+        expand('results/chosen_branch/checkpoint/in_R/{in_R}.done', in_R = analysis_in_R),
+        expand('results/chosen_branch/checkpoint/with_decoupler/{with_decoupler}.done', with_decoupler = analysis_with_decoupler),
+        expand('results/chosen_branch/checkpoint/with_scpca/{with_scpca}.done', with_scpca = analysis_with_scpca),
+        expand('results/chosen_branch/checkpoint/with_pathway_mod/{with_pathway_mod}.done', with_pathway_mod = analysis_with_pathway_mod),
+        # expand(
+        #   'results/' + filename + 
+        #     '/dim_reduc_potential_cc_removal' +
+        #     '/count_layer__{count_layer}' +
+        #     '/normalization__{normalization}' +
+        #     '/scale_data_before_pca__{scale_data_before_pca}' +
+        #     '/genes_for_pca__{genes_for_pca}' +
+        #     '/cc_method__{cc_method}' +
+        #     '/pca_n_components__{pca_n_components}' +
+        #     '/umap_n_neighbors__{umap_n_neighbors}' +
+        #     '/qc_method__{qc_method}' +
+        #     '/checkpoint.done',
+        #   count_layer=config['count_layer'],
+        #   normalization=config['dim_reduc']['normalization'],
+        #   scale_data_before_pca=config['dim_reduc']['scale_data_before_pca'],
+        #   genes_for_pca=config['dim_reduc']['genes_for_pca'],
+        #   cc_method=config['dim_reduc']['cc_method'],
+        #   pca_n_components=config['dim_reduc']['pca_n_components'],
+        #   umap_n_neighbors=config['dim_reduc']['umap_n_neighbors'],
+        #   qc_method=config['qc_method']
+        # ),
+        # expand('results/per_sample/{sample}/checkpoints/feature_selection_w_{count_layer}.done', sample=wc, count_layer=config['count_layer']),

@@ -3,9 +3,17 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-
 # specific to snakemake
 .snakemake/
 benchmarks*
 results*
 dryrun.log
+
+# more
+misc/
+.tests/
+.vscode
+quarto/
+resources/
+workflow/notebooks/incomplete_or_not_working/
+jupyter_book/_build
