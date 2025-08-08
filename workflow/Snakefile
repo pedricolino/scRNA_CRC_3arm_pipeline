@@ -70,12 +70,14 @@ include: 'rules/per_sample.smk'
 
 rule all:
     input:
-        'results/' + filename + '/dim_reduc_potential_cc_removal/compare_parameter_options.ipynb',
-        'results/chosen_branch/checkpoint/which_clustering_to_choose.done',
-        expand('results/chosen_branch/checkpoint/in_R/{in_R}.done', in_R = analysis_in_R),
-        expand('results/chosen_branch/checkpoint/with_decoupler/{with_decoupler}.done', with_decoupler = analysis_with_decoupler),
-        expand('results/chosen_branch/checkpoint/with_scpca/{with_scpca}.done', with_scpca = analysis_with_scpca),
-        expand('results/chosen_branch/checkpoint/with_pathway_mod/{with_pathway_mod}.done', with_pathway_mod = analysis_with_pathway_mod),
+        expand('results/per_sample/{sample}/adata_ready_for_merge_{count_layer}__{qc_method}.h5ad',
+               sample=wc, count_layer=config['count_layer'], qc_method=config['qc_method']),
+        # 'results/' + filename + '/dim_reduc_potential_cc_removal/compare_parameter_options.ipynb',
+        # 'results/chosen_branch/checkpoint/which_clustering_to_choose.done',
+        # expand('results/chosen_branch/checkpoint/in_R/{in_R}.done', in_R = analysis_in_R),
+        # expand('results/chosen_branch/checkpoint/with_decoupler/{with_decoupler}.done', with_decoupler = analysis_with_decoupler),
+        # expand('results/chosen_branch/checkpoint/with_scpca/{with_scpca}.done', with_scpca = analysis_with_scpca),
+        # expand('results/chosen_branch/checkpoint/with_pathway_mod/{with_pathway_mod}.done', with_pathway_mod = analysis_with_pathway_mod),
         # expand(
         #   'results/' + filename + 
         #     '/dim_reduc_potential_cc_removal' +
