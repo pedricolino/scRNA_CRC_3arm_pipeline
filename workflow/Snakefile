@@ -20,7 +20,7 @@ wc = samples.index # store samples in wildcard
 
 # location of conda environments
 if config['conda_envs']['use_existing_envs']:
-  env_prefix = config['conda_envs']['envs_path']
+  env_prefix = ''
   env_suffix = ''
 else:
   env_prefix = '../envs/'
