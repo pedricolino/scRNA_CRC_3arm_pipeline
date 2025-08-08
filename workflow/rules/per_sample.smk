@@ -15,7 +15,7 @@ rule quality_control:
             "workflow/notebooks/quality_control.ipynb "
             "results/per_sample/{wildcards.sample}/quality_control.ipynb "
             "-p input_file {input} "
-            "-o use_ensembl_ids {params.use_ensembl_ids} "
+            "-p use_ensembl_ids {params.use_ensembl_ids} "
             "-p output_dir results/per_sample/{wildcards.sample}/ "
 
 
