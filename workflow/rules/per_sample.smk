@@ -4,6 +4,8 @@ rule quality_control:
         adata = 'results/per_sample/{sample}/adata.h5ad',
     benchmark: 'benchmarks/quality_control/{sample}.tsv'
     threads: 8
+    params:
+        use_ensembl_ids = config['use_ensembl_ids'],
     resources:
         mem=lambda wildcards, attempt: '%dG' % (32 * attempt),
         runtime=lambda wildcards, attempt: 13 * attempt ** 2, # 1h on debug partition, then 4h on short partition, then medium
@@ -13,6 +15,7 @@ rule quality_control:
             "workflow/notebooks/quality_control.ipynb "
             "results/per_sample/{wildcards.sample}/quality_control.ipynb "
             "-p input_file {input} "
+            "-o use_ensembl_ids {params.use_ensembl_ids} "
             "-p output_dir results/per_sample/{wildcards.sample}/ "
 
 
