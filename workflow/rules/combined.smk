@@ -7,7 +7,7 @@ rule merge_anndata_samples:
     resources:
         mem=lambda wildcards, attempt: '%dG' % (95 * attempt), # square root to avoid overdoing
         runtime=lambda wildcards, attempt: 60 * attempt ** 2,
-    conda: env_prefix + "preprocessing" + env_suffix
+    conda: env_prefix + "sctk" + env_suffix
     shell:
         "python workflow/scripts/merge_anndata_samples.py -o {output} -i {input.samples}"
 
@@ -27,17 +27,29 @@ rule subsample_merged:
 
 rule dim_reduc_concatenated_ds:
     input: 'results/' + filename + '/adata_{count_layer}_{qc_method}.h5ad'
-    output: 'results/' + filename + 
-            '/dim_reduc_potential_cc_removal' +
-            '/count_layer__{count_layer}' +
-            '/normalization__{normalization}' +
-            '/scale_data_before_pca__{scale_data_before_pca}' +
-            '/genes_for_pca__{genes_for_pca}' +
-            '/cc_method__{cc_method}' +
-            '/pca_n_components__{pca_n_components}' +
-            '/umap_n_neighbors__{umap_n_neighbors}' +
-            '/qc_method__{qc_method}' +
-            '/notebook.done'
+    output: 
+        checkpoint = 'results/' + filename + 
+                                '/dim_reduc_potential_cc_removal' +
+                                '/count_layer__{count_layer}' +
+                                '/normalization__{normalization}' +
+                                '/scale_data_before_pca__{scale_data_before_pca}' +
+                                '/genes_for_pca__{genes_for_pca}' +
+                                '/cc_method__{cc_method}' +
+                                '/pca_n_components__{pca_n_components}' +
+                                '/umap_n_neighbors__{umap_n_neighbors}' +
+                                '/qc_method__{qc_method}' +
+                                '/.done',
+        nb = 'results/' + filename + 
+                        '/dim_reduc_potential_cc_removal' +
+                        '/count_layer__{count_layer}' +
+                        '/normalization__{normalization}' +
+                        '/scale_data_before_pca__{scale_data_before_pca}' +
+                        '/genes_for_pca__{genes_for_pca}' +
+                        '/cc_method__{cc_method}' +
+                        '/pca_n_components__{pca_n_components}' +
+                        '/umap_n_neighbors__{umap_n_neighbors}' +
+                        '/qc_method__{qc_method}' +
+                        '/notebook.ipynb'
     benchmark: 'benchmarks/dim_reduc_potential_cc_removal/' + filename +
                 '/count_layer__{count_layer}' +
                 '__{normalization}' +
@@ -49,13 +61,15 @@ rule dim_reduc_concatenated_ds:
                 '__{qc_method}.tsv'
     threads: 8
     resources:
-        mem=lambda wildcards, attempt: '%dG' % (100 * attempt),
+        mem=lambda wildcards, attempt: '%dG' % (130 * attempt),
         runtime=lambda wildcards, attempt: 60 * attempt ** 2,
-    conda: env_prefix + "scpca" + env_suffix
+    conda: env_prefix + "scpca" + env_suffix # using scpca4.yaml
+    params:
+        use_ensembl_ids = config['use_ensembl_ids'],
     shell:
         "papermill "
         "workflow/notebooks/dim_reduc_cc_removal.ipynb "
-        '{output} '
+        '{output.nb} '
         "-p input_file {input} "
         "-p scale_data_before_pca {wildcards.scale_data_before_pca} "
         "-p genes_for_pca {wildcards.genes_for_pca} "
@@ -66,6 +80,7 @@ rule dim_reduc_concatenated_ds:
         "-p qc_method {wildcards.qc_method} "
         "-p count_layer {wildcards.count_layer} "
         "-p figures_folder results/" + filename + "/dim_reduc_potential_cc_removal/figures/ "
+        "-p use_ensembl_ids {params.use_ensembl_ids} "
         '-p output_file results/' + filename + 
             '/dim_reduc_potential_cc_removal' +
             '/count_layer__{wildcards.count_layer}' +
@@ -77,7 +92,8 @@ rule dim_reduc_concatenated_ds:
             '/umap_n_neighbors__{wildcards.umap_n_neighbors}' +
             '/qc_method__{wildcards.qc_method}' +
             '/adata_without_layers.h5ad '
-        "-p umap_n_neighbors {wildcards.umap_n_neighbors}"
+        "-p umap_n_neighbors {wildcards.umap_n_neighbors} && "
+        "touch {output.checkpoint}"
 
 rule compare_parameter_options:
     input: 
@@ -91,7 +107,7 @@ rule compare_parameter_options:
                 '/pca_n_components__{pca_n_components}' +
                 '/umap_n_neighbors__{umap_n_neighbors}' +
                 '/qc_method__{qc_method}' +
-                '/notebook.done', 
+                '/.done', 
                 count_layer=config['count_layer'],
                 normalization=config['dim_reduc']['normalization'],
                 scale_data_before_pca=config['dim_reduc']['scale_data_before_pca'],
