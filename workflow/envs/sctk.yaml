@@ -8,4 +8,5 @@ dependencies:
   - pip:
       - sctk # for scAutoQC only
       - jupyterlab
+      - numpy<=2.0
       - papermill

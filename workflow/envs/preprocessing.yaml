@@ -20,3 +20,10 @@ dependencies:
   - bioconda::bioconductor-scran=1.22.1
   - bioconda::bioconductor-glmgampoi=1.6.0
   - conda-forge::papermill # for the pipeline only
+  - bioconductor-genomeinfodbdata=1.2.7
+  - celltypist
+  - openssl<=3.5.0
+  - numpy<=2.0 # fixes ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+  - pip
+  - pip:
+      - mygene
