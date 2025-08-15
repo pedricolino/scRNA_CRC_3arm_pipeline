@@ -122,7 +122,7 @@ rule compare_parameter_options:
         mem=lambda wildcards, attempt: '%dG' % (4 * attempt), # reduce this before committing
         runtime=lambda wildcards, attempt: 60 * attempt ** 2,
     shell:
-        "papermill "
+        "papermill --prepare-only "
         "workflow/notebooks/interactive_figure_viewer.ipynb "
         "-p input_folder results/" + filename + "/dim_reduc_potential_cc_removal/figures/ "
         "{output} "
