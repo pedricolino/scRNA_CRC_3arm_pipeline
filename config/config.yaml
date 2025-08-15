@@ -11,13 +11,12 @@ data:
   sample_sheet_path: 'resources/sample_sheet.tsv' # tab-separated columns: sample_name|path
 
 # Count matrix/layer to use for analysis downstream of normalization
-# count_layer: ['soupX_counts', 'counts'] # usually 'soupX_counts' or 'counts'
-count_layer: ['counts'] # usually 'soupX_counts' or 'counts'
+count_layer: ['soupX_counts', 'counts'] # usually 'soupX_counts' or 'counts'
+# count_layer: ['counts'] # usually 'soupX_counts' or 'counts'
 
 # quality control method to use
 # 'theislab_tutorial', 'theislab_tutorial_then_scAutoQC' or 'scAutoQC' (which failed miserably in my case)
 # only choose one of the methods including scAutoQC
-# qc_method: ['theislab_tutorial', 'scAutoQC']
 qc_method: ['theislab_tutorial', 'scAutoQC']
 
 subset:
@@ -33,6 +32,22 @@ dim_reduc:
   pca_n_components: 50 # number of components to use for PCA
   umap_n_neighbors: 30 # number of neighbors to use for UMAP
 
-chosen_branch: 'results/merged/dim_reduc_potential_cc_removal/count_layer__counts/normalization__log1p_norm/scale_data_before_pca__False/genes_for_pca__highly_variable_per_sample/cc_method__cc_genes_out/pca_n_components__50/umap_n_neighbors__30/qc_method__theislab_tutorial'
+chosen_parameters:
+  count_layer: 'counts' # count layer to use for analysis
+  qc_method: 'scAutoQC' # quality control method to use
+  normalization: 'log1p_norm' # normalization method to use
+  scale_data_before_pca: False # scale data before PCA?
+  genes_for_pca: 'highly_variable_per_sample' # genes to use for PCA
+  cc_method: 'cc_genes_out' # potential cell cycle removal method
+  pca_n_components: 50 # number of PCA components to use
+  umap_n_neighbors: 30 # number of neighbors to use for UMAP
+
+# chosen_branch: 'results/merged/dim_reduc_potential_cc_removal/count_layer__counts/normalization__log1p_norm/scale_data_before_pca__False/genes_for_pca__highly_variable_per_sample/cc_method__cc_genes_out/pca_n_components__50/umap_n_neighbors__30/qc_method__scAutoQC'
 
 chosen_clustering: 'results/chosen_branch/leiden_res0.4.csv'
+
+use_metacells: True # use metacells for analysis?
+# used for metacell computation
+# chosen_parameters:
+  # count_layer: 'counts'
+  # qc_method: 'theislab_tutorial'

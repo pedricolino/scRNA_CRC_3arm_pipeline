@@ -22,6 +22,9 @@ rule quality_control:
 rule per_sample_analysis:
     input: lambda wildcards: 'results/per_sample/{sample}/adata.h5ad' if wildcards.qc_method == "theislab_tutorial" else 'results/per_sample/{sample}/adata_scAutoQC_{count_layer}.h5ad'
     output: 'results/per_sample/{sample}/adata_ready_for_merge_{count_layer}__{qc_method}.h5ad'
+    wildcard_constraints:
+         # Exclude patterns starting with "metacells_", otherwise this and the metacell computation rule might have identical output files
+        count_layer="(?!metacells_).*"
     benchmark: 'benchmarks/per_sample_analysis/{sample}_{count_layer}__{qc_method}.tsv'
     threads: 8
     params:
@@ -41,8 +44,6 @@ rule per_sample_analysis:
             "-p count_layer {wildcards.count_layer}"
 
 
-###-------------------- experimental, different quality control methods ------------------------###
-
 rule scAutoQC:
     input: 'results/per_sample/{sample}/adata.h5ad'
     output: 'results/per_sample/{sample}/adata_scAutoQC_{count_layer}.h5ad'
@@ -59,3 +60,21 @@ rule scAutoQC:
             "-p input_file {input} "
             "-p count_layer {wildcards.count_layer} "
             "-p output_file {output} "
+
+if config['use_metacells']:
+    rule SEACells_metacell_computation:
+        input: 'results/per_sample/{sample}/adata_ready_for_merge_{count_layer}__{qc_method}.h5ad'
+        output: 'results/per_sample/{sample}/adata_ready_for_merge_' + metacell_suffix + '{count_layer}__{qc_method}.h5ad'
+        benchmark: 'benchmarks/SEACells_metacell_computation/{sample}_{count_layer}_{qc_method}.tsv'
+        threads: 8
+        resources:
+            mem=lambda wildcards, attempt: '%dG' % (8 * attempt),
+            runtime=lambda wildcards, attempt: 60 * attempt ** 2
+        conda: env_prefix + "seacells" + env_suffix
+        shell:
+            "papermill "
+            "workflow/notebooks/SEACell_computation.ipynb "
+            "results/per_sample/{wildcards.sample}/SEACell_computation.ipynb "
+            "-p input_file {input} "
+            "-p output_file {output} "
+            "-p count_layer " + config['chosen_parameters']['count_layer']

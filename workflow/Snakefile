@@ -5,98 +5,125 @@ from scripts.samples_auto import read_sample
 
 
 # load the configuration file
-configfile: 'config/config.yaml'
+configfile: "config/config.yaml"
 
 
 # load sample sheet from a TSV file or create new from samples in 'data' folder
-if config['data']['sample_sheet_path']:
-  samples = pd.read_csv(config['data']['sample_sheet_path'], index_col = 'sample_name', sep = '\t')
-elif config['samples_in_directory']:
-  samples = read_sample(config['data']['samples_in_directory'])
+if config["data"]["sample_sheet_path"]:
+    samples = pd.read_csv(
+        config["data"]["sample_sheet_path"], index_col="sample_name", sep="\t"
+    )
+elif config["samples_in_directory"]:
+    samples = read_sample(config["data"]["samples_in_directory"])
 else:
-  print('no samples detected')
-wc = samples.index # store samples in wildcard
+    print("no samples detected")
+wc = samples.index  # store samples in wildcard
 
 
 # location of conda environments
-if config['conda_envs']['use_existing_envs']:
-  env_prefix = ''
-  env_suffix = ''
+if config["conda_envs"]["use_existing_envs"]:
+    env_prefix = ""
+    env_suffix = ""
 else:
-  env_prefix = '../envs/'
-  env_suffix = '.yaml'
+    env_prefix = "../envs/"
+    env_suffix = ".yaml"
 
 
 # set variables depending on whether to use subset or full dataset
-if config['subset']['use']:
-    filename = 'subset'
+if config["subset"]["use"]:
+    if config["use_metacells"]:
+        raise NotImplementedError("Using subset with metacells is not implemented and probably leads to too few metacells anyway.")
+    else:
+        print("Using subset without metacells.")
+        filename = "subset"
+        metacell_suffix = ""
 else:
-    filename = 'merged'
+    if config["use_metacells"]:
+        filename = "merged_metacells"
+        metacell_suffix = "metacells_"
+        print("Using full dataset with metacells.")
+    else:
+        print("Using full dataset without metacells.")
+        filename = "merged"
+        metacell_suffix = ""
 
-chosen_branch = config['chosen_branch']
+chosen_branch = (
+    "results/"
+    + filename
+    + "/dim_reduc_potential_cc_removal/"
+    + "count_layer__"
+    + config["chosen_parameters"]["count_layer"]
+    + "/"
+    + "normalization__"
+    + config["chosen_parameters"]["normalization"]
+    + "/"
+    + "scale_data_before_pca__"
+    + str(config["chosen_parameters"]["scale_data_before_pca"])
+    + "/"
+    + "genes_for_pca__"
+    + config["chosen_parameters"]["genes_for_pca"]
+    + "/"
+    + "cc_method__"
+    + config["chosen_parameters"]["cc_method"]
+    + "/"
+    + "pca_n_components__"
+    + str(config["chosen_parameters"]["pca_n_components"])
+    + "/"
+    + "umap_n_neighbors__"
+    + str(config["chosen_parameters"]["umap_n_neighbors"])
+    + "/"
+    + "qc_method__"
+    + config["chosen_parameters"]["qc_method"]
+)
+
+# chosen_branch = config['chosen_branch']
+# chosen_branch: 'results/merged/dim_reduc_potential_cc_removal/count_layer__counts/normalization__log1p_norm/scale_data_before_pca__False/genes_for_pca__highly_variable_per_sample/cc_method__cc_genes_out/pca_n_components__50/umap_n_neighbors__30/qc_method__scAutoQC'
 
 
 # analysis notebook per conda environment
 analysis_in_R = [
-  'CMScaller',
-  # 'disentanglement_by_canonical_factors_scDECAF',
-  'GO_enrichment',
-  # 'Lina_analysis_with_my_data',
-  'PDS_classifier',
-  'phase_cluster_over_time'
+    "CMScaller",
+    # 'disentanglement_by_canonical_factors_scDECAF',
+    "GO_enrichment",
+    # 'Lina_analysis_with_my_data',
+    "PDS_classifier",
+    "phase_cluster_over_time",
 ]
 
 analysis_with_decoupler = [
-  'progeny',
+    "progeny",
 ]
 
 analysis_with_scpca = [
-  'CMS_CellTypist',
-  'gene_lists',
-  'kill_rate_curves',
-  'punzi_2024_like_analysis',
-  'reactome_like_punzi_with_cc_diff_regr_out',
+    "CMS_CellTypist",
+    "gene_lists",
+    "kill_rate_curves",
+    "punzi_2024_like_analysis",
+    "reactome_like_punzi_with_cc_diff_regr_out",
 ]
 
 analysis_with_pathway_mod = [
-  # 'gsea_pathway',
+    # 'gsea_pathway',
 ]
 
-print(expand('results/chosen_branch/checkpoint/{in_R}.done', in_R = analysis_in_R))
+# print(expand("results/chosen_branch/checkpoint/{in_R}.done", in_R=analysis_in_R))
 
 
-include: 'rules/combined.smk'
-include: 'rules/per_sample.smk'
+include: "rules/combined.smk"
+include: "rules/per_sample.smk"
 
+
+# Progress from one checkpoint to the next by uncommenting the next commented checkpoint 
 rule all:
     input:
-        expand('results/per_sample/{sample}/adata_ready_for_merge_{count_layer}__{qc_method}.h5ad',
-               sample=wc, count_layer=config['count_layer'], qc_method=config['qc_method']),
-        # 'results/' + filename + '/dim_reduc_potential_cc_removal/compare_parameter_options.ipynb',
+        # 1st checkpoint: choose branch, i.e. which parameters to use
+        "results/" + filename + "/dim_reduc_potential_cc_removal/compare_parameter_options.ipynb",
+
+        # 2nd checkpoint: choose clustering
         # 'results/chosen_branch/checkpoint/which_clustering_to_choose.done',
+
+        # perform post-clustering analysis
         # expand('results/chosen_branch/checkpoint/in_R/{in_R}.done', in_R = analysis_in_R),
         # expand('results/chosen_branch/checkpoint/with_decoupler/{with_decoupler}.done', with_decoupler = analysis_with_decoupler),
         # expand('results/chosen_branch/checkpoint/with_scpca/{with_scpca}.done', with_scpca = analysis_with_scpca),
         # expand('results/chosen_branch/checkpoint/with_pathway_mod/{with_pathway_mod}.done', with_pathway_mod = analysis_with_pathway_mod),
-        # expand(
-        #   'results/' + filename + 
-        #     '/dim_reduc_potential_cc_removal' +
-        #     '/count_layer__{count_layer}' +
-        #     '/normalization__{normalization}' +
-        #     '/scale_data_before_pca__{scale_data_before_pca}' +
-        #     '/genes_for_pca__{genes_for_pca}' +
-        #     '/cc_method__{cc_method}' +
-        #     '/pca_n_components__{pca_n_components}' +
-        #     '/umap_n_neighbors__{umap_n_neighbors}' +
-        #     '/qc_method__{qc_method}' +
-        #     '/checkpoint.done',
-        #   count_layer=config['count_layer'],
-        #   normalization=config['dim_reduc']['normalization'],
-        #   scale_data_before_pca=config['dim_reduc']['scale_data_before_pca'],
-        #   genes_for_pca=config['dim_reduc']['genes_for_pca'],
-        #   cc_method=config['dim_reduc']['cc_method'],
-        #   pca_n_components=config['dim_reduc']['pca_n_components'],
-        #   umap_n_neighbors=config['dim_reduc']['umap_n_neighbors'],
-        #   qc_method=config['qc_method']
-        # ),
-        # expand('results/per_sample/{sample}/checkpoints/feature_selection_w_{count_layer}.done', sample=wc, count_layer=config['count_layer']),
