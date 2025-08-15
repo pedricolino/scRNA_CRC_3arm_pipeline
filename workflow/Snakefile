@@ -37,14 +37,17 @@ if config["subset"]["use"]:
         print("Using subset without metacells.")
         filename = "subset"
         metacell_suffix = ""
+        mem_multiplier = 0.2
 else:
     if config["use_metacells"]:
         filename = "merged_metacells"
         metacell_suffix = "metacells_"
+        mem_multiplier = 0.1
         print("Using full dataset with metacells.")
     else:
         print("Using full dataset without metacells.")
         filename = "merged"
+        mem_multiplier = 1
         metacell_suffix = ""
 
 chosen_branch = (

@@ -8,7 +8,7 @@ rule merge_anndata_samples:
     output: 'results/' + filename + '/adata_{count_layer}_{qc_method}.h5ad'
     benchmark: 'benchmarks/' + filename + '/merge/anndata_samples_w_{count_layer}_{qc_method}.tsv'
     resources:
-        mem=lambda wildcards, attempt: '%dG' % (95 * attempt), # square root to avoid overdoing
+        mem=lambda wildcards, attempt: '%dG' % (95 * attempt * mem_multiplier),
         runtime=lambda wildcards, attempt: 60 * attempt ** 2,
     conda: env_prefix + 'sctk' + env_suffix
     shell:
@@ -20,7 +20,7 @@ rule subsample_merged:
     output: 'results/subset/adata_{count_layer}_{qc_method}.h5ad'
     benchmark: 'benchmarks/subsample/{count_layer}_{qc_method}.tsv'
     resources:
-        mem=lambda wildcards, attempt: '%dG' % (50 * attempt),
+        mem=lambda wildcards, attempt: '%dG' % (50 * attempt * mem_multiplier),
         runtime=lambda wildcards, attempt: 60 * attempt ** 2,
     conda: env_prefix + 'preprocessing' + env_suffix
     params: fraction = config['subset']['fraction'] # what fraction of the data to keep
@@ -76,7 +76,7 @@ rule dim_reduc_concatenated_ds:
                 '__{qc_method}.tsv'
     threads: 8
     resources:
-        mem=lambda wildcards, attempt: '%dG' % (100 * attempt),
+        mem=lambda wildcards, attempt: '%dG' % (100 * attempt * mem_multiplier),
         runtime=lambda wildcards, attempt: 60 * attempt ** 2,
     conda: env_prefix + 'scpca' + env_suffix
     params: use_ensembl_ids = config['use_ensembl_ids'],
@@ -147,7 +147,7 @@ rule save_adata_chosen_branch:
     benchmark: 'benchmarks/save_adata_chosen_branch.tsv'
     threads: 8
     resources:
-        mem=lambda wildcards, attempt: '%dG' % (100 * attempt),
+        mem=lambda wildcards, attempt: '%dG' % (100 * attempt * mem_multiplier),
         runtime=lambda wildcards, attempt: 60 * attempt ** 2,
     conda: env_prefix + 'scpca' + env_suffix
     shell:
@@ -161,7 +161,7 @@ rule subsample_chosen_branch:
     output: 'results/chosen_branch' + filename + '/adata_subset.h5ad'
     benchmark: 'benchmarks/subsample_chosen_branch.tsv'
     resources:
-        mem=lambda wildcards, attempt: '%dG' % (50 * attempt),
+        mem=lambda wildcards, attempt: '%dG' % (50 * attempt * mem_multiplier),
         runtime=lambda wildcards, attempt: 60 * attempt ** 2,
     conda: env_prefix + 'preprocessing' + env_suffix
     params: fraction = config['subset']['fraction'] # what fraction of the data to keep
@@ -173,7 +173,7 @@ rule strip_adata:
     output: 'results/chosen_branch' + filename + '/adata_stripped.h5ad'
     benchmark: 'benchmarks/strip_adata.tsv'
     resources:
-        mem=lambda wildcards, attempt: '%dG' % (50 * attempt),
+        mem=lambda wildcards, attempt: '%dG' % (50 * attempt * mem_multiplier),
         runtime=lambda wildcards, attempt: 60 * attempt ** 2,
     conda: env_prefix + 'preprocessing' + env_suffix
     shell:
@@ -184,7 +184,7 @@ rule strip_adata_subset:
     output: 'results/chosen_branch' + filename + '/adata_subset_stripped.h5ad'
     benchmark: 'benchmarks/strip_adata_subset.tsv'
     resources:
-        mem=lambda wildcards, attempt: '%dG' % (20 * attempt),
+        mem=lambda wildcards, attempt: '%dG' % (20 * attempt * mem_multiplier),
         runtime=lambda wildcards, attempt: 60 * attempt ** 2,
     conda: env_prefix + 'preprocessing' + env_suffix
     shell:
@@ -197,7 +197,7 @@ rule clustering_monocle3:
     output: 'results/chosen_branch' + filename + '/clusters_leiden_monocle3.csv'
     benchmark: 'benchmarks/clustering_monocle3.tsv'
     resources:
-        mem=lambda wildcards, attempt: '%dG' % (200 * attempt),
+        mem=lambda wildcards, attempt: '%dG' % (200 * attempt * mem_multiplier),
         runtime=lambda wildcards, attempt: 60 * attempt ** 2,
     conda: env_prefix + 'R' + env_suffix
     shell:
@@ -212,7 +212,7 @@ rule clustering_schist:
     output: 'results/chosen_branch' + filename + '/clusters_schist.csv'
     benchmark: 'benchmarks/clustering_schist.tsv'
     resources:
-        mem=lambda wildcards, attempt: '%dG' % (400 * attempt),
+        mem=lambda wildcards, attempt: '%dG' % (400 * attempt * mem_multiplier),
         runtime=lambda wildcards, attempt: 24 * 60 * attempt,
     conda: env_prefix + 'scpca' + env_suffix
     shell:
@@ -244,7 +244,7 @@ rule clustering_scMiko:
     output: 'results/chosen_branch' + filename + '/clusters_scMiko.csv',
     benchmark: 'benchmarks/clustering_scMiko.tsv'
     resources:
-        mem=lambda wildcards, attempt: '%dG' % (400 * attempt),
+        mem=lambda wildcards, attempt: '%dG' % (400 * attempt * mem_multiplier),
         runtime=lambda wildcards, attempt: 24 * 60 * attempt,
     conda: env_prefix + 'R' + env_suffix
     shell:
@@ -259,7 +259,7 @@ rule clustering_silhouette:
     output: 'results/chosen_branch' + filename + '/clustering_silhouette.csv'
     benchmark: 'benchmarks/clustering_silhouette.tsv'
     resources:
-        mem=lambda wildcards, attempt: '%dG' % (400 * attempt),
+        mem=lambda wildcards, attempt: '%dG' % (400 * attempt * mem_multiplier),
         runtime=lambda wildcards, attempt: 24 * 60 * attempt,
     conda: env_prefix + 'R' + env_suffix
     shell:
@@ -278,7 +278,7 @@ rule which_clustering_to_choose:
     output: 'results/chosen_branch' + filename + '/checkpoint/which_clustering_to_choose.done'
     benchmark: 'benchmarks/which_clustering_to_choose.tsv'
     resources:
-        mem=lambda wildcards, attempt: '%dG' % (200 * attempt),
+        mem=lambda wildcards, attempt: '%dG' % (200 * attempt * mem_multiplier),
         runtime=lambda wildcards, attempt: 60 * attempt ** 2,
     conda: env_prefix + 'scpca' + env_suffix
     shell:
@@ -302,7 +302,7 @@ rule analysis_in_R:
         'results/chosen_branch' + filename + '/checkpoint/in_R/{in_R}.done'
     benchmark: 'benchmarks/{in_R}.tsv'
     resources:
-        mem=lambda wildcards, attempt: '%dG' % (200 * attempt),
+        mem=lambda wildcards, attempt: '%dG' % (200 * attempt * mem_multiplier),
         runtime=lambda wildcards, attempt: 60 * attempt ** 2
     threads: 14
     conda: env_prefix + 'R' + env_suffix
@@ -323,7 +323,7 @@ rule analysis_with_decoupler:
         'results/chosen_branch' + filename + '/checkpoint/with_decoupler/{with_decoupler}.done'
     benchmark: 'benchmarks/{with_decoupler}.tsv'
     resources:
-        mem=lambda wildcards, attempt: '%dG' % (200 * attempt),
+        mem=lambda wildcards, attempt: '%dG' % (200 * attempt * mem_multiplier),
         runtime=lambda wildcards, attempt: 60 * attempt ** 2,
     conda: env_prefix + 'decoupler' + env_suffix
     shell:
@@ -343,7 +343,7 @@ rule analysis_with_scpca:
         'results/chosen_branch' + filename + '/checkpoint/with_scpca/{with_scpca}.done'
     benchmark: 'benchmarks/{with_scpca}.tsv'
     resources:
-        mem=lambda wildcards, attempt: '%dG' % (200 * attempt),
+        mem=lambda wildcards, attempt: '%dG' % (200 * attempt * mem_multiplier),
         runtime=lambda wildcards, attempt: 60 * attempt ** 2,
     conda: env_prefix + 'scpca' + env_suffix
     shell:
@@ -363,7 +363,7 @@ rule analysis_with_pathway_mod:
         'results/chosen_branch' + filename + '/checkpoint/with_pathway_mod/{with_pathway_mod}.done'
     benchmark: 'benchmarks/{with_pathway_mod}.tsv'
     resources:
-        mem=lambda wildcards, attempt: '%dG' % (200 * attempt),
+        mem=lambda wildcards, attempt: '%dG' % (200 * attempt * mem_multiplier),
         runtime=lambda wildcards, attempt: 60 * attempt ** 2,
     conda: env_prefix + 'pathway_mod' + env_suffix
     shell:
