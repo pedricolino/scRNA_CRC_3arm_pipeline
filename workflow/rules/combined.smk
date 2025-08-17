@@ -2,7 +2,7 @@
 rule merge_anndata_samples:
     input: 
         samples = expand(
-			'results/per_sample/{sample}/adata_ready_for_merge_' + metacell_suffix + '{{count_layer}}__{{qc_method}}.h5ad',
+			'results/per_sample/{sample}' + metacell_suffix + '/adata_ready_for_merge_{{count_layer}}__{{qc_method}}.h5ad',
 			sample=samples.index
 			),
     output: 'results/' + filename + '/adata_{count_layer}_{qc_method}.h5ad'
@@ -140,6 +140,27 @@ rule compare_parameter_options:
         'workflow/notebooks/interactive_figure_viewer.ipynb '
         '-p input_folder results/' + filename + '/dim_reduc_potential_cc_removal/figures/ '
         '{output} '
+
+
+# rule celluntangler_run:
+# 	input: 
+# 	output:
+# 	params:
+# 		use_ensembl_ids = config['use_ensembl_ids'],
+# 	benchmark: 'benchmarks/celluntangler_run.tsv'
+# 	threads: 8
+# 	resources:
+# 		mem=lambda wildcards, attempt: '%dG' % (200 * attempt * mem_multiplier),
+# 		runtime=lambda wildcards, attempt: 60 * attempt ** 2,
+# 	conda: env_prefix + 'celluntangler_specific' + env_suffix
+# 	shell:
+# 		'python workflow/experimental_notebooks/celluntangler_run.py '
+# 		'--use_ensembl_ids --input_adata_path /data/cephfs-1/home/users/cemo10_c/project_symlinks/crc/scratch/scRNA_CRC_3arm_pipeline/results/merged/adata_counts_scAutoQC.h5ad --output_path ../../results/merged/celluntangler'
+
+
+
+
+
 
 rule save_adata_chosen_branch:
     input: chosen_branch + '/notebook.ipynb'

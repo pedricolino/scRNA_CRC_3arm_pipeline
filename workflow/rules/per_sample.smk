@@ -64,7 +64,7 @@ rule scAutoQC:
 if config['use_metacells']:
     rule SEACells_metacell_computation:
         input: 'results/per_sample/{sample}/adata_ready_for_merge_{count_layer}__{qc_method}.h5ad'
-        output: 'results/per_sample/{sample}/adata_ready_for_merge_' + metacell_suffix + '{count_layer}__{qc_method}.h5ad'
+        output: 'results/per_sample/{sample}' + metacell_suffix + '/adata_ready_for_merge_{count_layer}__{qc_method}.h5ad'
         benchmark: 'benchmarks/SEACells_metacell_computation/{sample}_{count_layer}_{qc_method}.tsv'
         threads: 8
         resources:
@@ -74,7 +74,7 @@ if config['use_metacells']:
         shell:
             "papermill "
             "workflow/notebooks/SEACell_computation.ipynb "
-            "results/per_sample/{wildcards.sample}/SEACell_computation.ipynb "
+            "results/per_sample/{wildcards.sample}" + metacell_suffix + "/SEACell_computation_{wildcards.count_layer}_{wildcards.qc_method}.ipynb "
             "-p input_file {input} "
             "-p output_file {output} "
-            "-p count_layer " + config['chosen_parameters']['count_layer']
+            "-p count_layer {wildcards.count_layer} "

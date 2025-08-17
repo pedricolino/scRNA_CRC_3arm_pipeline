@@ -41,7 +41,7 @@ if config["subset"]["use"]:
 else:
     if config["use_metacells"]:
         filename = "merged_metacells"
-        metacell_suffix = "metacells_"
+        metacell_suffix = "/metacells"
         mem_multiplier = 0.1
         print("Using full dataset with metacells.")
     else:
