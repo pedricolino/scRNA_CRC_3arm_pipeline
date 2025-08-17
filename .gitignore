@@ -17,3 +17,4 @@ quarto/
 resources/
 workflow/notebooks/incomplete_or_not_working/
 jupyter_book/_build
+workflow/experimental_notebooks
