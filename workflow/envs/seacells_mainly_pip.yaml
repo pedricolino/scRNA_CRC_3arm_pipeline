@@ -1,0 +1,48 @@
+name: seacells_mainly_pip
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python=3.8
+  - jupyter
+  - papermill
+  - pip
+  - pip:
+    - alabaster
+    - anndata
+    - cmake
+    - Cython
+    - h5py
+    - joblib
+    - kiwisolver
+    - legacy-api-wrap
+    - leidenalg
+    - llvmlite
+    - louvain
+    - matplotlib
+    - munkres
+    - ncls
+    - numba
+    - numpy
+    - palantir
+    - pandas
+    - PhenoGraph
+    - psutil
+    - pyranges
+    - pyrle
+    - scanpy
+    - scikit-learn
+    - scipy
+    - seaborn
+    - six
+    - sorted-nearest
+    - statsmodels
+    - tables
+    - tabulate
+    - tqdm
+    - tzdata
+    - tzlocal
+    - umap-learn
+    # - git+https://github.com/settylab/Palantir@removeTSNE
+    - git+https://github.com/dpeerlab/SEACells.git # not tested yet, might need to do it manually as described in the previous link

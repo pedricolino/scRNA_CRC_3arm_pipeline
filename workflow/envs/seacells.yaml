@@ -5,10 +5,6 @@ channels:
   - bioconda
   - nodefaults
 dependencies:
-  - cython
-  - python=3.8
-  - pip
-  - pip:
-    - git+https://github.com/settylab/Palantir@removeTSNE
-    - git+https://github.com/dpeerlab/SEACells.git # not tested yet, might need to do it manually as described in the previous link
-    - papermill
+  - bioconda::seacells
+  - papermill
+  - jupyter
