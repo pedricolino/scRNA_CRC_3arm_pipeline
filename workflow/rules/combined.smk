@@ -163,12 +163,8 @@ rule compare_parameter_options:
 # 		'--use_ensembl_ids --input_adata_path /data/cephfs-1/home/users/cemo10_c/project_symlinks/crc/scratch/scRNA_CRC_3arm_pipeline/results/merged/adata_counts_scAutoQC.h5ad --output_path ../../results/merged/celluntangler'
 
 
-
-
-
-
 rule save_adata_chosen_branch:
-    input: chosen_branch + '/notebook.ipynb'
+    input: 'results/' + filename + '/adata_' + config['chosen_parameters']['count_layer'] + '_' + config['chosen_parameters']['qc_method'] + '.h5ad'
     output: 'results/' + filename + '/chosen_branch/adata.h5ad'
     benchmark: 'benchmarks/save_adata_chosen_branch.tsv'
     threads: 8
@@ -176,9 +172,23 @@ rule save_adata_chosen_branch:
         mem=lambda wildcards, attempt: '%dG' % (100 * attempt * mem_multiplier),
         runtime=lambda wildcards, attempt: 60 * attempt ** 2,
     conda: env_prefix + 'scpca' + env_suffix
+    params: use_ensembl_ids = config['use_ensembl_ids'],
     shell:
-        'papermill ' + chosen_branch + '/notebook.ipynb '
-        'results/' + filename + '/chosen_branch/notebook.ipynb '
+        'papermill '
+        'workflow/notebooks/dim_reduc_cc_removal.ipynb '
+        'results/' + filename + '/chosen_branch/dim_reduc_cc_removal.ipynb '
+        '-p input_file {input} '
+        '-p scale_data_before_pca ' + str(config["chosen_parameters"]["scale_data_before_pca"]) + ' '
+        '-p genes_for_pca '+ config["chosen_parameters"]["genes_for_pca"] + ' '
+        '-p normalization ' + config["chosen_parameters"]["normalization"] + ' '
+        '-p cc_method ' + config["chosen_parameters"]["cc_method"] + ' '
+        '-p pca_n_components ' + str(config["chosen_parameters"]["pca_n_components"]) + ' '
+        '-p qc_method ' + config["chosen_parameters"]["qc_method"] + ' '
+        '-p count_layer ' + config["chosen_parameters"]["count_layer"] + ' '
+        '-p umap_n_neighbors ' + str(config["chosen_parameters"]["umap_n_neighbors"]) + ' '
+        '-p tsv_file results/' + filename + '/dim_reduc_potential_cc_removal/distances_between_week1_samples.tsv '
+        '-p figures_folder results/' + filename + '/dim_reduc_potential_cc_removal/figures/ '
+        '-p use_ensembl_ids {params.use_ensembl_ids} '
         '-p output_file {output} '
         '-p save_adata True'
 
