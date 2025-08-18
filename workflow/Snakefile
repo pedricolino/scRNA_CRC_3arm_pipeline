@@ -29,7 +29,7 @@ else:
     env_suffix = ".yaml"
 
 
-# set variables depending on whether to use subset or full dataset
+# set variables depending on whether to use subset, metacells or full dataset
 if config["subset"]["use"]:
     if config["use_metacells"]:
         raise NotImplementedError("Using subset with metacells is not implemented and probably leads to too few metacells anyway.")
@@ -123,7 +123,10 @@ rule all:
         "results/" + filename + "/dim_reduc_potential_cc_removal/compare_parameter_options.ipynb",
 
         # 2nd checkpoint: choose clustering
-        # 'results/chosen_branch/checkpoint/which_clustering_to_choose.done',
+        'results/' + filename + '/chosen_branch/srt.rds',
+        'results/' + filename + '/chosen_branch/srt_subset.rds',
+        'results/' + filename + '/chosen_branch/ccRemover/xhat.rds',
+        'results/' + filename + '/chosen_branch/checkpoint/which_clustering_to_choose.done',
 
         # perform post-clustering analysis
         # expand('results/chosen_branch/checkpoint/in_R/{in_R}.done', in_R = analysis_in_R),

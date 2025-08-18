@@ -249,6 +249,27 @@ rule strip_adata_subset:
     shell:
         'python workflow/scripts/strip_adata.py -i {input} -o {output}'
 
+
+rule ccRemover:
+    input: 'results/' + filename + '/chosen_branch/srt.rds'
+    output: 'results/' + filename + '/chosen_branch/ccRemover/xhat.rds'
+    benchmark: 'benchmarks/ccRemover.tsv'
+    resources:
+        mem=lambda wildcards, attempt: '%dG' % (200 * attempt * mem_multiplier),
+        runtime=lambda wildcards, attempt: 60 * attempt ** 2,
+    conda: env_prefix + 'R' + env_suffix
+    params: use_ensg = ifelse(config['use_ensembl_ids'], '--use_ensembl_ids', '')
+    shell:
+        'Rscript workflow/scripts/ccRemover.R '
+        '--input_file {input} '
+        '--output_file {output} '
+        '{params.use_ensg}'
+
+
+
+
+
+
 ###-------------------- CLUSTERING ------------------------###
 
 rule clustering_monocle3:
