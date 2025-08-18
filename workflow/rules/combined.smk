@@ -1,16 +1,21 @@
 # if this rule does not work with the script, then do it with the merge_anndata_samples.ipynb notebook instead
+if filename == 'subset':
+    merged_or_metacells = 'merged'
+else:
+    merged_or_metacells = filename
+
 rule merge_anndata_samples:
     input: 
         samples = expand(
 			'results/per_sample/{sample}' + metacell_suffix + '/adata_ready_for_merge_{{count_layer}}__{{qc_method}}.h5ad',
 			sample=samples.index
 			),
-    output: 'results/' + filename + '/adata_{count_layer}_{qc_method}.h5ad'
-    benchmark: 'benchmarks/' + filename + '/merge/anndata_samples_w_{count_layer}_{qc_method}.tsv'
+    output: 'results/' + merged_or_metacells + '/adata_{count_layer}_{qc_method}.h5ad'
+    benchmark: 'benchmarks/' + merged_or_metacells + '/merge/anndata_samples_w_{count_layer}_{qc_method}.tsv'
     resources:
         mem=lambda wildcards, attempt: '%dG' % (95 * attempt * mem_multiplier),
         runtime=lambda wildcards, attempt: 60 * attempt ** 2,
-    conda: env_prefix + 'sctk' + env_suffix
+    conda: env_prefix + 'scpca' + env_suffix
     shell:
         'python workflow/scripts/merge_anndata_samples.py -o {output} -i {input.samples}'
 
@@ -20,7 +25,7 @@ rule subsample_merged:
     output: 'results/subset/adata_{count_layer}_{qc_method}.h5ad'
     benchmark: 'benchmarks/subsample/{count_layer}_{qc_method}.tsv'
     resources:
-        mem=lambda wildcards, attempt: '%dG' % (50 * attempt * mem_multiplier),
+        mem=lambda wildcards, attempt: '%dG' % (95 * attempt),
         runtime=lambda wildcards, attempt: 60 * attempt ** 2,
     conda: env_prefix + 'preprocessing' + env_suffix
     params: fraction = config['subset']['fraction'] # what fraction of the data to keep
@@ -66,7 +71,7 @@ rule dim_reduc_concatenated_ds:
             '/qc_method__{qc_method}' +
             '/notebook.ipynb'
     benchmark: 'benchmarks/dim_reduc_potential_cc_removal/' + filename +
-                '/count_layer__{count_layer}' +
+                '_count_layer__{count_layer}' +
                 '__{normalization}' +
                 '__{scale_data_before_pca}' +
                 '__{genes_for_pca}' +
@@ -152,7 +157,7 @@ rule compare_parameter_options:
 # 	resources:
 # 		mem=lambda wildcards, attempt: '%dG' % (200 * attempt * mem_multiplier),
 # 		runtime=lambda wildcards, attempt: 60 * attempt ** 2,
-# 	conda: env_prefix + 'celluntangler_specific' + env_suffix
+# 	conda: env_prefix + 'celluntangler_specific_gpu' + env_suffix
 # 	shell:
 # 		'python workflow/experimental_notebooks/celluntangler_run.py '
 # 		'--use_ensembl_ids --input_adata_path /data/cephfs-1/home/users/cemo10_c/project_symlinks/crc/scratch/scRNA_CRC_3arm_pipeline/results/merged/adata_counts_scAutoQC.h5ad --output_path ../../results/merged/celluntangler'
@@ -164,7 +169,7 @@ rule compare_parameter_options:
 
 rule save_adata_chosen_branch:
     input: chosen_branch + '/notebook.ipynb'
-    output: 'results/chosen_branch' + filename + '/adata.h5ad'
+    output: 'results/' + filename + '/chosen_branch/adata.h5ad'
     benchmark: 'benchmarks/save_adata_chosen_branch.tsv'
     threads: 8
     resources:
@@ -173,13 +178,36 @@ rule save_adata_chosen_branch:
     conda: env_prefix + 'scpca' + env_suffix
     shell:
         'papermill ' + chosen_branch + '/notebook.ipynb '
-        'results/chosen_branch' + filename + '/notebook.ipynb '
+        'results/' + filename + '/chosen_branch/notebook.ipynb '
         '-p output_file {output} '
         '-p save_adata True'
 
+rule convert_anndata_to_seurat:
+    input: 'results/' + filename + '/chosen_branch/adata.h5ad'
+    output: 'results/' + filename + '/chosen_branch/srt.rds'
+    benchmark: 'benchmarks/convert_adata_to_seurat.tsv'
+    resources:
+        mem=lambda wildcards, attempt: '%dG' % (100 * attempt * mem_multiplier),
+        runtime=lambda wildcards, attempt: 60 * attempt ** 2,
+    conda: env_prefix + 'R' + env_suffix
+    shell:
+        'workflow/scripts/anndata2seurat.R --input {input} '
+            '--output {output} '
+            '--count_layer ' + config["chosen_parameters"]["count_layer"] + ' '
+            '--norm_layer ' + config["chosen_parameters"]["normalization"] + '_of_' + config["chosen_parameters"]["count_layer"] + ' '
+            '--layer_in_X counts'
+
+use rule convert_anndata_to_seurat as convert_anndata_to_seurat_subset with:
+    input: 'results/' + filename + '/chosen_branch/adata_subset.h5ad'
+    output: 'results/' + filename + '/chosen_branch/srt_subset.rds'
+    benchmark: 'benchmarks/convert_adata_to_seurat_subset.tsv'
+    resources:
+        mem=lambda wildcards, attempt: '%dG' % (50 * attempt),
+        runtime=lambda wildcards, attempt: 60 * attempt ** 2,
+
 rule subsample_chosen_branch:
-    input: 'results/chosen_branch' + filename + '/adata.h5ad'
-    output: 'results/chosen_branch' + filename + '/adata_subset.h5ad'
+    input: 'results/' + filename + '/chosen_branch/adata.h5ad'
+    output: 'results/' + filename + '/chosen_branch/adata_subset.h5ad'
     benchmark: 'benchmarks/subsample_chosen_branch.tsv'
     resources:
         mem=lambda wildcards, attempt: '%dG' % (50 * attempt * mem_multiplier),
@@ -190,8 +218,8 @@ rule subsample_chosen_branch:
         "python -c 'import scanpy as sc; adata = sc.read_h5ad(\"{input}\"); sc.pp.subsample(adata, {params.fraction}); adata.write(\"{output}\")'"
 
 rule strip_adata:
-    input: 'results/chosen_branch' + filename + '/adata.h5ad'
-    output: 'results/chosen_branch' + filename + '/adata_stripped.h5ad'
+    input: 'results/' + filename + '/chosen_branch/adata.h5ad'
+    output: 'results/' + filename + '/chosen_branch/adata_stripped.h5ad'
     benchmark: 'benchmarks/strip_adata.tsv'
     resources:
         mem=lambda wildcards, attempt: '%dG' % (50 * attempt * mem_multiplier),
@@ -201,8 +229,8 @@ rule strip_adata:
         'python workflow/scripts/strip_adata.py -i {input} -o {output}'
 
 rule strip_adata_subset:
-    input: 'results/chosen_branch' + filename + '/adata_subset.h5ad'
-    output: 'results/chosen_branch' + filename + '/adata_subset_stripped.h5ad'
+    input: 'results/' + filename + '/chosen_branch/adata_subset.h5ad'
+    output: 'results/' + filename + '/chosen_branch/adata_subset_stripped.h5ad'
     benchmark: 'benchmarks/strip_adata_subset.tsv'
     resources:
         mem=lambda wildcards, attempt: '%dG' % (20 * attempt * mem_multiplier),
@@ -214,8 +242,8 @@ rule strip_adata_subset:
 ###-------------------- CLUSTERING ------------------------###
 
 rule clustering_monocle3:
-    input: 'results/chosen_branch' + filename + '/adata_stripped.h5ad'
-    output: 'results/chosen_branch' + filename + '/clusters_leiden_monocle3.csv'
+    input: 'results/' + filename + '/chosen_branch/adata_stripped.h5ad'
+    output: 'results/' + filename + '/chosen_branch/clusters_leiden_monocle3.csv'
     benchmark: 'benchmarks/clustering_monocle3.tsv'
     resources:
         mem=lambda wildcards, attempt: '%dG' % (200 * attempt * mem_multiplier),
@@ -224,13 +252,13 @@ rule clustering_monocle3:
     shell:
         'papermill '
         'workflow/notebooks/clustering_monocle3.ipynb '
-        'results/chosen_branch' + filename + '/clustering_monocle3.ipynb '
+        'results/' + filename + '/chosen_branch/clustering_monocle3.ipynb '
         '-p input_file {input} '
         '-p output_csv {output} '
 
 rule clustering_schist:
-    input: 'results/chosen_branch' + filename + '/adata_stripped.h5ad'
-    output: 'results/chosen_branch' + filename + '/clusters_schist.csv'
+    input: 'results/' + filename + '/chosen_branch/adata_stripped.h5ad'
+    output: 'results/' + filename + '/chosen_branch/clusters_schist.csv'
     benchmark: 'benchmarks/clustering_schist.tsv'
     resources:
         mem=lambda wildcards, attempt: '%dG' % (400 * attempt * mem_multiplier),
@@ -244,10 +272,10 @@ rule clustering_schist:
         '-p output_csv {output} '
 
 # rule clustering_scMiko_silhouette:
-#     input: 'results/chosen_branch' + filename + '/adata_stripped.h5ad'
+#     input: 'results/' + filename + '/chosen_branch/adata_stripped.h5ad'
 #     output: 
-#         clusters_scmiko = 'results/chosen_branch' + filename + '/clusters_scMiko.csv',
-#         clusters_silhouette = 'results/chosen_branch' + filename + '/clustering_silhouette.csv'
+#         clusters_scmiko = 'results/' + filename + '/chosen_branch/clusters_scMiko.csv',
+#         clusters_silhouette = 'results/' + filename + '/chosen_branch/clustering_silhouette.csv'
 #     benchmark: 'benchmarks/clustering_scMiko_silhouette.tsv'
 #     resources:
 #         mem=lambda wildcards, attempt: '%dG' % (400 * attempt),
@@ -256,13 +284,13 @@ rule clustering_schist:
 #     shell:
 #         'papermill '
 #         'workflow/notebooks/clustering_scMiko_silhouette.ipynb '
-#         'results/chosen_branch' + filename + '/clustering_scMiko_silhouette.ipynb '
+#         'results/' + filename + '/chosen_branch/clustering_scMiko_silhouette.ipynb '
 #         '-p input_file {input} '
 #         '-p output_csv {output.clusters_scmiko} '
 
 rule clustering_scMiko:
-    input: 'results/chosen_branch' + filename + '/adata_stripped.h5ad'
-    output: 'results/chosen_branch' + filename + '/clusters_scMiko.csv',
+    input: 'results/' + filename + '/chosen_branch/adata_stripped.h5ad'
+    output: 'results/' + filename + '/chosen_branch/clusters_scMiko.csv',
     benchmark: 'benchmarks/clustering_scMiko.tsv'
     resources:
         mem=lambda wildcards, attempt: '%dG' % (400 * attempt * mem_multiplier),
@@ -271,13 +299,13 @@ rule clustering_scMiko:
     shell:
         'papermill '
         'workflow/notebooks/clustering_scMiko.ipynb '
-        'results/chosen_branch' + filename + '/clustering_scMiko.ipynb '
+        'results/' + filename + '/chosen_branch/clustering_scMiko.ipynb '
         '-p input_file {input} '
         '-p output_csv {output} '
 
 rule clustering_silhouette:
-    input: 'results/chosen_branch' + filename + '/adata_stripped.h5ad'
-    output: 'results/chosen_branch' + filename + '/clustering_silhouette.csv'
+    input: 'results/' + filename + '/chosen_branch/adata_stripped.h5ad'
+    output: 'results/' + filename + '/chosen_branch/clustering_silhouette.csv'
     benchmark: 'benchmarks/clustering_silhouette.tsv'
     resources:
         mem=lambda wildcards, attempt: '%dG' % (400 * attempt * mem_multiplier),
@@ -286,17 +314,17 @@ rule clustering_silhouette:
     shell:
         'papermill '
         'workflow/notebooks/clustering_silhouette.ipynb '
-        'results/chosen_branch' + filename + '/clustering_silhouette.ipynb '
+        'results/' + filename + '/chosen_branch/clustering_silhouette.ipynb '
         '-p input_file {input} '
         '-p output_csv {output} '
 
 rule which_clustering_to_choose:
     input:
-        adata = 'results/chosen_branch' + filename + '/adata_stripped.h5ad',
-        clusters_monocle3 = 'results/chosen_branch' + filename + '/clusters_leiden_monocle3.csv',
-        clusters_scmiko = 'results/chosen_branch' + filename + '/clusters_scMiko.csv',
-        clusters_silhouette = 'results/chosen_branch' + filename + '/clustering_silhouette.csv'
-    output: 'results/chosen_branch' + filename + '/checkpoint/which_clustering_to_choose.done'
+        adata = 'results/' + filename + '/chosen_branch/adata_stripped.h5ad',
+        clusters_monocle3 = 'results/' + filename + '/chosen_branch/clusters_leiden_monocle3.csv',
+        clusters_scmiko = 'results/' + filename + '/chosen_branch/clusters_scMiko.csv',
+        clusters_silhouette = 'results/' + filename + '/chosen_branch/clustering_silhouette.csv'
+    output: 'results/' + filename + '/chosen_branch/checkpoint/which_clustering_to_choose.done'
     benchmark: 'benchmarks/which_clustering_to_choose.tsv'
     resources:
         mem=lambda wildcards, attempt: '%dG' % (200 * attempt * mem_multiplier),
@@ -316,11 +344,11 @@ rule which_clustering_to_choose:
 
 rule analysis_in_R:
     input:
-        adata = 'results/chosen_branch' + filename + '/adata_stripped.h5ad',
+        adata = 'results/' + filename + '/chosen_branch/adata_stripped.h5ad',
         clusters = config['chosen_clustering'],
         notebook = 'workflow/notebooks/{in_R}.ipynb'
     output:
-        'results/chosen_branch' + filename + '/checkpoint/in_R/{in_R}.done'
+        'results/' + filename + '/chosen_branch/checkpoint/in_R/{in_R}.done'
     benchmark: 'benchmarks/{in_R}.tsv'
     resources:
         mem=lambda wildcards, attempt: '%dG' % (200 * attempt * mem_multiplier),
@@ -330,18 +358,18 @@ rule analysis_in_R:
     shell:
         'papermill '
         '{input.notebook} '
-        'results/chosen_branch' + filename + '/{wildcards.in_R}.ipynb '
+        'results/' + filename + '/chosen_branch/{wildcards.in_R}.ipynb '
         '-p input_file {input.adata} '
         '-p clusters_file {input.clusters} && '
         'touch {output}'
 
 rule analysis_with_decoupler:
     input:
-        adata = 'results/chosen_branch' + filename + '/adata.h5ad',
+        adata = 'results/' + filename + '/chosen_branch/adata.h5ad',
         clusters = config['chosen_clustering'],
         notebook = 'workflow/notebooks/{with_decoupler}.ipynb'
     output:
-        'results/chosen_branch' + filename + '/checkpoint/with_decoupler/{with_decoupler}.done'
+        'results/' + filename + '/chosen_branch/checkpoint/with_decoupler/{with_decoupler}.done'
     benchmark: 'benchmarks/{with_decoupler}.tsv'
     resources:
         mem=lambda wildcards, attempt: '%dG' % (200 * attempt * mem_multiplier),
@@ -350,18 +378,18 @@ rule analysis_with_decoupler:
     shell:
         'papermill '
         '{input.notebook} '
-        'results/chosen_branch' + filename + '/{wildcards.with_decoupler}.ipynb '
+        'results/' + filename + '/chosen_branch/{wildcards.with_decoupler}.ipynb '
         '-p input_file {input.adata} '
         '-p clusters_file {input.clusters} && '
         'touch {output}'
 
 rule analysis_with_scpca:
     input:
-        adata = 'results/chosen_branch' + filename + '/adata_stripped.h5ad',
+        adata = 'results/' + filename + '/chosen_branch/adata_stripped.h5ad',
         clusters = config['chosen_clustering'],
         notebook = 'workflow/notebooks/{with_scpca}.ipynb'
     output:
-        'results/chosen_branch' + filename + '/checkpoint/with_scpca/{with_scpca}.done'
+        'results/' + filename + '/chosen_branch/checkpoint/with_scpca/{with_scpca}.done'
     benchmark: 'benchmarks/{with_scpca}.tsv'
     resources:
         mem=lambda wildcards, attempt: '%dG' % (200 * attempt * mem_multiplier),
@@ -370,18 +398,18 @@ rule analysis_with_scpca:
     shell:
         'papermill '
         '{input.notebook} '
-        'results/chosen_branch' + filename + '/{wildcards.with_scpca}.ipynb '
+        'results/' + filename + '/chosen_branch/{wildcards.with_scpca}.ipynb '
         '-p input_file {input.adata} '
         '-p clusters_file {input.clusters} && '
         'touch {output}'
 
 rule analysis_with_pathway_mod:
     input:
-        adata = 'results/chosen_branch' + filename + '/adata_stripped.h5ad',
+        adata = 'results/' + filename + '/chosen_branch/adata_stripped.h5ad',
         clusters = config['chosen_clustering'],
         notebook = 'workflow/notebooks/{with_pathway_mod}.ipynb'
     output:
-        'results/chosen_branch' + filename + '/checkpoint/with_pathway_mod/{with_pathway_mod}.done'
+        'results/' + filename + '/chosen_branch/checkpoint/with_pathway_mod/{with_pathway_mod}.done'
     benchmark: 'benchmarks/{with_pathway_mod}.tsv'
     resources:
         mem=lambda wildcards, attempt: '%dG' % (200 * attempt * mem_multiplier),
@@ -390,7 +418,7 @@ rule analysis_with_pathway_mod:
     shell:
         'papermill '
         '{input.notebook} '
-        'results/chosen_branch' + filename + '/{wildcards.with_pathway_mod}.ipynb '
+        'results/' + filename + '/chosen_branch/{wildcards.with_pathway_mod}.ipynb '
         '-p input_file {input.adata} '
         '-p clusters_file {input.clusters} && '
         'touch {output}'
