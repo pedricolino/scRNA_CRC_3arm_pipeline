@@ -7,9 +7,9 @@ else:
 rule merge_anndata_samples:
     input: 
         samples = expand(
-			'results/per_sample/{sample}' + metacell_suffix + '/adata_ready_for_merge_{{count_layer}}__{{qc_method}}.h5ad',
-			sample=samples.index
-			),
+            'results/per_sample/{sample}' + metacell_suffix + '/adata_ready_for_merge_{{count_layer}}__{{qc_method}}.h5ad',
+            sample=samples.index
+            ),
     output: 'results/' + merged_or_metacells + '/adata_{count_layer}_{qc_method}.h5ad'
     benchmark: 'benchmarks/' + merged_or_metacells + '/merge/anndata_samples_w_{count_layer}_{qc_method}.tsv'
     resources:
@@ -242,31 +242,31 @@ rule ccRemover:
         mem=lambda wildcards, attempt: '%dG' % (200 * attempt * mem_multiplier),
         runtime=lambda wildcards, attempt: 60 * attempt ** 2,
     conda: env_prefix + 'R' + env_suffix
-    params: use_ensg = ifelse(config['use_ensembl_ids'], '--use_ensembl_ids', '')
+    params: '--use_ensembl_ids' if config['use_ensembl_ids'] else ''
     shell:
         'Rscript workflow/scripts/ccRemover.R '
         '--input_file {input} '
         '--output_file {output} '
-        '{params.use_ensg}'
+        '{params}'
 
 
 rule CellUntangler:
-	input: 'results/' + filename + '/adata_' + config['chosen_parameters']['count_layer'] + '_' + config['chosen_parameters']['qc_method'] + '.h5ad'
+    input: 'results/' + filename + '/adata_' + config['chosen_parameters']['count_layer'] + '_' + config['chosen_parameters']['qc_method'] + '.h5ad'
     output: 'results/' + filename + '/CellUntangler/.done'
-	params:
-		use_ensembl_ids = config['use_ensembl_ids'],
-	benchmark: 'benchmarks/celluntangler_run.tsv'
-	threads: 8
-	resources:
-		mem=lambda wildcards, attempt: '%dG' % (200 * attempt * mem_multiplier),
-		runtime=lambda wildcards, attempt: 60 * attempt ** 2,
-	conda: env_prefix + 'celluntangler_specific_gpu' + env_suffix
+    benchmark: 'benchmarks/celluntangler_run.tsv'
+    threads: 8
+    resources:
+        mem=lambda wildcards, attempt: '%dG' % (200 * attempt * mem_multiplier),
+        runtime=lambda wildcards, attempt: 60 * attempt ** 2,
+        partition="gpu",
+        gpus=1,
+    conda: env_prefix + 'celluntangler_specific_gpu' + env_suffix
     params: 
-        use_ensembl_ids = ifelse(config['use_ensembl_ids'], '--use_ensembl_ids', ''),
+        use_ensembl_ids = '--use_ensembl_ids' if config['use_ensembl_ids'] else '',
         path = 'results/' + filename + '/CellUntangler'
-	shell:
-		'python workflow/scripts/CellUntangler.py '
-		'{params.use_ensembl_ids} '
+    shell:
+        'python workflow/scripts/CellUntangler.py '
+        '{params.use_ensembl_ids} '
         '--input_adata_path {input} '
         '--output_path {params.path} && '
         'touch {output}'

@@ -48,8 +48,12 @@ chosen_parameters:
 
 chosen_clustering: 'results/chosen_branch/leiden_res0.4.csv'
 
-use_metacells: True # use metacells for analysis?
+use_metacells: False # use metacells for analysis?
 # used for metacell computation
 # chosen_parameters:
   # count_layer: 'counts'
   # qc_method: 'theislab_tutorial'
+
+set-resources:
+  CellUntangler:
+    slurm_extra: "'--gres=gpu:tesla:2'"
