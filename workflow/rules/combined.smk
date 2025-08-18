@@ -147,22 +147,6 @@ rule compare_parameter_options:
         '{output} '
 
 
-# rule celluntangler_run:
-# 	input: 
-# 	output:
-# 	params:
-# 		use_ensembl_ids = config['use_ensembl_ids'],
-# 	benchmark: 'benchmarks/celluntangler_run.tsv'
-# 	threads: 8
-# 	resources:
-# 		mem=lambda wildcards, attempt: '%dG' % (200 * attempt * mem_multiplier),
-# 		runtime=lambda wildcards, attempt: 60 * attempt ** 2,
-# 	conda: env_prefix + 'celluntangler_specific_gpu' + env_suffix
-# 	shell:
-# 		'python workflow/experimental_notebooks/celluntangler_run.py '
-# 		'--use_ensembl_ids --input_adata_path /data/cephfs-1/home/users/cemo10_c/project_symlinks/crc/scratch/scRNA_CRC_3arm_pipeline/results/merged/adata_counts_scAutoQC.h5ad --output_path ../../results/merged/celluntangler'
-
-
 rule save_adata_chosen_branch:
     input: 'results/' + filename + '/adata_' + config['chosen_parameters']['count_layer'] + '_' + config['chosen_parameters']['qc_method'] + '.h5ad'
     output: 'results/' + filename + '/chosen_branch/adata.h5ad'
@@ -252,7 +236,7 @@ rule strip_adata_subset:
 
 rule ccRemover:
     input: 'results/' + filename + '/chosen_branch/srt.rds'
-    output: 'results/' + filename + '/chosen_branch/ccRemover/xhat.rds'
+    output: 'results/' + filename + '/ccRemover/xhat.rds'
     benchmark: 'benchmarks/ccRemover.tsv'
     resources:
         mem=lambda wildcards, attempt: '%dG' % (200 * attempt * mem_multiplier),
@@ -266,7 +250,26 @@ rule ccRemover:
         '{params.use_ensg}'
 
 
-
+rule CellUntangler:
+	input: 'results/' + filename + '/adata_' + config['chosen_parameters']['count_layer'] + '_' + config['chosen_parameters']['qc_method'] + '.h5ad'
+    output: 'results/' + filename + '/CellUntangler/.done'
+	params:
+		use_ensembl_ids = config['use_ensembl_ids'],
+	benchmark: 'benchmarks/celluntangler_run.tsv'
+	threads: 8
+	resources:
+		mem=lambda wildcards, attempt: '%dG' % (200 * attempt * mem_multiplier),
+		runtime=lambda wildcards, attempt: 60 * attempt ** 2,
+	conda: env_prefix + 'celluntangler_specific_gpu' + env_suffix
+    params: 
+        use_ensembl_ids = ifelse(config['use_ensembl_ids'], '--use_ensembl_ids', ''),
+        path = 'results/' + filename + '/CellUntangler'
+	shell:
+		'python workflow/scripts/CellUntangler.py '
+		'{params.use_ensembl_ids} '
+        '--input_adata_path {input} '
+        '--output_path {params.path} && '
+        'touch {output}'
 
 
 
