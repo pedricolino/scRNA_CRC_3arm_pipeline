@@ -68,8 +68,8 @@ if config['use_metacells']:
         benchmark: 'benchmarks/SEACells_metacell_computation/{sample}_{count_layer}_{qc_method}.tsv'
         threads: 8
         resources:
-            mem=lambda wildcards, attempt: '%dG' % (8 * attempt),
-            runtime=lambda wildcards, attempt: 60 * attempt ** 2
+            mem=lambda wildcards, attempt: '%dG' % (16 * attempt),
+            runtime=lambda wildcards, attempt: 240 * attempt ** 2
         conda: env_prefix + "seacells" + env_suffix
         shell:
             "papermill "
