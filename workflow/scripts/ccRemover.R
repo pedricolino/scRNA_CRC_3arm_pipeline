@@ -1,3 +1,5 @@
+#!/usr/bin/env Rscript
+
 library("optparse")
 
 # input srt file
@@ -22,6 +24,8 @@ suppressPackageStartupMessages({
 })
 
 srt = readRDS(opt$input_file)
+
+mean_gene_exp <- rowMeans(srt[['RNA']]$data)
 
 cell_cycle_gene_indices <- gene_indexer(rownames(srt), species = "human", name_type = ifelse(opt$use_ensembl_ids, "ensembl", "symbols"))
 length(cell_cycle_gene_indices)
