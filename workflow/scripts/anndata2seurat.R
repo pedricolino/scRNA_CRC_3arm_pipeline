@@ -1,4 +1,6 @@
-library("optparse")
+#!/usr/bin/env Rscript
+
+library(optparse)
 
 option_list = list(
   make_option(c("-i", "--input"), type = "character", default = NULL, help = "Input h5ad file"),
@@ -16,9 +18,15 @@ if (!requireNamespace("schard", quietly = TRUE)) devtools::install_github("cellg
 srt = schard::h5ad2seurat(opt$input)
 
 if (opt$layer_in_X == "counts") {
-	srt[['RNA']]$data = schard::h5ad2Matrix(opt$input, opt$norm_layer)
+  mt = schard::h5ad2Matrix(opt$input, paste0('/layers/',opt$norm_layer))
+  rownames(mt) = rownames(srt)
+  colnames(mt) = colnames(srt)
+  srt[['RNA']]$data = mt
 } else if (opt$layer_in_X == "data") {
-	srt[['RNA']]$counts = schard::h5ad2Matrix(opt$input, opt$count_layer)
+	mt = schard::h5ad2Matrix(opt$input, paste0('/layers/',opt$count_layer))
+  rownames(mt) = rownames(srt)
+  colnames(mt) = colnames(srt)
+  srt[['RNA']]$counts = mt
 } else {
 	stop("Invalid value for --layer_in_X. Use 'counts' or 'data'.")
 }
