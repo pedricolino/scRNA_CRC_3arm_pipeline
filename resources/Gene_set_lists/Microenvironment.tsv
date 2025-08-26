@@ -1,0 +1,562 @@
+TERM	SYMBOL	CATEGORY	LIST
+aDC	CCL1		Senbabaoglu
+aDC	EBI3		Senbabaoglu
+aDC	IDO1		Senbabaoglu
+aDC	LAMP3		Senbabaoglu
+aDC	OAS3		Senbabaoglu
+B cells	ABCB4		Senbabaoglu
+B cells	BACH2		Senbabaoglu
+B cells	BCL11A		Senbabaoglu
+B cells	BLK		Senbabaoglu
+B cells	BLNK		Senbabaoglu
+B cells	BLNK		Senbabaoglu
+B cells	CCR9		Senbabaoglu
+B cells	CD19		Senbabaoglu
+B cells	CD72		Senbabaoglu
+B cells	COCH		Senbabaoglu
+B cells	CR2		Senbabaoglu
+B cells	DTNB		Senbabaoglu
+B cells	FCRL2		Senbabaoglu
+B cells	GLDC		Senbabaoglu
+B cells	GNG7		Senbabaoglu
+B cells	HLA-DOB		Senbabaoglu
+B cells	HLA-DOB		Senbabaoglu
+B cells	HLA-DOB		Senbabaoglu
+B cells	HLA-DOB		Senbabaoglu
+B cells	HLA-DOB		Senbabaoglu
+B cells	HLA-DOB		Senbabaoglu
+B cells	HLA-DQA1		Senbabaoglu
+B cells	HLA-DQA1		Senbabaoglu
+B cells	HLA-DQA1		Senbabaoglu
+B cells	HLA-DQA1		Senbabaoglu
+B cells	HLA-DQA1		Senbabaoglu
+B cells	HLA-DQA1		Senbabaoglu
+B cells	IGHA1		Senbabaoglu
+B cells	IGHA1		Senbabaoglu
+B cells	IGHG1		Senbabaoglu
+B cells	IGHG1		Senbabaoglu
+B cells	IGHM		Senbabaoglu
+B cells	IGHM		Senbabaoglu
+B cells	IGKC		Senbabaoglu
+B cells	KIAA0125		Senbabaoglu
+B cells	MEF2C		Senbabaoglu
+B cells	MICAL3		Senbabaoglu
+B cells	MS4A1		Senbabaoglu
+B cells	OSBPL10		Senbabaoglu
+B cells	PNOC		Senbabaoglu
+B cells	QRSL1		Senbabaoglu
+B cells	SCN3A		Senbabaoglu
+B cells	SLC15A2		Senbabaoglu
+B cells	SPIB		Senbabaoglu
+B cells	TCL1A		Senbabaoglu
+B cells	TNFRSF17		Senbabaoglu
+CD8 T cells	ABT1		Senbabaoglu
+CD8 T cells	ABT1		Senbabaoglu
+CD8 T cells	AES		Senbabaoglu
+CD8 T cells	APBA2		Senbabaoglu
+CD8 T cells	ARHGAP8		Senbabaoglu
+CD8 T cells	CAMLG		Senbabaoglu
+CD8 T cells	CD8A		Senbabaoglu
+CD8 T cells	CD8B		Senbabaoglu
+CD8 T cells	CDKN2AIP		Senbabaoglu
+CD8 T cells	DNAJB1		Senbabaoglu
+CD8 T cells	FLT3LG		Senbabaoglu
+CD8 T cells	GADD45A		Senbabaoglu
+CD8 T cells	GZMM		Senbabaoglu
+CD8 T cells	HAUS3		Senbabaoglu
+CD8 T cells	KLF9		Senbabaoglu
+CD8 T cells	LEPROTL1		Senbabaoglu
+CD8 T cells	LIME1		Senbabaoglu
+CD8 T cells	MAPKAPK5-AS1		Senbabaoglu
+CD8 T cells	PF4		Senbabaoglu
+CD8 T cells	PPP1R2		Senbabaoglu
+CD8 T cells	PRF1		Senbabaoglu
+CD8 T cells	PRR5		Senbabaoglu
+CD8 T cells	RBM3		Senbabaoglu
+CD8 T cells	RBM3		Senbabaoglu
+CD8 T cells	SF1		Senbabaoglu
+CD8 T cells	SLC16A7		Senbabaoglu
+CD8 T cells	SRSF7		Senbabaoglu
+CD8 T cells	TBCC		Senbabaoglu
+CD8 T cells	THUMPD1		Senbabaoglu
+CD8 T cells	TMC6		Senbabaoglu
+CD8 T cells	TMEM259		Senbabaoglu
+CD8 T cells	TSC22D3		Senbabaoglu
+CD8 T cells	VAMP2		Senbabaoglu
+CD8 T cells	ZEB1		Senbabaoglu
+CD8 T cells	ZFP36L2		Senbabaoglu
+CD8 T cells	ZNF22		Senbabaoglu
+CD8 T cells	ZNF609		Senbabaoglu
+CD8 T cells	ZNF91		Senbabaoglu
+cytotoxic cells	APBA2		Senbabaoglu
+cytotoxic cells	APOL3		Senbabaoglu
+cytotoxic cells	CTSW		Senbabaoglu
+cytotoxic cells	DUSP2		Senbabaoglu
+cytotoxic cells	GNLY		Senbabaoglu
+cytotoxic cells	GZMA		Senbabaoglu
+cytotoxic cells	GZMH		Senbabaoglu
+cytotoxic cells	KLRB1		Senbabaoglu
+cytotoxic cells	KLRD1		Senbabaoglu
+cytotoxic cells	KLRF1		Senbabaoglu
+cytotoxic cells	KLRK1		Senbabaoglu
+cytotoxic cells	NKG7		Senbabaoglu
+cytotoxic cells	RORA		Senbabaoglu
+cytotoxic cells	RUNX3		Senbabaoglu
+cytotoxic cells	SIGIRR		Senbabaoglu
+cytotoxic cells	WHAMMP3		Senbabaoglu
+cytotoxic cells	ZBTB16		Senbabaoglu
+DC	CCL13		Senbabaoglu
+DC	CCL17		Senbabaoglu
+DC	CCL22		Senbabaoglu
+DC	CD209		Senbabaoglu
+DC	HSD11B1		Senbabaoglu
+DC	NPR1		Senbabaoglu
+DC	PPFIBP2		Senbabaoglu
+Eosinophils	ABHD2		Senbabaoglu
+Eosinophils	ACACB		Senbabaoglu
+Eosinophils	CAT		Senbabaoglu
+Eosinophils	CCR3		Senbabaoglu
+Eosinophils	CD101		Senbabaoglu
+Eosinophils	CLC		Senbabaoglu
+Eosinophils	CYSLTR2		Senbabaoglu
+Eosinophils	EMR1		Senbabaoglu
+Eosinophils	EPN2		Senbabaoglu
+Eosinophils	GALC		Senbabaoglu
+Eosinophils	HES1		Senbabaoglu
+Eosinophils	HIST1H1C		Senbabaoglu
+Eosinophils	HRH4		Senbabaoglu
+Eosinophils	IL5RA		Senbabaoglu
+Eosinophils	KBTBD11		Senbabaoglu
+Eosinophils	KCNH2		Senbabaoglu
+Eosinophils	LRP5L		Senbabaoglu
+Eosinophils	MYO15B		Senbabaoglu
+Eosinophils	PTGDR2		Senbabaoglu
+Eosinophils	RCOR3		Senbabaoglu
+Eosinophils	RNASE2		Senbabaoglu
+Eosinophils	RRP12		Senbabaoglu
+Eosinophils	SIAH1		Senbabaoglu
+Eosinophils	SMPD3		Senbabaoglu
+Eosinophils	SYNJ1		Senbabaoglu
+Eosinophils	TGIF1		Senbabaoglu
+Eosinophils	THBS1		Senbabaoglu
+Eosinophils	THBS4		Senbabaoglu
+Eosinophils	TIPARP		Senbabaoglu
+Eosinophils	TKTL1		Senbabaoglu
+Eosinophils	TKTL1		Senbabaoglu
+iDC	ABCG2		Senbabaoglu
+iDC	BLVRB		Senbabaoglu
+iDC	CARD9		Senbabaoglu
+iDC	CD1A		Senbabaoglu
+iDC	CD1B		Senbabaoglu
+iDC	CD1C		Senbabaoglu
+iDC	CD1E		Senbabaoglu
+iDC	CH25H		Senbabaoglu
+iDC	CLEC10A		Senbabaoglu
+iDC	CSF1R		Senbabaoglu
+iDC	CTNS		Senbabaoglu
+iDC	DCSTAMP		Senbabaoglu
+iDC	F13A1		Senbabaoglu
+iDC	FABP4		Senbabaoglu
+iDC	FZD2		Senbabaoglu
+iDC	GSTT1		Senbabaoglu
+iDC	GUCA1A		Senbabaoglu
+iDC	HS3ST2		Senbabaoglu
+iDC	LMAN2L		Senbabaoglu
+iDC	MMP12		Senbabaoglu
+iDC	MMP12		Senbabaoglu
+iDC	MS4A6A		Senbabaoglu
+iDC	NUDT9		Senbabaoglu
+iDC	PDXK		Senbabaoglu
+iDC	PPARG		Senbabaoglu
+iDC	PREP		Senbabaoglu
+iDC	RAP1GAP		Senbabaoglu
+iDC	SLC26A6		Senbabaoglu
+iDC	SLC7A8		Senbabaoglu
+iDC	SYT17		Senbabaoglu
+iDC	TACSTD2		Senbabaoglu
+iDC	VASH1		Senbabaoglu
+Macrophages	ATG7		Senbabaoglu
+Macrophages	MARCO		Senbabaoglu
+Macrophages	CHI3L1		Senbabaoglu
+Macrophages	CHIT1		Senbabaoglu
+Macrophages	KAL1		Senbabaoglu
+Macrophages	MSR1		Senbabaoglu
+Macrophages	CD163		Senbabaoglu
+Macrophages	RAI14		Senbabaoglu
+Macrophages	CLEC5A		Senbabaoglu
+Macrophages	FDX1		Senbabaoglu
+Macrophages	MS4A4A		Senbabaoglu
+Macrophages	SCG5		Senbabaoglu
+Macrophages	CLEC5A		Senbabaoglu
+Macrophages	CXCL5		Senbabaoglu
+Macrophages	CTSK		Senbabaoglu
+Macrophages	CYBB		Senbabaoglu
+Macrophages	SCARB2		Senbabaoglu
+Macrophages	SULT1C2		Senbabaoglu
+Macrophages	PCOLCE2		Senbabaoglu
+Macrophages	COLEC12		Senbabaoglu
+Macrophages	SGMS1		Senbabaoglu
+Macrophages	ME1		Senbabaoglu
+Macrophages	PTGDS		Senbabaoglu
+Macrophages	GPC4		Senbabaoglu
+Macrophages	DNASE2B		Senbabaoglu
+Macrophages	EMP1		Senbabaoglu
+Macrophages	GM2A		Senbabaoglu
+Macrophages	CCL7		Senbabaoglu
+Macrophages	COL8A2		Senbabaoglu
+Macrophages	FN1		Senbabaoglu
+Macrophages	BCAT1		Senbabaoglu
+Macrophages	CD68		Senbabaoglu
+Macrophages	CD84		Senbabaoglu
+Macrophages	CYBB		Senbabaoglu
+Mast cells	HDC		Senbabaoglu
+Mast cells	LINC01140		Senbabaoglu
+Mast cells	CEACAM8		Senbabaoglu
+Mast cells	TAL1		Senbabaoglu
+Mast cells	MS4A2		Senbabaoglu
+Mast cells	TPSB2		Senbabaoglu
+Mast cells	TPSAB1		Senbabaoglu
+Mast cells	HPGD		Senbabaoglu
+Mast cells	NR0B1		Senbabaoglu
+Mast cells	SLC18A2		Senbabaoglu
+Mast cells	MAOB		Senbabaoglu
+Mast cells	ADCYAP1		Senbabaoglu
+Mast cells	SLC24A3		Senbabaoglu
+Mast cells	CALB2		Senbabaoglu
+Mast cells	MPO		Senbabaoglu
+Mast cells	ABCC4		Senbabaoglu
+Mast cells	CPA3		Senbabaoglu
+Mast cells	MLPH		Senbabaoglu
+Mast cells	VWA5A		Senbabaoglu
+Mast cells	SIGLEC6		Senbabaoglu
+Mast cells	PPM1H		Senbabaoglu
+Mast cells	KIT		Senbabaoglu
+Mast cells	SCG2		Senbabaoglu
+Mast cells	HPGDS		Senbabaoglu
+Mast cells	PRG2		Senbabaoglu
+Mast cells	PTGS1		Senbabaoglu
+Mast cells	GATA2		Senbabaoglu
+Mast cells	CMA1		Senbabaoglu
+Mast cells	CTSG		Senbabaoglu
+Neutrophils	SLC22A4		Senbabaoglu
+Neutrophils	FCAR		Senbabaoglu
+Neutrophils	CEACAM3		Senbabaoglu
+Neutrophils	MGAM		Senbabaoglu
+Neutrophils	MGAM		Senbabaoglu
+Neutrophils	KCNJ15		Senbabaoglu
+Neutrophils	CXCR2		Senbabaoglu
+Neutrophils	CXCR1		Senbabaoglu
+Neutrophils	G0S2		Senbabaoglu
+Neutrophils	HIST1H2BC		Senbabaoglu
+Neutrophils	DYSF		Senbabaoglu
+Neutrophils	S100A12		Senbabaoglu
+Neutrophils	PDE4B		Senbabaoglu
+Neutrophils	CD93		Senbabaoglu
+Neutrophils	TNFRSF10C		Senbabaoglu
+Neutrophils	SLC25A37		Senbabaoglu
+Neutrophils	TECPR2		Senbabaoglu
+Neutrophils	HPSE		Senbabaoglu
+Neutrophils	CRISPLD2		Senbabaoglu
+Neutrophils	SIGLEC5		Senbabaoglu
+Neutrophils	SIGLEC5		Senbabaoglu
+Neutrophils	FPR1		Senbabaoglu
+Neutrophils	FPR2		Senbabaoglu
+Neutrophils	MME		Senbabaoglu
+Neutrophils	BST1		Senbabaoglu
+Neutrophils	CYP4F3		Senbabaoglu
+Neutrophils	CSF3R		Senbabaoglu
+Neutrophils	LILRB2		Senbabaoglu
+Neutrophils	CREB5		Senbabaoglu
+Neutrophils	VNN3		Senbabaoglu
+Neutrophils	ALPL		Senbabaoglu
+Neutrophils	FCGR3B		Senbabaoglu
+Neutrophils	LILRB2		Senbabaoglu
+Neutrophils	FCAR		Senbabaoglu
+Neutrophils	CEACAM3		Senbabaoglu
+Neutrophils	FCAR		Senbabaoglu
+Neutrophils	FCAR		Senbabaoglu
+NK CD56bright	MARCH6		Senbabaoglu
+NK CD56bright	LPCAT4		Senbabaoglu
+NK CD56bright	PLA2G6		Senbabaoglu
+NK CD56bright	FOXJ1		Senbabaoglu
+NK CD56bright	ETFA		Senbabaoglu
+NK CD56bright	MPPED1		Senbabaoglu
+NK CD56bright	DUSP4		Senbabaoglu
+NK CD56bright	RRAD		Senbabaoglu
+NK CD56bright	TRAPPC9		Senbabaoglu
+NK CD56bright	XCL1		Senbabaoglu
+NK CD56dim	PMEPA1		Senbabaoglu
+NK CD56dim	KIR3DL2		Senbabaoglu
+NK CD56dim	SPON2		Senbabaoglu
+NK CD56dim	S1PR5		Senbabaoglu
+NK CD56dim	KIR3DL2		Senbabaoglu
+NK CD56dim	TTC38		Senbabaoglu
+NK CD56dim	KIR3DL1		Senbabaoglu
+NK CD56dim	KIR3DL3		Senbabaoglu
+NK CD56dim	KIR2DL3		Senbabaoglu
+NK CD56dim	GZMB		Senbabaoglu
+NK CD56dim	IL21R		Senbabaoglu
+NK CD56dim	GTF3C1		Senbabaoglu
+NK CD56dim	KIR3DL1		Senbabaoglu
+NK CD56dim	KIR3DL3		Senbabaoglu
+NK CD56dim	KIR2DL3		Senbabaoglu
+NK CD56dim	KIR3DL2		Senbabaoglu
+NK CD56dim	KIR3DL2		Senbabaoglu
+NK CD56dim	KIR3DL3		Senbabaoglu
+NK CD56dim	KIR2DL3		Senbabaoglu
+NK CD56dim	KIR2DS5		Senbabaoglu
+NK CD56dim	KIR3DL2		Senbabaoglu
+NK CD56dim	KIR2DS2		Senbabaoglu
+NK CD56dim	KIR3DL3		Senbabaoglu
+NK CD56dim	KIR3DL3		Senbabaoglu
+NK CD56dim	KIR3DL2		Senbabaoglu
+NK CD56dim	KIR3DL1		Senbabaoglu
+NK CD56dim	KIR3DL3		Senbabaoglu
+NK CD56dim	KIR2DL3		Senbabaoglu
+NK CD56dim	KIR3DL2		Senbabaoglu
+NK CD56dim	KIR2DS1		Senbabaoglu
+NK cells	SLC30A5		Senbabaoglu
+NK cells	PDLIM4		Senbabaoglu
+NK cells	MRC2		Senbabaoglu
+NK cells	LDB3		Senbabaoglu
+NK cells	NCR1		Senbabaoglu
+NK cells	CDC5L		Senbabaoglu
+NK cells	SPN		Senbabaoglu
+NK cells	GAGE2A		Senbabaoglu
+NK cells	PRX		Senbabaoglu
+NK cells	IGFBP5		Senbabaoglu
+NK cells	TRPV6		Senbabaoglu
+NK cells	MAPRE3		Senbabaoglu
+NK cells	TRPV6		Senbabaoglu
+NK cells	PSMD4		Senbabaoglu
+NK cells	ZNF747		Senbabaoglu
+NK cells	ZNF747		Senbabaoglu
+NK cells	BCL2		Senbabaoglu
+NK cells	SGMS1		Senbabaoglu
+NK cells	ALDH1B1		Senbabaoglu
+NK cells	ZNF205		Senbabaoglu
+NK cells	ADARB1		Senbabaoglu
+NK cells	APBB2		Senbabaoglu
+NK cells	FGF18		Senbabaoglu
+NK cells	KANK2		Senbabaoglu
+NK cells	MCM3AP		Senbabaoglu
+NK cells	ATL2		Senbabaoglu
+NK cells	TINAGL1		Senbabaoglu
+NK cells	TCTN2		Senbabaoglu
+NK cells	SMEK1		Senbabaoglu
+NK cells	ZNF528		Senbabaoglu
+NK cells	FZR1		Senbabaoglu
+NK cells	TBXA2R		Senbabaoglu
+NK cells	FUT5		Senbabaoglu
+NK cells	XCL2		Senbabaoglu
+NK cells	XCL1		Senbabaoglu
+NK cells	NCR1		Senbabaoglu
+NK cells	GAGE2A		Senbabaoglu
+NK cells	NCR1		Senbabaoglu
+NK cells	NCR1		Senbabaoglu
+NK cells	NCR1		Senbabaoglu
+NK cells	NCR1		Senbabaoglu
+NK cells	NCR1		Senbabaoglu
+NK cells	NCR1		Senbabaoglu
+NK cells	NCR1		Senbabaoglu
+NK cells	NCR1		Senbabaoglu
+pDC	IL3RA		Senbabaoglu
+T cells	GIMAP5		Senbabaoglu
+T cells	TRBC1		Senbabaoglu
+T cells	BCL11B		Senbabaoglu
+T cells	CD6		Senbabaoglu
+T cells	ITM2A		Senbabaoglu
+T cells	SKAP1		Senbabaoglu
+T cells	SH2D1A		Senbabaoglu
+T cells	CD28		Senbabaoglu
+T cells	CD3E		Senbabaoglu
+T cells	CD3D		Senbabaoglu
+T cells	CD3G		Senbabaoglu
+T cells	TRAC		Senbabaoglu
+T cells	NCALD		Senbabaoglu
+T cells	LCK		Senbabaoglu
+T cells	PRKCQ		Senbabaoglu
+T cells	TRAT1		Senbabaoglu
+T cells	CD2		Senbabaoglu
+T cells	CD96		Senbabaoglu
+Tcm cells	PSPC1		Senbabaoglu
+Tcm cells	SNRPN		Senbabaoglu
+Tcm cells	STX16		Senbabaoglu
+Tcm cells	PDXDC2P		Senbabaoglu
+Tcm cells	PDXDC2P		Senbabaoglu
+Tcm cells	INPP4B		Senbabaoglu
+Tcm cells	USP9Y		Senbabaoglu
+Tcm cells	RP11-74E24.2		Senbabaoglu
+Tcm cells	REPS1		Senbabaoglu
+Tcm cells	NEFL		Senbabaoglu
+Tcm cells	ATM		Senbabaoglu
+Tcm cells	NFATC3		Senbabaoglu
+Tcm cells	PCM1		Senbabaoglu
+Tcm cells	SLC7A6		Senbabaoglu
+Tcm cells	FYB		Senbabaoglu
+Tcm cells	CASP8		Senbabaoglu
+Tcm cells	TRAF3IP3		Senbabaoglu
+Tcm cells	AQP3		Senbabaoglu
+Tcm cells	PHC3		Senbabaoglu
+Tcm cells	CEP68		Senbabaoglu
+Tcm cells	FOXP1		Senbabaoglu
+Tcm cells	KLF12		Senbabaoglu
+Tcm cells	CLUAP1		Senbabaoglu
+Tcm cells	TIMM8A		Senbabaoglu
+Tcm cells	DOCK9		Senbabaoglu
+Tcm cells	FAM153B		Senbabaoglu
+Tcm cells	CYLD		Senbabaoglu
+Tcm cells	ATF7IP		Senbabaoglu
+Tcm cells	PCNX		Senbabaoglu
+Tcm cells	TXK		Senbabaoglu
+Tcm cells	CDC14A		Senbabaoglu
+Tcm cells	MAP3K1		Senbabaoglu
+Tcm cells	HNRNPH1		Senbabaoglu
+Tcm cells	CREBZF		Senbabaoglu
+Tcm cells	POLR2J2		Senbabaoglu
+Tcm cells	POLR2J2		Senbabaoglu
+Tcm cells	ST3GAL1		Senbabaoglu
+Tcm cells	RPP38		Senbabaoglu
+Tcm cells	TIMM8A		Senbabaoglu
+Tem cells	LTK		Senbabaoglu
+Tem cells	EZR		Senbabaoglu
+Tem cells	EWSR1		Senbabaoglu
+Tem cells	PRKY		Senbabaoglu
+Tem cells	CCR2		Senbabaoglu
+Tem cells	MEFV		Senbabaoglu
+Tem cells	DDX17		Senbabaoglu
+Tem cells	TBC1D5		Senbabaoglu
+Tem cells	AKT3		Senbabaoglu
+Tem cells	GDPD5		Senbabaoglu
+Tem cells	TBCD		Senbabaoglu
+Tem cells	FLI1		Senbabaoglu
+Tem cells	NFATC4		Senbabaoglu
+Tfh cells	LDLRAD4		Senbabaoglu
+Tfh cells	SMAD1		Senbabaoglu
+Tfh cells	CHGB		Senbabaoglu
+Tfh cells	HIST1H4K		Senbabaoglu
+Tfh cells	MYO6		Senbabaoglu
+Tfh cells	SIRPG		Senbabaoglu
+Tfh cells	KCNK5		Senbabaoglu
+Tfh cells	ZNF764		Senbabaoglu
+Tfh cells	TSHR		Senbabaoglu
+Tfh cells	POMT1		Senbabaoglu
+Tfh cells	CXCL13		Senbabaoglu
+Tfh cells	PVALB		Senbabaoglu
+Tfh cells	SLC7A10		Senbabaoglu
+Tfh cells	ICA1		Senbabaoglu
+Tfh cells	MAGEH1		Senbabaoglu
+Tfh cells	CXCR5		Senbabaoglu
+Tfh cells	MAF		Senbabaoglu
+Tfh cells	TOX		Senbabaoglu
+Tfh cells	PTPN13		Senbabaoglu
+Tfh cells	MKL2		Senbabaoglu
+Tfh cells	SH3TC1		Senbabaoglu
+Tfh cells	STK39		Senbabaoglu
+Tfh cells	MYO7A		Senbabaoglu
+Tfh cells	CDK5R1		Senbabaoglu
+Tfh cells	THADA		Senbabaoglu
+Tfh cells	KIAA1324		Senbabaoglu
+Tfh cells	PASK		Senbabaoglu
+Tfh cells	CHI3L2		Senbabaoglu
+Tfh cells	ST8SIA1		Senbabaoglu
+Tfh cells	HEY1		Senbabaoglu
+Tfh cells	PDCD1		Senbabaoglu
+Tfh cells	B3GAT1		Senbabaoglu
+Tfh cells	MYO7A		Senbabaoglu
+Tgd cells	TRGV9		Senbabaoglu
+Tgd cells	FEZ1		Senbabaoglu
+Tgd cells	C1orf61		Senbabaoglu
+Tgd cells	CD160		Senbabaoglu
+Tgd cells	CD160		Senbabaoglu
+Th17 cells	IL17RA		Senbabaoglu
+Th17 cells	IL17A		Senbabaoglu
+Th17 cells	RORC		Senbabaoglu
+Th1 cells	BTG3		Senbabaoglu
+Th1 cells	GGT1		Senbabaoglu
+Th1 cells	CMAHP		Senbabaoglu
+Th1 cells	CCL4		Senbabaoglu
+Th1 cells	EGFL6		Senbabaoglu
+Th1 cells	LRRN3		Senbabaoglu
+Th1 cells	IFNG		Senbabaoglu
+Th1 cells	DGKI		Senbabaoglu
+Th1 cells	IL22		Senbabaoglu
+Th1 cells	LTA		Senbabaoglu
+Th1 cells	LRP8		Senbabaoglu
+Th1 cells	SYNGR3		Senbabaoglu
+Th1 cells	CTLA4		Senbabaoglu
+Th1 cells	ATP9A		Senbabaoglu
+Th1 cells	LTA		Senbabaoglu
+Th1 cells	CSF2		Senbabaoglu
+Th1 cells	DOK5		Senbabaoglu
+Th1 cells	LTA		Senbabaoglu
+Th1 cells	IL12RB2		Senbabaoglu
+Th1 cells	APBB2		Senbabaoglu
+Th1 cells	LTA		Senbabaoglu
+Th1 cells	DPP4		Senbabaoglu
+Th1 cells	ZBTB32		Senbabaoglu
+Th1 cells	HBEGF		Senbabaoglu
+Th1 cells	LTA		Senbabaoglu
+Th1 cells	SGCB		Senbabaoglu
+Th1 cells	DUSP5		Senbabaoglu
+Th1 cells	LTA		Senbabaoglu
+Th1 cells	CD38		Senbabaoglu
+Th1 cells	BST2		Senbabaoglu
+Th1 cells	LTA		Senbabaoglu
+Th1 cells	CD70		Senbabaoglu
+Th1 cells	APOD		Senbabaoglu
+Th2 cells	SMAD2		Senbabaoglu
+Th2 cells	SNRPD1		Senbabaoglu
+Th2 cells	DHFR		Senbabaoglu
+Th2 cells	IL26		Senbabaoglu
+Th2 cells	MICAL2		Senbabaoglu
+Th2 cells	GSTA4		Senbabaoglu
+Th2 cells	ANK1		Senbabaoglu
+Th2 cells	AHI1		Senbabaoglu
+Th2 cells	PHEX		Senbabaoglu
+Th2 cells	NEIL3		Senbabaoglu
+Th2 cells	PTGIS		Senbabaoglu
+Th2 cells	LIMA1		Senbabaoglu
+Th2 cells	GATA3		Senbabaoglu
+Th2 cells	HELLS		Senbabaoglu
+Th2 cells	CENPF		Senbabaoglu
+Th2 cells	MB		Senbabaoglu
+Th2 cells	SLC39A14		Senbabaoglu
+Th2 cells	PMCH		Senbabaoglu
+Th2 cells	CXCR6		Senbabaoglu
+Th2 cells	CDC25C		Senbabaoglu
+Th2 cells	ADCY1		Senbabaoglu
+Th2 cells	CDC7		Senbabaoglu
+Th2 cells	EVI5		Senbabaoglu
+Th2 cells	BIRC5		Senbabaoglu
+Th2 cells	LAIR2		Senbabaoglu
+Th2 cells	WDHD1		Senbabaoglu
+Th2 cells	LAIR2		Senbabaoglu
+Th2 cells	LAIR2		Senbabaoglu
+Th2 cells	LAIR2		Senbabaoglu
+T helper cells	SRSF10		Senbabaoglu
+T helper cells	NAP1L4		Senbabaoglu
+T helper cells	LRBA		Senbabaoglu
+T helper cells	FAM111A		Senbabaoglu
+T helper cells	ATF2		Senbabaoglu
+T helper cells	SRSF10		Senbabaoglu
+T helper cells	SLC25A12		Senbabaoglu
+T helper cells	ITM2A		Senbabaoglu
+T helper cells	NUP107		Senbabaoglu
+T helper cells	PHF10		Senbabaoglu
+T helper cells	GOLGA8A		Senbabaoglu
+T helper cells	CD28		Senbabaoglu
+T helper cells	ICOS		Senbabaoglu
+T helper cells	YME1L1		Senbabaoglu
+T helper cells	UBE2L3		Senbabaoglu
+T helper cells	BORA		Senbabaoglu
+T helper cells	PPP2R5C		Senbabaoglu
+T helper cells	SEC24C		Senbabaoglu
+T helper cells	FRYL		Senbabaoglu
+T helper cells	ASF1A		Senbabaoglu
+T helper cells	DDX50		Senbabaoglu
+T helper cells	ANP32B		Senbabaoglu
+T helper cells	RPA1		Senbabaoglu
+T helper cells	BATF		Senbabaoglu
+Treg cells	FOXP3		Senbabaoglu
+Treg cells	FOXP3		Senbabaoglu

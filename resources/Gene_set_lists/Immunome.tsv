@@ -1,0 +1,783 @@
+TERM	SYMBOL	CATEGORY	LIST
+Activated B cell	ADAM28	Adaptive	Immunome
+Activated B cell	CD180	Adaptive	Immunome
+Activated B cell	CD79B	Adaptive	Immunome
+Activated B cell	BLK	Adaptive	Immunome
+Activated B cell	CD19	Adaptive	Immunome
+Activated B cell	MS4A1	Adaptive	Immunome
+Activated B cell	TNFRSF17	Adaptive	Immunome
+Activated B cell	IGHM	Adaptive	Immunome
+Activated B cell	GNG7	Adaptive	Immunome
+Activated B cell	MICAL3	Adaptive	Immunome
+Activated B cell	SPIB	Adaptive	Immunome
+Activated B cell	HLA-DOB	Adaptive	Immunome
+Activated B cell	IGKC	Adaptive	Immunome
+Activated B cell	PNOC	Adaptive	Immunome
+Activated B cell	FCRL2	Adaptive	Immunome
+Activated B cell	BACH2	Adaptive	Immunome
+Activated B cell	CR2	Adaptive	Immunome
+Activated B cell	TCL1A	Adaptive	Immunome
+Activated B cell	AKNA	Adaptive	Immunome
+Activated B cell	ARHGAP25	Adaptive	Immunome
+Activated B cell	CCL21	Adaptive	Immunome
+Activated B cell	CD27	Adaptive	Immunome
+Activated B cell	CD38	Adaptive	Immunome
+Activated B cell	CLEC17A	Adaptive	Immunome
+Activated B cell	CLEC9A	Adaptive	Immunome
+Activated B cell	CLECL1	Adaptive	Immunome
+Activated CD4 T cell	AIM2	Adaptive	Immunome
+Activated CD4 T cell	BIRC3	Adaptive	Immunome
+Activated CD4 T cell	BRIP1	Adaptive	Immunome
+Activated CD4 T cell	CCL20	Adaptive	Immunome
+Activated CD4 T cell	CCL4	Adaptive	Immunome
+Activated CD4 T cell	CCL5	Adaptive	Immunome
+Activated CD4 T cell	CCNB1	Adaptive	Immunome
+Activated CD4 T cell	CCR7	Adaptive	Immunome
+Activated CD4 T cell	DUSP2	Adaptive	Immunome
+Activated CD4 T cell	ESCO2	Adaptive	Immunome
+Activated CD4 T cell	ETS1	Adaptive	Immunome
+Activated CD4 T cell	EXO1	Adaptive	Immunome
+Activated CD4 T cell	EXOC6	Adaptive	Immunome
+Activated CD4 T cell	IARS	Adaptive	Immunome
+Activated CD4 T cell	ITK	Adaptive	Immunome
+Activated CD4 T cell	KIF11	Adaptive	Immunome
+Activated CD4 T cell	KNTC1	Adaptive	Immunome
+Activated CD4 T cell	NUF2	Adaptive	Immunome
+Activated CD4 T cell	PRC1	Adaptive	Immunome
+Activated CD4 T cell	PSAT1	Adaptive	Immunome
+Activated CD4 T cell	RGS1	Adaptive	Immunome
+Activated CD4 T cell	RTKN2	Adaptive	Immunome
+Activated CD4 T cell	SAMSN1	Adaptive	Immunome
+Activated CD4 T cell	SELL	Adaptive	Immunome
+Activated CD4 T cell	TRAT1	Adaptive	Immunome
+Activated CD8 T cell	ADRM1	Adaptive	Immunome
+Activated CD8 T cell	AHSA1	Adaptive	Immunome
+Activated CD8 T cell	C1GALT1C1	Adaptive	Immunome
+Activated CD8 T cell	CCT6B	Adaptive	Immunome
+Activated CD8 T cell	CD37	Adaptive	Immunome
+Activated CD8 T cell	CD3D	Adaptive	Immunome
+Activated CD8 T cell	CD3E	Adaptive	Immunome
+Activated CD8 T cell	CD3G	Adaptive	Immunome
+Activated CD8 T cell	CD69	Adaptive	Immunome
+Activated CD8 T cell	CD8A	Adaptive	Immunome
+Activated CD8 T cell	CETN3	Adaptive	Immunome
+Activated CD8 T cell	CSE1L	Adaptive	Immunome
+Activated CD8 T cell	GEMIN6	Adaptive	Immunome
+Activated CD8 T cell	GNLY	Adaptive	Immunome
+Activated CD8 T cell	GPT2	Adaptive	Immunome
+Activated CD8 T cell	GZMA	Adaptive	Immunome
+Activated CD8 T cell	GZMH	Adaptive	Immunome
+Activated CD8 T cell	GZMK	Adaptive	Immunome
+Activated CD8 T cell	IL2RB	Adaptive	Immunome
+Activated CD8 T cell	LCK	Adaptive	Immunome
+Activated CD8 T cell	MPZL1	Adaptive	Immunome
+Activated CD8 T cell	NKG7	Adaptive	Immunome
+Activated CD8 T cell	PIK3IP1	Adaptive	Immunome
+Activated CD8 T cell	PTRH2	Adaptive	Immunome
+Activated CD8 T cell	TIMM13	Adaptive	Immunome
+Activated CD8 T cell	ZAP70	Adaptive	Immunome
+Activated dendritic cell	ABCD1	Innate	Immunome
+Activated dendritic cell	C1QC	Innate	Immunome
+Activated dendritic cell	CAPG	Innate	Immunome
+Activated dendritic cell	CCL3L3	Innate	Immunome
+Activated dendritic cell	CD207	Innate	Immunome
+Activated dendritic cell	CD302	Innate	Immunome
+Activated dendritic cell	ATP5B	Innate	Immunome
+Activated dendritic cell	ATP5L	Innate	Immunome
+Activated dendritic cell	ATP6V1A	Innate	Immunome
+Activated dendritic cell	BCL2L1	Innate	Immunome
+Activated dendritic cell	C1QB	Innate	Immunome
+Activated dendritic cell	SNURF	Innate	Immunome
+Activated dendritic cell	SPCS3	Innate	Immunome
+Activated dendritic cell	CCNA1	Innate	Immunome
+Activated dendritic cell	CEACAM8	Innate	Immunome
+Activated dendritic cell	NOS2	Innate	Immunome
+Activated dendritic cell	SRA1	Innate	Immunome
+Activated dendritic cell	TNFRSF6B	Innate	Immunome
+Activated dendritic cell	TREM1	Innate	Immunome
+Activated dendritic cell	TREML1	Innate	Immunome
+Activated dendritic cell	RHOA	Innate	Immunome
+Activated dendritic cell	SLC25A37	Innate	Immunome
+Activated dendritic cell	TNFSF14	Innate	Immunome
+Activated dendritic cell	TREML4	Innate	Immunome
+Activated dendritic cell	VNN2	Innate	Immunome
+Activated dendritic cell	XPO6	Innate	Immunome
+Activated dendritic cell	CLEC4C	Innate	Immunome
+Activated dendritic cell	TNFAIP2	Innate	Immunome
+Activated dendritic cell	UBD	Innate	Immunome
+Activated dendritic cell	ACTR3	Innate	Immunome
+Activated dendritic cell	RAB1A	Innate	Immunome
+Activated dendritic cell	SLA	Innate	Immunome
+Activated dendritic cell	HLA-DQA2	Innate	Immunome
+Activated dendritic cell	SIGLEC5	Innate	Immunome
+Activated dendritic cell	SLAMF9	Innate	Immunome
+CD56bright natural killer cell	ABAT	Innate	Immunome
+CD56bright natural killer cell	C11orf75	Innate	Immunome
+CD56bright natural killer cell	C5orf15	Innate	Immunome
+CD56bright natural killer cell	CDHR1	Innate	Immunome
+CD56bright natural killer cell	DCAF12	Innate	Immunome
+CD56bright natural killer cell	DYNLL1	Innate	Immunome
+CD56bright natural killer cell	GPR137B	Innate	Immunome
+CD56bright natural killer cell	HCP5	Innate	Immunome
+CD56bright natural killer cell	HDGFRP2	Innate	Immunome
+CD56bright natural killer cell	KRT86	Innate	Immunome
+CD56bright natural killer cell	MLST8	Innate	Immunome
+CD56bright natural killer cell	ELMOD3	Innate	Immunome
+CD56bright natural killer cell	ENTPD5	Innate	Immunome
+CD56bright natural killer cell	FAM119A	Innate	Immunome
+CD56bright natural killer cell	FAM179A	Innate	Immunome
+CD56bright natural killer cell	CLIC2	Innate	Immunome
+CD56bright natural killer cell	COX7A2L	Innate	Immunome
+CD56bright natural killer cell	CREB3L4	Innate	Immunome
+CD56bright natural killer cell	CSF1	Innate	Immunome
+CD56bright natural killer cell	CSNK2A2	Innate	Immunome
+CD56bright natural killer cell	CSTA	Innate	Immunome
+CD56bright natural killer cell	CSTB	Innate	Immunome
+CD56bright natural killer cell	CTPS	Innate	Immunome
+CD56bright natural killer cell	CTSD	Innate	Immunome
+CD56bright natural killer cell	FST	Innate	Immunome
+CD56bright natural killer cell	GATA2	Innate	Immunome
+CD56bright natural killer cell	GMPR	Innate	Immunome
+CD56bright natural killer cell	HDC	Innate	Immunome
+CD56bright natural killer cell	HEY1	Innate	Immunome
+CD56bright natural killer cell	HOXA1	Innate	Immunome
+CD56bright natural killer cell	HS2ST1	Innate	Immunome
+CD56bright natural killer cell	HS3ST1	Innate	Immunome
+CD56bright natural killer cell	BCL11B	Innate	Immunome
+CD56bright natural killer cell	CDH3	Innate	Immunome
+CD56bright natural killer cell	MYL6B	Innate	Immunome
+CD56bright natural killer cell	NAA16	Innate	Immunome
+CD56bright natural killer cell	C1QA	Innate	Immunome
+CD56bright natural killer cell	C1QB	Innate	Immunome
+CD56bright natural killer cell	CYP27B1	Innate	Immunome
+CD56bright natural killer cell	EIF3M	Innate	Immunome
+CD56dim natural killer cell	CYP27A1	Innate	Immunome
+CD56dim natural killer cell	DDX55	Innate	Immunome
+CD56dim natural killer cell	DYRK2	Innate	Immunome
+CD56dim natural killer cell	RPL37A	Innate	Immunome
+CD56dim natural killer cell	NOTCH3	Innate	Immunome
+CD56dim natural killer cell	AKR7A3	Innate	Immunome
+CD56dim natural killer cell	GPRC5C	Innate	Immunome
+CD56dim natural killer cell	GRIN1	Innate	Immunome
+CD56dim natural killer cell	HLA-E	Innate	Immunome
+CD56dim natural killer cell	PORCN	Innate	Immunome
+CD56dim natural killer cell	PSMC4	Innate	Immunome
+CD56dim natural killer cell	UPP1	Innate	Immunome
+CD56dim natural killer cell	IL21R	Innate	Immunome
+CD56dim natural killer cell	KIR2DS1	Innate	Immunome
+CD56dim natural killer cell	KIR2DS2	Innate	Immunome
+CD56dim natural killer cell	KIR2DS5	Innate	Immunome
+Central memory CD4 T cell	ABHD3	Adaptive	Immunome
+Central memory CD4 T cell	AHNAK	Adaptive	Immunome
+Central memory CD4 T cell	ANXA2P2	Adaptive	Immunome
+Central memory CD4 T cell	AQP3	Adaptive	Immunome
+Central memory CD4 T cell	ATHL1	Adaptive	Immunome
+Central memory CD4 T cell	BMI1	Adaptive	Immunome
+Central memory CD4 T cell	BZW2	Adaptive	Immunome
+Central memory CD4 T cell	CD63	Adaptive	Immunome
+Central memory CD4 T cell	COL4A1	Adaptive	Immunome
+Central memory CD4 T cell	CYLD	Adaptive	Immunome
+Central memory CD4 T cell	ELMO2	Adaptive	Immunome
+Central memory CD4 T cell	FYN	Adaptive	Immunome
+Central memory CD4 T cell	GLIPR1	Adaptive	Immunome
+Central memory CD4 T cell	GSS	Adaptive	Immunome
+Central memory CD4 T cell	IFITM2	Adaptive	Immunome
+Central memory CD4 T cell	ITGB1	Adaptive	Immunome
+Central memory CD4 T cell	ITGB2	Adaptive	Immunome
+Central memory CD4 T cell	KLF5	Adaptive	Immunome
+Central memory CD4 T cell	LSP1	Adaptive	Immunome
+Central memory CD4 T cell	NDUFB9	Adaptive	Immunome
+Central memory CD4 T cell	PKM2	Adaptive	Immunome
+Central memory CD4 T cell	SFXN3	Adaptive	Immunome
+Central memory CD4 T cell	SIRPG	Adaptive	Immunome
+Central memory CD4 T cell	SMAD4	Adaptive	Immunome
+Central memory CD4 T cell	STX4	Adaptive	Immunome
+Central memory CD4 T cell	TRADD	Adaptive	Immunome
+Central memory CD4 T cell	VIM	Adaptive	Immunome
+Central memory CD4 T cell	XRCC6	Adaptive	Immunome
+Central memory CD8 T cell	ACTN4	Adaptive	Immunome
+Central memory CD8 T cell	ADAM12	Adaptive	Immunome
+Central memory CD8 T cell	ADCY9	Adaptive	Immunome
+Central memory CD8 T cell	F13A1	Adaptive	Immunome
+Central memory CD8 T cell	FCER1G	Adaptive	Immunome
+Central memory CD8 T cell	FCGR3B	Adaptive	Immunome
+Central memory CD8 T cell	FGF7	Adaptive	Immunome
+Central memory CD8 T cell	FKBP4	Adaptive	Immunome
+Central memory CD8 T cell	GLUD1	Adaptive	Immunome
+Central memory CD8 T cell	GM2A	Adaptive	Immunome
+Central memory CD8 T cell	GUSB	Adaptive	Immunome
+Central memory CD8 T cell	IL1RN	Adaptive	Immunome
+Central memory CD8 T cell	NOL11	Adaptive	Immunome
+Central memory CD8 T cell	NTRK1	Adaptive	Immunome
+Central memory CD8 T cell	RARA	Adaptive	Immunome
+Central memory CD8 T cell	RNF128	Adaptive	Immunome
+Central memory CD8 T cell	SIGLEC1	Adaptive	Immunome
+Central memory CD8 T cell	TNFRSF11A	Adaptive	Immunome
+Central memory CD8 T cell	TOX4	Adaptive	Immunome
+Central memory CD8 T cell	UBA52	Adaptive	Immunome
+Central memory CD8 T cell	ULBP1	Adaptive	Immunome
+Effector memory CD4 T cell	ATM	Adaptive	Immunome
+Effector memory CD4 T cell	CASP3	Adaptive	Immunome
+Effector memory CD4 T cell	CASQ1	Adaptive	Immunome
+Effector memory CD4 T cell	CD300E	Adaptive	Immunome
+Effector memory CD4 T cell	DARS	Adaptive	Immunome
+Effector memory CD4 T cell	DOCK9	Adaptive	Immunome
+Effector memory CD4 T cell	EXOSC9	Adaptive	Immunome
+Effector memory CD4 T cell	EZH2	Adaptive	Immunome
+Effector memory CD4 T cell	GDE1	Adaptive	Immunome
+Effector memory CD4 T cell	IL34	Adaptive	Immunome
+Effector memory CD4 T cell	NCOA4	Adaptive	Immunome
+Effector memory CD4 T cell	NEFL	Adaptive	Immunome
+Effector memory CD4 T cell	PDGFRL	Adaptive	Immunome
+Effector memory CD4 T cell	PTGS1	Adaptive	Immunome
+Effector memory CD4 T cell	REPS1	Adaptive	Immunome
+Effector memory CD4 T cell	SCG2	Adaptive	Immunome
+Effector memory CD4 T cell	SDPR	Adaptive	Immunome
+Effector memory CD4 T cell	SIGLEC14	Adaptive	Immunome
+Effector memory CD4 T cell	SIGLEC6	Adaptive	Immunome
+Effector memory CD4 T cell	TAL1	Adaptive	Immunome
+Effector memory CD4 T cell	TFEC	Adaptive	Immunome
+Effector memory CD4 T cell	TIPIN	Adaptive	Immunome
+Effector memory CD4 T cell	TPK1	Adaptive	Immunome
+Effector memory CD4 T cell	UQCRB	Adaptive	Immunome
+Effector memory CD4 T cell	USP9Y	Adaptive	Immunome
+Effector memory CD4 T cell	WIPF1	Adaptive	Immunome
+Effector memory CD4 T cell	ZCRB1	Adaptive	Immunome
+Effector memory CD8 T cell	ACAP1	Adaptive	Immunome
+Effector memory CD8 T cell	APOL3	Adaptive	Immunome
+Effector memory CD8 T cell	ARHGAP10	Adaptive	Immunome
+Effector memory CD8 T cell	ATP10D	Adaptive	Immunome
+Effector memory CD8 T cell	C3AR1	Adaptive	Immunome
+Effector memory CD8 T cell	CCR5	Adaptive	Immunome
+Effector memory CD8 T cell	CD160	Adaptive	Immunome
+Effector memory CD8 T cell	CD55	Adaptive	Immunome
+Effector memory CD8 T cell	CFLAR	Adaptive	Immunome
+Effector memory CD8 T cell	CMKLR1	Adaptive	Immunome
+Effector memory CD8 T cell	DAPP1	Adaptive	Immunome
+Effector memory CD8 T cell	FCRL6	Adaptive	Immunome
+Effector memory CD8 T cell	FLT3LG	Adaptive	Immunome
+Effector memory CD8 T cell	GZMM	Adaptive	Immunome
+Effector memory CD8 T cell	HAPLN3	Adaptive	Immunome
+Effector memory CD8 T cell	HLA-DMB	Adaptive	Immunome
+Effector memory CD8 T cell	HLA-DPA1	Adaptive	Immunome
+Effector memory CD8 T cell	HLA-DPB1	Adaptive	Immunome
+Effector memory CD8 T cell	IFI16	Adaptive	Immunome
+Effector memory CD8 T cell	LIME1	Adaptive	Immunome
+Effector memory CD8 T cell	LTK	Adaptive	Immunome
+Effector memory CD8 T cell	NFKBIA	Adaptive	Immunome
+Effector memory CD8 T cell	SETD7	Adaptive	Immunome
+Effector memory CD8 T cell	SIK1	Adaptive	Immunome
+Effector memory CD8 T cell	TRIB2	Adaptive	Immunome
+Eosinophil	GIPR	Innate	Immunome
+Eosinophil	KRT18P50	Innate	Immunome
+Eosinophil	LRMP	Innate	Immunome
+Eosinophil	FOSB	Innate	Immunome
+Eosinophil	RRP12	Innate	Immunome
+Eosinophil	GPR183	Innate	Immunome
+Eosinophil	NR4A3	Innate	Immunome
+Eosinophil	ST3GAL6	Innate	Immunome
+Eosinophil	DEPDC5	Innate	Immunome
+Eosinophil	PDE6C	Innate	Immunome
+Eosinophil	PKD2L2	Innate	Immunome
+Eosinophil	GPR65	Innate	Immunome
+Eosinophil	IL5RA	Innate	Immunome
+Eosinophil	P2RY14	Innate	Immunome
+Eosinophil	DACH1	Innate	Immunome
+Eosinophil	DAPK2	Innate	Immunome
+Eosinophil	EMR3	Innate	Immunome
+Gamma delta T cell	ACP5	Adaptive	Immunome
+Gamma delta T cell	AQP9	Adaptive	Immunome
+Gamma delta T cell	BTN3A2	Adaptive	Immunome
+Gamma delta T cell	C1orf54	Adaptive	Immunome
+Gamma delta T cell	CARD8	Adaptive	Immunome
+Gamma delta T cell	CCL18	Adaptive	Immunome
+Gamma delta T cell	CD209	Adaptive	Immunome
+Gamma delta T cell	CD33	Adaptive	Immunome
+Gamma delta T cell	CD36	Adaptive	Immunome
+Gamma delta T cell	CDK5	Adaptive	Immunome
+Gamma delta T cell	IL10RB	Adaptive	Immunome
+Gamma delta T cell	KLRF1	Adaptive	Immunome
+Gamma delta T cell	LGALS1	Adaptive	Immunome
+Gamma delta T cell	MAPK7	Adaptive	Immunome
+Gamma delta T cell	KLHL7	Adaptive	Immunome
+Gamma delta T cell	KRT80	Adaptive	Immunome
+Gamma delta T cell	LAMC1	Adaptive	Immunome
+Gamma delta T cell	LCORL	Adaptive	Immunome
+Gamma delta T cell	LMNB1	Adaptive	Immunome
+Gamma delta T cell	MEIS3P1	Adaptive	Immunome
+Gamma delta T cell	MPL	Adaptive	Immunome
+Gamma delta T cell	FABP1	Adaptive	Immunome
+Gamma delta T cell	FABP5	Adaptive	Immunome
+Gamma delta T cell	FADD	Adaptive	Immunome
+Gamma delta T cell	MFAP3L	Adaptive	Immunome
+Gamma delta T cell	MINPP1	Adaptive	Immunome
+Gamma delta T cell	RPS24	Adaptive	Immunome
+Gamma delta T cell	RPS7	Adaptive	Immunome
+Gamma delta T cell	RPS9	Adaptive	Immunome
+Gamma delta T cell	DBNL	Adaptive	Immunome
+Gamma delta T cell	CCL13	Adaptive	Immunome
+Immature B cell	CD22	Adaptive	Immunome
+Immature B cell	CYBB	Adaptive	Immunome
+Immature B cell	FAM129C	Adaptive	Immunome
+Immature B cell	FCRL1	Adaptive	Immunome
+Immature B cell	FCRL3	Adaptive	Immunome
+Immature B cell	FCRL5	Adaptive	Immunome
+Immature B cell	FCRLA	Adaptive	Immunome
+Immature B cell	HDAC9	Adaptive	Immunome
+Immature B cell	HLA-DQA1	Adaptive	Immunome
+Immature B cell	HVCN1	Adaptive	Immunome
+Immature B cell	KIAA0226	Adaptive	Immunome
+Immature B cell	NCF1	Adaptive	Immunome
+Immature B cell	NCF1B	Adaptive	Immunome
+Immature B cell	P2RY10	Adaptive	Immunome
+Immature B cell	SP100	Adaptive	Immunome
+Immature B cell	TXNIP	Adaptive	Immunome
+Immature B cell	STAP1	Adaptive	Immunome
+Immature B cell	TAGAP	Adaptive	Immunome
+Immature B cell	ZCCHC2	Adaptive	Immunome
+Immature dendritic cell	ACADM	Innate	Immunome
+Immature dendritic cell	AHCYL1	Innate	Immunome
+Immature dendritic cell	ALDH1A2	Innate	Immunome
+Immature dendritic cell	ALDH3A2	Innate	Immunome
+Immature dendritic cell	ALDH9A1	Innate	Immunome
+Immature dendritic cell	ALOX15	Innate	Immunome
+Immature dendritic cell	AMT	Innate	Immunome
+Immature dendritic cell	ARL1	Innate	Immunome
+Immature dendritic cell	ATIC	Innate	Immunome
+Immature dendritic cell	ATP5A1	Innate	Immunome
+Immature dendritic cell	CAPZA1	Innate	Immunome
+Immature dendritic cell	LILRA5	Innate	Immunome
+Immature dendritic cell	RDX	Innate	Immunome
+Immature dendritic cell	RRAGD	Innate	Immunome
+Immature dendritic cell	TACSTD2	Innate	Immunome
+Immature dendritic cell	INPP5F	Innate	Immunome
+Immature dendritic cell	RAB38	Innate	Immunome
+Immature dendritic cell	PLAU	Innate	Immunome
+Immature dendritic cell	CSF3R	Innate	Immunome
+Immature dendritic cell	SLC18A2	Innate	Immunome
+Immature dendritic cell	AMPD2	Innate	Immunome
+Immature dendritic cell	CLTB	Innate	Immunome
+Immature dendritic cell	C1orf162	Innate	Immunome
+Macrophage	AIF1	Innate	Immunome
+Macrophage	CCL1	Innate	Immunome
+Macrophage	CCL14	Innate	Immunome
+Macrophage	CCL23	Innate	Immunome
+Macrophage	CCL26	Innate	Immunome
+Macrophage	CD300LB	Innate	Immunome
+Macrophage	CNR1	Innate	Immunome
+Macrophage	CNR2	Innate	Immunome
+Macrophage	EIF1	Innate	Immunome
+Macrophage	EIF4A1	Innate	Immunome
+Macrophage	FPR1	Innate	Immunome
+Macrophage	FPR2	Innate	Immunome
+Macrophage	FRAT2	Innate	Immunome
+Macrophage	GPR27	Innate	Immunome
+Macrophage	GPR77	Innate	Immunome
+Macrophage	RNASE2	Innate	Immunome
+Macrophage	MS4A2	Innate	Immunome
+Macrophage	BASP1	Innate	Immunome
+Macrophage	IGSF6	Innate	Immunome
+Macrophage	HK3	Innate	Immunome
+Macrophage	VNN1	Innate	Immunome
+Macrophage	FES	Innate	Immunome
+Macrophage	NPL	Innate	Immunome
+Macrophage	FZD2	Innate	Immunome
+Macrophage	FAM198B	Innate	Immunome
+Macrophage	HNMT	Innate	Immunome
+Macrophage	SLC15A3	Innate	Immunome
+Macrophage	CD4	Innate	Immunome
+Macrophage	TXNDC3	Innate	Immunome
+Macrophage	FRMD4A	Innate	Immunome
+Macrophage	CRYBB1	Innate	Immunome
+Macrophage	HRH1	Innate	Immunome
+Macrophage	WNT5B	Innate	Immunome
+Mast cell	ADAMTS3	Innate	Immunome
+Mast cell	CPA3	Innate	Immunome
+Mast cell	CMA1	Innate	Immunome
+Mast cell	CTSG	Innate	Immunome
+Mast cell	ARHGAP15	Innate	Immunome
+Mast cell	CPM	Innate	Immunome
+Mast cell	FCN1	Innate	Immunome
+Mast cell	FTL	Innate	Immunome
+Mast cell	HSPA6	Innate	Immunome
+Mast cell	ITGA9	Innate	Immunome
+Mast cell	RNASE3	Innate	Immunome
+Mast cell	S100A4	Innate	Immunome
+Mast cell	SIGLEC8	Innate	Immunome
+Mast cell	SLC6A4	Innate	Immunome
+Mast cell	PTGS2	Innate	Immunome
+Mast cell	EGR3	Innate	Immunome
+Mast cell	PILRA	Innate	Immunome
+MDSC	CCR2	Innate	Immunome
+MDSC	CD14	Innate	Immunome
+MDSC	CD2	Innate	Immunome
+MDSC	CD86	Innate	Immunome
+MDSC	CXCR4	Innate	Immunome
+MDSC	FCGR2A	Innate	Immunome
+MDSC	FCGR2B	Innate	Immunome
+MDSC	FCGR3A	Innate	Immunome
+MDSC	FERMT3	Innate	Immunome
+MDSC	GPSM3	Innate	Immunome
+MDSC	IL18BP	Innate	Immunome
+MDSC	IL4R	Innate	Immunome
+MDSC	ITGAL	Innate	Immunome
+MDSC	ITGAM	Innate	Immunome
+MDSC	PARVG	Innate	Immunome
+MDSC	PSAP	Innate	Immunome
+MDSC	PTGER2	Innate	Immunome
+MDSC	PTGES2	Innate	Immunome
+MDSC	S100A8	Innate	Immunome
+MDSC	S100A9	Innate	Immunome
+Memory B cell	AICDA	Adaptive	Immunome
+Memory B cell	CCNA2	Adaptive	Immunome
+Memory B cell	CDKN3	Adaptive	Immunome
+Memory B cell	CLCN5	Adaptive	Immunome
+Memory B cell	ENPP1	Adaptive	Immunome
+Memory B cell	FCER1A	Adaptive	Immunome
+Memory B cell	FCRL4	Adaptive	Immunome
+Memory B cell	MYC	Adaptive	Immunome
+Memory B cell	RUNX2	Adaptive	Immunome
+Memory B cell	SORL1	Adaptive	Immunome
+Memory B cell	SOX5	Adaptive	Immunome
+Memory B cell	STAT5A	Adaptive	Immunome
+Memory B cell	STAT5B	Adaptive	Immunome
+Memory B cell	TLR9	Adaptive	Immunome
+Monocyte	ASGR2	Innate	Immunome
+Monocyte	CFP	Innate	Immunome
+Monocyte	ASGR1	Innate	Immunome
+Monocyte	CD1D	Innate	Immunome
+Monocyte	UPK3A	Innate	Immunome
+Monocyte	ACTG1	Innate	Immunome
+Monocyte	ANXA5	Innate	Immunome
+Monocyte	ATP6V1B2	Innate	Immunome
+Monocyte	CFL1	Innate	Immunome
+Monocyte	DAZAP2	Innate	Immunome
+Monocyte	CTBS	Innate	Immunome
+Monocyte	EMR4P	Innate	Immunome
+Monocyte	HIVEP2	Innate	Immunome
+Monocyte	MARCKSL1	Innate	Immunome
+Monocyte	MBP	Innate	Immunome
+Monocyte	MMP15	Innate	Immunome
+Monocyte	PNPLA6	Innate	Immunome
+Monocyte	TMBIM6	Innate	Immunome
+Monocyte	PQBP1	Innate	Immunome
+Monocyte	TEX264	Innate	Immunome
+Monocyte	IKZF1	Innate	Immunome
+Natural killer cell	AKT3	Innate	Immunome
+Natural killer cell	AXL	Innate	Immunome
+Natural killer cell	BST2	Innate	Immunome
+Natural killer cell	CDH2	Innate	Immunome
+Natural killer cell	CRTAM	Innate	Immunome
+Natural killer cell	CSF2RA	Innate	Immunome
+Natural killer cell	CTSZ	Innate	Immunome
+Natural killer cell	CXCL1	Innate	Immunome
+Natural killer cell	CYTH1	Innate	Immunome
+Natural killer cell	DAXX	Innate	Immunome
+Natural killer cell	DGKH	Innate	Immunome
+Natural killer cell	DLL4	Innate	Immunome
+Natural killer cell	DPYD	Innate	Immunome
+Natural killer cell	ERBB3	Innate	Immunome
+Natural killer cell	F11R	Innate	Immunome
+Natural killer cell	FAM27A	Innate	Immunome
+Natural killer cell	FAM49A	Innate	Immunome
+Natural killer cell	FASLG	Innate	Immunome
+Natural killer cell	FCGR1A	Innate	Immunome
+Natural killer cell	FN1	Innate	Immunome
+Natural killer cell	FSTL1	Innate	Immunome
+Natural killer cell	FUCA1	Innate	Immunome
+Natural killer cell	GBP3	Innate	Immunome
+Natural killer cell	GLS2	Innate	Immunome
+Natural killer cell	GRB2	Innate	Immunome
+Natural killer cell	LST1	Innate	Immunome
+Natural killer cell	BCL2	Innate	Immunome
+Natural killer cell	CDC5L	Innate	Immunome
+Natural killer cell	FGF18	Innate	Immunome
+Natural killer cell	FUT5	Innate	Immunome
+Natural killer cell	FZR1	Innate	Immunome
+Natural killer cell	GAGE2	Innate	Immunome
+Natural killer cell	IGFBP5	Innate	Immunome
+Natural killer cell	KANK2	Innate	Immunome
+Natural killer cell	LDB3	Innate	Immunome
+Natural killer T cell	BTN2A2	Innate	Immunome
+Natural killer T cell	CD101	Innate	Immunome
+Natural killer T cell	CD109	Innate	Immunome
+Natural killer T cell	CNPY3	Innate	Immunome
+Natural killer T cell	CNPY4	Innate	Immunome
+Natural killer T cell	CREB1	Innate	Immunome
+Natural killer T cell	CRTC2	Innate	Immunome
+Natural killer T cell	CRTC3	Innate	Immunome
+Natural killer T cell	CSF2	Innate	Immunome
+Natural killer T cell	KLRC1	Innate	Immunome
+Natural killer T cell	FUT4	Innate	Immunome
+Natural killer T cell	ICAM2	Innate	Immunome
+Natural killer T cell	IL32	Innate	Immunome
+Natural killer T cell	LAMP2	Innate	Immunome
+Natural killer T cell	LILRB5	Innate	Immunome
+Natural killer T cell	KLRG1	Innate	Immunome
+Natural killer T cell	HSPA4	Innate	Immunome
+Natural killer T cell	HSPB6	Innate	Immunome
+Natural killer T cell	ISM2	Innate	Immunome
+Natural killer T cell	ITIH2	Innate	Immunome
+Natural killer T cell	KDM4C	Innate	Immunome
+Natural killer T cell	KIR2DS4	Innate	Immunome
+Natural killer T cell	KIRREL3	Innate	Immunome
+Natural killer T cell	SDCBP	Innate	Immunome
+Natural killer T cell	NFATC2IP	Innate	Immunome
+Natural killer T cell	MICB	Innate	Immunome
+Natural killer T cell	KIR2DL1	Innate	Immunome
+Natural killer T cell	KIR2DL3	Innate	Immunome
+Natural killer T cell	KIR3DL1	Innate	Immunome
+Natural killer T cell	KIR3DL2	Innate	Immunome
+Natural killer T cell	NCR1	Innate	Immunome
+Natural killer T cell	FOSL1	Innate	Immunome
+Natural killer T cell	TSLP	Innate	Immunome
+Natural killer T cell	SLC7A7	Innate	Immunome
+Natural killer T cell	SPP1	Innate	Immunome
+Natural killer T cell	TREM2	Innate	Immunome
+Natural killer T cell	UBASH3A	Innate	Immunome
+Natural killer T cell	YBX2	Innate	Immunome
+Natural killer T cell	CCDC88A	Innate	Immunome
+Natural killer T cell	CLEC1A	Innate	Immunome
+Natural killer T cell	THBD	Innate	Immunome
+Natural killer T cell	PDPN	Innate	Immunome
+Natural killer T cell	VCAM1	Innate	Immunome
+Natural killer T cell	EMR1	Innate	Immunome
+Neutrophil	CREB5	Innate	Immunome
+Neutrophil	CDA	Innate	Immunome
+Neutrophil	CHST15	Innate	Immunome
+Neutrophil	S100A12	Innate	Immunome
+Neutrophil	APOBEC3A	Innate	Immunome
+Neutrophil	CASP5	Innate	Immunome
+Neutrophil	MMP25	Innate	Immunome
+Neutrophil	HAL	Innate	Immunome
+Neutrophil	C1orf183	Innate	Immunome
+Neutrophil	FFAR2	Innate	Immunome
+Neutrophil	MAK	Innate	Immunome
+Neutrophil	CXCR1	Innate	Immunome
+Neutrophil	STEAP4	Innate	Immunome
+Neutrophil	MGAM	Innate	Immunome
+Neutrophil	BTNL8	Innate	Immunome
+Neutrophil	CXCR2	Innate	Immunome
+Neutrophil	TNFRSF10C	Innate	Immunome
+Neutrophil	VNN3	Innate	Immunome
+Plasmacytoid dendritic cell	CBX6	Innate	Immunome
+Plasmacytoid dendritic cell	DAB2	Innate	Immunome
+Plasmacytoid dendritic cell	DDX17	Innate	Immunome
+Plasmacytoid dendritic cell	HIGD1A	Innate	Immunome
+Plasmacytoid dendritic cell	IDH3A	Innate	Immunome
+Plasmacytoid dendritic cell	IL3RA	Innate	Immunome
+Plasmacytoid dendritic cell	MAGED1	Innate	Immunome
+Plasmacytoid dendritic cell	NUCB2	Innate	Immunome
+Plasmacytoid dendritic cell	OFD1	Innate	Immunome
+Plasmacytoid dendritic cell	OGT	Innate	Immunome
+Plasmacytoid dendritic cell	PDIA4	Innate	Immunome
+Plasmacytoid dendritic cell	SERTAD2	Innate	Immunome
+Plasmacytoid dendritic cell	SIRPA	Innate	Immunome
+Plasmacytoid dendritic cell	TMED2	Innate	Immunome
+Plasmacytoid dendritic cell	ENG	Innate	Immunome
+Plasmacytoid dendritic cell	FCAR	Innate	Immunome
+Plasmacytoid dendritic cell	IGF1	Innate	Immunome
+Plasmacytoid dendritic cell	ITGA2B	Innate	Immunome
+Plasmacytoid dendritic cell	GABARAP	Innate	Immunome
+Plasmacytoid dendritic cell	GPX1	Innate	Immunome
+Plasmacytoid dendritic cell	KRT23	Innate	Immunome
+Plasmacytoid dendritic cell	PROK2	Innate	Immunome
+Plasmacytoid dendritic cell	RALB	Innate	Immunome
+Plasmacytoid dendritic cell	RETNLB	Innate	Immunome
+Plasmacytoid dendritic cell	RNF141	Innate	Immunome
+Plasmacytoid dendritic cell	SEC14L1	Innate	Immunome
+Plasmacytoid dendritic cell	SEPX1	Innate	Immunome
+Plasmacytoid dendritic cell	EMP3	Innate	Immunome
+Plasmacytoid dendritic cell	CD300LF	Innate	Immunome
+Plasmacytoid dendritic cell	ABTB1	Innate	Immunome
+Plasmacytoid dendritic cell	KLHL21	Innate	Immunome
+Plasmacytoid dendritic cell	PHRF1	Innate	Immunome
+Regulatory T cell	CCL3L1	Adaptive	Immunome
+Regulatory T cell	CD72	Adaptive	Immunome
+Regulatory T cell	CLEC5A	Adaptive	Immunome
+Regulatory T cell	FOXP3	Adaptive	Immunome
+Regulatory T cell	ITGA4	Adaptive	Immunome
+Regulatory T cell	L1CAM	Adaptive	Immunome
+Regulatory T cell	LIPA	Adaptive	Immunome
+Regulatory T cell	LRP1	Adaptive	Immunome
+Regulatory T cell	LRRC42	Adaptive	Immunome
+Regulatory T cell	MARCO	Adaptive	Immunome
+Regulatory T cell	MMP12	Adaptive	Immunome
+Regulatory T cell	MNDA	Adaptive	Immunome
+Regulatory T cell	MRC1	Adaptive	Immunome
+Regulatory T cell	MS4A6A	Adaptive	Immunome
+Regulatory T cell	PELO	Adaptive	Immunome
+Regulatory T cell	PLEK	Adaptive	Immunome
+Regulatory T cell	PRSS23	Adaptive	Immunome
+Regulatory T cell	PTGIR	Adaptive	Immunome
+Regulatory T cell	ST8SIA4	Adaptive	Immunome
+Regulatory T cell	STAB1	Adaptive	Immunome
+T follicular helper cell	B3GAT1	Adaptive	Immunome
+T follicular helper cell	CDK5R1	Adaptive	Immunome
+T follicular helper cell	PDCD1	Adaptive	Immunome
+T follicular helper cell	BCL6	Adaptive	Immunome
+T follicular helper cell	CD200	Adaptive	Immunome
+T follicular helper cell	CD83	Adaptive	Immunome
+T follicular helper cell	CD84	Adaptive	Immunome
+T follicular helper cell	FGF2	Adaptive	Immunome
+T follicular helper cell	GPR18	Adaptive	Immunome
+T follicular helper cell	CEBPA	Adaptive	Immunome
+T follicular helper cell	CECR1	Adaptive	Immunome
+T follicular helper cell	CLEC10A	Adaptive	Immunome
+T follicular helper cell	CLEC4A	Adaptive	Immunome
+T follicular helper cell	CSF1R	Adaptive	Immunome
+T follicular helper cell	CTSS	Adaptive	Immunome
+T follicular helper cell	DMN	Adaptive	Immunome
+T follicular helper cell	DPP4	Adaptive	Immunome
+T follicular helper cell	LRRC32	Adaptive	Immunome
+T follicular helper cell	MC5R	Adaptive	Immunome
+T follicular helper cell	MICA	Adaptive	Immunome
+T follicular helper cell	NCAM1	Adaptive	Immunome
+T follicular helper cell	NCR2	Adaptive	Immunome
+T follicular helper cell	NRP1	Adaptive	Immunome
+T follicular helper cell	PDCD1LG2	Adaptive	Immunome
+T follicular helper cell	PDCD6	Adaptive	Immunome
+T follicular helper cell	PRDX1	Adaptive	Immunome
+T follicular helper cell	RAE1	Adaptive	Immunome
+T follicular helper cell	RAET1E	Adaptive	Immunome
+T follicular helper cell	SIGLEC7	Adaptive	Immunome
+T follicular helper cell	SIGLEC9	Adaptive	Immunome
+T follicular helper cell	TYRO3	Adaptive	Immunome
+T follicular helper cell	CHST12	Adaptive	Immunome
+T follicular helper cell	CLIC3	Adaptive	Immunome
+T follicular helper cell	IVNS1ABP	Adaptive	Immunome
+T follicular helper cell	KIR2DL2	Adaptive	Immunome
+T follicular helper cell	LGMN	Adaptive	Immunome
+Type 17 T helper cell	IL17A	Adaptive	Immunome
+Type 17 T helper cell	IL17RA	Adaptive	Immunome
+Type 17 T helper cell	C2CD4A	Adaptive	Immunome
+Type 17 T helper cell	C2CD4B	Adaptive	Immunome
+Type 17 T helper cell	CA2	Adaptive	Immunome
+Type 17 T helper cell	CCDC65	Adaptive	Immunome
+Type 17 T helper cell	CEACAM3	Adaptive	Immunome
+Type 17 T helper cell	IL17C	Adaptive	Immunome
+Type 17 T helper cell	IL17F	Adaptive	Immunome
+Type 17 T helper cell	IL17RC	Adaptive	Immunome
+Type 17 T helper cell	IL17RE	Adaptive	Immunome
+Type 17 T helper cell	IL23A	Adaptive	Immunome
+Type 17 T helper cell	ILDR1	Adaptive	Immunome
+Type 17 T helper cell	LONRF3	Adaptive	Immunome
+Type 17 T helper cell	SH2D6	Adaptive	Immunome
+Type 17 T helper cell	TNIP2	Adaptive	Immunome
+Type 17 T helper cell	ABCA1	Adaptive	Immunome
+Type 17 T helper cell	ABCB1	Adaptive	Immunome
+Type 17 T helper cell	ADAMTS12	Adaptive	Immunome
+Type 17 T helper cell	ANK1	Adaptive	Immunome
+Type 17 T helper cell	ANKRD22	Adaptive	Immunome
+Type 17 T helper cell	B3GALT2	Adaptive	Immunome
+Type 17 T helper cell	CAMTA1	Adaptive	Immunome
+Type 17 T helper cell	CCR9	Adaptive	Immunome
+Type 17 T helper cell	CD40	Adaptive	Immunome
+Type 17 T helper cell	GPR44	Adaptive	Immunome
+Type 17 T helper cell	IFT80	Adaptive	Immunome
+Type 1 T helper cell	CD70	Adaptive	Immunome
+Type 1 T helper cell	TBX21	Adaptive	Immunome
+Type 1 T helper cell	ADAM8	Adaptive	Immunome
+Type 1 T helper cell	AHCYL2	Adaptive	Immunome
+Type 1 T helper cell	ALCAM	Adaptive	Immunome
+Type 1 T helper cell	B3GALNT1	Adaptive	Immunome
+Type 1 T helper cell	BBS12	Adaptive	Immunome
+Type 1 T helper cell	BST1	Adaptive	Immunome
+Type 1 T helper cell	CD151	Adaptive	Immunome
+Type 1 T helper cell	CD47	Adaptive	Immunome
+Type 1 T helper cell	CD48	Adaptive	Immunome
+Type 1 T helper cell	CD52	Adaptive	Immunome
+Type 1 T helper cell	CD53	Adaptive	Immunome
+Type 1 T helper cell	CD59	Adaptive	Immunome
+Type 1 T helper cell	CD6	Adaptive	Immunome
+Type 1 T helper cell	CD68	Adaptive	Immunome
+Type 1 T helper cell	CD7	Adaptive	Immunome
+Type 1 T helper cell	CD96	Adaptive	Immunome
+Type 1 T helper cell	CFHR3	Adaptive	Immunome
+Type 1 T helper cell	CHRM3	Adaptive	Immunome
+Type 1 T helper cell	CLEC7A	Adaptive	Immunome
+Type 1 T helper cell	COL23A1	Adaptive	Immunome
+Type 1 T helper cell	COL4A4	Adaptive	Immunome
+Type 1 T helper cell	COL5A3	Adaptive	Immunome
+Type 1 T helper cell	DAB1	Adaptive	Immunome
+Type 1 T helper cell	DLEU7	Adaptive	Immunome
+Type 1 T helper cell	DOC2B	Adaptive	Immunome
+Type 1 T helper cell	EMP1	Adaptive	Immunome
+Type 1 T helper cell	F12	Adaptive	Immunome
+Type 1 T helper cell	FURIN	Adaptive	Immunome
+Type 1 T helper cell	GAB3	Adaptive	Immunome
+Type 1 T helper cell	GATM	Adaptive	Immunome
+Type 1 T helper cell	GFPT2	Adaptive	Immunome
+Type 1 T helper cell	GPR25	Adaptive	Immunome
+Type 1 T helper cell	GREM2	Adaptive	Immunome
+Type 1 T helper cell	HAVCR1	Adaptive	Immunome
+Type 1 T helper cell	HSD11B1	Adaptive	Immunome
+Type 1 T helper cell	HUNK	Adaptive	Immunome
+Type 1 T helper cell	IGF2	Adaptive	Immunome
+Type 1 T helper cell	RCSD1	Adaptive	Immunome
+Type 1 T helper cell	RYR1	Adaptive	Immunome
+Type 1 T helper cell	SAV1	Adaptive	Immunome
+Type 1 T helper cell	SELE	Adaptive	Immunome
+Type 1 T helper cell	SELP	Adaptive	Immunome
+Type 1 T helper cell	SH3KBP1	Adaptive	Immunome
+Type 1 T helper cell	SIT1	Adaptive	Immunome
+Type 1 T helper cell	SLC35B3	Adaptive	Immunome
+Type 1 T helper cell	SIGLEC10	Adaptive	Immunome
+Type 1 T helper cell	SKAP1	Adaptive	Immunome
+Type 1 T helper cell	THUMPD2	Adaptive	Immunome
+Type 1 T helper cell	TIGIT	Adaptive	Immunome
+Type 1 T helper cell	ZEB2	Adaptive	Immunome
+Type 1 T helper cell	ENC1	Adaptive	Immunome
+Type 1 T helper cell	FAM134B	Adaptive	Immunome
+Type 1 T helper cell	FBXO30	Adaptive	Immunome
+Type 1 T helper cell	FCGR2C	Adaptive	Immunome
+Type 1 T helper cell	STAC	Adaptive	Immunome
+Type 1 T helper cell	LTC4S	Adaptive	Immunome
+Type 1 T helper cell	MAN1B1	Adaptive	Immunome
+Type 1 T helper cell	MDH1	Adaptive	Immunome
+Type 1 T helper cell	MMD	Adaptive	Immunome
+Type 1 T helper cell	RGS16	Adaptive	Immunome
+Type 1 T helper cell	IL12A	Adaptive	Immunome
+Type 1 T helper cell	P2RX5	Adaptive	Immunome
+Type 1 T helper cell	CD97	Adaptive	Immunome
+Type 1 T helper cell	ITGB4	Adaptive	Immunome
+Type 1 T helper cell	ICAM3	Adaptive	Immunome
+Type 1 T helper cell	METRNL	Adaptive	Immunome
+Type 1 T helper cell	TNFRSF1A	Adaptive	Immunome
+Type 1 T helper cell	IRF1	Adaptive	Immunome
+Type 1 T helper cell	HTR2B	Adaptive	Immunome
+Type 1 T helper cell	CALD1	Adaptive	Immunome
+Type 1 T helper cell	MOCOS	Adaptive	Immunome
+Type 1 T helper cell	TRAF3IP2	Adaptive	Immunome
+Type 1 T helper cell	TLR8	Adaptive	Immunome
+Type 1 T helper cell	TRAF1	Adaptive	Immunome
+Type 1 T helper cell	DUSP14	Adaptive	Immunome
+Type 2 T helper cell	ASB2	Adaptive	Immunome
+Type 2 T helper cell	CSRP2	Adaptive	Immunome
+Type 2 T helper cell	DAPK1	Adaptive	Immunome
+Type 2 T helper cell	DLC1	Adaptive	Immunome
+Type 2 T helper cell	DNAJC12	Adaptive	Immunome
+Type 2 T helper cell	DUSP6	Adaptive	Immunome
+Type 2 T helper cell	GNAI1	Adaptive	Immunome
+Type 2 T helper cell	LAMP3	Adaptive	Immunome
+Type 2 T helper cell	NRP2	Adaptive	Immunome
+Type 2 T helper cell	OSBPL1A	Adaptive	Immunome
+Type 2 T helper cell	PDE4B	Adaptive	Immunome
+Type 2 T helper cell	PHLDA1	Adaptive	Immunome
+Type 2 T helper cell	PLA2G4A	Adaptive	Immunome
+Type 2 T helper cell	RAB27B	Adaptive	Immunome
+Type 2 T helper cell	RBMS3	Adaptive	Immunome
+Type 2 T helper cell	RNF125	Adaptive	Immunome
+Type 2 T helper cell	TMPRSS3	Adaptive	Immunome
+Type 2 T helper cell	GATA3	Adaptive	Immunome
+Type 2 T helper cell	BIRC5	Adaptive	Immunome
+Type 2 T helper cell	CDC25C	Adaptive	Immunome
+Type 2 T helper cell	CDC7	Adaptive	Immunome
+Type 2 T helper cell	CENPF	Adaptive	Immunome
+Type 2 T helper cell	CXCR6	Adaptive	Immunome
+Type 2 T helper cell	DHFR	Adaptive	Immunome
+Type 2 T helper cell	EVI5	Adaptive	Immunome
+Type 2 T helper cell	GSTA4	Adaptive	Immunome
+Type 2 T helper cell	HELLS	Adaptive	Immunome
+Type 2 T helper cell	IL26	Adaptive	Immunome
+Type 2 T helper cell	LAIR2	Adaptive	Immunome

@@ -1,0 +1,4806 @@
+TERM	SYMBOL	CATEGORY	LIST
+Sphingolipid	ABCC1		Manuela
+cAMP	ABCC4		Manuela
+Cell cycle	ABL1		Manuela
+ErbB	ABL1		Manuela
+Ras	ABL1		Manuela
+ErbB	ABL2		Manuela
+Ras	ABL2		Manuela
+PPAR	ACAA1		Manuela
+AMPK	ACACA		Manuela
+Insulin	ACACA		Manuela
+AMPK	ACACB		Manuela
+Insulin	ACACB		Manuela
+PPAR	ACADL		Manuela
+PPAR	ACADM		Manuela
+Sphingolipid	ACER1		Manuela
+Sphingolipid	ACER2		Manuela
+Cytokine-cytokine receptor interaction	ACKR3		Manuela
+Cytokine-cytokine receptor interaction	ACKR4		Manuela
+cAMP	ACOX1		Manuela
+PPAR	ACOX1		Manuela
+PPAR	ACOX2		Manuela
+cAMP	ACOX3		Manuela
+PPAR	ACOX3		Manuela
+PPAR	ACSBG1		Manuela
+PPAR	ACSBG2		Manuela
+PPAR	ACSL1		Manuela
+PPAR	ACSL3		Manuela
+PPAR	ACSL4		Manuela
+PPAR	ACSL5		Manuela
+PPAR	ACSL6		Manuela
+Apelin	ACTA2		Manuela
+Hippo	ACTB		Manuela
+Rap1	ACTB		Manuela
+Thyroid hormone	ACTB		Manuela
+Hippo	ACTG1		Manuela
+Rap1	ACTG1		Manuela
+Thyroid hormone	ACTG1		Manuela
+Cytokine-cytokine receptor interaction	ACVR1		Manuela
+TGF-beta	ACVR1		Manuela
+Cytokine-cytokine receptor interaction	ACVR1B		Manuela
+TGF-beta	ACVR1B		Manuela
+Cytokine-cytokine receptor interaction	ACVR1C		Manuela
+TGF-beta	ACVR1C		Manuela
+Cytokine-cytokine receptor interaction	ACVR2A		Manuela
+TGF-beta	ACVR2A		Manuela
+Cytokine-cytokine receptor interaction	ACVR2B		Manuela
+TGF-beta	ACVR2B		Manuela
+Cytokine-cytokine receptor interaction	ACVRL1		Manuela
+Notch	ADAM17		Manuela
+Apelin	ADCY1		Manuela
+Calcium	ADCY1		Manuela
+cAMP	ADCY1		Manuela
+cGMP-PKG	ADCY1		Manuela
+Chemokine	ADCY1		Manuela
+Estrogen	ADCY1		Manuela
+Phospholipase D	ADCY1		Manuela
+Rap1	ADCY1		Manuela
+Apelin	ADCY10		Manuela
+cAMP	ADCY10		Manuela
+Apelin	ADCY2		Manuela
+Calcium	ADCY2		Manuela
+cAMP	ADCY2		Manuela
+cGMP-PKG	ADCY2		Manuela
+Chemokine	ADCY2		Manuela
+Estrogen	ADCY2		Manuela
+Phospholipase D	ADCY2		Manuela
+Rap1	ADCY2		Manuela
+Apelin	ADCY3		Manuela
+Calcium	ADCY3		Manuela
+cAMP	ADCY3		Manuela
+cGMP-PKG	ADCY3		Manuela
+Chemokine	ADCY3		Manuela
+Estrogen	ADCY3		Manuela
+Phospholipase D	ADCY3		Manuela
+Rap1	ADCY3		Manuela
+Apelin	ADCY4		Manuela
+Calcium	ADCY4		Manuela
+cAMP	ADCY4		Manuela
+cGMP-PKG	ADCY4		Manuela
+Chemokine	ADCY4		Manuela
+Estrogen	ADCY4		Manuela
+Phospholipase D	ADCY4		Manuela
+Rap1	ADCY4		Manuela
+Apelin	ADCY5		Manuela
+cAMP	ADCY5		Manuela
+cGMP-PKG	ADCY5		Manuela
+Chemokine	ADCY5		Manuela
+Estrogen	ADCY5		Manuela
+Phospholipase D	ADCY5		Manuela
+Rap1	ADCY5		Manuela
+Apelin	ADCY6		Manuela
+cAMP	ADCY6		Manuela
+cGMP-PKG	ADCY6		Manuela
+Chemokine	ADCY6		Manuela
+Estrogen	ADCY6		Manuela
+Phospholipase D	ADCY6		Manuela
+Rap1	ADCY6		Manuela
+Apelin	ADCY7		Manuela
+Calcium	ADCY7		Manuela
+cAMP	ADCY7		Manuela
+cGMP-PKG	ADCY7		Manuela
+Chemokine	ADCY7		Manuela
+Estrogen	ADCY7		Manuela
+Phospholipase D	ADCY7		Manuela
+Rap1	ADCY7		Manuela
+Apelin	ADCY8		Manuela
+Calcium	ADCY8		Manuela
+cAMP	ADCY8		Manuela
+cGMP-PKG	ADCY8		Manuela
+Chemokine	ADCY8		Manuela
+Estrogen	ADCY8		Manuela
+Phospholipase D	ADCY8		Manuela
+Rap1	ADCY8		Manuela
+Apelin	ADCY9		Manuela
+Calcium	ADCY9		Manuela
+cAMP	ADCY9		Manuela
+cGMP-PKG	ADCY9		Manuela
+Chemokine	ADCY9		Manuela
+Estrogen	ADCY9		Manuela
+Phospholipase D	ADCY9		Manuela
+Rap1	ADCY9		Manuela
+cAMP	ADCYAP1R1		Manuela
+p53	ADGRB1		Manuela
+AMPK	ADIPOQ		Manuela
+PPAR	ADIPOQ		Manuela
+AMPK	ADIPOR1		Manuela
+AMPK	ADIPOR2		Manuela
+cAMP	ADORA1		Manuela
+cGMP-PKG	ADORA1		Manuela
+Sphingolipid	ADORA1		Manuela
+Calcium	ADORA2A		Manuela
+cAMP	ADORA2A		Manuela
+Rap1	ADORA2A		Manuela
+Calcium	ADORA2B		Manuela
+Rap1	ADORA2B		Manuela
+cGMP-PKG	ADORA3		Manuela
+Sphingolipid	ADORA3		Manuela
+AMPK	ADRA1A		Manuela
+Calcium	ADRA1A		Manuela
+cGMP-PKG	ADRA1A		Manuela
+Calcium	ADRA1B		Manuela
+cGMP-PKG	ADRA1B		Manuela
+Calcium	ADRA1D		Manuela
+cGMP-PKG	ADRA1D		Manuela
+cGMP-PKG	ADRA2A		Manuela
+cGMP-PKG	ADRA2B		Manuela
+cGMP-PKG	ADRA2C		Manuela
+Calcium	ADRB1		Manuela
+cAMP	ADRB1		Manuela
+cGMP-PKG	ADRB1		Manuela
+Calcium	ADRB2		Manuela
+cAMP	ADRB2		Manuela
+cGMP-PKG	ADRB2		Manuela
+Calcium	ADRB3		Manuela
+cGMP-PKG	ADRB3		Manuela
+cAMP	AFDN		Manuela
+Rap1	AFDN		Manuela
+Ras	AFDN		Manuela
+Hippo	AFP		Manuela
+FoxO	AGAP2		Manuela
+Phospholipase D	AGPAT1		Manuela
+Phospholipase D	AGPAT2		Manuela
+Phospholipase D	AGPAT3		Manuela
+Phospholipase D	AGPAT4		Manuela
+Phospholipase D	AGPAT5		Manuela
+Apelin	AGTR1		Manuela
+Calcium	AGTR1		Manuela
+cGMP-PKG	AGTR1		Manuela
+Phospholipase D	AGTR1		Manuela
+p53	AIFM2		Manuela
+Hippo	AJUBA		Manuela
+AMPK	AKT1		Manuela
+Apelin	AKT1		Manuela
+cAMP	AKT1		Manuela
+cGMP-PKG	AKT1		Manuela
+Chemokine	AKT1		Manuela
+ErbB	AKT1		Manuela
+Estrogen	AKT1		Manuela
+FoxO	AKT1		Manuela
+HIF-1	AKT1		Manuela
+Insulin	AKT1		Manuela
+JAK-STAT	AKT1		Manuela
+MAPK	AKT1		Manuela
+mTOR	AKT1		Manuela
+Phospholipase D	AKT1		Manuela
+PI3K-Akt	AKT1		Manuela
+Rap1	AKT1		Manuela
+Ras	AKT1		Manuela
+Sphingolipid	AKT1		Manuela
+Thyroid hormone	AKT1		Manuela
+TNF	AKT1		Manuela
+VEGF	AKT1		Manuela
+AMPK	AKT1S1		Manuela
+mTOR	AKT1S1		Manuela
+AMPK	AKT2		Manuela
+Apelin	AKT2		Manuela
+cAMP	AKT2		Manuela
+cGMP-PKG	AKT2		Manuela
+Chemokine	AKT2		Manuela
+ErbB	AKT2		Manuela
+Estrogen	AKT2		Manuela
+FoxO	AKT2		Manuela
+HIF-1	AKT2		Manuela
+Insulin	AKT2		Manuela
+JAK-STAT	AKT2		Manuela
+MAPK	AKT2		Manuela
+mTOR	AKT2		Manuela
+Phospholipase D	AKT2		Manuela
+PI3K-Akt	AKT2		Manuela
+Rap1	AKT2		Manuela
+Ras	AKT2		Manuela
+Sphingolipid	AKT2		Manuela
+Thyroid hormone	AKT2		Manuela
+TNF	AKT2		Manuela
+VEGF	AKT2		Manuela
+AMPK	AKT3		Manuela
+Apelin	AKT3		Manuela
+cAMP	AKT3		Manuela
+cGMP-PKG	AKT3		Manuela
+Chemokine	AKT3		Manuela
+ErbB	AKT3		Manuela
+Estrogen	AKT3		Manuela
+FoxO	AKT3		Manuela
+HIF-1	AKT3		Manuela
+Insulin	AKT3		Manuela
+JAK-STAT	AKT3		Manuela
+MAPK	AKT3		Manuela
+mTOR	AKT3		Manuela
+Phospholipase D	AKT3		Manuela
+PI3K-Akt	AKT3		Manuela
+Rap1	AKT3		Manuela
+Ras	AKT3		Manuela
+Sphingolipid	AKT3		Manuela
+Thyroid hormone	AKT3		Manuela
+TNF	AKT3		Manuela
+VEGF	AKT3		Manuela
+HIF-1	ALDOA		Manuela
+cAMP	AMH		Manuela
+Cytokine-cytokine receptor interaction	AMH		Manuela
+Hippo	AMH		Manuela
+TGF-beta	AMH		Manuela
+Cytokine-cytokine receptor interaction	AMHR2		Manuela
+TGF-beta	AMHR2		Manuela
+Hippo	AMOT		Manuela
+Cell cycle	ANAPC1		Manuela
+Cell cycle	ANAPC10		Manuela
+Cell cycle	ANAPC11		Manuela
+Cell cycle	ANAPC13		Manuela
+Cell cycle	ANAPC2		Manuela
+Cell cycle	ANAPC4		Manuela
+Cell cycle	ANAPC5		Manuela
+Cell cycle	ANAPC7		Manuela
+HIF-1	ANGPT1		Manuela
+MAPK	ANGPT1		Manuela
+PI3K-Akt	ANGPT1		Manuela
+Rap1	ANGPT1		Manuela
+Ras	ANGPT1		Manuela
+HIF-1	ANGPT2		Manuela
+MAPK	ANGPT2		Manuela
+PI3K-Akt	ANGPT2		Manuela
+Rap1	ANGPT2		Manuela
+Ras	ANGPT2		Manuela
+HIF-1	ANGPT4		Manuela
+MAPK	ANGPT4		Manuela
+PI3K-Akt	ANGPT4		Manuela
+Rap1	ANGPT4		Manuela
+Ras	ANGPT4		Manuela
+PPAR	ANGPTL4		Manuela
+JAK-STAT	AOX1		Manuela
+p53	APAF1		Manuela
+Rap1	APBB1IP		Manuela
+Hippo	APC		Manuela
+Wnt	APC		Manuela
+Hippo	APC2		Manuela
+Wnt	APC2		Manuela
+Notch	APH1A		Manuela
+Notch	APH1B		Manuela
+Apelin	APLN		Manuela
+Apelin	APLNR		Manuela
+PPAR	APOA1		Manuela
+PPAR	APOA2		Manuela
+PPAR	APOA5		Manuela
+PPAR	APOC3		Manuela
+PPAR	AQP7		Manuela
+ErbB	ARAF		Manuela
+FoxO	ARAF		Manuela
+Insulin	ARAF		Manuela
+MAPK	ARAF		Manuela
+cAMP	ARAP3		Manuela
+Rap1	ARAP3		Manuela
+ErbB	AREG		Manuela
+Hippo	AREG		Manuela
+MAPK	AREG		Manuela
+PI3K-Akt	AREG		Manuela
+Phospholipase D	ARF1		Manuela
+Phospholipase D	ARF6		Manuela
+Ras	ARF6		Manuela
+HIF-1	ARNT		Manuela
+Chemokine	ARRB1		Manuela
+Hedgehog	ARRB1		Manuela
+MAPK	ARRB1		Manuela
+Chemokine	ARRB2		Manuela
+Hedgehog	ARRB2		Manuela
+MAPK	ARRB2		Manuela
+Sphingolipid	ASAH1		Manuela
+Sphingolipid	ASAH2		Manuela
+cGMP-PKG	ATF2		Manuela
+Estrogen	ATF2		Manuela
+MAPK	ATF2		Manuela
+PI3K-Akt	ATF2		Manuela
+TNF	ATF2		Manuela
+cGMP-PKG	ATF4		Manuela
+Estrogen	ATF4		Manuela
+MAPK	ATF4		Manuela
+PI3K-Akt	ATF4		Manuela
+TNF	ATF4		Manuela
+cGMP-PKG	ATF6B		Manuela
+Estrogen	ATF6B		Manuela
+PI3K-Akt	ATF6B		Manuela
+TNF	ATF6B		Manuela
+FoxO	ATG12		Manuela
+Cell cycle	ATM		Manuela
+FoxO	ATM		Manuela
+NF-kappa B	ATM		Manuela
+p53	ATM		Manuela
+cAMP	ATP1A1		Manuela
+cGMP-PKG	ATP1A1		Manuela
+Thyroid hormone	ATP1A1		Manuela
+cAMP	ATP1A2		Manuela
+cGMP-PKG	ATP1A2		Manuela
+Thyroid hormone	ATP1A2		Manuela
+cAMP	ATP1A3		Manuela
+cGMP-PKG	ATP1A3		Manuela
+Thyroid hormone	ATP1A3		Manuela
+cAMP	ATP1A4		Manuela
+cGMP-PKG	ATP1A4		Manuela
+Thyroid hormone	ATP1A4		Manuela
+cAMP	ATP1B1		Manuela
+cGMP-PKG	ATP1B1		Manuela
+Thyroid hormone	ATP1B1		Manuela
+cAMP	ATP1B2		Manuela
+cGMP-PKG	ATP1B2		Manuela
+Thyroid hormone	ATP1B2		Manuela
+cAMP	ATP1B3		Manuela
+cGMP-PKG	ATP1B3		Manuela
+Thyroid hormone	ATP1B3		Manuela
+cAMP	ATP1B4		Manuela
+cGMP-PKG	ATP1B4		Manuela
+Thyroid hormone	ATP1B4		Manuela
+Calcium	ATP2A1		Manuela
+cGMP-PKG	ATP2A1		Manuela
+Calcium	ATP2A2		Manuela
+cAMP	ATP2A2		Manuela
+cGMP-PKG	ATP2A2		Manuela
+Thyroid hormone	ATP2A2		Manuela
+Calcium	ATP2A3		Manuela
+cGMP-PKG	ATP2A3		Manuela
+Calcium	ATP2B1		Manuela
+cAMP	ATP2B1		Manuela
+cGMP-PKG	ATP2B1		Manuela
+Calcium	ATP2B2		Manuela
+cAMP	ATP2B2		Manuela
+cGMP-PKG	ATP2B2		Manuela
+Calcium	ATP2B3		Manuela
+cAMP	ATP2B3		Manuela
+cGMP-PKG	ATP2B3		Manuela
+Calcium	ATP2B4		Manuela
+cAMP	ATP2B4		Manuela
+cGMP-PKG	ATP2B4		Manuela
+mTOR	ATP6V1A		Manuela
+mTOR	ATP6V1B1		Manuela
+mTOR	ATP6V1B2		Manuela
+mTOR	ATP6V1C1		Manuela
+mTOR	ATP6V1C2		Manuela
+mTOR	ATP6V1D		Manuela
+mTOR	ATP6V1E1		Manuela
+mTOR	ATP6V1E2		Manuela
+mTOR	ATP6V1F		Manuela
+mTOR	ATP6V1G1		Manuela
+mTOR	ATP6V1G2		Manuela
+mTOR	ATP6V1G3		Manuela
+mTOR	ATP6V1H		Manuela
+Cell cycle	ATR		Manuela
+Fanconi anemia	ATR		Manuela
+p53	ATR		Manuela
+Fanconi anemia	ATRIP		Manuela
+Phospholipase D	AVP		Manuela
+Calcium	AVPR1A		Manuela
+Phospholipase D	AVPR1A		Manuela
+Calcium	AVPR1B		Manuela
+Phospholipase D	AVPR1B		Manuela
+Phospholipase D	AVPR2		Manuela
+Hippo	AXIN1		Manuela
+Wnt	AXIN1		Manuela
+Hippo	AXIN2		Manuela
+Wnt	AXIN2		Manuela
+cAMP	BAD		Manuela
+cGMP-PKG	BAD		Manuela
+Chemokine	BAD		Manuela
+ErbB	BAD		Manuela
+Insulin	BAD		Manuela
+PI3K-Akt	BAD		Manuela
+Ras	BAD		Manuela
+Thyroid hormone	BAD		Manuela
+VEGF	BAD		Manuela
+TNF	BAG4		Manuela
+TGF-beta	BAMBI		Manuela
+Wnt	BAMBI		Manuela
+p53	BAX		Manuela
+Sphingolipid	BAX		Manuela
+Hippo	BBC3		Manuela
+p53	BBC3		Manuela
+Chemokine	BCAR1		Manuela
+Rap1	BCAR1		Manuela
+NF-kappa B	BCL10		Manuela
+Estrogen	BCL2		Manuela
+Hedgehog	BCL2		Manuela
+HIF-1	BCL2		Manuela
+JAK-STAT	BCL2		Manuela
+NF-kappa B	BCL2		Manuela
+p53	BCL2		Manuela
+PI3K-Akt	BCL2		Manuela
+Sphingolipid	BCL2		Manuela
+NF-kappa B	BCL2A1		Manuela
+JAK-STAT	BCL2L1		Manuela
+NF-kappa B	BCL2L1		Manuela
+p53	BCL2L1		Manuela
+PI3K-Akt	BCL2L1		Manuela
+Ras	BCL2L1		Manuela
+FoxO	BCL2L11		Manuela
+PI3K-Akt	BCL2L11		Manuela
+TNF	BCL3		Manuela
+FoxO	BCL6		Manuela
+Calcium	BDKRB1		Manuela
+Calcium	BDKRB2		Manuela
+cGMP-PKG	BDKRB2		Manuela
+Sphingolipid	BDKRB2		Manuela
+cAMP	BDNF		Manuela
+MAPK	BDNF		Manuela
+PI3K-Akt	BDNF		Manuela
+Ras	BDNF		Manuela
+Apelin	BECN1		Manuela
+Apelin	BECN2		Manuela
+p53	BID		Manuela
+Sphingolipid	BID		Manuela
+Hippo	BIRC2		Manuela
+NF-kappa B	BIRC2		Manuela
+TNF	BIRC2		Manuela
+NF-kappa B	BIRC3		Manuela
+TNF	BIRC3		Manuela
+Hippo	BIRC5		Manuela
+Fanconi anemia	BLM		Manuela
+NF-kappa B	BLNK		Manuela
+Cytokine-cytokine receptor interaction	BMP10		Manuela
+Cytokine-cytokine receptor interaction	BMP15		Manuela
+Cytokine-cytokine receptor interaction	BMP2		Manuela
+Hippo	BMP2		Manuela
+TGF-beta	BMP2		Manuela
+Cytokine-cytokine receptor interaction	BMP3		Manuela
+Cytokine-cytokine receptor interaction	BMP4		Manuela
+Hippo	BMP4		Manuela
+TGF-beta	BMP4		Manuela
+Thyroid hormone	BMP4		Manuela
+Cytokine-cytokine receptor interaction	BMP5		Manuela
+Hippo	BMP5		Manuela
+TGF-beta	BMP5		Manuela
+Cytokine-cytokine receptor interaction	BMP6		Manuela
+Hippo	BMP6		Manuela
+TGF-beta	BMP6		Manuela
+Cytokine-cytokine receptor interaction	BMP7		Manuela
+Hippo	BMP7		Manuela
+TGF-beta	BMP7		Manuela
+Cytokine-cytokine receptor interaction	BMP8A		Manuela
+Hippo	BMP8A		Manuela
+TGF-beta	BMP8A		Manuela
+Cytokine-cytokine receptor interaction	BMP8B		Manuela
+Hippo	BMP8B		Manuela
+TGF-beta	BMP8B		Manuela
+Cytokine-cytokine receptor interaction	BMPR1A		Manuela
+Hippo	BMPR1A		Manuela
+TGF-beta	BMPR1A		Manuela
+Cytokine-cytokine receptor interaction	BMPR1B		Manuela
+Hippo	BMPR1B		Manuela
+TGF-beta	BMPR1B		Manuela
+Cytokine-cytokine receptor interaction	BMPR2		Manuela
+Hippo	BMPR2		Manuela
+TGF-beta	BMPR2		Manuela
+FoxO	BNIP3		Manuela
+Hedgehog	BOC		Manuela
+Apelin	BORCS8-MEF2B		Manuela
+cGMP-PKG	BORCS8-MEF2B		Manuela
+cAMP	BRAF		Manuela
+Chemokine	BRAF		Manuela
+ErbB	BRAF		Manuela
+FoxO	BRAF		Manuela
+Insulin	BRAF		Manuela
+MAPK	BRAF		Manuela
+mTOR	BRAF		Manuela
+Rap1	BRAF		Manuela
+Ras	BRAP		Manuela
+Fanconi anemia	BRCA1		Manuela
+PI3K-Akt	BRCA1		Manuela
+Fanconi anemia	BRCA2		Manuela
+Fanconi anemia	BRIP1		Manuela
+ErbB	BTC		Manuela
+NF-kappa B	BTK		Manuela
+Hedgehog	BTRC		Manuela
+Hippo	BTRC		Manuela
+Wnt	BTRC		Manuela
+Cell cycle	BUB1		Manuela
+Cell cycle	BUB1B		Manuela
+ErbB	BUB1B-PAK6		Manuela
+Ras	BUB1B-PAK6		Manuela
+Cell cycle	BUB3		Manuela
+AMPK	CAB39		Manuela
+mTOR	CAB39		Manuela
+AMPK	CAB39L		Manuela
+mTOR	CAB39L		Manuela
+Calcium	CACNA1A		Manuela
+MAPK	CACNA1A		Manuela
+Calcium	CACNA1B		Manuela
+MAPK	CACNA1B		Manuela
+Calcium	CACNA1C		Manuela
+cAMP	CACNA1C		Manuela
+cGMP-PKG	CACNA1C		Manuela
+MAPK	CACNA1C		Manuela
+Calcium	CACNA1D		Manuela
+cAMP	CACNA1D		Manuela
+cGMP-PKG	CACNA1D		Manuela
+MAPK	CACNA1D		Manuela
+Calcium	CACNA1E		Manuela
+MAPK	CACNA1E		Manuela
+Calcium	CACNA1F		Manuela
+cAMP	CACNA1F		Manuela
+cGMP-PKG	CACNA1F		Manuela
+MAPK	CACNA1F		Manuela
+Calcium	CACNA1G		Manuela
+MAPK	CACNA1G		Manuela
+Calcium	CACNA1H		Manuela
+MAPK	CACNA1H		Manuela
+Calcium	CACNA1I		Manuela
+MAPK	CACNA1I		Manuela
+Calcium	CACNA1S		Manuela
+cAMP	CACNA1S		Manuela
+cGMP-PKG	CACNA1S		Manuela
+MAPK	CACNA1S		Manuela
+MAPK	CACNA2D1		Manuela
+MAPK	CACNA2D2		Manuela
+MAPK	CACNA2D3		Manuela
+MAPK	CACNA2D4		Manuela
+MAPK	CACNB1		Manuela
+MAPK	CACNB2		Manuela
+MAPK	CACNB3		Manuela
+MAPK	CACNB4		Manuela
+MAPK	CACNG1		Manuela
+MAPK	CACNG2		Manuela
+MAPK	CACNG3		Manuela
+MAPK	CACNG4		Manuela
+MAPK	CACNG5		Manuela
+MAPK	CACNG6		Manuela
+MAPK	CACNG7		Manuela
+MAPK	CACNG8		Manuela
+Wnt	CACYBP		Manuela
+Apelin	CALM1		Manuela
+Calcium	CALM1		Manuela
+cAMP	CALM1		Manuela
+cGMP-PKG	CALM1		Manuela
+Estrogen	CALM1		Manuela
+Insulin	CALM1		Manuela
+Phosphatidylinositol signaling system	CALM1		Manuela
+Rap1	CALM1		Manuela
+Ras	CALM1		Manuela
+Apelin	CALM2		Manuela
+Calcium	CALM2		Manuela
+cAMP	CALM2		Manuela
+cGMP-PKG	CALM2		Manuela
+Estrogen	CALM2		Manuela
+Insulin	CALM2		Manuela
+Phosphatidylinositol signaling system	CALM2		Manuela
+Rap1	CALM2		Manuela
+Ras	CALM2		Manuela
+Apelin	CALM3		Manuela
+Calcium	CALM3		Manuela
+cAMP	CALM3		Manuela
+cGMP-PKG	CALM3		Manuela
+Estrogen	CALM3		Manuela
+Insulin	CALM3		Manuela
+Phosphatidylinositol signaling system	CALM3		Manuela
+Rap1	CALM3		Manuela
+Ras	CALM3		Manuela
+Apelin	CALML3		Manuela
+Calcium	CALML3		Manuela
+cAMP	CALML3		Manuela
+cGMP-PKG	CALML3		Manuela
+Estrogen	CALML3		Manuela
+Insulin	CALML3		Manuela
+Phosphatidylinositol signaling system	CALML3		Manuela
+Rap1	CALML3		Manuela
+Ras	CALML3		Manuela
+Apelin	CALML4		Manuela
+Calcium	CALML4		Manuela
+cAMP	CALML4		Manuela
+cGMP-PKG	CALML4		Manuela
+Estrogen	CALML4		Manuela
+Insulin	CALML4		Manuela
+Phosphatidylinositol signaling system	CALML4		Manuela
+Rap1	CALML4		Manuela
+Ras	CALML4		Manuela
+Apelin	CALML5		Manuela
+Calcium	CALML5		Manuela
+cAMP	CALML5		Manuela
+cGMP-PKG	CALML5		Manuela
+Estrogen	CALML5		Manuela
+Insulin	CALML5		Manuela
+Phosphatidylinositol signaling system	CALML5		Manuela
+Rap1	CALML5		Manuela
+Ras	CALML5		Manuela
+Apelin	CALML6		Manuela
+Calcium	CALML6		Manuela
+cAMP	CALML6		Manuela
+cGMP-PKG	CALML6		Manuela
+Estrogen	CALML6		Manuela
+Insulin	CALML6		Manuela
+Phosphatidylinositol signaling system	CALML6		Manuela
+Rap1	CALML6		Manuela
+Ras	CALML6		Manuela
+Calcium	CAMK2A		Manuela
+cAMP	CAMK2A		Manuela
+ErbB	CAMK2A		Manuela
+HIF-1	CAMK2A		Manuela
+Wnt	CAMK2A		Manuela
+Calcium	CAMK2B		Manuela
+cAMP	CAMK2B		Manuela
+ErbB	CAMK2B		Manuela
+HIF-1	CAMK2B		Manuela
+Wnt	CAMK2B		Manuela
+Calcium	CAMK2D		Manuela
+cAMP	CAMK2D		Manuela
+ErbB	CAMK2D		Manuela
+HIF-1	CAMK2D		Manuela
+Wnt	CAMK2D		Manuela
+Calcium	CAMK2G		Manuela
+cAMP	CAMK2G		Manuela
+ErbB	CAMK2G		Manuela
+HIF-1	CAMK2G		Manuela
+Wnt	CAMK2G		Manuela
+Apelin	CAMK4		Manuela
+Calcium	CAMK4		Manuela
+cAMP	CAMK4		Manuela
+AMPK	CAMKK2		Manuela
+NF-kappa B	CARD10		Manuela
+NF-kappa B	CARD11		Manuela
+NF-kappa B	CARD14		Manuela
+TNF	CASP10		Manuela
+MAPK	CASP3		Manuela
+p53	CASP3		Manuela
+TNF	CASP3		Manuela
+TNF	CASP7		Manuela
+p53	CASP8		Manuela
+TNF	CASP8		Manuela
+p53	CASP9		Manuela
+PI3K-Akt	CASP9		Manuela
+Thyroid hormone	CASP9		Manuela
+VEGF	CASP9		Manuela
+FoxO	CAT		Manuela
+ErbB	CBL		Manuela
+Insulin	CBL		Manuela
+ErbB	CBLB		Manuela
+Insulin	CBLB		Manuela
+Calcium	CCKAR		Manuela
+Calcium	CCKBR		Manuela
+Chemokine	CCL1		Manuela
+Cytokine-cytokine receptor interaction	CCL1		Manuela
+Chemokine	CCL11		Manuela
+Cytokine-cytokine receptor interaction	CCL11		Manuela
+Chemokine	CCL13		Manuela
+Cytokine-cytokine receptor interaction	CCL13		Manuela
+NF-kappa B	CCL13		Manuela
+Chemokine	CCL14		Manuela
+Cytokine-cytokine receptor interaction	CCL14		Manuela
+Chemokine	CCL15		Manuela
+Cytokine-cytokine receptor interaction	CCL15		Manuela
+Chemokine	CCL16		Manuela
+Cytokine-cytokine receptor interaction	CCL16		Manuela
+Chemokine	CCL17		Manuela
+Cytokine-cytokine receptor interaction	CCL17		Manuela
+Chemokine	CCL18		Manuela
+Cytokine-cytokine receptor interaction	CCL18		Manuela
+Chemokine	CCL19		Manuela
+Cytokine-cytokine receptor interaction	CCL19		Manuela
+NF-kappa B	CCL19		Manuela
+Chemokine	CCL2		Manuela
+Cytokine-cytokine receptor interaction	CCL2		Manuela
+TNF	CCL2		Manuela
+Chemokine	CCL20		Manuela
+Cytokine-cytokine receptor interaction	CCL20		Manuela
+TNF	CCL20		Manuela
+Chemokine	CCL21		Manuela
+Cytokine-cytokine receptor interaction	CCL21		Manuela
+NF-kappa B	CCL21		Manuela
+Chemokine	CCL22		Manuela
+Cytokine-cytokine receptor interaction	CCL22		Manuela
+Chemokine	CCL23		Manuela
+Cytokine-cytokine receptor interaction	CCL23		Manuela
+Chemokine	CCL24		Manuela
+Cytokine-cytokine receptor interaction	CCL24		Manuela
+Chemokine	CCL25		Manuela
+Cytokine-cytokine receptor interaction	CCL25		Manuela
+Chemokine	CCL26		Manuela
+Cytokine-cytokine receptor interaction	CCL26		Manuela
+Chemokine	CCL27		Manuela
+Cytokine-cytokine receptor interaction	CCL27		Manuela
+Chemokine	CCL28		Manuela
+Cytokine-cytokine receptor interaction	CCL28		Manuela
+Chemokine	CCL3		Manuela
+Cytokine-cytokine receptor interaction	CCL3		Manuela
+Chemokine	CCL3L1		Manuela
+Cytokine-cytokine receptor interaction	CCL3L1		Manuela
+Chemokine	CCL3L3		Manuela
+Cytokine-cytokine receptor interaction	CCL3L3		Manuela
+Chemokine	CCL4		Manuela
+Cytokine-cytokine receptor interaction	CCL4		Manuela
+NF-kappa B	CCL4		Manuela
+Chemokine	CCL4L2		Manuela
+Cytokine-cytokine receptor interaction	CCL4L2		Manuela
+NF-kappa B	CCL4L2		Manuela
+Chemokine	CCL5		Manuela
+Cytokine-cytokine receptor interaction	CCL5		Manuela
+TNF	CCL5		Manuela
+Chemokine	CCL7		Manuela
+Cytokine-cytokine receptor interaction	CCL7		Manuela
+Chemokine	CCL8		Manuela
+Cytokine-cytokine receptor interaction	CCL8		Manuela
+AMPK	CCNA1		Manuela
+Cell cycle	CCNA1		Manuela
+AMPK	CCNA2		Manuela
+Cell cycle	CCNA2		Manuela
+Cell cycle	CCNB1		Manuela
+FoxO	CCNB1		Manuela
+p53	CCNB1		Manuela
+Cell cycle	CCNB2		Manuela
+FoxO	CCNB2		Manuela
+p53	CCNB2		Manuela
+Cell cycle	CCNB3		Manuela
+FoxO	CCNB3		Manuela
+AMPK	CCND1		Manuela
+Apelin	CCND1		Manuela
+Cell cycle	CCND1		Manuela
+FoxO	CCND1		Manuela
+Hedgehog	CCND1		Manuela
+Hippo	CCND1		Manuela
+JAK-STAT	CCND1		Manuela
+p53	CCND1		Manuela
+PI3K-Akt	CCND1		Manuela
+Thyroid hormone	CCND1		Manuela
+Wnt	CCND1		Manuela
+Cell cycle	CCND2		Manuela
+FoxO	CCND2		Manuela
+Hedgehog	CCND2		Manuela
+Hippo	CCND2		Manuela
+JAK-STAT	CCND2		Manuela
+p53	CCND2		Manuela
+PI3K-Akt	CCND2		Manuela
+Wnt	CCND2		Manuela
+Cell cycle	CCND3		Manuela
+Hippo	CCND3		Manuela
+JAK-STAT	CCND3		Manuela
+p53	CCND3		Manuela
+PI3K-Akt	CCND3		Manuela
+Wnt	CCND3		Manuela
+Cell cycle	CCNE1		Manuela
+p53	CCNE1		Manuela
+PI3K-Akt	CCNE1		Manuela
+Cell cycle	CCNE2		Manuela
+p53	CCNE2		Manuela
+PI3K-Akt	CCNE2		Manuela
+p53	CCNG1		Manuela
+FoxO	CCNG2		Manuela
+p53	CCNG2		Manuela
+Cell cycle	CCNH		Manuela
+Chemokine	CCR1		Manuela
+Cytokine-cytokine receptor interaction	CCR1		Manuela
+Chemokine	CCR10		Manuela
+Cytokine-cytokine receptor interaction	CCR10		Manuela
+Chemokine	CCR2		Manuela
+Cytokine-cytokine receptor interaction	CCR2		Manuela
+Chemokine	CCR3		Manuela
+Cytokine-cytokine receptor interaction	CCR3		Manuela
+Chemokine	CCR4		Manuela
+Cytokine-cytokine receptor interaction	CCR4		Manuela
+Chemokine	CCR5		Manuela
+Cytokine-cytokine receptor interaction	CCR5		Manuela
+Chemokine	CCR6		Manuela
+Cytokine-cytokine receptor interaction	CCR6		Manuela
+Chemokine	CCR7		Manuela
+Cytokine-cytokine receptor interaction	CCR7		Manuela
+Chemokine	CCR8		Manuela
+Cytokine-cytokine receptor interaction	CCR8		Manuela
+Chemokine	CCR9		Manuela
+Cytokine-cytokine receptor interaction	CCR9		Manuela
+MAPK	CD14		Manuela
+NF-kappa B	CD14		Manuela
+PI3K-Akt	CD19		Manuela
+Cytokine-cytokine receptor interaction	CD27		Manuela
+AMPK	CD36		Manuela
+PPAR	CD36		Manuela
+Calcium	CD38		Manuela
+Cytokine-cytokine receptor interaction	CD4		Manuela
+Cytokine-cytokine receptor interaction	CD40		Manuela
+NF-kappa B	CD40		Manuela
+Cytokine-cytokine receptor interaction	CD40LG		Manuela
+NF-kappa B	CD40LG		Manuela
+Cytokine-cytokine receptor interaction	CD70		Manuela
+p53	CD82		Manuela
+Cell cycle	CDC14A		Manuela
+Cell cycle	CDC14B		Manuela
+Cell cycle	CDC16		Manuela
+Cell cycle	CDC20		Manuela
+Cell cycle	CDC23		Manuela
+Cell cycle	CDC25A		Manuela
+Cell cycle	CDC25B		Manuela
+MAPK	CDC25B		Manuela
+Cell cycle	CDC25C		Manuela
+Cell cycle	CDC26		Manuela
+Cell cycle	CDC27		Manuela
+PI3K-Akt	CDC37		Manuela
+Chemokine	CDC42		Manuela
+MAPK	CDC42		Manuela
+Rap1	CDC42		Manuela
+Ras	CDC42		Manuela
+VEGF	CDC42		Manuela
+Cell cycle	CDC45		Manuela
+Cell cycle	CDC6		Manuela
+Cell cycle	CDC7		Manuela
+Apelin	CDH1		Manuela
+Hippo	CDH1		Manuela
+Rap1	CDH1		Manuela
+Phosphatidylinositol signaling system	CDIPT		Manuela
+Cell cycle	CDK1		Manuela
+p53	CDK1		Manuela
+Cell cycle	CDK2		Manuela
+FoxO	CDK2		Manuela
+p53	CDK2		Manuela
+PI3K-Akt	CDK2		Manuela
+Cell cycle	CDK4		Manuela
+p53	CDK4		Manuela
+PI3K-Akt	CDK4		Manuela
+Cell cycle	CDK6		Manuela
+p53	CDK6		Manuela
+PI3K-Akt	CDK6		Manuela
+Cell cycle	CDK7		Manuela
+Cell cycle	CDKN1A		Manuela
+ErbB	CDKN1A		Manuela
+FoxO	CDKN1A		Manuela
+HIF-1	CDKN1A		Manuela
+JAK-STAT	CDKN1A		Manuela
+p53	CDKN1A		Manuela
+PI3K-Akt	CDKN1A		Manuela
+Cell cycle	CDKN1B		Manuela
+ErbB	CDKN1B		Manuela
+FoxO	CDKN1B		Manuela
+HIF-1	CDKN1B		Manuela
+PI3K-Akt	CDKN1B		Manuela
+Cell cycle	CDKN1C		Manuela
+Cell cycle	CDKN2A		Manuela
+p53	CDKN2A		Manuela
+Cell cycle	CDKN2B		Manuela
+FoxO	CDKN2B		Manuela
+TGF-beta	CDKN2B		Manuela
+Cell cycle	CDKN2C		Manuela
+Cell cycle	CDKN2D		Manuela
+FoxO	CDKN2D		Manuela
+Hedgehog	CDON		Manuela
+Phosphatidylinositol signaling system	CDS1		Manuela
+Phosphatidylinositol signaling system	CDS2		Manuela
+TNF	CEBPB		Manuela
+Fanconi anemia	CENPS		Manuela
+Fanconi anemia	CENPS-CORT		Manuela
+Fanconi anemia	CENPX		Manuela
+Wnt	CER1		Manuela
+Cytokine-cytokine receptor interaction	CERS1		Manuela
+Sphingolipid	CERS1		Manuela
+Sphingolipid	CERS2		Manuela
+Sphingolipid	CERS3		Manuela
+Sphingolipid	CERS4		Manuela
+Sphingolipid	CERS5		Manuela
+Sphingolipid	CERS6		Manuela
+NF-kappa B	CFLAR		Manuela
+TNF	CFLAR		Manuela
+AMPK	CFTR		Manuela
+cAMP	CFTR		Manuela
+PI3K-Akt	CHAD		Manuela
+Wnt	CHD8		Manuela
+Cell cycle	CHEK1		Manuela
+p53	CHEK1		Manuela
+Cell cycle	CHEK2		Manuela
+p53	CHEK2		Manuela
+TGF-beta	CHRD		Manuela
+Calcium	CHRM1		Manuela
+cAMP	CHRM1		Manuela
+PI3K-Akt	CHRM1		Manuela
+Calcium	CHRM2		Manuela
+cAMP	CHRM2		Manuela
+PI3K-Akt	CHRM2		Manuela
+Calcium	CHRM3		Manuela
+Calcium	CHRM5		Manuela
+Calcium	CHRNA7		Manuela
+Chemokine	CHUK		Manuela
+FoxO	CHUK		Manuela
+MAPK	CHUK		Manuela
+mTOR	CHUK		Manuela
+NF-kappa B	CHUK		Manuela
+PI3K-Akt	CHUK		Manuela
+Ras	CHUK		Manuela
+TNF	CHUK		Manuela
+Notch	CIR1		Manuela
+JAK-STAT	CISH		Manuela
+Cytokine-cytokine receptor interaction	CLCF1		Manuela
+mTOR	CLIP1		Manuela
+cAMP	CNGA1		Manuela
+cGMP-PKG	CNGA1		Manuela
+cAMP	CNGA2		Manuela
+cAMP	CNGA3		Manuela
+cAMP	CNGA4		Manuela
+cAMP	CNGB1		Manuela
+cGMP-PKG	CNGB1		Manuela
+cAMP	CNGB3		Manuela
+Rap1	CNR1		Manuela
+Cytokine-cytokine receptor interaction	CNTF		Manuela
+JAK-STAT	CNTF		Manuela
+Cytokine-cytokine receptor interaction	CNTFR		Manuela
+JAK-STAT	CNTFR		Manuela
+PI3K-Akt	COL1A1		Manuela
+PI3K-Akt	COL1A2		Manuela
+PI3K-Akt	COL2A1		Manuela
+PI3K-Akt	COL4A1		Manuela
+PI3K-Akt	COL4A2		Manuela
+PI3K-Akt	COL4A3		Manuela
+PI3K-Akt	COL4A4		Manuela
+PI3K-Akt	COL4A5		Manuela
+PI3K-Akt	COL4A6		Manuela
+PI3K-Akt	COL6A1		Manuela
+PI3K-Akt	COL6A2		Manuela
+PI3K-Akt	COL6A3		Manuela
+PI3K-Akt	COL6A5		Manuela
+PI3K-Akt	COL6A6		Manuela
+PI3K-Akt	COL9A1		Manuela
+PI3K-Akt	COL9A2		Manuela
+PI3K-Akt	COL9A3		Manuela
+PI3K-Akt	COMP		Manuela
+p53	COP1		Manuela
+AMPK	CPT1A		Manuela
+PPAR	CPT1A		Manuela
+AMPK	CPT1B		Manuela
+PPAR	CPT1B		Manuela
+AMPK	CPT1C		Manuela
+PPAR	CPT1C		Manuela
+PPAR	CPT2		Manuela
+Hippo	CRB1		Manuela
+Hippo	CRB2		Manuela
+AMPK	CREB1		Manuela
+cAMP	CREB1		Manuela
+cGMP-PKG	CREB1		Manuela
+Estrogen	CREB1		Manuela
+PI3K-Akt	CREB1		Manuela
+TNF	CREB1		Manuela
+AMPK	CREB3		Manuela
+cAMP	CREB3		Manuela
+cGMP-PKG	CREB3		Manuela
+Estrogen	CREB3		Manuela
+PI3K-Akt	CREB3		Manuela
+TNF	CREB3		Manuela
+AMPK	CREB3L1		Manuela
+cAMP	CREB3L1		Manuela
+cGMP-PKG	CREB3L1		Manuela
+Estrogen	CREB3L1		Manuela
+PI3K-Akt	CREB3L1		Manuela
+TNF	CREB3L1		Manuela
+AMPK	CREB3L2		Manuela
+cAMP	CREB3L2		Manuela
+cGMP-PKG	CREB3L2		Manuela
+Estrogen	CREB3L2		Manuela
+PI3K-Akt	CREB3L2		Manuela
+TNF	CREB3L2		Manuela
+AMPK	CREB3L3		Manuela
+cAMP	CREB3L3		Manuela
+cGMP-PKG	CREB3L3		Manuela
+Estrogen	CREB3L3		Manuela
+PI3K-Akt	CREB3L3		Manuela
+TNF	CREB3L3		Manuela
+AMPK	CREB3L4		Manuela
+cAMP	CREB3L4		Manuela
+cGMP-PKG	CREB3L4		Manuela
+Estrogen	CREB3L4		Manuela
+PI3K-Akt	CREB3L4		Manuela
+TNF	CREB3L4		Manuela
+AMPK	CREB5		Manuela
+cAMP	CREB5		Manuela
+cGMP-PKG	CREB5		Manuela
+Estrogen	CREB5		Manuela
+PI3K-Akt	CREB5		Manuela
+TNF	CREB5		Manuela
+cAMP	CREBBP		Manuela
+Cell cycle	CREBBP		Manuela
+FoxO	CREBBP		Manuela
+HIF-1	CREBBP		Manuela
+JAK-STAT	CREBBP		Manuela
+Notch	CREBBP		Manuela
+TGF-beta	CREBBP		Manuela
+Thyroid hormone	CREBBP		Manuela
+Wnt	CREBBP		Manuela
+Chemokine	CRK		Manuela
+ErbB	CRK		Manuela
+Insulin	CRK		Manuela
+MAPK	CRK		Manuela
+Rap1	CRK		Manuela
+Chemokine	CRKL		Manuela
+ErbB	CRKL		Manuela
+Insulin	CRKL		Manuela
+MAPK	CRKL		Manuela
+Rap1	CRKL		Manuela
+Cytokine-cytokine receptor interaction	CRLF2		Manuela
+JAK-STAT	CRLF2		Manuela
+AMPK	CRTC2		Manuela
+PI3K-Akt	CRTC2		Manuela
+Cytokine-cytokine receptor interaction	CSF1		Manuela
+MAPK	CSF1		Manuela
+PI3K-Akt	CSF1		Manuela
+Rap1	CSF1		Manuela
+Ras	CSF1		Manuela
+TNF	CSF1		Manuela
+Cytokine-cytokine receptor interaction	CSF1R		Manuela
+MAPK	CSF1R		Manuela
+PI3K-Akt	CSF1R		Manuela
+Rap1	CSF1R		Manuela
+Ras	CSF1R		Manuela
+Cytokine-cytokine receptor interaction	CSF2		Manuela
+JAK-STAT	CSF2		Manuela
+TNF	CSF2		Manuela
+Cytokine-cytokine receptor interaction	CSF2RA		Manuela
+JAK-STAT	CSF2RA		Manuela
+Cytokine-cytokine receptor interaction	CSF2RB		Manuela
+JAK-STAT	CSF2RB		Manuela
+Cytokine-cytokine receptor interaction	CSF3		Manuela
+JAK-STAT	CSF3		Manuela
+PI3K-Akt	CSF3		Manuela
+Cytokine-cytokine receptor interaction	CSF3R		Manuela
+JAK-STAT	CSF3R		Manuela
+PI3K-Akt	CSF3R		Manuela
+Cytokine-cytokine receptor interaction	CSH1		Manuela
+JAK-STAT	CSH1		Manuela
+PI3K-Akt	CSH1		Manuela
+Cytokine-cytokine receptor interaction	CSH2		Manuela
+JAK-STAT	CSH2		Manuela
+PI3K-Akt	CSH2		Manuela
+Hedgehog	CSNK1A1		Manuela
+Wnt	CSNK1A1		Manuela
+Hedgehog	CSNK1A1L		Manuela
+Wnt	CSNK1A1L		Manuela
+Hedgehog	CSNK1D		Manuela
+Hippo	CSNK1D		Manuela
+FoxO	CSNK1E		Manuela
+Hedgehog	CSNK1E		Manuela
+Hippo	CSNK1E		Manuela
+Wnt	CSNK1E		Manuela
+Hedgehog	CSNK1G1		Manuela
+Hedgehog	CSNK1G2		Manuela
+Hedgehog	CSNK1G3		Manuela
+NF-kappa B	CSNK2A1		Manuela
+Wnt	CSNK2A1		Manuela
+NF-kappa B	CSNK2A2		Manuela
+Wnt	CSNK2A2		Manuela
+NF-kappa B	CSNK2A3		Manuela
+Wnt	CSNK2A3		Manuela
+NF-kappa B	CSNK2B		Manuela
+Wnt	CSNK2B		Manuela
+Notch	CTBP1		Manuela
+Wnt	CTBP1		Manuela
+Notch	CTBP2		Manuela
+Wnt	CTBP2		Manuela
+Cytokine-cytokine receptor interaction	CTF1		Manuela
+JAK-STAT	CTF1		Manuela
+Hippo	CTNNA1		Manuela
+Hippo	CTNNA2		Manuela
+Hippo	CTNNA3		Manuela
+Hippo	CTNNB1		Manuela
+Rap1	CTNNB1		Manuela
+Thyroid hormone	CTNNB1		Manuela
+Wnt	CTNNB1		Manuela
+Wnt	CTNNBIP1		Manuela
+Rap1	CTNND1		Manuela
+Estrogen	CTSD		Manuela
+Sphingolipid	CTSD		Manuela
+Cell cycle	CUL1		Manuela
+Hedgehog	CUL1		Manuela
+TGF-beta	CUL1		Manuela
+Wnt	CUL1		Manuela
+HIF-1	CUL2		Manuela
+Hedgehog	CUL3		Manuela
+Chemokine	CX3CL1		Manuela
+Cytokine-cytokine receptor interaction	CX3CL1		Manuela
+TNF	CX3CL1		Manuela
+Chemokine	CX3CR1		Manuela
+Cytokine-cytokine receptor interaction	CX3CR1		Manuela
+Chemokine	CXCL1		Manuela
+Cytokine-cytokine receptor interaction	CXCL1		Manuela
+TNF	CXCL1		Manuela
+Chemokine	CXCL10		Manuela
+Cytokine-cytokine receptor interaction	CXCL10		Manuela
+TNF	CXCL10		Manuela
+Chemokine	CXCL11		Manuela
+Cytokine-cytokine receptor interaction	CXCL11		Manuela
+Chemokine	CXCL12		Manuela
+Cytokine-cytokine receptor interaction	CXCL12		Manuela
+NF-kappa B	CXCL12		Manuela
+Chemokine	CXCL13		Manuela
+Cytokine-cytokine receptor interaction	CXCL13		Manuela
+Chemokine	CXCL14		Manuela
+Cytokine-cytokine receptor interaction	CXCL14		Manuela
+Chemokine	CXCL16		Manuela
+Cytokine-cytokine receptor interaction	CXCL16		Manuela
+Cytokine-cytokine receptor interaction	CXCL17		Manuela
+Chemokine	CXCL2		Manuela
+Cytokine-cytokine receptor interaction	CXCL2		Manuela
+NF-kappa B	CXCL2		Manuela
+TNF	CXCL2		Manuela
+Chemokine	CXCL3		Manuela
+Cytokine-cytokine receptor interaction	CXCL3		Manuela
+TNF	CXCL3		Manuela
+Chemokine	CXCL5		Manuela
+Cytokine-cytokine receptor interaction	CXCL5		Manuela
+TNF	CXCL5		Manuela
+Chemokine	CXCL6		Manuela
+Cytokine-cytokine receptor interaction	CXCL6		Manuela
+Chemokine	CXCL8		Manuela
+Cytokine-cytokine receptor interaction	CXCL8		Manuela
+NF-kappa B	CXCL8		Manuela
+Phospholipase D	CXCL8		Manuela
+Chemokine	CXCL9		Manuela
+Cytokine-cytokine receptor interaction	CXCL9		Manuela
+Chemokine	CXCR1		Manuela
+Cytokine-cytokine receptor interaction	CXCR1		Manuela
+Phospholipase D	CXCR1		Manuela
+Chemokine	CXCR2		Manuela
+Cytokine-cytokine receptor interaction	CXCR2		Manuela
+Phospholipase D	CXCR2		Manuela
+Chemokine	CXCR3		Manuela
+Cytokine-cytokine receptor interaction	CXCR3		Manuela
+Calcium	CXCR4		Manuela
+Chemokine	CXCR4		Manuela
+Cytokine-cytokine receptor interaction	CXCR4		Manuela
+Chemokine	CXCR5		Manuela
+Cytokine-cytokine receptor interaction	CXCR5		Manuela
+Chemokine	CXCR6		Manuela
+Cytokine-cytokine receptor interaction	CXCR6		Manuela
+Wnt	CXXC4		Manuela
+HIF-1	CYBB		Manuela
+p53	CYCS		Manuela
+PPAR	CYP27A1		Manuela
+PPAR	CYP4A11		Manuela
+PPAR	CYP4A22		Manuela
+PPAR	CYP7A1		Manuela
+PPAR	CYP8B1		Manuela
+Calcium	CYSLTR1		Manuela
+Calcium	CYSLTR2		Manuela
+Phospholipase D	CYTH1		Manuela
+Phospholipase D	CYTH2		Manuela
+Phospholipase D	CYTH3		Manuela
+Phospholipase D	CYTH4		Manuela
+Wnt	DAAM1		Manuela
+Wnt	DAAM2		Manuela
+TNF	DAB2IP		Manuela
+MAPK	DAXX		Manuela
+Cell cycle	DBF4		Manuela
+PPAR	DBI		Manuela
+TGF-beta	DCN		Manuela
+p53	DDB2		Manuela
+MAPK	DDIT3		Manuela
+mTOR	DDIT4		Manuela
+PI3K-Akt	DDIT4		Manuela
+NF-kappa B	DDX58		Manuela
+Sphingolipid	DEGS1		Manuela
+Sphingolipid	DEGS2		Manuela
+mTOR	DEPDC5		Manuela
+mTOR	DEPTOR		Manuela
+Phosphatidylinositol signaling system	DGKA		Manuela
+Phospholipase D	DGKA		Manuela
+Phosphatidylinositol signaling system	DGKB		Manuela
+Phospholipase D	DGKB		Manuela
+Phosphatidylinositol signaling system	DGKD		Manuela
+Phospholipase D	DGKD		Manuela
+Phosphatidylinositol signaling system	DGKE		Manuela
+Phospholipase D	DGKE		Manuela
+Phosphatidylinositol signaling system	DGKG		Manuela
+Phospholipase D	DGKG		Manuela
+Phosphatidylinositol signaling system	DGKH		Manuela
+Phospholipase D	DGKH		Manuela
+Phosphatidylinositol signaling system	DGKI		Manuela
+Phospholipase D	DGKI		Manuela
+Phosphatidylinositol signaling system	DGKK		Manuela
+Phospholipase D	DGKK		Manuela
+Phosphatidylinositol signaling system	DGKQ		Manuela
+Phospholipase D	DGKQ		Manuela
+Phosphatidylinositol signaling system	DGKZ		Manuela
+Phospholipase D	DGKZ		Manuela
+Hedgehog	DHH		Manuela
+Thyroid hormone	DIO1		Manuela
+Thyroid hormone	DIO2		Manuela
+Thyroid hormone	DIO3		Manuela
+Wnt	DKK1		Manuela
+Wnt	DKK2		Manuela
+Wnt	DKK4		Manuela
+Hippo	DLG1		Manuela
+Hippo	DLG2		Manuela
+Hippo	DLG3		Manuela
+Hippo	DLG4		Manuela
+Notch	DLL1		Manuela
+Notch	DLL3		Manuela
+Notch	DLL4		Manuela
+Phospholipase D	DNM1		Manuela
+TNF	DNM1L		Manuela
+Phospholipase D	DNM2		Manuela
+Phospholipase D	DNM3		Manuela
+Chemokine	DOCK2		Manuela
+Rap1	DOCK4		Manuela
+Calcium	DRD1		Manuela
+cAMP	DRD1		Manuela
+cAMP	DRD2		Manuela
+Rap1	DRD2		Manuela
+Calcium	DRD5		Manuela
+cAMP	DRD5		Manuela
+Notch	DTX1		Manuela
+Notch	DTX2		Manuela
+Notch	DTX3		Manuela
+Notch	DTX3L		Manuela
+Notch	DTX4		Manuela
+MAPK	DUSP1		Manuela
+MAPK	DUSP10		Manuela
+MAPK	DUSP16		Manuela
+MAPK	DUSP2		Manuela
+MAPK	DUSP3		Manuela
+MAPK	DUSP4		Manuela
+MAPK	DUSP5		Manuela
+MAPK	DUSP6		Manuela
+MAPK	DUSP7		Manuela
+MAPK	DUSP8		Manuela
+MAPK	DUSP9		Manuela
+Hippo	DVL1		Manuela
+mTOR	DVL1		Manuela
+Notch	DVL1		Manuela
+Wnt	DVL1		Manuela
+Hippo	DVL2		Manuela
+mTOR	DVL2		Manuela
+Notch	DVL2		Manuela
+Wnt	DVL2		Manuela
+Hippo	DVL3		Manuela
+mTOR	DVL3		Manuela
+Notch	DVL3		Manuela
+Wnt	DVL3		Manuela
+Cell cycle	E2F1		Manuela
+Cell cycle	E2F2		Manuela
+Cell cycle	E2F3		Manuela
+Cell cycle	E2F4		Manuela
+TGF-beta	E2F4		Manuela
+Cell cycle	E2F5		Manuela
+TGF-beta	E2F5		Manuela
+Estrogen	EBAG9		Manuela
+MAPK	ECSIT		Manuela
+Cytokine-cytokine receptor interaction	EDA		Manuela
+Cytokine-cytokine receptor interaction	EDA2R		Manuela
+Cytokine-cytokine receptor interaction	EDAR		Manuela
+HIF-1	EDN1		Manuela
+TNF	EDN1		Manuela
+Calcium	EDNRA		Manuela
+cAMP	EDNRA		Manuela
+cGMP-PKG	EDNRA		Manuela
+Calcium	EDNRB		Manuela
+cGMP-PKG	EDNRB		Manuela
+AMPK	EEF2		Manuela
+AMPK	EEF2K		Manuela
+MAPK	EFNA1		Manuela
+PI3K-Akt	EFNA1		Manuela
+Rap1	EFNA1		Manuela
+Ras	EFNA1		Manuela
+MAPK	EFNA2		Manuela
+PI3K-Akt	EFNA2		Manuela
+Rap1	EFNA2		Manuela
+Ras	EFNA2		Manuela
+MAPK	EFNA3		Manuela
+PI3K-Akt	EFNA3		Manuela
+Rap1	EFNA3		Manuela
+Ras	EFNA3		Manuela
+MAPK	EFNA4		Manuela
+PI3K-Akt	EFNA4		Manuela
+Rap1	EFNA4		Manuela
+Ras	EFNA4		Manuela
+MAPK	EFNA5		Manuela
+PI3K-Akt	EFNA5		Manuela
+Rap1	EFNA5		Manuela
+Ras	EFNA5		Manuela
+ErbB	EGF		Manuela
+FoxO	EGF		Manuela
+HIF-1	EGF		Manuela
+JAK-STAT	EGF		Manuela
+MAPK	EGF		Manuela
+Phospholipase D	EGF		Manuela
+PI3K-Akt	EGF		Manuela
+Rap1	EGF		Manuela
+Ras	EGF		Manuela
+Calcium	EGFR		Manuela
+ErbB	EGFR		Manuela
+Estrogen	EGFR		Manuela
+FoxO	EGFR		Manuela
+HIF-1	EGFR		Manuela
+JAK-STAT	EGFR		Manuela
+MAPK	EGFR		Manuela
+Phospholipase D	EGFR		Manuela
+PI3K-Akt	EGFR		Manuela
+Rap1	EGFR		Manuela
+Ras	EGFR		Manuela
+HIF-1	EGLN1		Manuela
+HIF-1	EGLN2		Manuela
+HIF-1	EGLN3		Manuela
+Apelin	EGR1		Manuela
+PPAR	EHHADH		Manuela
+p53	EI24		Manuela
+mTOR	EIF4B		Manuela
+PI3K-Akt	EIF4B		Manuela
+HIF-1	EIF4E		Manuela
+Insulin	EIF4E		Manuela
+mTOR	EIF4E		Manuela
+PI3K-Akt	EIF4E		Manuela
+HIF-1	EIF4E1B		Manuela
+Insulin	EIF4E1B		Manuela
+mTOR	EIF4E1B		Manuela
+PI3K-Akt	EIF4E1B		Manuela
+HIF-1	EIF4E2		Manuela
+Insulin	EIF4E2		Manuela
+mTOR	EIF4E2		Manuela
+PI3K-Akt	EIF4E2		Manuela
+AMPK	EIF4EBP1		Manuela
+ErbB	EIF4EBP1		Manuela
+HIF-1	EIF4EBP1		Manuela
+Insulin	EIF4EBP1		Manuela
+mTOR	EIF4EBP1		Manuela
+PI3K-Akt	EIF4EBP1		Manuela
+AMPK	ELAVL1		Manuela
+ErbB	ELK1		Manuela
+Insulin	ELK1		Manuela
+MAPK	ELK1		Manuela
+Ras	ELK1		Manuela
+MAPK	ELK4		Manuela
+Chemokine	ELMO1		Manuela
+HIF-1	ELOB		Manuela
+HIF-1	ELOC		Manuela
+Fanconi anemia	EME1		Manuela
+Fanconi anemia	EME2		Manuela
+HIF-1	ENO1		Manuela
+HIF-1	ENO2		Manuela
+HIF-1	ENO3		Manuela
+HIF-1	ENO4		Manuela
+cAMP	EP300		Manuela
+Cell cycle	EP300		Manuela
+FoxO	EP300		Manuela
+HIF-1	EP300		Manuela
+JAK-STAT	EP300		Manuela
+Notch	EP300		Manuela
+TGF-beta	EP300		Manuela
+Thyroid hormone	EP300		Manuela
+Wnt	EP300		Manuela
+MAPK	EPHA2		Manuela
+PI3K-Akt	EPHA2		Manuela
+Rap1	EPHA2		Manuela
+Ras	EPHA2		Manuela
+Cytokine-cytokine receptor interaction	EPO		Manuela
+HIF-1	EPO		Manuela
+JAK-STAT	EPO		Manuela
+PI3K-Akt	EPO		Manuela
+Cytokine-cytokine receptor interaction	EPOR		Manuela
+JAK-STAT	EPOR		Manuela
+PI3K-Akt	EPOR		Manuela
+Calcium	ERBB2		Manuela
+ErbB	ERBB2		Manuela
+HIF-1	ERBB2		Manuela
+MAPK	ERBB2		Manuela
+PI3K-Akt	ERBB2		Manuela
+Calcium	ERBB3		Manuela
+ErbB	ERBB3		Manuela
+MAPK	ERBB3		Manuela
+PI3K-Akt	ERBB3		Manuela
+Calcium	ERBB4		Manuela
+ErbB	ERBB4		Manuela
+MAPK	ERBB4		Manuela
+PI3K-Akt	ERBB4		Manuela
+NF-kappa B	ERC1		Manuela
+Fanconi anemia	ERCC1		Manuela
+Fanconi anemia	ERCC4		Manuela
+ErbB	EREG		Manuela
+MAPK	EREG		Manuela
+PI3K-Akt	EREG		Manuela
+Cell cycle	ESPL1		Manuela
+Estrogen	ESR1		Manuela
+Thyroid hormone	ESR1		Manuela
+Estrogen	ESR2		Manuela
+Ras	ETS1		Manuela
+Ras	ETS2		Manuela
+Hedgehog	EVC		Manuela
+Hedgehog	EVC2		Manuela
+Ras	EXOC2		Manuela
+Insulin	EXOC7		Manuela
+Calcium	F2R		Manuela
+cAMP	F2R		Manuela
+Phospholipase D	F2R		Manuela
+PI3K-Akt	F2R		Manuela
+Rap1	F2R		Manuela
+Rap1	F2RL3		Manuela
+Fanconi anemia	FAAP100		Manuela
+Fanconi anemia	FAAP24		Manuela
+PPAR	FABP1		Manuela
+PPAR	FABP2		Manuela
+PPAR	FABP3		Manuela
+PPAR	FABP4		Manuela
+PPAR	FABP5		Manuela
+PPAR	FABP6		Manuela
+PPAR	FABP7		Manuela
+TNF	FADD		Manuela
+PPAR	FADS2		Manuela
+Fanconi anemia	FAN1		Manuela
+Fanconi anemia	FANCA		Manuela
+Fanconi anemia	FANCB		Manuela
+Fanconi anemia	FANCC		Manuela
+Fanconi anemia	FANCD2		Manuela
+Fanconi anemia	FANCE		Manuela
+Fanconi anemia	FANCF		Manuela
+Fanconi anemia	FANCG		Manuela
+Fanconi anemia	FANCI		Manuela
+Fanconi anemia	FANCL		Manuela
+Fanconi anemia	FANCM		Manuela
+Rap1	FARP2		Manuela
+Cytokine-cytokine receptor interaction	FAS		Manuela
+MAPK	FAS		Manuela
+p53	FAS		Manuela
+TNF	FAS		Manuela
+Cytokine-cytokine receptor interaction	FASLG		Manuela
+FoxO	FASLG		Manuela
+MAPK	FASLG		Manuela
+PI3K-Akt	FASLG		Manuela
+Ras	FASLG		Manuela
+AMPK	FASN		Manuela
+Insulin	FASN		Manuela
+AMPK	FBP1		Manuela
+Insulin	FBP1		Manuela
+AMPK	FBP2		Manuela
+Insulin	FBP2		Manuela
+FoxO	FBXO25		Manuela
+FoxO	FBXO32		Manuela
+Hedgehog	FBXW11		Manuela
+Hippo	FBXW11		Manuela
+Wnt	FBXW11		Manuela
+Phospholipase D	FCER1A		Manuela
+Sphingolipid	FCER1A		Manuela
+Phospholipase D	FCER1G		Manuela
+Sphingolipid	FCER1G		Manuela
+cAMP	FFAR2		Manuela
+Hippo	FGF1		Manuela
+MAPK	FGF1		Manuela
+PI3K-Akt	FGF1		Manuela
+Rap1	FGF1		Manuela
+Ras	FGF1		Manuela
+MAPK	FGF10		Manuela
+PI3K-Akt	FGF10		Manuela
+Rap1	FGF10		Manuela
+Ras	FGF10		Manuela
+MAPK	FGF16		Manuela
+PI3K-Akt	FGF16		Manuela
+Rap1	FGF16		Manuela
+Ras	FGF16		Manuela
+MAPK	FGF17		Manuela
+PI3K-Akt	FGF17		Manuela
+Rap1	FGF17		Manuela
+Ras	FGF17		Manuela
+MAPK	FGF18		Manuela
+PI3K-Akt	FGF18		Manuela
+Rap1	FGF18		Manuela
+Ras	FGF18		Manuela
+MAPK	FGF19		Manuela
+PI3K-Akt	FGF19		Manuela
+Rap1	FGF19		Manuela
+Ras	FGF19		Manuela
+MAPK	FGF2		Manuela
+PI3K-Akt	FGF2		Manuela
+Rap1	FGF2		Manuela
+Ras	FGF2		Manuela
+MAPK	FGF20		Manuela
+PI3K-Akt	FGF20		Manuela
+Rap1	FGF20		Manuela
+Ras	FGF20		Manuela
+MAPK	FGF21		Manuela
+PI3K-Akt	FGF21		Manuela
+Rap1	FGF21		Manuela
+Ras	FGF21		Manuela
+MAPK	FGF22		Manuela
+PI3K-Akt	FGF22		Manuela
+Rap1	FGF22		Manuela
+Ras	FGF22		Manuela
+MAPK	FGF23		Manuela
+PI3K-Akt	FGF23		Manuela
+Rap1	FGF23		Manuela
+Ras	FGF23		Manuela
+MAPK	FGF3		Manuela
+PI3K-Akt	FGF3		Manuela
+Rap1	FGF3		Manuela
+Ras	FGF3		Manuela
+MAPK	FGF4		Manuela
+PI3K-Akt	FGF4		Manuela
+Rap1	FGF4		Manuela
+Ras	FGF4		Manuela
+MAPK	FGF5		Manuela
+PI3K-Akt	FGF5		Manuela
+Rap1	FGF5		Manuela
+Ras	FGF5		Manuela
+MAPK	FGF6		Manuela
+PI3K-Akt	FGF6		Manuela
+Rap1	FGF6		Manuela
+Ras	FGF6		Manuela
+MAPK	FGF7		Manuela
+PI3K-Akt	FGF7		Manuela
+Rap1	FGF7		Manuela
+Ras	FGF7		Manuela
+MAPK	FGF8		Manuela
+PI3K-Akt	FGF8		Manuela
+Rap1	FGF8		Manuela
+Ras	FGF8		Manuela
+MAPK	FGF9		Manuela
+PI3K-Akt	FGF9		Manuela
+Rap1	FGF9		Manuela
+Ras	FGF9		Manuela
+MAPK	FGFR1		Manuela
+PI3K-Akt	FGFR1		Manuela
+Rap1	FGFR1		Manuela
+Ras	FGFR1		Manuela
+MAPK	FGFR2		Manuela
+PI3K-Akt	FGFR2		Manuela
+Rap1	FGFR2		Manuela
+Ras	FGFR2		Manuela
+MAPK	FGFR3		Manuela
+PI3K-Akt	FGFR3		Manuela
+Rap1	FGFR3		Manuela
+Ras	FGFR3		Manuela
+MAPK	FGFR4		Manuela
+PI3K-Akt	FGFR4		Manuela
+Rap1	FGFR4		Manuela
+Ras	FGFR4		Manuela
+Chemokine	FGR		Manuela
+JAK-STAT	FHL1		Manuela
+Estrogen	FKBP4		Manuela
+Estrogen	FKBP5		Manuela
+mTOR	FLCN		Manuela
+MAPK	FLNA		Manuela
+MAPK	FLNB		Manuela
+MAPK	FLNC		Manuela
+Insulin	FLOT1		Manuela
+Insulin	FLOT2		Manuela
+HIF-1	FLT1		Manuela
+MAPK	FLT1		Manuela
+PI3K-Akt	FLT1		Manuela
+Rap1	FLT1		Manuela
+Ras	FLT1		Manuela
+MAPK	FLT3		Manuela
+PI3K-Akt	FLT3		Manuela
+Ras	FLT3		Manuela
+MAPK	FLT3LG		Manuela
+PI3K-Akt	FLT3LG		Manuela
+Ras	FLT3LG		Manuela
+MAPK	FLT4		Manuela
+PI3K-Akt	FLT4		Manuela
+Rap1	FLT4		Manuela
+Ras	FLT4		Manuela
+PI3K-Akt	FN1		Manuela
+mTOR	FNIP1		Manuela
+mTOR	FNIP2		Manuela
+cAMP	FOS		Manuela
+Estrogen	FOS		Manuela
+MAPK	FOS		Manuela
+TNF	FOS		Manuela
+Wnt	FOSL1		Manuela
+FoxO	FOXG1		Manuela
+AMPK	FOXO1		Manuela
+FoxO	FOXO1		Manuela
+Insulin	FOXO1		Manuela
+Thyroid hormone	FOXO1		Manuela
+AMPK	FOXO3		Manuela
+Chemokine	FOXO3		Manuela
+FoxO	FOXO3		Manuela
+PI3K-Akt	FOXO3		Manuela
+FoxO	FOXO4		Manuela
+Ras	FOXO4		Manuela
+FoxO	FOXO6		Manuela
+Rap1	FPR1		Manuela
+Wnt	FRAT1		Manuela
+Wnt	FRAT2		Manuela
+Hippo	FRMD1		Manuela
+Hippo	FRMD6		Manuela
+cAMP	FSHB		Manuela
+cAMP	FSHR		Manuela
+TGF-beta	FST		Manuela
+cAMP	FXYD1		Manuela
+cAMP	FXYD2		Manuela
+cGMP-PKG	FXYD2		Manuela
+Thyroid hormone	FXYD2		Manuela
+Rap1	FYB1		Manuela
+Phospholipase D	FYN		Manuela
+Sphingolipid	FYN		Manuela
+Hippo	FZD1		Manuela
+mTOR	FZD1		Manuela
+Wnt	FZD1		Manuela
+Hippo	FZD10		Manuela
+mTOR	FZD10		Manuela
+Wnt	FZD10		Manuela
+Hippo	FZD2		Manuela
+mTOR	FZD2		Manuela
+Wnt	FZD2		Manuela
+Hippo	FZD3		Manuela
+mTOR	FZD3		Manuela
+Wnt	FZD3		Manuela
+Hippo	FZD4		Manuela
+mTOR	FZD4		Manuela
+Wnt	FZD4		Manuela
+Hippo	FZD5		Manuela
+mTOR	FZD5		Manuela
+Wnt	FZD5		Manuela
+Hippo	FZD6		Manuela
+mTOR	FZD6		Manuela
+Wnt	FZD6		Manuela
+Hippo	FZD7		Manuela
+mTOR	FZD7		Manuela
+Wnt	FZD7		Manuela
+Hippo	FZD8		Manuela
+mTOR	FZD8		Manuela
+Wnt	FZD8		Manuela
+Hippo	FZD9		Manuela
+mTOR	FZD9		Manuela
+Wnt	FZD9		Manuela
+Cell cycle	FZR1		Manuela
+AMPK	G6PC		Manuela
+FoxO	G6PC		Manuela
+Insulin	G6PC		Manuela
+PI3K-Akt	G6PC		Manuela
+AMPK	G6PC2		Manuela
+FoxO	G6PC2		Manuela
+Insulin	G6PC2		Manuela
+PI3K-Akt	G6PC2		Manuela
+AMPK	G6PC3		Manuela
+FoxO	G6PC3		Manuela
+Insulin	G6PC3		Manuela
+PI3K-Akt	G6PC3		Manuela
+ErbB	GAB1		Manuela
+Phospholipase D	GAB1		Manuela
+Ras	GAB1		Manuela
+Phospholipase D	GAB2		Manuela
+Ras	GAB2		Manuela
+Sphingolipid	GAB2		Manuela
+Apelin	GABARAP		Manuela
+FoxO	GABARAP		Manuela
+Apelin	GABARAPL1		Manuela
+FoxO	GABARAPL1		Manuela
+Apelin	GABARAPL2		Manuela
+FoxO	GABARAPL2		Manuela
+cAMP	GABBR1		Manuela
+Estrogen	GABBR1		Manuela
+cAMP	GABBR2		Manuela
+Estrogen	GABBR2		Manuela
+Cell cycle	GADD45A		Manuela
+FoxO	GADD45A		Manuela
+MAPK	GADD45A		Manuela
+p53	GADD45A		Manuela
+Cell cycle	GADD45B		Manuela
+FoxO	GADD45B		Manuela
+MAPK	GADD45B		Manuela
+NF-kappa B	GADD45B		Manuela
+p53	GADD45B		Manuela
+Cell cycle	GADD45G		Manuela
+FoxO	GADD45G		Manuela
+MAPK	GADD45G		Manuela
+p53	GADD45G		Manuela
+HIF-1	GAPDH		Manuela
+Hedgehog	GAS1		Manuela
+cGMP-PKG	GATA4		Manuela
+Thyroid hormone	GATA4		Manuela
+Insulin	GCK		Manuela
+Cytokine-cytokine receptor interaction	GDF10		Manuela
+Cytokine-cytokine receptor interaction	GDF11		Manuela
+Cytokine-cytokine receptor interaction	GDF15		Manuela
+Cytokine-cytokine receptor interaction	GDF2		Manuela
+Cytokine-cytokine receptor interaction	GDF3		Manuela
+Cytokine-cytokine receptor interaction	GDF5		Manuela
+Hippo	GDF5		Manuela
+TGF-beta	GDF5		Manuela
+Cytokine-cytokine receptor interaction	GDF6		Manuela
+Hippo	GDF6		Manuela
+TGF-beta	GDF6		Manuela
+Cytokine-cytokine receptor interaction	GDF7		Manuela
+Hippo	GDF7		Manuela
+TGF-beta	GDF7		Manuela
+Cytokine-cytokine receptor interaction	GDF9		Manuela
+JAK-STAT	GFAP		Manuela
+Cytokine-cytokine receptor interaction	GH1		Manuela
+JAK-STAT	GH1		Manuela
+PI3K-Akt	GH1		Manuela
+Cytokine-cytokine receptor interaction	GH2		Manuela
+JAK-STAT	GH2		Manuela
+PI3K-Akt	GH2		Manuela
+Cytokine-cytokine receptor interaction	GHR		Manuela
+JAK-STAT	GHR		Manuela
+PI3K-Akt	GHR		Manuela
+cAMP	GHRL		Manuela
+cAMP	GHSR		Manuela
+cAMP	GIPR		Manuela
+PPAR	GK		Manuela
+PPAR	GK2		Manuela
+cAMP	GLI1		Manuela
+Hedgehog	GLI1		Manuela
+Hedgehog	GLI2		Manuela
+Hippo	GLI2		Manuela
+cAMP	GLI3		Manuela
+Hedgehog	GLI3		Manuela
+cAMP	GLP1R		Manuela
+Calcium	GNA11		Manuela
+cGMP-PKG	GNA11		Manuela
+cGMP-PKG	GNA12		Manuela
+MAPK	GNA12		Manuela
+Phospholipase D	GNA12		Manuela
+Sphingolipid	GNA12		Manuela
+Apelin	GNA13		Manuela
+cGMP-PKG	GNA13		Manuela
+Phospholipase D	GNA13		Manuela
+Sphingolipid	GNA13		Manuela
+Calcium	GNA14		Manuela
+Calcium	GNA15		Manuela
+Apelin	GNAI1		Manuela
+cAMP	GNAI1		Manuela
+cGMP-PKG	GNAI1		Manuela
+Chemokine	GNAI1		Manuela
+Estrogen	GNAI1		Manuela
+Rap1	GNAI1		Manuela
+Sphingolipid	GNAI1		Manuela
+Apelin	GNAI2		Manuela
+cAMP	GNAI2		Manuela
+cGMP-PKG	GNAI2		Manuela
+Chemokine	GNAI2		Manuela
+Estrogen	GNAI2		Manuela
+Rap1	GNAI2		Manuela
+Sphingolipid	GNAI2		Manuela
+Apelin	GNAI3		Manuela
+cAMP	GNAI3		Manuela
+cGMP-PKG	GNAI3		Manuela
+Chemokine	GNAI3		Manuela
+Estrogen	GNAI3		Manuela
+Rap1	GNAI3		Manuela
+Sphingolipid	GNAI3		Manuela
+Calcium	GNAL		Manuela
+Estrogen	GNAO1		Manuela
+Rap1	GNAO1		Manuela
+Apelin	GNAQ		Manuela
+Calcium	GNAQ		Manuela
+cGMP-PKG	GNAQ		Manuela
+Estrogen	GNAQ		Manuela
+Rap1	GNAQ		Manuela
+Sphingolipid	GNAQ		Manuela
+Calcium	GNAS		Manuela
+cAMP	GNAS		Manuela
+Estrogen	GNAS		Manuela
+Phospholipase D	GNAS		Manuela
+Rap1	GNAS		Manuela
+Apelin	GNB1		Manuela
+Chemokine	GNB1		Manuela
+PI3K-Akt	GNB1		Manuela
+Ras	GNB1		Manuela
+Apelin	GNB2		Manuela
+Chemokine	GNB2		Manuela
+PI3K-Akt	GNB2		Manuela
+Ras	GNB2		Manuela
+Apelin	GNB3		Manuela
+Chemokine	GNB3		Manuela
+PI3K-Akt	GNB3		Manuela
+Ras	GNB3		Manuela
+Apelin	GNB4		Manuela
+Chemokine	GNB4		Manuela
+PI3K-Akt	GNB4		Manuela
+Ras	GNB4		Manuela
+Apelin	GNB5		Manuela
+Chemokine	GNB5		Manuela
+PI3K-Akt	GNB5		Manuela
+Ras	GNB5		Manuela
+Apelin	GNG10		Manuela
+Chemokine	GNG10		Manuela
+PI3K-Akt	GNG10		Manuela
+Ras	GNG10		Manuela
+Apelin	GNG11		Manuela
+Chemokine	GNG11		Manuela
+PI3K-Akt	GNG11		Manuela
+Ras	GNG11		Manuela
+Apelin	GNG12		Manuela
+Chemokine	GNG12		Manuela
+MAPK	GNG12		Manuela
+PI3K-Akt	GNG12		Manuela
+Ras	GNG12		Manuela
+Apelin	GNG13		Manuela
+Chemokine	GNG13		Manuela
+PI3K-Akt	GNG13		Manuela
+Ras	GNG13		Manuela
+Apelin	GNG2		Manuela
+Chemokine	GNG2		Manuela
+PI3K-Akt	GNG2		Manuela
+Ras	GNG2		Manuela
+Apelin	GNG3		Manuela
+Chemokine	GNG3		Manuela
+PI3K-Akt	GNG3		Manuela
+Ras	GNG3		Manuela
+Apelin	GNG4		Manuela
+Chemokine	GNG4		Manuela
+PI3K-Akt	GNG4		Manuela
+Ras	GNG4		Manuela
+Apelin	GNG5		Manuela
+Chemokine	GNG5		Manuela
+PI3K-Akt	GNG5		Manuela
+Ras	GNG5		Manuela
+Apelin	GNG7		Manuela
+Chemokine	GNG7		Manuela
+PI3K-Akt	GNG7		Manuela
+Ras	GNG7		Manuela
+Apelin	GNG8		Manuela
+Chemokine	GNG8		Manuela
+PI3K-Akt	GNG8		Manuela
+Ras	GNG8		Manuela
+Apelin	GNGT1		Manuela
+Chemokine	GNGT1		Manuela
+PI3K-Akt	GNGT1		Manuela
+Ras	GNGT1		Manuela
+Apelin	GNGT2		Manuela
+Chemokine	GNGT2		Manuela
+PI3K-Akt	GNGT2		Manuela
+Ras	GNGT2		Manuela
+p53	GORAB		Manuela
+Wnt	GPC4		Manuela
+Estrogen	GPER1		Manuela
+cAMP	GPR119		Manuela
+Hedgehog	GPR161		Manuela
+mTOR	GRB10		Manuela
+Chemokine	GRB2		Manuela
+ErbB	GRB2		Manuela
+Estrogen	GRB2		Manuela
+FoxO	GRB2		Manuela
+Insulin	GRB2		Manuela
+JAK-STAT	GRB2		Manuela
+MAPK	GRB2		Manuela
+mTOR	GRB2		Manuela
+Phospholipase D	GRB2		Manuela
+PI3K-Akt	GRB2		Manuela
+Ras	GRB2		Manuela
+cAMP	GRIA1		Manuela
+cAMP	GRIA2		Manuela
+cAMP	GRIA3		Manuela
+cAMP	GRIA4		Manuela
+Calcium	GRIN1		Manuela
+cAMP	GRIN1		Manuela
+Rap1	GRIN1		Manuela
+Ras	GRIN1		Manuela
+Calcium	GRIN2A		Manuela
+cAMP	GRIN2A		Manuela
+Rap1	GRIN2A		Manuela
+Ras	GRIN2A		Manuela
+cAMP	GRIN2B		Manuela
+Rap1	GRIN2B		Manuela
+Ras	GRIN2B		Manuela
+Calcium	GRIN2C		Manuela
+cAMP	GRIN2C		Manuela
+Calcium	GRIN2D		Manuela
+cAMP	GRIN2D		Manuela
+cAMP	GRIN3A		Manuela
+cAMP	GRIN3B		Manuela
+Chemokine	GRK1		Manuela
+Chemokine	GRK2		Manuela
+Hedgehog	GRK2		Manuela
+Chemokine	GRK3		Manuela
+Hedgehog	GRK3		Manuela
+Chemokine	GRK4		Manuela
+Chemokine	GRK5		Manuela
+Chemokine	GRK6		Manuela
+Chemokine	GRK7		Manuela
+Calcium	GRM1		Manuela
+Estrogen	GRM1		Manuela
+FoxO	GRM1		Manuela
+Phospholipase D	GRM1		Manuela
+Phospholipase D	GRM2		Manuela
+Phospholipase D	GRM3		Manuela
+Phospholipase D	GRM4		Manuela
+Calcium	GRM5		Manuela
+Phospholipase D	GRM5		Manuela
+Phospholipase D	GRM6		Manuela
+Phospholipase D	GRM7		Manuela
+Phospholipase D	GRM8		Manuela
+Calcium	GRPR		Manuela
+Chemokine	GSK3A		Manuela
+Cell cycle	GSK3B		Manuela
+Chemokine	GSK3B		Manuela
+ErbB	GSK3B		Manuela
+Hedgehog	GSK3B		Manuela
+Hippo	GSK3B		Manuela
+Insulin	GSK3B		Manuela
+mTOR	GSK3B		Manuela
+PI3K-Akt	GSK3B		Manuela
+Thyroid hormone	GSK3B		Manuela
+Wnt	GSK3B		Manuela
+cGMP-PKG	GTF2I		Manuela
+cGMP-PKG	GTF2IRD1		Manuela
+p53	GTSE1		Manuela
+cGMP-PKG	GUCY1A1		Manuela
+cGMP-PKG	GUCY1A2		Manuela
+cGMP-PKG	GUCY1B1		Manuela
+AMPK	GYS1		Manuela
+Insulin	GYS1		Manuela
+PI3K-Akt	GYS1		Manuela
+AMPK	GYS2		Manuela
+Insulin	GYS2		Manuela
+PI3K-Akt	GYS2		Manuela
+ErbB	HBEGF		Manuela
+Estrogen	HBEGF		Manuela
+cAMP	HCAR1		Manuela
+cAMP	HCAR2		Manuela
+cAMP	HCAR3		Manuela
+Chemokine	HCK		Manuela
+cAMP	HCN2		Manuela
+cAMP	HCN4		Manuela
+Cell cycle	HDAC1		Manuela
+Notch	HDAC1		Manuela
+Thyroid hormone	HDAC1		Manuela
+Cell cycle	HDAC2		Manuela
+Notch	HDAC2		Manuela
+Thyroid hormone	HDAC2		Manuela
+Thyroid hormone	HDAC3		Manuela
+Apelin	HDAC4		Manuela
+Apelin	HDAC5		Manuela
+Fanconi anemia	HES1		Manuela
+Notch	HES1		Manuela
+Notch	HES5		Manuela
+MAPK	HGF		Manuela
+PI3K-Akt	HGF		Manuela
+Rap1	HGF		Manuela
+Ras	HGF		Manuela
+cAMP	HHIP		Manuela
+Hedgehog	HHIP		Manuela
+HIF-1	HIF1A		Manuela
+Thyroid hormone	HIF1A		Manuela
+HIF-1	HK1		Manuela
+Insulin	HK1		Manuela
+HIF-1	HK2		Manuela
+Insulin	HK2		Manuela
+HIF-1	HK3		Manuela
+Insulin	HK3		Manuela
+HIF-1	HKDC1		Manuela
+Insulin	HKDC1		Manuela
+AMPK	HMGCR		Manuela
+PPAR	HMGCS2		Manuela
+HIF-1	HMOX1		Manuela
+AMPK	HNF4A		Manuela
+FoxO	HOMER1		Manuela
+FoxO	HOMER2		Manuela
+FoxO	HOMER3		Manuela
+Apelin	HRAS		Manuela
+Chemokine	HRAS		Manuela
+ErbB	HRAS		Manuela
+Estrogen	HRAS		Manuela
+FoxO	HRAS		Manuela
+Insulin	HRAS		Manuela
+JAK-STAT	HRAS		Manuela
+MAPK	HRAS		Manuela
+mTOR	HRAS		Manuela
+Phospholipase D	HRAS		Manuela
+PI3K-Akt	HRAS		Manuela
+Rap1	HRAS		Manuela
+Ras	HRAS		Manuela
+Sphingolipid	HRAS		Manuela
+Thyroid hormone	HRAS		Manuela
+VEGF	HRAS		Manuela
+Calcium	HRH1		Manuela
+Calcium	HRH2		Manuela
+Estrogen	HSP90AA1		Manuela
+PI3K-Akt	HSP90AA1		Manuela
+Estrogen	HSP90AB1		Manuela
+PI3K-Akt	HSP90AB1		Manuela
+Estrogen	HSP90B1		Manuela
+PI3K-Akt	HSP90B1		Manuela
+Estrogen	HSPA1A		Manuela
+MAPK	HSPA1A		Manuela
+Estrogen	HSPA1B		Manuela
+MAPK	HSPA1B		Manuela
+Estrogen	HSPA1L		Manuela
+MAPK	HSPA1L		Manuela
+Estrogen	HSPA2		Manuela
+MAPK	HSPA2		Manuela
+Estrogen	HSPA6		Manuela
+MAPK	HSPA6		Manuela
+Estrogen	HSPA8		Manuela
+MAPK	HSPA8		Manuela
+MAPK	HSPB1		Manuela
+VEGF	HSPB1		Manuela
+cAMP	HTR1A		Manuela
+cAMP	HTR1B		Manuela
+cAMP	HTR1D		Manuela
+cAMP	HTR1E		Manuela
+cAMP	HTR1F		Manuela
+Calcium	HTR2A		Manuela
+Calcium	HTR2B		Manuela
+Calcium	HTR2C		Manuela
+Calcium	HTR4		Manuela
+cAMP	HTR4		Manuela
+Calcium	HTR5A		Manuela
+Calcium	HTR6		Manuela
+cAMP	HTR6		Manuela
+Calcium	HTR7		Manuela
+Ras	HTR7		Manuela
+PI3K-Akt	IBSP		Manuela
+NF-kappa B	ICAM1		Manuela
+TNF	ICAM1		Manuela
+Hippo	ID1		Manuela
+Rap1	ID1		Manuela
+TGF-beta	ID1		Manuela
+Hippo	ID2		Manuela
+TGF-beta	ID2		Manuela
+TGF-beta	ID3		Manuela
+TGF-beta	ID4		Manuela
+Cytokine-cytokine receptor interaction	IFNA1		Manuela
+JAK-STAT	IFNA1		Manuela
+PI3K-Akt	IFNA1		Manuela
+Cytokine-cytokine receptor interaction	IFNA10		Manuela
+JAK-STAT	IFNA10		Manuela
+PI3K-Akt	IFNA10		Manuela
+Cytokine-cytokine receptor interaction	IFNA13		Manuela
+JAK-STAT	IFNA13		Manuela
+PI3K-Akt	IFNA13		Manuela
+Cytokine-cytokine receptor interaction	IFNA14		Manuela
+JAK-STAT	IFNA14		Manuela
+PI3K-Akt	IFNA14		Manuela
+Cytokine-cytokine receptor interaction	IFNA16		Manuela
+JAK-STAT	IFNA16		Manuela
+PI3K-Akt	IFNA16		Manuela
+Cytokine-cytokine receptor interaction	IFNA17		Manuela
+JAK-STAT	IFNA17		Manuela
+PI3K-Akt	IFNA17		Manuela
+Cytokine-cytokine receptor interaction	IFNA2		Manuela
+JAK-STAT	IFNA2		Manuela
+PI3K-Akt	IFNA2		Manuela
+Cytokine-cytokine receptor interaction	IFNA21		Manuela
+JAK-STAT	IFNA21		Manuela
+PI3K-Akt	IFNA21		Manuela
+Cytokine-cytokine receptor interaction	IFNA4		Manuela
+JAK-STAT	IFNA4		Manuela
+PI3K-Akt	IFNA4		Manuela
+Cytokine-cytokine receptor interaction	IFNA5		Manuela
+JAK-STAT	IFNA5		Manuela
+PI3K-Akt	IFNA5		Manuela
+Cytokine-cytokine receptor interaction	IFNA6		Manuela
+JAK-STAT	IFNA6		Manuela
+PI3K-Akt	IFNA6		Manuela
+Cytokine-cytokine receptor interaction	IFNA7		Manuela
+JAK-STAT	IFNA7		Manuela
+PI3K-Akt	IFNA7		Manuela
+Cytokine-cytokine receptor interaction	IFNA8		Manuela
+JAK-STAT	IFNA8		Manuela
+PI3K-Akt	IFNA8		Manuela
+Cytokine-cytokine receptor interaction	IFNAR1		Manuela
+JAK-STAT	IFNAR1		Manuela
+PI3K-Akt	IFNAR1		Manuela
+Cytokine-cytokine receptor interaction	IFNAR2		Manuela
+JAK-STAT	IFNAR2		Manuela
+PI3K-Akt	IFNAR2		Manuela
+Cytokine-cytokine receptor interaction	IFNB1		Manuela
+JAK-STAT	IFNB1		Manuela
+PI3K-Akt	IFNB1		Manuela
+TNF	IFNB1		Manuela
+Cytokine-cytokine receptor interaction	IFNE		Manuela
+JAK-STAT	IFNE		Manuela
+Cytokine-cytokine receptor interaction	IFNG		Manuela
+HIF-1	IFNG		Manuela
+JAK-STAT	IFNG		Manuela
+TGF-beta	IFNG		Manuela
+Cytokine-cytokine receptor interaction	IFNGR1		Manuela
+HIF-1	IFNGR1		Manuela
+JAK-STAT	IFNGR1		Manuela
+Cytokine-cytokine receptor interaction	IFNGR2		Manuela
+HIF-1	IFNGR2		Manuela
+JAK-STAT	IFNGR2		Manuela
+Cytokine-cytokine receptor interaction	IFNK		Manuela
+JAK-STAT	IFNK		Manuela
+Cytokine-cytokine receptor interaction	IFNL1		Manuela
+JAK-STAT	IFNL1		Manuela
+Cytokine-cytokine receptor interaction	IFNL2		Manuela
+JAK-STAT	IFNL2		Manuela
+Cytokine-cytokine receptor interaction	IFNL3		Manuela
+JAK-STAT	IFNL3		Manuela
+Cytokine-cytokine receptor interaction	IFNLR1		Manuela
+JAK-STAT	IFNLR1		Manuela
+Cytokine-cytokine receptor interaction	IFNW1		Manuela
+JAK-STAT	IFNW1		Manuela
+AMPK	IGF1		Manuela
+FoxO	IGF1		Manuela
+HIF-1	IGF1		Manuela
+MAPK	IGF1		Manuela
+mTOR	IGF1		Manuela
+p53	IGF1		Manuela
+PI3K-Akt	IGF1		Manuela
+Rap1	IGF1		Manuela
+Ras	IGF1		Manuela
+AMPK	IGF1R		Manuela
+FoxO	IGF1R		Manuela
+HIF-1	IGF1R		Manuela
+MAPK	IGF1R		Manuela
+mTOR	IGF1R		Manuela
+PI3K-Akt	IGF1R		Manuela
+Rap1	IGF1R		Manuela
+Ras	IGF1R		Manuela
+MAPK	IGF2		Manuela
+PI3K-Akt	IGF2		Manuela
+Ras	IGF2		Manuela
+p53	IGFBP3		Manuela
+Hedgehog	IHH		Manuela
+Chemokine	IKBKB		Manuela
+FoxO	IKBKB		Manuela
+Insulin	IKBKB		Manuela
+MAPK	IKBKB		Manuela
+mTOR	IKBKB		Manuela
+NF-kappa B	IKBKB		Manuela
+PI3K-Akt	IKBKB		Manuela
+Ras	IKBKB		Manuela
+TNF	IKBKB		Manuela
+Chemokine	IKBKG		Manuela
+MAPK	IKBKG		Manuela
+NF-kappa B	IKBKG		Manuela
+PI3K-Akt	IKBKG		Manuela
+Ras	IKBKG		Manuela
+TNF	IKBKG		Manuela
+Cytokine-cytokine receptor interaction	IL10		Manuela
+FoxO	IL10		Manuela
+JAK-STAT	IL10		Manuela
+Cytokine-cytokine receptor interaction	IL10RA		Manuela
+JAK-STAT	IL10RA		Manuela
+Cytokine-cytokine receptor interaction	IL10RB		Manuela
+JAK-STAT	IL10RB		Manuela
+Cytokine-cytokine receptor interaction	IL11		Manuela
+JAK-STAT	IL11		Manuela
+Cytokine-cytokine receptor interaction	IL11RA		Manuela
+JAK-STAT	IL11RA		Manuela
+Cytokine-cytokine receptor interaction	IL12A		Manuela
+JAK-STAT	IL12A		Manuela
+Cytokine-cytokine receptor interaction	IL12B		Manuela
+JAK-STAT	IL12B		Manuela
+Cytokine-cytokine receptor interaction	IL12RB1		Manuela
+JAK-STAT	IL12RB1		Manuela
+Cytokine-cytokine receptor interaction	IL12RB2		Manuela
+JAK-STAT	IL12RB2		Manuela
+Cytokine-cytokine receptor interaction	IL13		Manuela
+JAK-STAT	IL13		Manuela
+Cytokine-cytokine receptor interaction	IL13RA1		Manuela
+JAK-STAT	IL13RA1		Manuela
+Cytokine-cytokine receptor interaction	IL13RA2		Manuela
+JAK-STAT	IL13RA2		Manuela
+Cytokine-cytokine receptor interaction	IL15		Manuela
+JAK-STAT	IL15		Manuela
+TNF	IL15		Manuela
+Cytokine-cytokine receptor interaction	IL15RA		Manuela
+JAK-STAT	IL15RA		Manuela
+Cytokine-cytokine receptor interaction	IL16		Manuela
+Cytokine-cytokine receptor interaction	IL17A		Manuela
+Cytokine-cytokine receptor interaction	IL17B		Manuela
+Cytokine-cytokine receptor interaction	IL17C		Manuela
+Cytokine-cytokine receptor interaction	IL17D		Manuela
+JAK-STAT	IL17D		Manuela
+Cytokine-cytokine receptor interaction	IL17F		Manuela
+Cytokine-cytokine receptor interaction	IL17RA		Manuela
+Cytokine-cytokine receptor interaction	IL17RB		Manuela
+Cytokine-cytokine receptor interaction	IL17RC		Manuela
+Cytokine-cytokine receptor interaction	IL17RE		Manuela
+Cytokine-cytokine receptor interaction	IL18		Manuela
+Cytokine-cytokine receptor interaction	IL18R1		Manuela
+TNF	IL18R1		Manuela
+Cytokine-cytokine receptor interaction	IL18RAP		Manuela
+Cytokine-cytokine receptor interaction	IL19		Manuela
+JAK-STAT	IL19		Manuela
+Cytokine-cytokine receptor interaction	IL1A		Manuela
+MAPK	IL1A		Manuela
+Cytokine-cytokine receptor interaction	IL1B		Manuela
+MAPK	IL1B		Manuela
+NF-kappa B	IL1B		Manuela
+TNF	IL1B		Manuela
+Cytokine-cytokine receptor interaction	IL1F10		Manuela
+Cytokine-cytokine receptor interaction	IL1R1		Manuela
+MAPK	IL1R1		Manuela
+NF-kappa B	IL1R1		Manuela
+Cytokine-cytokine receptor interaction	IL1R2		Manuela
+Cytokine-cytokine receptor interaction	IL1RAP		Manuela
+MAPK	IL1RAP		Manuela
+Cytokine-cytokine receptor interaction	IL1RL1		Manuela
+Cytokine-cytokine receptor interaction	IL1RL2		Manuela
+Cytokine-cytokine receptor interaction	IL1RN		Manuela
+Cytokine-cytokine receptor interaction	IL2		Manuela
+JAK-STAT	IL2		Manuela
+PI3K-Akt	IL2		Manuela
+Cytokine-cytokine receptor interaction	IL20		Manuela
+JAK-STAT	IL20		Manuela
+Cytokine-cytokine receptor interaction	IL20RA		Manuela
+JAK-STAT	IL20RA		Manuela
+Cytokine-cytokine receptor interaction	IL20RB		Manuela
+JAK-STAT	IL20RB		Manuela
+Cytokine-cytokine receptor interaction	IL21		Manuela
+JAK-STAT	IL21		Manuela
+Cytokine-cytokine receptor interaction	IL21R		Manuela
+JAK-STAT	IL21R		Manuela
+Cytokine-cytokine receptor interaction	IL22		Manuela
+JAK-STAT	IL22		Manuela
+Cytokine-cytokine receptor interaction	IL22RA1		Manuela
+JAK-STAT	IL22RA1		Manuela
+JAK-STAT	IL22RA2		Manuela
+Cytokine-cytokine receptor interaction	IL23A		Manuela
+JAK-STAT	IL23A		Manuela
+Cytokine-cytokine receptor interaction	IL23R		Manuela
+JAK-STAT	IL23R		Manuela
+Cytokine-cytokine receptor interaction	IL24		Manuela
+JAK-STAT	IL24		Manuela
+Cytokine-cytokine receptor interaction	IL25		Manuela
+Cytokine-cytokine receptor interaction	IL26		Manuela
+Cytokine-cytokine receptor interaction	IL27		Manuela
+Cytokine-cytokine receptor interaction	IL27RA		Manuela
+JAK-STAT	IL27RA		Manuela
+Cytokine-cytokine receptor interaction	IL2RA		Manuela
+JAK-STAT	IL2RA		Manuela
+PI3K-Akt	IL2RA		Manuela
+Cytokine-cytokine receptor interaction	IL2RB		Manuela
+JAK-STAT	IL2RB		Manuela
+PI3K-Akt	IL2RB		Manuela
+Cytokine-cytokine receptor interaction	IL2RG		Manuela
+JAK-STAT	IL2RG		Manuela
+PI3K-Akt	IL2RG		Manuela
+Cytokine-cytokine receptor interaction	IL3		Manuela
+JAK-STAT	IL3		Manuela
+PI3K-Akt	IL3		Manuela
+Cytokine-cytokine receptor interaction	IL31		Manuela
+Cytokine-cytokine receptor interaction	IL31RA		Manuela
+Cytokine-cytokine receptor interaction	IL32		Manuela
+Cytokine-cytokine receptor interaction	IL33		Manuela
+Cytokine-cytokine receptor interaction	IL34		Manuela
+Cytokine-cytokine receptor interaction	IL36A		Manuela
+Cytokine-cytokine receptor interaction	IL36B		Manuela
+Cytokine-cytokine receptor interaction	IL36G		Manuela
+Cytokine-cytokine receptor interaction	IL36RN		Manuela
+Cytokine-cytokine receptor interaction	IL37		Manuela
+Cytokine-cytokine receptor interaction	IL3RA		Manuela
+JAK-STAT	IL3RA		Manuela
+PI3K-Akt	IL3RA		Manuela
+Cytokine-cytokine receptor interaction	IL4		Manuela
+JAK-STAT	IL4		Manuela
+PI3K-Akt	IL4		Manuela
+Cytokine-cytokine receptor interaction	IL4R		Manuela
+JAK-STAT	IL4R		Manuela
+PI3K-Akt	IL4R		Manuela
+Cytokine-cytokine receptor interaction	IL5		Manuela
+JAK-STAT	IL5		Manuela
+Cytokine-cytokine receptor interaction	IL5RA		Manuela
+JAK-STAT	IL5RA		Manuela
+Cytokine-cytokine receptor interaction	IL6		Manuela
+FoxO	IL6		Manuela
+HIF-1	IL6		Manuela
+JAK-STAT	IL6		Manuela
+PI3K-Akt	IL6		Manuela
+TNF	IL6		Manuela
+Cytokine-cytokine receptor interaction	IL6R		Manuela
+HIF-1	IL6R		Manuela
+JAK-STAT	IL6R		Manuela
+PI3K-Akt	IL6R		Manuela
+Cytokine-cytokine receptor interaction	IL6ST		Manuela
+JAK-STAT	IL6ST		Manuela
+Cytokine-cytokine receptor interaction	IL7		Manuela
+JAK-STAT	IL7		Manuela
+PI3K-Akt	IL7		Manuela
+Cytokine-cytokine receptor interaction	IL7R		Manuela
+FoxO	IL7R		Manuela
+JAK-STAT	IL7R		Manuela
+PI3K-Akt	IL7R		Manuela
+Cytokine-cytokine receptor interaction	IL9		Manuela
+JAK-STAT	IL9		Manuela
+Cytokine-cytokine receptor interaction	IL9R		Manuela
+JAK-STAT	IL9R		Manuela
+PPAR	ILK		Manuela
+Phosphatidylinositol signaling system	IMPA1		Manuela
+Phosphatidylinositol signaling system	IMPA2		Manuela
+Phosphatidylinositol signaling system	IMPAD1		Manuela
+Cytokine-cytokine receptor interaction	INHA		Manuela
+Cytokine-cytokine receptor interaction	INHBA		Manuela
+TGF-beta	INHBA		Manuela
+Cytokine-cytokine receptor interaction	INHBB		Manuela
+TGF-beta	INHBB		Manuela
+Cytokine-cytokine receptor interaction	INHBC		Manuela
+TGF-beta	INHBC		Manuela
+Cytokine-cytokine receptor interaction	INHBE		Manuela
+TGF-beta	INHBE		Manuela
+Phosphatidylinositol signaling system	INPP1		Manuela
+Phosphatidylinositol signaling system	INPP4A		Manuela
+Phosphatidylinositol signaling system	INPP4B		Manuela
+Phosphatidylinositol signaling system	INPP5A		Manuela
+Phosphatidylinositol signaling system	INPP5B		Manuela
+Phosphatidylinositol signaling system	INPP5D		Manuela
+Phosphatidylinositol signaling system	INPP5E		Manuela
+Phosphatidylinositol signaling system	INPP5F		Manuela
+Phosphatidylinositol signaling system	INPP5J		Manuela
+Insulin	INPP5K		Manuela
+Phosphatidylinositol signaling system	INPP5K		Manuela
+Insulin	INPPL1		Manuela
+Phosphatidylinositol signaling system	INPPL1		Manuela
+AMPK	INS		Manuela
+cGMP-PKG	INS		Manuela
+FoxO	INS		Manuela
+HIF-1	INS		Manuela
+Insulin	INS		Manuela
+MAPK	INS		Manuela
+mTOR	INS		Manuela
+Phospholipase D	INS		Manuela
+PI3K-Akt	INS		Manuela
+Rap1	INS		Manuela
+Ras	INS		Manuela
+AMPK	INSR		Manuela
+cGMP-PKG	INSR		Manuela
+FoxO	INSR		Manuela
+HIF-1	INSR		Manuela
+Insulin	INSR		Manuela
+MAPK	INSR		Manuela
+mTOR	INSR		Manuela
+Phospholipase D	INSR		Manuela
+PI3K-Akt	INSR		Manuela
+Rap1	INSR		Manuela
+Ras	INSR		Manuela
+Wnt	INVS		Manuela
+Phosphatidylinositol signaling system	IP6K1		Manuela
+Phosphatidylinositol signaling system	IP6K2		Manuela
+Phosphatidylinositol signaling system	IP6K3		Manuela
+Phosphatidylinositol signaling system	IPMK		Manuela
+Phosphatidylinositol signaling system	IPPK		Manuela
+MAPK	IRAK1		Manuela
+NF-kappa B	IRAK1		Manuela
+MAPK	IRAK4		Manuela
+NF-kappa B	IRAK4		Manuela
+TNF	IRF1		Manuela
+JAK-STAT	IRF9		Manuela
+AMPK	IRS1		Manuela
+cGMP-PKG	IRS1		Manuela
+FoxO	IRS1		Manuela
+Insulin	IRS1		Manuela
+mTOR	IRS1		Manuela
+PI3K-Akt	IRS1		Manuela
+AMPK	IRS2		Manuela
+cGMP-PKG	IRS2		Manuela
+FoxO	IRS2		Manuela
+Insulin	IRS2		Manuela
+AMPK	IRS4		Manuela
+cGMP-PKG	IRS4		Manuela
+FoxO	IRS4		Manuela
+Insulin	IRS4		Manuela
+TNF	ITCH		Manuela
+PI3K-Akt	ITGA1		Manuela
+PI3K-Akt	ITGA10		Manuela
+PI3K-Akt	ITGA11		Manuela
+PI3K-Akt	ITGA2		Manuela
+PI3K-Akt	ITGA2B		Manuela
+Rap1	ITGA2B		Manuela
+PI3K-Akt	ITGA3		Manuela
+PI3K-Akt	ITGA4		Manuela
+PI3K-Akt	ITGA5		Manuela
+PI3K-Akt	ITGA6		Manuela
+PI3K-Akt	ITGA7		Manuela
+PI3K-Akt	ITGA8		Manuela
+PI3K-Akt	ITGA9		Manuela
+Rap1	ITGAL		Manuela
+Rap1	ITGAM		Manuela
+PI3K-Akt	ITGAV		Manuela
+Thyroid hormone	ITGAV		Manuela
+PI3K-Akt	ITGB1		Manuela
+Rap1	ITGB1		Manuela
+Hippo	ITGB2		Manuela
+Rap1	ITGB2		Manuela
+PI3K-Akt	ITGB3		Manuela
+Rap1	ITGB3		Manuela
+Thyroid hormone	ITGB3		Manuela
+PI3K-Akt	ITGB4		Manuela
+PI3K-Akt	ITGB5		Manuela
+PI3K-Akt	ITGB6		Manuela
+PI3K-Akt	ITGB7		Manuela
+PI3K-Akt	ITGB8		Manuela
+Chemokine	ITK		Manuela
+Phosphatidylinositol signaling system	ITPK1		Manuela
+Calcium	ITPKA		Manuela
+Phosphatidylinositol signaling system	ITPKA		Manuela
+Calcium	ITPKB		Manuela
+Phosphatidylinositol signaling system	ITPKB		Manuela
+Calcium	ITPKC		Manuela
+Phosphatidylinositol signaling system	ITPKC		Manuela
+Apelin	ITPR1		Manuela
+Calcium	ITPR1		Manuela
+cGMP-PKG	ITPR1		Manuela
+Estrogen	ITPR1		Manuela
+Phosphatidylinositol signaling system	ITPR1		Manuela
+Apelin	ITPR2		Manuela
+Calcium	ITPR2		Manuela
+cGMP-PKG	ITPR2		Manuela
+Estrogen	ITPR2		Manuela
+Phosphatidylinositol signaling system	ITPR2		Manuela
+Apelin	ITPR3		Manuela
+Calcium	ITPR3		Manuela
+cGMP-PKG	ITPR3		Manuela
+Estrogen	ITPR3		Manuela
+Phosphatidylinositol signaling system	ITPR3		Manuela
+Apelin	JAG1		Manuela
+Notch	JAG1		Manuela
+TNF	JAG1		Manuela
+Notch	JAG2		Manuela
+JAK-STAT	JAK1		Manuela
+PI3K-Akt	JAK1		Manuela
+Chemokine	JAK2		Manuela
+JAK-STAT	JAK2		Manuela
+PI3K-Akt	JAK2		Manuela
+Chemokine	JAK3		Manuela
+JAK-STAT	JAK3		Manuela
+PI3K-Akt	JAK3		Manuela
+MAPK	JMJD7-PLA2G4B		Manuela
+Phospholipase D	JMJD7-PLA2G4B		Manuela
+Ras	JMJD7-PLA2G4B		Manuela
+VEGF	JMJD7-PLA2G4B		Manuela
+cAMP	JUN		Manuela
+ErbB	JUN		Manuela
+Estrogen	JUN		Manuela
+MAPK	JUN		Manuela
+TNF	JUN		Manuela
+Wnt	JUN		Manuela
+TNF	JUNB		Manuela
+MAPK	JUND		Manuela
+Notch	KAT2A		Manuela
+Thyroid hormone	KAT2A		Manuela
+Notch	KAT2B		Manuela
+Thyroid hormone	KAT2B		Manuela
+Estrogen	KCNJ3		Manuela
+Estrogen	KCNJ5		Manuela
+Estrogen	KCNJ6		Manuela
+cGMP-PKG	KCNJ8		Manuela
+Estrogen	KCNJ9		Manuela
+cGMP-PKG	KCNMA1		Manuela
+cGMP-PKG	KCNMB1		Manuela
+cGMP-PKG	KCNMB2		Manuela
+cGMP-PKG	KCNMB3		Manuela
+cGMP-PKG	KCNMB4		Manuela
+cGMP-PKG	KCNU1		Manuela
+MAPK	KDR		Manuela
+PI3K-Akt	KDR		Manuela
+Rap1	KDR		Manuela
+Ras	KDR		Manuela
+VEGF	KDR		Manuela
+Hedgehog	KIF3A		Manuela
+Hedgehog	KIF7		Manuela
+MAPK	KIT		Manuela
+Phospholipase D	KIT		Manuela
+PI3K-Akt	KIT		Manuela
+Rap1	KIT		Manuela
+Ras	KIT		Manuela
+MAPK	KITLG		Manuela
+Phospholipase D	KITLG		Manuela
+PI3K-Akt	KITLG		Manuela
+Rap1	KITLG		Manuela
+Ras	KITLG		Manuela
+Apelin	KLF2		Manuela
+FoxO	KLF2		Manuela
+Apelin	KRAS		Manuela
+Chemokine	KRAS		Manuela
+ErbB	KRAS		Manuela
+Estrogen	KRAS		Manuela
+FoxO	KRAS		Manuela
+Insulin	KRAS		Manuela
+MAPK	KRAS		Manuela
+mTOR	KRAS		Manuela
+Phospholipase D	KRAS		Manuela
+PI3K-Akt	KRAS		Manuela
+Rap1	KRAS		Manuela
+Ras	KRAS		Manuela
+Sphingolipid	KRAS		Manuela
+Thyroid hormone	KRAS		Manuela
+VEGF	KRAS		Manuela
+Rap1	KRIT1		Manuela
+Estrogen	KRT10		Manuela
+Estrogen	KRT12		Manuela
+Estrogen	KRT13		Manuela
+Estrogen	KRT14		Manuela
+Estrogen	KRT15		Manuela
+Estrogen	KRT16		Manuela
+Estrogen	KRT17		Manuela
+Estrogen	KRT18		Manuela
+Estrogen	KRT19		Manuela
+Estrogen	KRT20		Manuela
+Estrogen	KRT23		Manuela
+Estrogen	KRT24		Manuela
+Estrogen	KRT25		Manuela
+Estrogen	KRT26		Manuela
+Estrogen	KRT27		Manuela
+Estrogen	KRT28		Manuela
+Estrogen	KRT31		Manuela
+Estrogen	KRT32		Manuela
+Estrogen	KRT33A		Manuela
+Estrogen	KRT33B		Manuela
+Estrogen	KRT34		Manuela
+Estrogen	KRT35		Manuela
+Estrogen	KRT36		Manuela
+Estrogen	KRT37		Manuela
+Estrogen	KRT38		Manuela
+Estrogen	KRT39		Manuela
+Estrogen	KRT40		Manuela
+Estrogen	KRT9		Manuela
+Ras	KSR1		Manuela
+Ras	KSR2		Manuela
+PI3K-Akt	LAMA1		Manuela
+PI3K-Akt	LAMA2		Manuela
+PI3K-Akt	LAMA3		Manuela
+PI3K-Akt	LAMA4		Manuela
+PI3K-Akt	LAMA5		Manuela
+PI3K-Akt	LAMB1		Manuela
+PI3K-Akt	LAMB2		Manuela
+PI3K-Akt	LAMB3		Manuela
+PI3K-Akt	LAMB4		Manuela
+PI3K-Akt	LAMC1		Manuela
+PI3K-Akt	LAMC2		Manuela
+PI3K-Akt	LAMC3		Manuela
+mTOR	LAMTOR1		Manuela
+mTOR	LAMTOR2		Manuela
+MAPK	LAMTOR3		Manuela
+mTOR	LAMTOR3		Manuela
+mTOR	LAMTOR4		Manuela
+mTOR	LAMTOR5		Manuela
+NF-kappa B	LAT		Manuela
+Rap1	LAT		Manuela
+Ras	LAT		Manuela
+Hippo	LATS1		Manuela
+Hippo	LATS2		Manuela
+NF-kappa B	LBP		Manuela
+NF-kappa B	LCK		Manuela
+Rap1	LCP2		Manuela
+HIF-1	LDHA		Manuela
+Hippo	LEF1		Manuela
+Wnt	LEF1		Manuela
+TGF-beta	LEFTY1		Manuela
+TGF-beta	LEFTY2		Manuela
+AMPK	LEP		Manuela
+Cytokine-cytokine receptor interaction	LEP		Manuela
+JAK-STAT	LEP		Manuela
+AMPK	LEPR		Manuela
+Cytokine-cytokine receptor interaction	LEPR		Manuela
+JAK-STAT	LEPR		Manuela
+Notch	LFNG		Manuela
+Calcium	LHCGR		Manuela
+Cytokine-cytokine receptor interaction	LIF		Manuela
+JAK-STAT	LIF		Manuela
+TNF	LIF		Manuela
+Cytokine-cytokine receptor interaction	LIFR		Manuela
+JAK-STAT	LIFR		Manuela
+Hippo	LIMD1		Manuela
+AMPK	LIPE		Manuela
+Apelin	LIPE		Manuela
+cAMP	LIPE		Manuela
+Insulin	LIPE		Manuela
+Hippo	LLGL1		Manuela
+Hippo	LLGL2		Manuela
+Phospholipase D	LPAR1		Manuela
+PI3K-Akt	LPAR1		Manuela
+Rap1	LPAR1		Manuela
+Phospholipase D	LPAR2		Manuela
+PI3K-Akt	LPAR2		Manuela
+Rap1	LPAR2		Manuela
+Phospholipase D	LPAR3		Manuela
+PI3K-Akt	LPAR3		Manuela
+Rap1	LPAR3		Manuela
+Phospholipase D	LPAR4		Manuela
+PI3K-Akt	LPAR4		Manuela
+Rap1	LPAR4		Manuela
+Phospholipase D	LPAR5		Manuela
+PI3K-Akt	LPAR5		Manuela
+Rap1	LPAR5		Manuela
+Phospholipase D	LPAR6		Manuela
+PI3K-Akt	LPAR6		Manuela
+mTOR	LPIN1		Manuela
+PPAR	LPL		Manuela
+Hedgehog	LRP2		Manuela
+mTOR	LRP5		Manuela
+Wnt	LRP5		Manuela
+mTOR	LRP6		Manuela
+Wnt	LRP6		Manuela
+Cytokine-cytokine receptor interaction	LTA		Manuela
+NF-kappa B	LTA		Manuela
+TNF	LTA		Manuela
+Cytokine-cytokine receptor interaction	LTB		Manuela
+NF-kappa B	LTB		Manuela
+Calcium	LTB4R2		Manuela
+TGF-beta	LTBP1		Manuela
+Cytokine-cytokine receptor interaction	LTBR		Manuela
+HIF-1	LTBR		Manuela
+NF-kappa B	LTBR		Manuela
+NF-kappa B	LY96		Manuela
+Chemokine	LYN		Manuela
+NF-kappa B	LYN		Manuela
+Cell cycle	MAD1L1		Manuela
+Cell cycle	MAD2L1		Manuela
+Cell cycle	MAD2L2		Manuela
+PI3K-Akt	MAGI1		Manuela
+Rap1	MAGI1		Manuela
+PI3K-Akt	MAGI2		Manuela
+Rap1	MAGI2		Manuela
+Rap1	MAGI3		Manuela
+NF-kappa B	MALT1		Manuela
+Notch	MAML1		Manuela
+Notch	MAML2		Manuela
+Notch	MAML3		Manuela
+Apelin	MAP2K1		Manuela
+cAMP	MAP2K1		Manuela
+cGMP-PKG	MAP2K1		Manuela
+Chemokine	MAP2K1		Manuela
+ErbB	MAP2K1		Manuela
+Estrogen	MAP2K1		Manuela
+FoxO	MAP2K1		Manuela
+HIF-1	MAP2K1		Manuela
+Insulin	MAP2K1		Manuela
+MAPK	MAP2K1		Manuela
+mTOR	MAP2K1		Manuela
+Phospholipase D	MAP2K1		Manuela
+PI3K-Akt	MAP2K1		Manuela
+Rap1	MAP2K1		Manuela
+Ras	MAP2K1		Manuela
+Sphingolipid	MAP2K1		Manuela
+Thyroid hormone	MAP2K1		Manuela
+TNF	MAP2K1		Manuela
+VEGF	MAP2K1		Manuela
+Apelin	MAP2K2		Manuela
+cAMP	MAP2K2		Manuela
+cGMP-PKG	MAP2K2		Manuela
+ErbB	MAP2K2		Manuela
+Estrogen	MAP2K2		Manuela
+FoxO	MAP2K2		Manuela
+HIF-1	MAP2K2		Manuela
+Insulin	MAP2K2		Manuela
+MAPK	MAP2K2		Manuela
+mTOR	MAP2K2		Manuela
+Phospholipase D	MAP2K2		Manuela
+PI3K-Akt	MAP2K2		Manuela
+Rap1	MAP2K2		Manuela
+Ras	MAP2K2		Manuela
+Sphingolipid	MAP2K2		Manuela
+Thyroid hormone	MAP2K2		Manuela
+VEGF	MAP2K2		Manuela
+MAPK	MAP2K3		Manuela
+Rap1	MAP2K3		Manuela
+TNF	MAP2K3		Manuela
+ErbB	MAP2K4		Manuela
+MAPK	MAP2K4		Manuela
+TNF	MAP2K4		Manuela
+MAPK	MAP2K5		Manuela
+MAPK	MAP2K6		Manuela
+Rap1	MAP2K6		Manuela
+TNF	MAP2K6		Manuela
+ErbB	MAP2K7		Manuela
+MAPK	MAP2K7		Manuela
+TNF	MAP2K7		Manuela
+MAPK	MAP3K1		Manuela
+MAPK	MAP3K11		Manuela
+MAPK	MAP3K12		Manuela
+MAPK	MAP3K13		Manuela
+MAPK	MAP3K14		Manuela
+NF-kappa B	MAP3K14		Manuela
+TNF	MAP3K14		Manuela
+MAPK	MAP3K2		Manuela
+MAPK	MAP3K20		Manuela
+MAPK	MAP3K3		Manuela
+MAPK	MAP3K4		Manuela
+MAPK	MAP3K5		Manuela
+Sphingolipid	MAP3K5		Manuela
+TNF	MAP3K5		Manuela
+MAPK	MAP3K6		Manuela
+AMPK	MAP3K7		Manuela
+MAPK	MAP3K7		Manuela
+NF-kappa B	MAP3K7		Manuela
+TNF	MAP3K7		Manuela
+Wnt	MAP3K7		Manuela
+MAPK	MAP3K8		Manuela
+TNF	MAP3K8		Manuela
+MAPK	MAP4K1		Manuela
+MAPK	MAP4K2		Manuela
+MAPK	MAP4K3		Manuela
+MAPK	MAP4K4		Manuela
+Apelin	MAPK1		Manuela
+cAMP	MAPK1		Manuela
+cGMP-PKG	MAPK1		Manuela
+Chemokine	MAPK1		Manuela
+ErbB	MAPK1		Manuela
+Estrogen	MAPK1		Manuela
+FoxO	MAPK1		Manuela
+HIF-1	MAPK1		Manuela
+Insulin	MAPK1		Manuela
+MAPK	MAPK1		Manuela
+mTOR	MAPK1		Manuela
+Phospholipase D	MAPK1		Manuela
+PI3K-Akt	MAPK1		Manuela
+Rap1	MAPK1		Manuela
+Ras	MAPK1		Manuela
+Sphingolipid	MAPK1		Manuela
+TGF-beta	MAPK1		Manuela
+Thyroid hormone	MAPK1		Manuela
+TNF	MAPK1		Manuela
+VEGF	MAPK1		Manuela
+cAMP	MAPK10		Manuela
+ErbB	MAPK10		Manuela
+FoxO	MAPK10		Manuela
+Insulin	MAPK10		Manuela
+MAPK	MAPK10		Manuela
+Ras	MAPK10		Manuela
+Sphingolipid	MAPK10		Manuela
+TNF	MAPK10		Manuela
+Wnt	MAPK10		Manuela
+FoxO	MAPK11		Manuela
+MAPK	MAPK11		Manuela
+Rap1	MAPK11		Manuela
+Sphingolipid	MAPK11		Manuela
+TNF	MAPK11		Manuela
+VEGF	MAPK11		Manuela
+FoxO	MAPK12		Manuela
+MAPK	MAPK12		Manuela
+Rap1	MAPK12		Manuela
+Sphingolipid	MAPK12		Manuela
+TNF	MAPK12		Manuela
+VEGF	MAPK12		Manuela
+FoxO	MAPK13		Manuela
+MAPK	MAPK13		Manuela
+Rap1	MAPK13		Manuela
+Sphingolipid	MAPK13		Manuela
+TNF	MAPK13		Manuela
+VEGF	MAPK13		Manuela
+FoxO	MAPK14		Manuela
+MAPK	MAPK14		Manuela
+Rap1	MAPK14		Manuela
+Sphingolipid	MAPK14		Manuela
+TNF	MAPK14		Manuela
+VEGF	MAPK14		Manuela
+Apelin	MAPK3		Manuela
+cAMP	MAPK3		Manuela
+cGMP-PKG	MAPK3		Manuela
+Chemokine	MAPK3		Manuela
+ErbB	MAPK3		Manuela
+Estrogen	MAPK3		Manuela
+FoxO	MAPK3		Manuela
+HIF-1	MAPK3		Manuela
+Insulin	MAPK3		Manuela
+MAPK	MAPK3		Manuela
+mTOR	MAPK3		Manuela
+Phospholipase D	MAPK3		Manuela
+PI3K-Akt	MAPK3		Manuela
+Rap1	MAPK3		Manuela
+Ras	MAPK3		Manuela
+Sphingolipid	MAPK3		Manuela
+TGF-beta	MAPK3		Manuela
+Thyroid hormone	MAPK3		Manuela
+TNF	MAPK3		Manuela
+VEGF	MAPK3		Manuela
+MAPK	MAPK7		Manuela
+cAMP	MAPK8		Manuela
+ErbB	MAPK8		Manuela
+FoxO	MAPK8		Manuela
+Insulin	MAPK8		Manuela
+MAPK	MAPK8		Manuela
+Ras	MAPK8		Manuela
+Sphingolipid	MAPK8		Manuela
+TNF	MAPK8		Manuela
+Wnt	MAPK8		Manuela
+MAPK	MAPK8IP1		Manuela
+MAPK	MAPK8IP2		Manuela
+MAPK	MAPK8IP3		Manuela
+cAMP	MAPK9		Manuela
+ErbB	MAPK9		Manuela
+FoxO	MAPK9		Manuela
+Insulin	MAPK9		Manuela
+MAPK	MAPK9		Manuela
+Ras	MAPK9		Manuela
+Sphingolipid	MAPK9		Manuela
+TNF	MAPK9		Manuela
+Wnt	MAPK9		Manuela
+mTOR	MAPKAP1		Manuela
+MAPK	MAPKAPK2		Manuela
+VEGF	MAPKAPK2		Manuela
+MAPK	MAPKAPK3		Manuela
+VEGF	MAPKAPK3		Manuela
+MAPK	MAPKAPK5		Manuela
+MAPK	MAPT		Manuela
+MAPK	MAX		Manuela
+cAMP	MC2R		Manuela
+JAK-STAT	MCL1		Manuela
+PI3K-Akt	MCL1		Manuela
+Cell cycle	MCM2		Manuela
+Cell cycle	MCM3		Manuela
+Cell cycle	MCM4		Manuela
+Cell cycle	MCM5		Manuela
+Cell cycle	MCM6		Manuela
+Cell cycle	MCM7		Manuela
+Calcium	MCU		Manuela
+Cell cycle	MDM2		Manuela
+FoxO	MDM2		Manuela
+p53	MDM2		Manuela
+PI3K-Akt	MDM2		Manuela
+Thyroid hormone	MDM2		Manuela
+p53	MDM4		Manuela
+PPAR	ME1		Manuela
+MAPK	MECOM		Manuela
+Thyroid hormone	MED1		Manuela
+Thyroid hormone	MED12		Manuela
+Thyroid hormone	MED12L		Manuela
+Thyroid hormone	MED13		Manuela
+Thyroid hormone	MED13L		Manuela
+Thyroid hormone	MED14		Manuela
+Thyroid hormone	MED16		Manuela
+Thyroid hormone	MED17		Manuela
+Thyroid hormone	MED24		Manuela
+Thyroid hormone	MED27		Manuela
+Thyroid hormone	MED30		Manuela
+Thyroid hormone	MED4		Manuela
+Apelin	MEF2A		Manuela
+cGMP-PKG	MEF2A		Manuela
+Apelin	MEF2B		Manuela
+cGMP-PKG	MEF2B		Manuela
+Apelin	MEF2C		Manuela
+cGMP-PKG	MEF2C		Manuela
+MAPK	MEF2C		Manuela
+Apelin	MEF2D		Manuela
+cGMP-PKG	MEF2D		Manuela
+MAPK	MET		Manuela
+PI3K-Akt	MET		Manuela
+Rap1	MET		Manuela
+Ras	MET		Manuela
+Notch	MFNG		Manuela
+mTOR	MIOS		Manuela
+HIF-1	MKNK1		Manuela
+Insulin	MKNK1		Manuela
+MAPK	MKNK1		Manuela
+HIF-1	MKNK2		Manuela
+Insulin	MKNK2		Manuela
+MAPK	MKNK2		Manuela
+Fanconi anemia	MLH1		Manuela
+TNF	MLKL		Manuela
+mTOR	MLST8		Manuela
+PI3K-Akt	MLST8		Manuela
+AMPK	MLYCD		Manuela
+PPAR	MMP1		Manuela
+TNF	MMP14		Manuela
+Estrogen	MMP2		Manuela
+TNF	MMP3		Manuela
+Wnt	MMP7		Manuela
+Estrogen	MMP9		Manuela
+TNF	MMP9		Manuela
+Hippo	MOB1A		Manuela
+Hippo	MOB1B		Manuela
+Cytokine-cytokine receptor interaction	MPL		Manuela
+JAK-STAT	MPL		Manuela
+Hippo	MPP5		Manuela
+Apelin	MRAS		Manuela
+MAPK	MRAS		Manuela
+Phospholipase D	MRAS		Manuela
+Rap1	MRAS		Manuela
+Ras	MRAS		Manuela
+cGMP-PKG	MRVI1		Manuela
+Phospholipase D	MS4A2		Manuela
+Sphingolipid	MS4A2		Manuela
+Cytokine-cytokine receptor interaction	MSTN		Manuela
+PI3K-Akt	MTCP1		Manuela
+Phosphatidylinositol signaling system	MTM1		Manuela
+Phosphatidylinositol signaling system	MTMR1		Manuela
+Phosphatidylinositol signaling system	MTMR14		Manuela
+Phosphatidylinositol signaling system	MTMR2		Manuela
+Phosphatidylinositol signaling system	MTMR3		Manuela
+Phosphatidylinositol signaling system	MTMR4		Manuela
+Phosphatidylinositol signaling system	MTMR6		Manuela
+Phosphatidylinositol signaling system	MTMR7		Manuela
+Phosphatidylinositol signaling system	MTMR8		Manuela
+AMPK	MTOR		Manuela
+Apelin	MTOR		Manuela
+ErbB	MTOR		Manuela
+HIF-1	MTOR		Manuela
+Insulin	MTOR		Manuela
+JAK-STAT	MTOR		Manuela
+mTOR	MTOR		Manuela
+Phospholipase D	MTOR		Manuela
+PI3K-Akt	MTOR		Manuela
+Thyroid hormone	MTOR		Manuela
+Fanconi anemia	MUS81		Manuela
+PI3K-Akt	MYB		Manuela
+Cell cycle	MYC		Manuela
+ErbB	MYC		Manuela
+Hippo	MYC		Manuela
+JAK-STAT	MYC		Manuela
+MAPK	MYC		Manuela
+PI3K-Akt	MYC		Manuela
+TGF-beta	MYC		Manuela
+Thyroid hormone	MYC		Manuela
+Wnt	MYC		Manuela
+MAPK	MYD88		Manuela
+NF-kappa B	MYD88		Manuela
+Thyroid hormone	MYH6		Manuela
+cGMP-PKG	MYH7		Manuela
+Apelin	MYL2		Manuela
+Apelin	MYL3		Manuela
+Apelin	MYL4		Manuela
+cAMP	MYL9		Manuela
+cGMP-PKG	MYL9		Manuela
+Apelin	MYLK		Manuela
+Calcium	MYLK		Manuela
+cGMP-PKG	MYLK		Manuela
+Apelin	MYLK2		Manuela
+Calcium	MYLK2		Manuela
+cGMP-PKG	MYLK2		Manuela
+Apelin	MYLK3		Manuela
+Calcium	MYLK3		Manuela
+cGMP-PKG	MYLK3		Manuela
+Apelin	MYLK4		Manuela
+Calcium	MYLK4		Manuela
+cGMP-PKG	MYLK4		Manuela
+TGF-beta	NBL1		Manuela
+Chemokine	NCF1		Manuela
+ErbB	NCK1		Manuela
+ErbB	NCK2		Manuela
+Estrogen	NCOA1		Manuela
+Thyroid hormone	NCOA1		Manuela
+Estrogen	NCOA2		Manuela
+Thyroid hormone	NCOA2		Manuela
+Estrogen	NCOA3		Manuela
+Thyroid hormone	NCOA3		Manuela
+Thyroid hormone	NCOR1		Manuela
+Notch	NCOR2		Manuela
+Notch	NCSTN		Manuela
+MAPK	NF1		Manuela
+Ras	NF1		Manuela
+Hippo	NF2		Manuela
+cAMP	NFATC1		Manuela
+cGMP-PKG	NFATC1		Manuela
+MAPK	NFATC1		Manuela
+Wnt	NFATC1		Manuela
+cGMP-PKG	NFATC2		Manuela
+VEGF	NFATC2		Manuela
+Wnt	NFATC2		Manuela
+cGMP-PKG	NFATC3		Manuela
+MAPK	NFATC3		Manuela
+Wnt	NFATC3		Manuela
+cGMP-PKG	NFATC4		Manuela
+Wnt	NFATC4		Manuela
+cAMP	NFKB1		Manuela
+Chemokine	NFKB1		Manuela
+HIF-1	NFKB1		Manuela
+MAPK	NFKB1		Manuela
+NF-kappa B	NFKB1		Manuela
+PI3K-Akt	NFKB1		Manuela
+Ras	NFKB1		Manuela
+Sphingolipid	NFKB1		Manuela
+TNF	NFKB1		Manuela
+MAPK	NFKB2		Manuela
+NF-kappa B	NFKB2		Manuela
+cAMP	NFKBIA		Manuela
+Chemokine	NFKBIA		Manuela
+NF-kappa B	NFKBIA		Manuela
+TNF	NFKBIA		Manuela
+Chemokine	NFKBIB		Manuela
+Cytokine-cytokine receptor interaction	NGF		Manuela
+MAPK	NGF		Manuela
+PI3K-Akt	NGF		Manuela
+Rap1	NGF		Manuela
+Ras	NGF		Manuela
+Cytokine-cytokine receptor interaction	NGFR		Manuela
+MAPK	NGFR		Manuela
+PI3K-Akt	NGFR		Manuela
+Rap1	NGFR		Manuela
+Ras	NGFR		Manuela
+Hippo	NKD1		Manuela
+Wnt	NKD1		Manuela
+Wnt	NKD2		Manuela
+FoxO	NLK		Manuela
+MAPK	NLK		Manuela
+Wnt	NLK		Manuela
+TNF	NOD2		Manuela
+Cytokine-cytokine receptor interaction	NODAL		Manuela
+TGF-beta	NODAL		Manuela
+TGF-beta	NOG		Manuela
+Apelin	NOS1		Manuela
+Calcium	NOS1		Manuela
+Apelin	NOS2		Manuela
+Calcium	NOS2		Manuela
+HIF-1	NOS2		Manuela
+Apelin	NOS3		Manuela
+Calcium	NOS3		Manuela
+cGMP-PKG	NOS3		Manuela
+Estrogen	NOS3		Manuela
+HIF-1	NOS3		Manuela
+PI3K-Akt	NOS3		Manuela
+Sphingolipid	NOS3		Manuela
+VEGF	NOS3		Manuela
+Notch	NOTCH1		Manuela
+Thyroid hormone	NOTCH1		Manuela
+Notch	NOTCH2		Manuela
+Thyroid hormone	NOTCH2		Manuela
+Apelin	NOTCH3		Manuela
+Notch	NOTCH3		Manuela
+Thyroid hormone	NOTCH3		Manuela
+Notch	NOTCH4		Manuela
+Thyroid hormone	NOTCH4		Manuela
+Wnt	NOTUM		Manuela
+HIF-1	NPPA		Manuela
+cGMP-PKG	NPPB		Manuela
+cAMP	NPR1		Manuela
+cGMP-PKG	NPR1		Manuela
+cGMP-PKG	NPR2		Manuela
+mTOR	NPRL2		Manuela
+mTOR	NPRL3		Manuela
+cAMP	NPY		Manuela
+cAMP	NPY1R		Manuela
+PPAR	NR1H3		Manuela
+MAPK	NR4A1		Manuela
+PI3K-Akt	NR4A1		Manuela
+Apelin	NRAS		Manuela
+Chemokine	NRAS		Manuela
+ErbB	NRAS		Manuela
+Estrogen	NRAS		Manuela
+FoxO	NRAS		Manuela
+Insulin	NRAS		Manuela
+MAPK	NRAS		Manuela
+mTOR	NRAS		Manuela
+Phospholipase D	NRAS		Manuela
+PI3K-Akt	NRAS		Manuela
+Rap1	NRAS		Manuela
+Ras	NRAS		Manuela
+Sphingolipid	NRAS		Manuela
+Thyroid hormone	NRAS		Manuela
+VEGF	NRAS		Manuela
+Apelin	NRF1		Manuela
+ErbB	NRG1		Manuela
+ErbB	NRG2		Manuela
+ErbB	NRG3		Manuela
+ErbB	NRG4		Manuela
+Sphingolipid	NSMAF		Manuela
+MAPK	NTF3		Manuela
+PI3K-Akt	NTF3		Manuela
+Ras	NTF3		Manuela
+MAPK	NTF4		Manuela
+PI3K-Akt	NTF4		Manuela
+Ras	NTF4		Manuela
+MAPK	NTRK1		Manuela
+PI3K-Akt	NTRK1		Manuela
+Ras	NTRK1		Manuela
+MAPK	NTRK2		Manuela
+PI3K-Akt	NTRK2		Manuela
+Ras	NTRK2		Manuela
+Calcium	NTSR1		Manuela
+Notch	NUMB		Manuela
+Notch	NUMBL		Manuela
+Phosphatidylinositol signaling system	OCRL		Manuela
+PPAR	OLR1		Manuela
+cGMP-PKG	OPRD1		Manuela
+Sphingolipid	OPRD1		Manuela
+Estrogen	OPRM1		Manuela
+Calcium	ORAI1		Manuela
+cAMP	ORAI1		Manuela
+Calcium	ORAI2		Manuela
+Calcium	ORAI3		Manuela
+Cell cycle	ORC1		Manuela
+Cell cycle	ORC2		Manuela
+Cell cycle	ORC3		Manuela
+Cell cycle	ORC4		Manuela
+Cell cycle	ORC5		Manuela
+Cell cycle	ORC6		Manuela
+Cytokine-cytokine receptor interaction	OSM		Manuela
+JAK-STAT	OSM		Manuela
+PI3K-Akt	OSM		Manuela
+Cytokine-cytokine receptor interaction	OSMR		Manuela
+JAK-STAT	OSMR		Manuela
+PI3K-Akt	OSMR		Manuela
+Calcium	OXTR		Manuela
+cAMP	OXTR		Manuela
+Calcium	P2RX1		Manuela
+Calcium	P2RX2		Manuela
+Calcium	P2RX3		Manuela
+Calcium	P2RX4		Manuela
+Calcium	P2RX5		Manuela
+Calcium	P2RX6		Manuela
+Calcium	P2RX7		Manuela
+Rap1	P2RY1		Manuela
+cAMP	PAK1		Manuela
+Chemokine	PAK1		Manuela
+ErbB	PAK1		Manuela
+MAPK	PAK1		Manuela
+Ras	PAK1		Manuela
+ErbB	PAK2		Manuela
+MAPK	PAK2		Manuela
+Ras	PAK2		Manuela
+ErbB	PAK3		Manuela
+Ras	PAK3		Manuela
+ErbB	PAK4		Manuela
+Ras	PAK4		Manuela
+ErbB	PAK5		Manuela
+Ras	PAK5		Manuela
+ErbB	PAK6		Manuela
+Ras	PAK6		Manuela
+Fanconi anemia	PALB2		Manuela
+Chemokine	PARD3		Manuela
+Hippo	PARD3		Manuela
+Rap1	PARD3		Manuela
+Hippo	PARD6A		Manuela
+Rap1	PARD6A		Manuela
+Hippo	PARD6B		Manuela
+Rap1	PARD6B		Manuela
+Hippo	PARD6G		Manuela
+Rap1	PARD6G		Manuela
+NF-kappa B	PARP1		Manuela
+Hippo	PATJ		Manuela
+AMPK	PCK1		Manuela
+FoxO	PCK1		Manuela
+Insulin	PCK1		Manuela
+PI3K-Akt	PCK1		Manuela
+PPAR	PCK1		Manuela
+AMPK	PCK2		Manuela
+FoxO	PCK2		Manuela
+Insulin	PCK2		Manuela
+PI3K-Akt	PCK2		Manuela
+PPAR	PCK2		Manuela
+Cell cycle	PCNA		Manuela
+Calcium	PDE1A		Manuela
+Calcium	PDE1B		Manuela
+Calcium	PDE1C		Manuela
+cGMP-PKG	PDE2A		Manuela
+cAMP	PDE3A		Manuela
+cGMP-PKG	PDE3A		Manuela
+Apelin	PDE3B		Manuela
+cAMP	PDE3B		Manuela
+cGMP-PKG	PDE3B		Manuela
+Insulin	PDE3B		Manuela
+cAMP	PDE4A		Manuela
+cAMP	PDE4B		Manuela
+cAMP	PDE4C		Manuela
+cAMP	PDE4D		Manuela
+cGMP-PKG	PDE5A		Manuela
+JAK-STAT	PDGFA		Manuela
+MAPK	PDGFA		Manuela
+Phospholipase D	PDGFA		Manuela
+PI3K-Akt	PDGFA		Manuela
+Rap1	PDGFA		Manuela
+Ras	PDGFA		Manuela
+JAK-STAT	PDGFB		Manuela
+MAPK	PDGFB		Manuela
+Phospholipase D	PDGFB		Manuela
+PI3K-Akt	PDGFB		Manuela
+Rap1	PDGFB		Manuela
+Ras	PDGFB		Manuela
+MAPK	PDGFC		Manuela
+Phospholipase D	PDGFC		Manuela
+PI3K-Akt	PDGFC		Manuela
+Rap1	PDGFC		Manuela
+Ras	PDGFC		Manuela
+MAPK	PDGFD		Manuela
+Phospholipase D	PDGFD		Manuela
+PI3K-Akt	PDGFD		Manuela
+Rap1	PDGFD		Manuela
+Ras	PDGFD		Manuela
+Calcium	PDGFRA		Manuela
+JAK-STAT	PDGFRA		Manuela
+MAPK	PDGFRA		Manuela
+Phospholipase D	PDGFRA		Manuela
+PI3K-Akt	PDGFRA		Manuela
+Rap1	PDGFRA		Manuela
+Ras	PDGFRA		Manuela
+Calcium	PDGFRB		Manuela
+JAK-STAT	PDGFRB		Manuela
+MAPK	PDGFRB		Manuela
+Phospholipase D	PDGFRB		Manuela
+PI3K-Akt	PDGFRB		Manuela
+Rap1	PDGFRB		Manuela
+Ras	PDGFRB		Manuela
+HIF-1	PDHA1		Manuela
+HIF-1	PDHA2		Manuela
+HIF-1	PDHB		Manuela
+HIF-1	PDK1		Manuela
+AMPK	PDPK1		Manuela
+FoxO	PDPK1		Manuela
+Insulin	PDPK1		Manuela
+mTOR	PDPK1		Manuela
+PI3K-Akt	PDPK1		Manuela
+PPAR	PDPK1		Manuela
+Sphingolipid	PDPK1		Manuela
+Thyroid hormone	PDPK1		Manuela
+p53	PERP		Manuela
+Chemokine	PF4		Manuela
+Cytokine-cytokine receptor interaction	PF4		Manuela
+Chemokine	PF4V1		Manuela
+Cytokine-cytokine receptor interaction	PF4V1		Manuela
+AMPK	PFKFB1		Manuela
+AMPK	PFKFB2		Manuela
+Thyroid hormone	PFKFB2		Manuela
+AMPK	PFKFB3		Manuela
+HIF-1	PFKFB3		Manuela
+AMPK	PFKFB4		Manuela
+AMPK	PFKL		Manuela
+HIF-1	PFKL		Manuela
+AMPK	PFKM		Manuela
+AMPK	PFKP		Manuela
+Thyroid hormone	PFKP		Manuela
+Rap1	PFN1		Manuela
+Rap1	PFN2		Manuela
+Rap1	PFN3		Manuela
+Rap1	PFN4		Manuela
+TNF	PGAM5		Manuela
+MAPK	PGF		Manuela
+PI3K-Akt	PGF		Manuela
+Rap1	PGF		Manuela
+Ras	PGF		Manuela
+HIF-1	PGK1		Manuela
+Estrogen	PGR		Manuela
+Calcium	PHKA1		Manuela
+Insulin	PHKA1		Manuela
+Calcium	PHKA2		Manuela
+Insulin	PHKA2		Manuela
+Calcium	PHKB		Manuela
+Insulin	PHKB		Manuela
+Calcium	PHKG1		Manuela
+Insulin	PHKG1		Manuela
+Calcium	PHKG2		Manuela
+Insulin	PHKG2		Manuela
+PI3K-Akt	PHLPP1		Manuela
+PI3K-Akt	PHLPP2		Manuela
+Phosphatidylinositol signaling system	PI4K2A		Manuela
+Phosphatidylinositol signaling system	PI4K2B		Manuela
+Phosphatidylinositol signaling system	PI4KA		Manuela
+Phosphatidylinositol signaling system	PI4KB		Manuela
+JAK-STAT	PIAS1		Manuela
+JAK-STAT	PIAS2		Manuela
+JAK-STAT	PIAS3		Manuela
+JAK-STAT	PIAS4		Manuela
+NF-kappa B	PIAS4		Manuela
+NF-kappa B	PIDD1		Manuela
+p53	PIDD1		Manuela
+PI3K-Akt	PIK3AP1		Manuela
+Phosphatidylinositol signaling system	PIK3C2A		Manuela
+Phosphatidylinositol signaling system	PIK3C2B		Manuela
+Phosphatidylinositol signaling system	PIK3C2G		Manuela
+Apelin	PIK3C3		Manuela
+Phosphatidylinositol signaling system	PIK3C3		Manuela
+AMPK	PIK3CA		Manuela
+cAMP	PIK3CA		Manuela
+Chemokine	PIK3CA		Manuela
+ErbB	PIK3CA		Manuela
+Estrogen	PIK3CA		Manuela
+FoxO	PIK3CA		Manuela
+HIF-1	PIK3CA		Manuela
+Insulin	PIK3CA		Manuela
+JAK-STAT	PIK3CA		Manuela
+mTOR	PIK3CA		Manuela
+Phosphatidylinositol signaling system	PIK3CA		Manuela
+Phospholipase D	PIK3CA		Manuela
+PI3K-Akt	PIK3CA		Manuela
+Rap1	PIK3CA		Manuela
+Ras	PIK3CA		Manuela
+Sphingolipid	PIK3CA		Manuela
+Thyroid hormone	PIK3CA		Manuela
+TNF	PIK3CA		Manuela
+VEGF	PIK3CA		Manuela
+AMPK	PIK3CB		Manuela
+cAMP	PIK3CB		Manuela
+Chemokine	PIK3CB		Manuela
+ErbB	PIK3CB		Manuela
+Estrogen	PIK3CB		Manuela
+FoxO	PIK3CB		Manuela
+HIF-1	PIK3CB		Manuela
+Insulin	PIK3CB		Manuela
+JAK-STAT	PIK3CB		Manuela
+mTOR	PIK3CB		Manuela
+Phosphatidylinositol signaling system	PIK3CB		Manuela
+Phospholipase D	PIK3CB		Manuela
+PI3K-Akt	PIK3CB		Manuela
+Rap1	PIK3CB		Manuela
+Ras	PIK3CB		Manuela
+Sphingolipid	PIK3CB		Manuela
+Thyroid hormone	PIK3CB		Manuela
+TNF	PIK3CB		Manuela
+VEGF	PIK3CB		Manuela
+AMPK	PIK3CD		Manuela
+cAMP	PIK3CD		Manuela
+Chemokine	PIK3CD		Manuela
+ErbB	PIK3CD		Manuela
+Estrogen	PIK3CD		Manuela
+FoxO	PIK3CD		Manuela
+HIF-1	PIK3CD		Manuela
+Insulin	PIK3CD		Manuela
+JAK-STAT	PIK3CD		Manuela
+mTOR	PIK3CD		Manuela
+Phosphatidylinositol signaling system	PIK3CD		Manuela
+Phospholipase D	PIK3CD		Manuela
+PI3K-Akt	PIK3CD		Manuela
+Rap1	PIK3CD		Manuela
+Ras	PIK3CD		Manuela
+Sphingolipid	PIK3CD		Manuela
+Thyroid hormone	PIK3CD		Manuela
+TNF	PIK3CD		Manuela
+VEGF	PIK3CD		Manuela
+Apelin	PIK3CG		Manuela
+cGMP-PKG	PIK3CG		Manuela
+Chemokine	PIK3CG		Manuela
+Phospholipase D	PIK3CG		Manuela
+PI3K-Akt	PIK3CG		Manuela
+AMPK	PIK3R1		Manuela
+cAMP	PIK3R1		Manuela
+Chemokine	PIK3R1		Manuela
+ErbB	PIK3R1		Manuela
+Estrogen	PIK3R1		Manuela
+FoxO	PIK3R1		Manuela
+HIF-1	PIK3R1		Manuela
+Insulin	PIK3R1		Manuela
+JAK-STAT	PIK3R1		Manuela
+mTOR	PIK3R1		Manuela
+Phosphatidylinositol signaling system	PIK3R1		Manuela
+Phospholipase D	PIK3R1		Manuela
+PI3K-Akt	PIK3R1		Manuela
+Rap1	PIK3R1		Manuela
+Ras	PIK3R1		Manuela
+Sphingolipid	PIK3R1		Manuela
+Thyroid hormone	PIK3R1		Manuela
+TNF	PIK3R1		Manuela
+VEGF	PIK3R1		Manuela
+AMPK	PIK3R2		Manuela
+cAMP	PIK3R2		Manuela
+Chemokine	PIK3R2		Manuela
+ErbB	PIK3R2		Manuela
+Estrogen	PIK3R2		Manuela
+FoxO	PIK3R2		Manuela
+HIF-1	PIK3R2		Manuela
+Insulin	PIK3R2		Manuela
+JAK-STAT	PIK3R2		Manuela
+mTOR	PIK3R2		Manuela
+Phosphatidylinositol signaling system	PIK3R2		Manuela
+Phospholipase D	PIK3R2		Manuela
+PI3K-Akt	PIK3R2		Manuela
+Rap1	PIK3R2		Manuela
+Ras	PIK3R2		Manuela
+Sphingolipid	PIK3R2		Manuela
+Thyroid hormone	PIK3R2		Manuela
+TNF	PIK3R2		Manuela
+VEGF	PIK3R2		Manuela
+AMPK	PIK3R3		Manuela
+cAMP	PIK3R3		Manuela
+Chemokine	PIK3R3		Manuela
+ErbB	PIK3R3		Manuela
+Estrogen	PIK3R3		Manuela
+FoxO	PIK3R3		Manuela
+HIF-1	PIK3R3		Manuela
+Insulin	PIK3R3		Manuela
+JAK-STAT	PIK3R3		Manuela
+mTOR	PIK3R3		Manuela
+Phosphatidylinositol signaling system	PIK3R3		Manuela
+Phospholipase D	PIK3R3		Manuela
+PI3K-Akt	PIK3R3		Manuela
+Rap1	PIK3R3		Manuela
+Ras	PIK3R3		Manuela
+Sphingolipid	PIK3R3		Manuela
+Thyroid hormone	PIK3R3		Manuela
+TNF	PIK3R3		Manuela
+VEGF	PIK3R3		Manuela
+Apelin	PIK3R4		Manuela
+Apelin	PIK3R5		Manuela
+cGMP-PKG	PIK3R5		Manuela
+Chemokine	PIK3R5		Manuela
+Phospholipase D	PIK3R5		Manuela
+PI3K-Akt	PIK3R5		Manuela
+Apelin	PIK3R6		Manuela
+cGMP-PKG	PIK3R6		Manuela
+Chemokine	PIK3R6		Manuela
+Phospholipase D	PIK3R6		Manuela
+PI3K-Akt	PIK3R6		Manuela
+Phosphatidylinositol signaling system	PIKFYVE		Manuela
+JAK-STAT	PIM1		Manuela
+Phosphatidylinositol signaling system	PIP4K2A		Manuela
+Phosphatidylinositol signaling system	PIP4K2B		Manuela
+Phosphatidylinositol signaling system	PIP4K2C		Manuela
+Phosphatidylinositol signaling system	PIP4P1		Manuela
+Phosphatidylinositol signaling system	PIP4P2		Manuela
+Phosphatidylinositol signaling system	PIP5K1A		Manuela
+Phospholipase D	PIP5K1A		Manuela
+Phosphatidylinositol signaling system	PIP5K1B		Manuela
+Phospholipase D	PIP5K1B		Manuela
+Phosphatidylinositol signaling system	PIP5K1C		Manuela
+Phospholipase D	PIP5K1C		Manuela
+TGF-beta	PITX2		Manuela
+Insulin	PKLR		Manuela
+Cell cycle	PKMYT1		Manuela
+PI3K-Akt	PKN1		Manuela
+PI3K-Akt	PKN2		Manuela
+PI3K-Akt	PKN3		Manuela
+Ras	PLA1A		Manuela
+Ras	PLA2G10		Manuela
+Ras	PLA2G12A		Manuela
+Ras	PLA2G12B		Manuela
+Ras	PLA2G1B		Manuela
+Ras	PLA2G2A		Manuela
+Ras	PLA2G2C		Manuela
+Ras	PLA2G2D		Manuela
+Ras	PLA2G2E		Manuela
+Ras	PLA2G2F		Manuela
+Ras	PLA2G3		Manuela
+MAPK	PLA2G4A		Manuela
+Phospholipase D	PLA2G4A		Manuela
+Ras	PLA2G4A		Manuela
+VEGF	PLA2G4A		Manuela
+MAPK	PLA2G4B		Manuela
+Phospholipase D	PLA2G4B		Manuela
+Ras	PLA2G4B		Manuela
+VEGF	PLA2G4B		Manuela
+MAPK	PLA2G4C		Manuela
+Phospholipase D	PLA2G4C		Manuela
+Ras	PLA2G4C		Manuela
+VEGF	PLA2G4C		Manuela
+MAPK	PLA2G4D		Manuela
+Phospholipase D	PLA2G4D		Manuela
+Ras	PLA2G4D		Manuela
+VEGF	PLA2G4D		Manuela
+MAPK	PLA2G4E		Manuela
+Phospholipase D	PLA2G4E		Manuela
+Ras	PLA2G4E		Manuela
+VEGF	PLA2G4E		Manuela
+MAPK	PLA2G4F		Manuela
+Phospholipase D	PLA2G4F		Manuela
+Ras	PLA2G4F		Manuela
+VEGF	PLA2G4F		Manuela
+Ras	PLA2G5		Manuela
+Ras	PLA2G6		Manuela
+Apelin	PLAT		Manuela
+NF-kappa B	PLAU		Manuela
+Apelin	PLCB1		Manuela
+Calcium	PLCB1		Manuela
+cGMP-PKG	PLCB1		Manuela
+Chemokine	PLCB1		Manuela
+Estrogen	PLCB1		Manuela
+Phosphatidylinositol signaling system	PLCB1		Manuela
+Phospholipase D	PLCB1		Manuela
+Rap1	PLCB1		Manuela
+Sphingolipid	PLCB1		Manuela
+Thyroid hormone	PLCB1		Manuela
+Wnt	PLCB1		Manuela
+Apelin	PLCB2		Manuela
+Calcium	PLCB2		Manuela
+cGMP-PKG	PLCB2		Manuela
+Chemokine	PLCB2		Manuela
+Estrogen	PLCB2		Manuela
+Phosphatidylinositol signaling system	PLCB2		Manuela
+Phospholipase D	PLCB2		Manuela
+Rap1	PLCB2		Manuela
+Sphingolipid	PLCB2		Manuela
+Thyroid hormone	PLCB2		Manuela
+Wnt	PLCB2		Manuela
+Apelin	PLCB3		Manuela
+Calcium	PLCB3		Manuela
+cGMP-PKG	PLCB3		Manuela
+Chemokine	PLCB3		Manuela
+Estrogen	PLCB3		Manuela
+Phosphatidylinositol signaling system	PLCB3		Manuela
+Phospholipase D	PLCB3		Manuela
+Rap1	PLCB3		Manuela
+Sphingolipid	PLCB3		Manuela
+Thyroid hormone	PLCB3		Manuela
+Wnt	PLCB3		Manuela
+Apelin	PLCB4		Manuela
+Calcium	PLCB4		Manuela
+cGMP-PKG	PLCB4		Manuela
+Chemokine	PLCB4		Manuela
+Estrogen	PLCB4		Manuela
+Phosphatidylinositol signaling system	PLCB4		Manuela
+Phospholipase D	PLCB4		Manuela
+Rap1	PLCB4		Manuela
+Sphingolipid	PLCB4		Manuela
+Thyroid hormone	PLCB4		Manuela
+Wnt	PLCB4		Manuela
+Calcium	PLCD1		Manuela
+Phosphatidylinositol signaling system	PLCD1		Manuela
+Thyroid hormone	PLCD1		Manuela
+Calcium	PLCD3		Manuela
+Phosphatidylinositol signaling system	PLCD3		Manuela
+Thyroid hormone	PLCD3		Manuela
+Calcium	PLCD4		Manuela
+Phosphatidylinositol signaling system	PLCD4		Manuela
+Thyroid hormone	PLCD4		Manuela
+Calcium	PLCE1		Manuela
+cAMP	PLCE1		Manuela
+Phosphatidylinositol signaling system	PLCE1		Manuela
+Rap1	PLCE1		Manuela
+Ras	PLCE1		Manuela
+Thyroid hormone	PLCE1		Manuela
+Calcium	PLCG1		Manuela
+ErbB	PLCG1		Manuela
+HIF-1	PLCG1		Manuela
+NF-kappa B	PLCG1		Manuela
+Phosphatidylinositol signaling system	PLCG1		Manuela
+Phospholipase D	PLCG1		Manuela
+Rap1	PLCG1		Manuela
+Ras	PLCG1		Manuela
+Thyroid hormone	PLCG1		Manuela
+VEGF	PLCG1		Manuela
+Calcium	PLCG2		Manuela
+ErbB	PLCG2		Manuela
+HIF-1	PLCG2		Manuela
+NF-kappa B	PLCG2		Manuela
+Phosphatidylinositol signaling system	PLCG2		Manuela
+Phospholipase D	PLCG2		Manuela
+Ras	PLCG2		Manuela
+Thyroid hormone	PLCG2		Manuela
+VEGF	PLCG2		Manuela
+Calcium	PLCZ1		Manuela
+Phosphatidylinositol signaling system	PLCZ1		Manuela
+Thyroid hormone	PLCZ1		Manuela
+cAMP	PLD1		Manuela
+Phospholipase D	PLD1		Manuela
+Ras	PLD1		Manuela
+Sphingolipid	PLD1		Manuela
+cAMP	PLD2		Manuela
+Phospholipase D	PLD2		Manuela
+Ras	PLD2		Manuela
+Sphingolipid	PLD2		Manuela
+Apelin	PLIN1		Manuela
+PPAR	PLIN1		Manuela
+PPAR	PLIN2		Manuela
+PPAR	PLIN4		Manuela
+PPAR	PLIN5		Manuela
+Cell cycle	PLK1		Manuela
+FoxO	PLK1		Manuela
+FoxO	PLK2		Manuela
+FoxO	PLK3		Manuela
+FoxO	PLK4		Manuela
+Calcium	PLN		Manuela
+cAMP	PLN		Manuela
+cGMP-PKG	PLN		Manuela
+Thyroid hormone	PLN		Manuela
+Phospholipase D	PLPP1		Manuela
+Phospholipase D	PLPP2		Manuela
+Phospholipase D	PLPP3		Manuela
+PPAR	PLTP		Manuela
+p53	PMAIP1		Manuela
+Fanconi anemia	PMS2		Manuela
+Fanconi anemia	POLH		Manuela
+Fanconi anemia	POLI		Manuela
+Fanconi anemia	POLK		Manuela
+Fanconi anemia	POLN		Manuela
+Wnt	PORCN		Manuela
+cAMP	PPARA		Manuela
+PPAR	PPARA		Manuela
+PPAR	PPARD		Manuela
+Wnt	PPARD		Manuela
+AMPK	PPARG		Manuela
+PPAR	PPARG		Manuela
+AMPK	PPARGC1A		Manuela
+Apelin	PPARGC1A		Manuela
+Insulin	PPARGC1A		Manuela
+Chemokine	PPBP		Manuela
+Cytokine-cytokine receptor interaction	PPBP		Manuela
+Calcium	PPIF		Manuela
+cGMP-PKG	PPIF		Manuela
+Phosphatidylinositol signaling system	PPIP5K1		Manuela
+Phosphatidylinositol signaling system	PPIP5K2		Manuela
+MAPK	PPM1A		Manuela
+MAPK	PPM1B		Manuela
+p53	PPM1D		Manuela
+cAMP	PPP1CA		Manuela
+cGMP-PKG	PPP1CA		Manuela
+Hippo	PPP1CA		Manuela
+Insulin	PPP1CA		Manuela
+cAMP	PPP1CB		Manuela
+cGMP-PKG	PPP1CB		Manuela
+Hippo	PPP1CB		Manuela
+Insulin	PPP1CB		Manuela
+cAMP	PPP1CC		Manuela
+cGMP-PKG	PPP1CC		Manuela
+Hippo	PPP1CC		Manuela
+Insulin	PPP1CC		Manuela
+cAMP	PPP1R12A		Manuela
+cGMP-PKG	PPP1R12A		Manuela
+cAMP	PPP1R1B		Manuela
+Insulin	PPP1R3A		Manuela
+Insulin	PPP1R3B		Manuela
+Insulin	PPP1R3C		Manuela
+Insulin	PPP1R3D		Manuela
+Insulin	PPP1R3E		Manuela
+Insulin	PPP1R3F		Manuela
+AMPK	PPP2CA		Manuela
+Hippo	PPP2CA		Manuela
+PI3K-Akt	PPP2CA		Manuela
+Sphingolipid	PPP2CA		Manuela
+TGF-beta	PPP2CA		Manuela
+AMPK	PPP2CB		Manuela
+Hippo	PPP2CB		Manuela
+PI3K-Akt	PPP2CB		Manuela
+Sphingolipid	PPP2CB		Manuela
+TGF-beta	PPP2CB		Manuela
+AMPK	PPP2R1A		Manuela
+Hippo	PPP2R1A		Manuela
+PI3K-Akt	PPP2R1A		Manuela
+Sphingolipid	PPP2R1A		Manuela
+TGF-beta	PPP2R1A		Manuela
+AMPK	PPP2R1B		Manuela
+Hippo	PPP2R1B		Manuela
+PI3K-Akt	PPP2R1B		Manuela
+Sphingolipid	PPP2R1B		Manuela
+TGF-beta	PPP2R1B		Manuela
+AMPK	PPP2R2A		Manuela
+Hippo	PPP2R2A		Manuela
+PI3K-Akt	PPP2R2A		Manuela
+Sphingolipid	PPP2R2A		Manuela
+AMPK	PPP2R2B		Manuela
+Hippo	PPP2R2B		Manuela
+PI3K-Akt	PPP2R2B		Manuela
+Sphingolipid	PPP2R2B		Manuela
+AMPK	PPP2R2C		Manuela
+Hippo	PPP2R2C		Manuela
+PI3K-Akt	PPP2R2C		Manuela
+Sphingolipid	PPP2R2C		Manuela
+AMPK	PPP2R2D		Manuela
+Hippo	PPP2R2D		Manuela
+PI3K-Akt	PPP2R2D		Manuela
+Sphingolipid	PPP2R2D		Manuela
+AMPK	PPP2R3A		Manuela
+PI3K-Akt	PPP2R3A		Manuela
+Sphingolipid	PPP2R3A		Manuela
+AMPK	PPP2R3B		Manuela
+PI3K-Akt	PPP2R3B		Manuela
+Sphingolipid	PPP2R3B		Manuela
+AMPK	PPP2R3C		Manuela
+PI3K-Akt	PPP2R3C		Manuela
+Sphingolipid	PPP2R3C		Manuela
+AMPK	PPP2R5A		Manuela
+PI3K-Akt	PPP2R5A		Manuela
+Sphingolipid	PPP2R5A		Manuela
+AMPK	PPP2R5B		Manuela
+PI3K-Akt	PPP2R5B		Manuela
+Sphingolipid	PPP2R5B		Manuela
+AMPK	PPP2R5C		Manuela
+PI3K-Akt	PPP2R5C		Manuela
+Sphingolipid	PPP2R5C		Manuela
+AMPK	PPP2R5D		Manuela
+PI3K-Akt	PPP2R5D		Manuela
+Sphingolipid	PPP2R5D		Manuela
+AMPK	PPP2R5E		Manuela
+PI3K-Akt	PPP2R5E		Manuela
+Sphingolipid	PPP2R5E		Manuela
+Calcium	PPP3CA		Manuela
+cGMP-PKG	PPP3CA		Manuela
+MAPK	PPP3CA		Manuela
+VEGF	PPP3CA		Manuela
+Wnt	PPP3CA		Manuela
+Calcium	PPP3CB		Manuela
+cGMP-PKG	PPP3CB		Manuela
+MAPK	PPP3CB		Manuela
+VEGF	PPP3CB		Manuela
+Wnt	PPP3CB		Manuela
+Calcium	PPP3CC		Manuela
+cGMP-PKG	PPP3CC		Manuela
+MAPK	PPP3CC		Manuela
+VEGF	PPP3CC		Manuela
+Wnt	PPP3CC		Manuela
+Calcium	PPP3R1		Manuela
+cGMP-PKG	PPP3R1		Manuela
+MAPK	PPP3R1		Manuela
+VEGF	PPP3R1		Manuela
+Wnt	PPP3R1		Manuela
+Calcium	PPP3R2		Manuela
+cGMP-PKG	PPP3R2		Manuela
+MAPK	PPP3R2		Manuela
+VEGF	PPP3R2		Manuela
+Wnt	PPP3R2		Manuela
+MAPK	PPP5C		Manuela
+MAPK	PPP5D1		Manuela
+Chemokine	PREX1		Manuela
+Wnt	PRICKLE1		Manuela
+Wnt	PRICKLE2		Manuela
+Wnt	PRICKLE3		Manuela
+Wnt	PRICKLE4		Manuela
+AMPK	PRKAA1		Manuela
+Apelin	PRKAA1		Manuela
+FoxO	PRKAA1		Manuela
+Insulin	PRKAA1		Manuela
+mTOR	PRKAA1		Manuela
+PI3K-Akt	PRKAA1		Manuela
+AMPK	PRKAA2		Manuela
+Apelin	PRKAA2		Manuela
+FoxO	PRKAA2		Manuela
+Insulin	PRKAA2		Manuela
+mTOR	PRKAA2		Manuela
+PI3K-Akt	PRKAA2		Manuela
+AMPK	PRKAB1		Manuela
+Apelin	PRKAB1		Manuela
+FoxO	PRKAB1		Manuela
+Insulin	PRKAB1		Manuela
+AMPK	PRKAB2		Manuela
+Apelin	PRKAB2		Manuela
+FoxO	PRKAB2		Manuela
+Insulin	PRKAB2		Manuela
+Apelin	PRKACA		Manuela
+Calcium	PRKACA		Manuela
+cAMP	PRKACA		Manuela
+Chemokine	PRKACA		Manuela
+Estrogen	PRKACA		Manuela
+Hedgehog	PRKACA		Manuela
+Insulin	PRKACA		Manuela
+MAPK	PRKACA		Manuela
+Ras	PRKACA		Manuela
+Thyroid hormone	PRKACA		Manuela
+Wnt	PRKACA		Manuela
+Apelin	PRKACB		Manuela
+Calcium	PRKACB		Manuela
+cAMP	PRKACB		Manuela
+Chemokine	PRKACB		Manuela
+Estrogen	PRKACB		Manuela
+Hedgehog	PRKACB		Manuela
+Insulin	PRKACB		Manuela
+MAPK	PRKACB		Manuela
+Ras	PRKACB		Manuela
+Thyroid hormone	PRKACB		Manuela
+Wnt	PRKACB		Manuela
+Apelin	PRKACG		Manuela
+Calcium	PRKACG		Manuela
+cAMP	PRKACG		Manuela
+Chemokine	PRKACG		Manuela
+Estrogen	PRKACG		Manuela
+Hedgehog	PRKACG		Manuela
+Insulin	PRKACG		Manuela
+MAPK	PRKACG		Manuela
+Ras	PRKACG		Manuela
+Thyroid hormone	PRKACG		Manuela
+Wnt	PRKACG		Manuela
+AMPK	PRKAG1		Manuela
+Apelin	PRKAG1		Manuela
+FoxO	PRKAG1		Manuela
+Insulin	PRKAG1		Manuela
+AMPK	PRKAG2		Manuela
+Apelin	PRKAG2		Manuela
+FoxO	PRKAG2		Manuela
+Insulin	PRKAG2		Manuela
+AMPK	PRKAG3		Manuela
+Apelin	PRKAG3		Manuela
+FoxO	PRKAG3		Manuela
+Insulin	PRKAG3		Manuela
+Insulin	PRKAR1A		Manuela
+Insulin	PRKAR1B		Manuela
+Insulin	PRKAR2A		Manuela
+Insulin	PRKAR2B		Manuela
+Calcium	PRKCA		Manuela
+ErbB	PRKCA		Manuela
+HIF-1	PRKCA		Manuela
+MAPK	PRKCA		Manuela
+mTOR	PRKCA		Manuela
+Phosphatidylinositol signaling system	PRKCA		Manuela
+Phospholipase D	PRKCA		Manuela
+PI3K-Akt	PRKCA		Manuela
+Rap1	PRKCA		Manuela
+Ras	PRKCA		Manuela
+Sphingolipid	PRKCA		Manuela
+Thyroid hormone	PRKCA		Manuela
+VEGF	PRKCA		Manuela
+Wnt	PRKCA		Manuela
+Calcium	PRKCB		Manuela
+Chemokine	PRKCB		Manuela
+ErbB	PRKCB		Manuela
+HIF-1	PRKCB		Manuela
+MAPK	PRKCB		Manuela
+mTOR	PRKCB		Manuela
+NF-kappa B	PRKCB		Manuela
+Phosphatidylinositol signaling system	PRKCB		Manuela
+Rap1	PRKCB		Manuela
+Ras	PRKCB		Manuela
+Sphingolipid	PRKCB		Manuela
+Thyroid hormone	PRKCB		Manuela
+VEGF	PRKCB		Manuela
+Wnt	PRKCB		Manuela
+Chemokine	PRKCD		Manuela
+Estrogen	PRKCD		Manuela
+Apelin	PRKCE		Manuela
+cGMP-PKG	PRKCE		Manuela
+Sphingolipid	PRKCE		Manuela
+Calcium	PRKCG		Manuela
+ErbB	PRKCG		Manuela
+HIF-1	PRKCG		Manuela
+MAPK	PRKCG		Manuela
+mTOR	PRKCG		Manuela
+Phosphatidylinositol signaling system	PRKCG		Manuela
+Rap1	PRKCG		Manuela
+Ras	PRKCG		Manuela
+Sphingolipid	PRKCG		Manuela
+Thyroid hormone	PRKCG		Manuela
+VEGF	PRKCG		Manuela
+Wnt	PRKCG		Manuela
+Hippo	PRKCI		Manuela
+Insulin	PRKCI		Manuela
+Rap1	PRKCI		Manuela
+NF-kappa B	PRKCQ		Manuela
+Chemokine	PRKCZ		Manuela
+Hippo	PRKCZ		Manuela
+Insulin	PRKCZ		Manuela
+Rap1	PRKCZ		Manuela
+Sphingolipid	PRKCZ		Manuela
+Rap1	PRKD1		Manuela
+Rap1	PRKD2		Manuela
+Rap1	PRKD3		Manuela
+Cell cycle	PRKDC		Manuela
+cGMP-PKG	PRKG1		Manuela
+cGMP-PKG	PRKG2		Manuela
+Cytokine-cytokine receptor interaction	PRL		Manuela
+JAK-STAT	PRL		Manuela
+PI3K-Akt	PRL		Manuela
+Cytokine-cytokine receptor interaction	PRLR		Manuela
+JAK-STAT	PRLR		Manuela
+PI3K-Akt	PRLR		Manuela
+FoxO	PRMT1		Manuela
+mTOR	PRR5		Manuela
+Notch	PSEN1		Manuela
+Wnt	PSEN1		Manuela
+Notch	PSEN2		Manuela
+Notch	PSENEN		Manuela
+Calcium	PTAFR		Manuela
+cAMP	PTCH1		Manuela
+Hedgehog	PTCH1		Manuela
+Hedgehog	PTCH2		Manuela
+Notch	PTCRA		Manuela
+FoxO	PTEN		Manuela
+mTOR	PTEN		Manuela
+p53	PTEN		Manuela
+Phosphatidylinositol signaling system	PTEN		Manuela
+PI3K-Akt	PTEN		Manuela
+Sphingolipid	PTEN		Manuela
+Calcium	PTGER1		Manuela
+cAMP	PTGER2		Manuela
+Calcium	PTGER3		Manuela
+cAMP	PTGER3		Manuela
+Calcium	PTGFR		Manuela
+Phospholipase D	PTGFR		Manuela
+NF-kappa B	PTGS2		Manuela
+TNF	PTGS2		Manuela
+VEGF	PTGS2		Manuela
+Chemokine	PTK2		Manuela
+ErbB	PTK2		Manuela
+PI3K-Akt	PTK2		Manuela
+VEGF	PTK2		Manuela
+Calcium	PTK2B		Manuela
+Chemokine	PTK2B		Manuela
+Phospholipase D	PTK2B		Manuela
+Insulin	PTPN1		Manuela
+JAK-STAT	PTPN11		Manuela
+Phospholipase D	PTPN11		Manuela
+Ras	PTPN11		Manuela
+JAK-STAT	PTPN2		Manuela
+MAPK	PTPN5		Manuela
+JAK-STAT	PTPN6		Manuela
+MAPK	PTPN7		Manuela
+Insulin	PTPRF		Manuela
+MAPK	PTPRR		Manuela
+Cell cycle	PTTG1		Manuela
+Cell cycle	PTTG2		Manuela
+Chemokine	PXN		Manuela
+VEGF	PXN		Manuela
+Insulin	PYGB		Manuela
+Insulin	PYGL		Manuela
+Insulin	PYGM		Manuela
+AMPK	RAB10		Manuela
+AMPK	RAB11B		Manuela
+AMPK	RAB14		Manuela
+AMPK	RAB2A		Manuela
+Ras	RAB5A		Manuela
+Ras	RAB5B		Manuela
+Ras	RAB5C		Manuela
+AMPK	RAB8A		Manuela
+cAMP	RAC1		Manuela
+Chemokine	RAC1		Manuela
+MAPK	RAC1		Manuela
+PI3K-Akt	RAC1		Manuela
+Rap1	RAC1		Manuela
+Ras	RAC1		Manuela
+Sphingolipid	RAC1		Manuela
+VEGF	RAC1		Manuela
+Wnt	RAC1		Manuela
+cAMP	RAC2		Manuela
+Chemokine	RAC2		Manuela
+MAPK	RAC2		Manuela
+Rap1	RAC2		Manuela
+Ras	RAC2		Manuela
+Sphingolipid	RAC2		Manuela
+VEGF	RAC2		Manuela
+Wnt	RAC2		Manuela
+cAMP	RAC3		Manuela
+MAPK	RAC3		Manuela
+Rap1	RAC3		Manuela
+Ras	RAC3		Manuela
+Sphingolipid	RAC3		Manuela
+VEGF	RAC3		Manuela
+Wnt	RAC3		Manuela
+Cell cycle	RAD21		Manuela
+Fanconi anemia	RAD51		Manuela
+Fanconi anemia	RAD51C		Manuela
+Apelin	RAF1		Manuela
+cAMP	RAF1		Manuela
+cGMP-PKG	RAF1		Manuela
+Chemokine	RAF1		Manuela
+ErbB	RAF1		Manuela
+Estrogen	RAF1		Manuela
+FoxO	RAF1		Manuela
+Insulin	RAF1		Manuela
+JAK-STAT	RAF1		Manuela
+MAPK	RAF1		Manuela
+mTOR	RAF1		Manuela
+Phospholipase D	RAF1		Manuela
+PI3K-Akt	RAF1		Manuela
+Rap1	RAF1		Manuela
+Ras	RAF1		Manuela
+Sphingolipid	RAF1		Manuela
+Thyroid hormone	RAF1		Manuela
+VEGF	RAF1		Manuela
+FoxO	RAG1		Manuela
+FoxO	RAG2		Manuela
+Phospholipase D	RALA		Manuela
+Rap1	RALA		Manuela
+Ras	RALA		Manuela
+Phospholipase D	RALB		Manuela
+Rap1	RALB		Manuela
+Ras	RALB		Manuela
+Ras	RALBP1		Manuela
+Phospholipase D	RALGDS		Manuela
+Rap1	RALGDS		Manuela
+Ras	RALGDS		Manuela
+cAMP	RAP1A		Manuela
+Chemokine	RAP1A		Manuela
+MAPK	RAP1A		Manuela
+Rap1	RAP1A		Manuela
+Ras	RAP1A		Manuela
+cAMP	RAP1B		Manuela
+Chemokine	RAP1B		Manuela
+MAPK	RAP1B		Manuela
+Rap1	RAP1B		Manuela
+Ras	RAP1B		Manuela
+Rap1	RAP1GAP		Manuela
+Insulin	RAPGEF1		Manuela
+Rap1	RAPGEF1		Manuela
+MAPK	RAPGEF2		Manuela
+Rap1	RAPGEF2		Manuela
+cAMP	RAPGEF3		Manuela
+Phospholipase D	RAPGEF3		Manuela
+Rap1	RAPGEF3		Manuela
+cAMP	RAPGEF4		Manuela
+Phospholipase D	RAPGEF4		Manuela
+Rap1	RAPGEF4		Manuela
+Rap1	RAPGEF5		Manuela
+Ras	RAPGEF5		Manuela
+Rap1	RAPGEF6		Manuela
+Estrogen	RARA		Manuela
+MAPK	RASA1		Manuela
+Ras	RASA1		Manuela
+MAPK	RASA2		Manuela
+Ras	RASA2		Manuela
+Ras	RASA3		Manuela
+Ras	RASA4		Manuela
+Ras	RASA4B		Manuela
+Ras	RASAL1		Manuela
+Ras	RASAL2		Manuela
+Ras	RASAL3		Manuela
+MAPK	RASGRF1		Manuela
+Ras	RASGRF1		Manuela
+MAPK	RASGRF2		Manuela
+Ras	RASGRF2		Manuela
+MAPK	RASGRP1		Manuela
+Ras	RASGRP1		Manuela
+Chemokine	RASGRP2		Manuela
+MAPK	RASGRP2		Manuela
+Rap1	RASGRP2		Manuela
+Ras	RASGRP2		Manuela
+MAPK	RASGRP3		Manuela
+Rap1	RASGRP3		Manuela
+Ras	RASGRP3		Manuela
+MAPK	RASGRP4		Manuela
+Ras	RASGRP4		Manuela
+Hippo	RASSF1		Manuela
+Ras	RASSF1		Manuela
+Rap1	RASSF5		Manuela
+Ras	RASSF5		Manuela
+Hippo	RASSF6		Manuela
+Cell cycle	RB1		Manuela
+Cell cycle	RBL1		Manuela
+TGF-beta	RBL1		Manuela
+Cell cycle	RBL2		Manuela
+FoxO	RBL2		Manuela
+PI3K-Akt	RBL2		Manuela
+Notch	RBPJ		Manuela
+Notch	RBPJL		Manuela
+Cell cycle	RBX1		Manuela
+HIF-1	RBX1		Manuela
+TGF-beta	RBX1		Manuela
+Wnt	RBX1		Manuela
+Thyroid hormone	RCAN1		Manuela
+Thyroid hormone	RCAN2		Manuela
+p53	RCHY1		Manuela
+Ras	REL		Manuela
+cAMP	RELA		Manuela
+Chemokine	RELA		Manuela
+HIF-1	RELA		Manuela
+MAPK	RELA		Manuela
+NF-kappa B	RELA		Manuela
+PI3K-Akt	RELA		Manuela
+Ras	RELA		Manuela
+Sphingolipid	RELA		Manuela
+TNF	RELA		Manuela
+MAPK	RELB		Manuela
+NF-kappa B	RELB		Manuela
+PI3K-Akt	RELN		Manuela
+Cytokine-cytokine receptor interaction	RELT		Manuela
+Fanconi anemia	REV1		Manuela
+Fanconi anemia	REV3L		Manuela
+Notch	RFNG		Manuela
+Ras	RGL1		Manuela
+Ras	RGL2		Manuela
+Rap1	RGS14		Manuela
+cGMP-PKG	RGS2		Manuela
+AMPK	RHEB		Manuela
+Insulin	RHEB		Manuela
+mTOR	RHEB		Manuela
+Phospholipase D	RHEB		Manuela
+PI3K-Akt	RHEB		Manuela
+Thyroid hormone	RHEB		Manuela
+cAMP	RHOA		Manuela
+cGMP-PKG	RHOA		Manuela
+Chemokine	RHOA		Manuela
+mTOR	RHOA		Manuela
+Phospholipase D	RHOA		Manuela
+Rap1	RHOA		Manuela
+Ras	RHOA		Manuela
+Sphingolipid	RHOA		Manuela
+TGF-beta	RHOA		Manuela
+Wnt	RHOA		Manuela
+Insulin	RHOQ		Manuela
+mTOR	RICTOR		Manuela
+Ras	RIN1		Manuela
+NF-kappa B	RIPK1		Manuela
+TNF	RIPK1		Manuela
+TNF	RIPK3		Manuela
+Fanconi anemia	RMI1		Manuela
+Fanconi anemia	RMI2		Manuela
+mTOR	RNF152		Manuela
+cAMP	ROCK1		Manuela
+cGMP-PKG	ROCK1		Manuela
+Chemokine	ROCK1		Manuela
+Sphingolipid	ROCK1		Manuela
+TGF-beta	ROCK1		Manuela
+cAMP	ROCK2		Manuela
+cGMP-PKG	ROCK2		Manuela
+Chemokine	ROCK2		Manuela
+Sphingolipid	ROCK2		Manuela
+Wnt	ROCK2		Manuela
+Fanconi anemia	RPA1		Manuela
+Fanconi anemia	RPA2		Manuela
+Fanconi anemia	RPA3		Manuela
+Fanconi anemia	RPA4		Manuela
+p53	RPRM		Manuela
+Apelin	RPS6		Manuela
+HIF-1	RPS6		Manuela
+Insulin	RPS6		Manuela
+mTOR	RPS6		Manuela
+PI3K-Akt	RPS6		Manuela
+MAPK	RPS6KA1		Manuela
+mTOR	RPS6KA1		Manuela
+MAPK	RPS6KA2		Manuela
+mTOR	RPS6KA2		Manuela
+MAPK	RPS6KA3		Manuela
+mTOR	RPS6KA3		Manuela
+MAPK	RPS6KA4		Manuela
+TNF	RPS6KA4		Manuela
+MAPK	RPS6KA5		Manuela
+TNF	RPS6KA5		Manuela
+MAPK	RPS6KA6		Manuela
+mTOR	RPS6KA6		Manuela
+AMPK	RPS6KB1		Manuela
+Apelin	RPS6KB1		Manuela
+ErbB	RPS6KB1		Manuela
+HIF-1	RPS6KB1		Manuela
+Insulin	RPS6KB1		Manuela
+mTOR	RPS6KB1		Manuela
+PI3K-Akt	RPS6KB1		Manuela
+TGF-beta	RPS6KB1		Manuela
+AMPK	RPS6KB2		Manuela
+Apelin	RPS6KB2		Manuela
+ErbB	RPS6KB2		Manuela
+HIF-1	RPS6KB2		Manuela
+Insulin	RPS6KB2		Manuela
+mTOR	RPS6KB2		Manuela
+PI3K-Akt	RPS6KB2		Manuela
+TGF-beta	RPS6KB2		Manuela
+AMPK	RPTOR		Manuela
+Insulin	RPTOR		Manuela
+mTOR	RPTOR		Manuela
+PI3K-Akt	RPTOR		Manuela
+mTOR	RRAGA		Manuela
+mTOR	RRAGB		Manuela
+mTOR	RRAGC		Manuela
+mTOR	RRAGD		Manuela
+Apelin	RRAS		Manuela
+cAMP	RRAS		Manuela
+MAPK	RRAS		Manuela
+Phospholipase D	RRAS		Manuela
+Rap1	RRAS		Manuela
+Ras	RRAS		Manuela
+Apelin	RRAS2		Manuela
+cAMP	RRAS2		Manuela
+MAPK	RRAS2		Manuela
+Phospholipase D	RRAS2		Manuela
+Ras	RRAS2		Manuela
+p53	RRM2		Manuela
+p53	RRM2B		Manuela
+Wnt	RUVBL1		Manuela
+PI3K-Akt	RXRA		Manuela
+PPAR	RXRA		Manuela
+Thyroid hormone	RXRA		Manuela
+PPAR	RXRB		Manuela
+Thyroid hormone	RXRB		Manuela
+PPAR	RXRG		Manuela
+Thyroid hormone	RXRG		Manuela
+Apelin	RYR1		Manuela
+Calcium	RYR1		Manuela
+Apelin	RYR2		Manuela
+Calcium	RYR2		Manuela
+cAMP	RYR2		Manuela
+Apelin	RYR3		Manuela
+Calcium	RYR3		Manuela
+FoxO	S1PR1		Manuela
+Sphingolipid	S1PR1		Manuela
+Sphingolipid	S1PR2		Manuela
+Sphingolipid	S1PR3		Manuela
+FoxO	S1PR4		Manuela
+Sphingolipid	S1PR4		Manuela
+Sphingolipid	S1PR5		Manuela
+Phosphatidylinositol signaling system	SACM1L		Manuela
+Hippo	SAV1		Manuela
+AMPK	SCD		Manuela
+PPAR	SCD		Manuela
+AMPK	SCD5		Manuela
+PPAR	SCD5		Manuela
+PPAR	SCP2		Manuela
+Hippo	SCRIB		Manuela
+mTOR	SEC13		Manuela
+mTOR	SEH1L		Manuela
+TNF	SELE		Manuela
+Wnt	SENP2		Manuela
+p53	SERPINB5		Manuela
+Apelin	SERPINE1		Manuela
+HIF-1	SERPINE1		Manuela
+Hippo	SERPINE1		Manuela
+p53	SERPINE1		Manuela
+Wnt	SERPINF1		Manuela
+p53	SESN1		Manuela
+mTOR	SESN2		Manuela
+p53	SESN2		Manuela
+p53	SESN3		Manuela
+FoxO	SETD7		Manuela
+Cell cycle	SFN		Manuela
+p53	SFN		Manuela
+Wnt	SFRP1		Manuela
+Wnt	SFRP2		Manuela
+Wnt	SFRP4		Manuela
+Wnt	SFRP5		Manuela
+FoxO	SGK1		Manuela
+mTOR	SGK1		Manuela
+PI3K-Akt	SGK1		Manuela
+FoxO	SGK2		Manuela
+PI3K-Akt	SGK2		Manuela
+FoxO	SGK3		Manuela
+PI3K-Akt	SGK3		Manuela
+Sphingolipid	SGMS1		Manuela
+Sphingolipid	SGMS2		Manuela
+Sphingolipid	SGPL1		Manuela
+Sphingolipid	SGPP1		Manuela
+Sphingolipid	SGPP2		Manuela
+Insulin	SH2B2		Manuela
+VEGF	SH2D2A		Manuela
+Chemokine	SHC1		Manuela
+ErbB	SHC1		Manuela
+Estrogen	SHC1		Manuela
+Insulin	SHC1		Manuela
+Phospholipase D	SHC1		Manuela
+Ras	SHC1		Manuela
+Chemokine	SHC2		Manuela
+ErbB	SHC2		Manuela
+Estrogen	SHC2		Manuela
+Insulin	SHC2		Manuela
+Phospholipase D	SHC2		Manuela
+Ras	SHC2		Manuela
+VEGF	SHC2		Manuela
+Chemokine	SHC3		Manuela
+ErbB	SHC3		Manuela
+Estrogen	SHC3		Manuela
+Insulin	SHC3		Manuela
+Phospholipase D	SHC3		Manuela
+Ras	SHC3		Manuela
+Chemokine	SHC4		Manuela
+ErbB	SHC4		Manuela
+Estrogen	SHC4		Manuela
+Insulin	SHC4		Manuela
+Phospholipase D	SHC4		Manuela
+Ras	SHC4		Manuela
+Hedgehog	SHH		Manuela
+p53	SHISA5		Manuela
+Ras	SHOC2		Manuela
+p53	SIAH1		Manuela
+Wnt	SIAH1		Manuela
+Thyroid hormone	SIN3A		Manuela
+Rap1	SIPA1		Manuela
+Rap1	SIPA1L1		Manuela
+Rap1	SIPA1L2		Manuela
+Rap1	SIPA1L3		Manuela
+AMPK	SIRT1		Manuela
+FoxO	SIRT1		Manuela
+p53	SIVA1		Manuela
+Rap1	SKAP1		Manuela
+Cell cycle	SKP1		Manuela
+TGF-beta	SKP1		Manuela
+Wnt	SKP1		Manuela
+Cell cycle	SKP2		Manuela
+FoxO	SKP2		Manuela
+mTOR	SKP2		Manuela
+Thyroid hormone	SLC16A10		Manuela
+Thyroid hormone	SLC16A2		Manuela
+Calcium	SLC25A31		Manuela
+cGMP-PKG	SLC25A31		Manuela
+Calcium	SLC25A4		Manuela
+cGMP-PKG	SLC25A4		Manuela
+Calcium	SLC25A5		Manuela
+cGMP-PKG	SLC25A5		Manuela
+Calcium	SLC25A6		Manuela
+cGMP-PKG	SLC25A6		Manuela
+PPAR	SLC27A1		Manuela
+PPAR	SLC27A2		Manuela
+PPAR	SLC27A4		Manuela
+PPAR	SLC27A5		Manuela
+PPAR	SLC27A6		Manuela
+HIF-1	SLC2A1		Manuela
+Thyroid hormone	SLC2A1		Manuela
+AMPK	SLC2A4		Manuela
+FoxO	SLC2A4		Manuela
+Insulin	SLC2A4		Manuela
+mTOR	SLC38A9		Manuela
+mTOR	SLC3A2		Manuela
+mTOR	SLC7A5		Manuela
+Apelin	SLC8A1		Manuela
+Calcium	SLC8A1		Manuela
+cGMP-PKG	SLC8A1		Manuela
+Apelin	SLC8A2		Manuela
+Calcium	SLC8A2		Manuela
+cGMP-PKG	SLC8A2		Manuela
+Apelin	SLC8A3		Manuela
+Calcium	SLC8A3		Manuela
+cGMP-PKG	SLC8A3		Manuela
+Apelin	SLC9A1		Manuela
+cAMP	SLC9A1		Manuela
+Thyroid hormone	SLC9A1		Manuela
+Thyroid hormone	SLCO1C1		Manuela
+Fanconi anemia	SLX1A		Manuela
+Fanconi anemia	SLX1B		Manuela
+Fanconi anemia	SLX4		Manuela
+Hippo	SMAD1		Manuela
+TGF-beta	SMAD1		Manuela
+Apelin	SMAD2		Manuela
+Cell cycle	SMAD2		Manuela
+FoxO	SMAD2		Manuela
+Hippo	SMAD2		Manuela
+TGF-beta	SMAD2		Manuela
+Apelin	SMAD3		Manuela
+Cell cycle	SMAD3		Manuela
+FoxO	SMAD3		Manuela
+Hippo	SMAD3		Manuela
+TGF-beta	SMAD3		Manuela
+Wnt	SMAD3		Manuela
+Apelin	SMAD4		Manuela
+Cell cycle	SMAD4		Manuela
+FoxO	SMAD4		Manuela
+Hippo	SMAD4		Manuela
+TGF-beta	SMAD4		Manuela
+Wnt	SMAD4		Manuela
+TGF-beta	SMAD5		Manuela
+TGF-beta	SMAD6		Manuela
+Hippo	SMAD7		Manuela
+TGF-beta	SMAD7		Manuela
+TGF-beta	SMAD9		Manuela
+Cell cycle	SMC1A		Manuela
+Cell cycle	SMC1B		Manuela
+Cell cycle	SMC3		Manuela
+Hedgehog	SMO		Manuela
+Sphingolipid	SMPD1		Manuela
+Sphingolipid	SMPD2		Manuela
+Hedgehog	SMURF1		Manuela
+TGF-beta	SMURF1		Manuela
+Hedgehog	SMURF2		Manuela
+TGF-beta	SMURF2		Manuela
+Hippo	SNAI2		Manuela
+Notch	SNW1		Manuela
+Insulin	SOCS1		Manuela
+JAK-STAT	SOCS1		Manuela
+Insulin	SOCS2		Manuela
+JAK-STAT	SOCS2		Manuela
+Insulin	SOCS3		Manuela
+JAK-STAT	SOCS3		Manuela
+TNF	SOCS3		Manuela
+Insulin	SOCS4		Manuela
+JAK-STAT	SOCS4		Manuela
+JAK-STAT	SOCS5		Manuela
+JAK-STAT	SOCS6		Manuela
+JAK-STAT	SOCS7		Manuela
+FoxO	SOD2		Manuela
+Insulin	SORBS1		Manuela
+PPAR	SORBS1		Manuela
+Chemokine	SOS1		Manuela
+ErbB	SOS1		Manuela
+Estrogen	SOS1		Manuela
+FoxO	SOS1		Manuela
+Insulin	SOS1		Manuela
+JAK-STAT	SOS1		Manuela
+MAPK	SOS1		Manuela
+mTOR	SOS1		Manuela
+Phospholipase D	SOS1		Manuela
+PI3K-Akt	SOS1		Manuela
+Ras	SOS1		Manuela
+Chemokine	SOS2		Manuela
+ErbB	SOS2		Manuela
+Estrogen	SOS2		Manuela
+FoxO	SOS2		Manuela
+Insulin	SOS2		Manuela
+JAK-STAT	SOS2		Manuela
+MAPK	SOS2		Manuela
+mTOR	SOS2		Manuela
+Phospholipase D	SOS2		Manuela
+PI3K-Akt	SOS2		Manuela
+Ras	SOS2		Manuela
+Wnt	SOST		Manuela
+Wnt	SOX17		Manuela
+Hippo	SOX2		Manuela
+cAMP	SOX9		Manuela
+Estrogen	SP1		Manuela
+TGF-beta	SP1		Manuela
+Apelin	SPHK1		Manuela
+Calcium	SPHK1		Manuela
+Phospholipase D	SPHK1		Manuela
+Sphingolipid	SPHK1		Manuela
+VEGF	SPHK1		Manuela
+Apelin	SPHK2		Manuela
+Calcium	SPHK2		Manuela
+Phospholipase D	SPHK2		Manuela
+Sphingolipid	SPHK2		Manuela
+VEGF	SPHK2		Manuela
+Hedgehog	SPOP		Manuela
+Hedgehog	SPOPL		Manuela
+Apelin	SPP1		Manuela
+PI3K-Akt	SPP1		Manuela
+Sphingolipid	SPTLC1		Manuela
+Sphingolipid	SPTLC2		Manuela
+Sphingolipid	SPTLC3		Manuela
+Chemokine	SRC		Manuela
+ErbB	SRC		Manuela
+Estrogen	SRC		Manuela
+Rap1	SRC		Manuela
+Thyroid hormone	SRC		Manuela
+VEGF	SRC		Manuela
+AMPK	SREBF1		Manuela
+Insulin	SREBF1		Manuela
+cGMP-PKG	SRF		Manuela
+MAPK	SRF		Manuela
+cAMP	SSTR1		Manuela
+cAMP	SSTR2		Manuela
+cAMP	SSTR5		Manuela
+Cell cycle	STAG1		Manuela
+Cell cycle	STAG2		Manuela
+JAK-STAT	STAM		Manuela
+JAK-STAT	STAM2		Manuela
+Chemokine	STAT1		Manuela
+JAK-STAT	STAT1		Manuela
+Thyroid hormone	STAT1		Manuela
+Chemokine	STAT2		Manuela
+JAK-STAT	STAT2		Manuela
+Chemokine	STAT3		Manuela
+FoxO	STAT3		Manuela
+HIF-1	STAT3		Manuela
+JAK-STAT	STAT3		Manuela
+JAK-STAT	STAT4		Manuela
+ErbB	STAT5A		Manuela
+JAK-STAT	STAT5A		Manuela
+Chemokine	STAT5B		Manuela
+ErbB	STAT5B		Manuela
+JAK-STAT	STAT5B		Manuela
+JAK-STAT	STAT6		Manuela
+p53	STEAP3		Manuela
+Calcium	STIM1		Manuela
+Calcium	STIM2		Manuela
+AMPK	STK11		Manuela
+FoxO	STK11		Manuela
+mTOR	STK11		Manuela
+PI3K-Akt	STK11		Manuela
+Hippo	STK3		Manuela
+MAPK	STK3		Manuela
+FoxO	STK4		Manuela
+MAPK	STK4		Manuela
+Ras	STK4		Manuela
+MAPK	STMN1		Manuela
+AMPK	STRADA		Manuela
+mTOR	STRADA		Manuela
+AMPK	STRADB		Manuela
+mTOR	STRADB		Manuela
+cAMP	SUCNR1		Manuela
+Hedgehog	SUFU		Manuela
+NF-kappa B	SYK		Manuela
+Phospholipase D	SYK		Manuela
+PI3K-Akt	SYK		Manuela
+Ras	SYNGAP1		Manuela
+Phosphatidylinositol signaling system	SYNJ1		Manuela
+Phosphatidylinositol signaling system	SYNJ2		Manuela
+MAPK	TAB1		Manuela
+NF-kappa B	TAB1		Manuela
+TNF	TAB1		Manuela
+MAPK	TAB2		Manuela
+NF-kappa B	TAB2		Manuela
+TNF	TAB2		Manuela
+NF-kappa B	TAB3		Manuela
+TNF	TAB3		Manuela
+Calcium	TACR1		Manuela
+Calcium	TACR2		Manuela
+Calcium	TACR3		Manuela
+MAPK	TAOK1		Manuela
+MAPK	TAOK2		Manuela
+MAPK	TAOK3		Manuela
+AMPK	TBC1D1		Manuela
+Thyroid hormone	TBC1D4		Manuela
+mTOR	TBC1D7		Manuela
+Ras	TBK1		Manuela
+Wnt	TBL1X		Manuela
+Wnt	TBL1XR1		Manuela
+Wnt	TBL1Y		Manuela
+Calcium	TBXA2R		Manuela
+Hippo	TCF7		Manuela
+Wnt	TCF7		Manuela
+Hippo	TCF7L1		Manuela
+Wnt	TCF7L1		Manuela
+Hippo	TCF7L2		Manuela
+Wnt	TCF7L2		Manuela
+PI3K-Akt	TCL1A		Manuela
+PI3K-Akt	TCL1B		Manuela
+Hippo	TEAD1		Manuela
+Hippo	TEAD2		Manuela
+Hippo	TEAD3		Manuela
+Hippo	TEAD4		Manuela
+HIF-1	TEK		Manuela
+MAPK	TEK		Manuela
+PI3K-Akt	TEK		Manuela
+Rap1	TEK		Manuela
+Ras	TEK		Manuela
+Fanconi anemia	TELO2		Manuela
+mTOR	TELO2		Manuela
+HIF-1	TF		Manuela
+Apelin	TFAM		Manuela
+Cell cycle	TFDP1		Manuela
+TGF-beta	TFDP1		Manuela
+Cell cycle	TFDP2		Manuela
+Estrogen	TFF1		Manuela
+HIF-1	TFRC		Manuela
+ErbB	TGFA		Manuela
+Estrogen	TGFA		Manuela
+MAPK	TGFA		Manuela
+PI3K-Akt	TGFA		Manuela
+Ras	TGFA		Manuela
+Cell cycle	TGFB1		Manuela
+Cytokine-cytokine receptor interaction	TGFB1		Manuela
+FoxO	TGFB1		Manuela
+Hippo	TGFB1		Manuela
+MAPK	TGFB1		Manuela
+TGF-beta	TGFB1		Manuela
+Cell cycle	TGFB2		Manuela
+Cytokine-cytokine receptor interaction	TGFB2		Manuela
+FoxO	TGFB2		Manuela
+Hippo	TGFB2		Manuela
+MAPK	TGFB2		Manuela
+TGF-beta	TGFB2		Manuela
+Cell cycle	TGFB3		Manuela
+Cytokine-cytokine receptor interaction	TGFB3		Manuela
+FoxO	TGFB3		Manuela
+Hippo	TGFB3		Manuela
+MAPK	TGFB3		Manuela
+TGF-beta	TGFB3		Manuela
+Apelin	TGFBR1		Manuela
+Cytokine-cytokine receptor interaction	TGFBR1		Manuela
+FoxO	TGFBR1		Manuela
+Hippo	TGFBR1		Manuela
+MAPK	TGFBR1		Manuela
+TGF-beta	TGFBR1		Manuela
+Cytokine-cytokine receptor interaction	TGFBR2		Manuela
+FoxO	TGFBR2		Manuela
+Hippo	TGFBR2		Manuela
+MAPK	TGFBR2		Manuela
+TGF-beta	TGFBR2		Manuela
+TGF-beta	TGIF1		Manuela
+TGF-beta	TGIF2		Manuela
+p53	THBS1		Manuela
+PI3K-Akt	THBS1		Manuela
+Rap1	THBS1		Manuela
+TGF-beta	THBS1		Manuela
+PI3K-Akt	THBS2		Manuela
+PI3K-Akt	THBS3		Manuela
+PI3K-Akt	THBS4		Manuela
+PI3K-Akt	THEM4		Manuela
+Cytokine-cytokine receptor interaction	THPO		Manuela
+JAK-STAT	THPO		Manuela
+Thyroid hormone	THRA		Manuela
+Thyroid hormone	THRB		Manuela
+cAMP	TIAM1		Manuela
+Chemokine	TIAM1		Manuela
+Rap1	TIAM1		Manuela
+Ras	TIAM1		Manuela
+NF-kappa B	TICAM1		Manuela
+NF-kappa B	TICAM2		Manuela
+HIF-1	TIMP1		Manuela
+NF-kappa B	TIRAP		Manuela
+Rap1	TLN1		Manuela
+Rap1	TLN2		Manuela
+PI3K-Akt	TLR2		Manuela
+HIF-1	TLR4		Manuela
+NF-kappa B	TLR4		Manuela
+PI3K-Akt	TLR4		Manuela
+PI3K-Akt	TNC		Manuela
+Cytokine-cytokine receptor interaction	TNF		Manuela
+MAPK	TNF		Manuela
+mTOR	TNF		Manuela
+NF-kappa B	TNF		Manuela
+Sphingolipid	TNF		Manuela
+TGF-beta	TNF		Manuela
+TNF	TNF		Manuela
+NF-kappa B	TNFAIP3		Manuela
+TNF	TNFAIP3		Manuela
+Cytokine-cytokine receptor interaction	TNFRSF10A		Manuela
+Cytokine-cytokine receptor interaction	TNFRSF10B		Manuela
+p53	TNFRSF10B		Manuela
+Cytokine-cytokine receptor interaction	TNFRSF10C		Manuela
+Cytokine-cytokine receptor interaction	TNFRSF10D		Manuela
+Cytokine-cytokine receptor interaction	TNFRSF11A		Manuela
+NF-kappa B	TNFRSF11A		Manuela
+Cytokine-cytokine receptor interaction	TNFRSF11B		Manuela
+Cytokine-cytokine receptor interaction	TNFRSF12A		Manuela
+Cytokine-cytokine receptor interaction	TNFRSF13B		Manuela
+Cytokine-cytokine receptor interaction	TNFRSF13C		Manuela
+NF-kappa B	TNFRSF13C		Manuela
+Cytokine-cytokine receptor interaction	TNFRSF14		Manuela
+Cytokine-cytokine receptor interaction	TNFRSF17		Manuela
+Cytokine-cytokine receptor interaction	TNFRSF18		Manuela
+Cytokine-cytokine receptor interaction	TNFRSF19		Manuela
+Cytokine-cytokine receptor interaction	TNFRSF1A		Manuela
+MAPK	TNFRSF1A		Manuela
+mTOR	TNFRSF1A		Manuela
+NF-kappa B	TNFRSF1A		Manuela
+Sphingolipid	TNFRSF1A		Manuela
+TNF	TNFRSF1A		Manuela
+Cytokine-cytokine receptor interaction	TNFRSF1B		Manuela
+TNF	TNFRSF1B		Manuela
+Cytokine-cytokine receptor interaction	TNFRSF21		Manuela
+Cytokine-cytokine receptor interaction	TNFRSF25		Manuela
+Cytokine-cytokine receptor interaction	TNFRSF4		Manuela
+Cytokine-cytokine receptor interaction	TNFRSF6B		Manuela
+Cytokine-cytokine receptor interaction	TNFRSF8		Manuela
+Cytokine-cytokine receptor interaction	TNFRSF9		Manuela
+Cytokine-cytokine receptor interaction	TNFSF10		Manuela
+FoxO	TNFSF10		Manuela
+Cytokine-cytokine receptor interaction	TNFSF11		Manuela
+NF-kappa B	TNFSF11		Manuela
+Cytokine-cytokine receptor interaction	TNFSF12		Manuela
+Cytokine-cytokine receptor interaction	TNFSF13		Manuela
+Cytokine-cytokine receptor interaction	TNFSF13B		Manuela
+NF-kappa B	TNFSF13B		Manuela
+Cytokine-cytokine receptor interaction	TNFSF14		Manuela
+NF-kappa B	TNFSF14		Manuela
+Cytokine-cytokine receptor interaction	TNFSF15		Manuela
+Cytokine-cytokine receptor interaction	TNFSF18		Manuela
+Cytokine-cytokine receptor interaction	TNFSF4		Manuela
+Cytokine-cytokine receptor interaction	TNFSF8		Manuela
+Cytokine-cytokine receptor interaction	TNFSF9		Manuela
+PI3K-Akt	TNN		Manuela
+Calcium	TNNC1		Manuela
+Calcium	TNNC2		Manuela
+cAMP	TNNI3		Manuela
+PI3K-Akt	TNR		Manuela
+PI3K-Akt	TNXB		Manuela
+Fanconi anemia	TOP3A		Manuela
+Fanconi anemia	TOP3B		Manuela
+Cell cycle	TP53		Manuela
+MAPK	TP53		Manuela
+p53	TP53		Manuela
+PI3K-Akt	TP53		Manuela
+Sphingolipid	TP53		Manuela
+Thyroid hormone	TP53		Manuela
+Wnt	TP53		Manuela
+p53	TP53AIP1		Manuela
+Hippo	TP53BP2		Manuela
+p53	TP53I3		Manuela
+Hippo	TP73		Manuela
+p53	TP73		Manuela
+FoxO	TPTEP2-CSNK1E		Manuela
+Hedgehog	TPTEP2-CSNK1E		Manuela
+Hippo	TPTEP2-CSNK1E		Manuela
+Wnt	TPTEP2-CSNK1E		Manuela
+MAPK	TRADD		Manuela
+NF-kappa B	TRADD		Manuela
+Sphingolipid	TRADD		Manuela
+TNF	TRADD		Manuela
+NF-kappa B	TRAF1		Manuela
+TNF	TRAF1		Manuela
+MAPK	TRAF2		Manuela
+NF-kappa B	TRAF2		Manuela
+Sphingolipid	TRAF2		Manuela
+TNF	TRAF2		Manuela
+NF-kappa B	TRAF3		Manuela
+TNF	TRAF3		Manuela
+NF-kappa B	TRAF5		Manuela
+TNF	TRAF5		Manuela
+MAPK	TRAF6		Manuela
+NF-kappa B	TRAF6		Manuela
+Calcium	TRHR		Manuela
+NF-kappa B	TRIM25		Manuela
+Insulin	TRIP10		Manuela
+cGMP-PKG	TRPC6		Manuela
+AMPK	TSC1		Manuela
+Insulin	TSC1		Manuela
+mTOR	TSC1		Manuela
+Phospholipase D	TSC1		Manuela
+PI3K-Akt	TSC1		Manuela
+AMPK	TSC2		Manuela
+Insulin	TSC2		Manuela
+mTOR	TSC2		Manuela
+p53	TSC2		Manuela
+Phospholipase D	TSC2		Manuela
+PI3K-Akt	TSC2		Manuela
+Thyroid hormone	TSC2		Manuela
+cAMP	TSHR		Manuela
+Cytokine-cytokine receptor interaction	TSLP		Manuela
+JAK-STAT	TSLP		Manuela
+mTOR	TTI1		Manuela
+Cell cycle	TTK		Manuela
+JAK-STAT	TYK2		Manuela
+PPAR	UBC		Manuela
+NF-kappa B	UBE2I		Manuela
+Fanconi anemia	UBE2T		Manuela
+Apelin	UCP1		Manuela
+PPAR	UCP1		Manuela
+AMPK	ULK1		Manuela
+mTOR	ULK1		Manuela
+mTOR	ULK2		Manuela
+Fanconi anemia	USP1		Manuela
+FoxO	USP7		Manuela
+Wnt	VANGL1		Manuela
+Wnt	VANGL2		Manuela
+cGMP-PKG	VASP		Manuela
+Rap1	VASP		Manuela
+cAMP	VAV1		Manuela
+Chemokine	VAV1		Manuela
+cAMP	VAV2		Manuela
+Chemokine	VAV2		Manuela
+Rap1	VAV2		Manuela
+cAMP	VAV3		Manuela
+Chemokine	VAV3		Manuela
+NF-kappa B	VCAM1		Manuela
+TNF	VCAM1		Manuela
+Calcium	VDAC1		Manuela
+cGMP-PKG	VDAC1		Manuela
+Calcium	VDAC2		Manuela
+cGMP-PKG	VDAC2		Manuela
+Calcium	VDAC3		Manuela
+cGMP-PKG	VDAC3		Manuela
+HIF-1	VEGFA		Manuela
+MAPK	VEGFA		Manuela
+PI3K-Akt	VEGFA		Manuela
+Rap1	VEGFA		Manuela
+Ras	VEGFA		Manuela
+VEGF	VEGFA		Manuela
+MAPK	VEGFB		Manuela
+PI3K-Akt	VEGFB		Manuela
+Rap1	VEGFB		Manuela
+Ras	VEGFB		Manuela
+MAPK	VEGFC		Manuela
+PI3K-Akt	VEGFC		Manuela
+Rap1	VEGFC		Manuela
+Ras	VEGFC		Manuela
+TNF	VEGFC		Manuela
+MAPK	VEGFD		Manuela
+PI3K-Akt	VEGFD		Manuela
+Rap1	VEGFD		Manuela
+Ras	VEGFD		Manuela
+HIF-1	VHL		Manuela
+cAMP	VIPR2		Manuela
+PI3K-Akt	VTN		Manuela
+PI3K-Akt	VWF		Manuela
+Chemokine	WAS		Manuela
+Chemokine	WASL		Manuela
+mTOR	WDR24		Manuela
+Fanconi anemia	WDR48		Manuela
+mTOR	WDR59		Manuela
+Cell cycle	WEE1		Manuela
+Cell cycle	WEE2		Manuela
+Wnt	WIF1		Manuela
+Hippo	WNT1		Manuela
+mTOR	WNT1		Manuela
+Wnt	WNT1		Manuela
+Hippo	WNT10A		Manuela
+mTOR	WNT10A		Manuela
+Wnt	WNT10A		Manuela
+Hippo	WNT10B		Manuela
+mTOR	WNT10B		Manuela
+Wnt	WNT10B		Manuela
+Hippo	WNT11		Manuela
+mTOR	WNT11		Manuela
+Wnt	WNT11		Manuela
+Hippo	WNT16		Manuela
+mTOR	WNT16		Manuela
+Wnt	WNT16		Manuela
+Hippo	WNT2		Manuela
+mTOR	WNT2		Manuela
+Wnt	WNT2		Manuela
+Hippo	WNT2B		Manuela
+mTOR	WNT2B		Manuela
+Wnt	WNT2B		Manuela
+Hippo	WNT3		Manuela
+mTOR	WNT3		Manuela
+Wnt	WNT3		Manuela
+Hippo	WNT3A		Manuela
+mTOR	WNT3A		Manuela
+Wnt	WNT3A		Manuela
+Hippo	WNT4		Manuela
+mTOR	WNT4		Manuela
+Thyroid hormone	WNT4		Manuela
+Wnt	WNT4		Manuela
+Hippo	WNT5A		Manuela
+mTOR	WNT5A		Manuela
+Wnt	WNT5A		Manuela
+Hippo	WNT5B		Manuela
+mTOR	WNT5B		Manuela
+Wnt	WNT5B		Manuela
+Hippo	WNT6		Manuela
+mTOR	WNT6		Manuela
+Wnt	WNT6		Manuela
+Hippo	WNT7A		Manuela
+mTOR	WNT7A		Manuela
+Wnt	WNT7A		Manuela
+Hippo	WNT7B		Manuela
+mTOR	WNT7B		Manuela
+Wnt	WNT7B		Manuela
+Hippo	WNT8A		Manuela
+mTOR	WNT8A		Manuela
+Wnt	WNT8A		Manuela
+Hippo	WNT8B		Manuela
+mTOR	WNT8B		Manuela
+Wnt	WNT8B		Manuela
+Hippo	WNT9A		Manuela
+mTOR	WNT9A		Manuela
+Wnt	WNT9A		Manuela
+Hippo	WNT9B		Manuela
+mTOR	WNT9B		Manuela
+Wnt	WNT9B		Manuela
+Hippo	WTIP		Manuela
+Hippo	WWC1		Manuela
+Hippo	WWTR1		Manuela
+Chemokine	XCL1		Manuela
+Cytokine-cytokine receptor interaction	XCL1		Manuela
+Chemokine	XCL2		Manuela
+Cytokine-cytokine receptor interaction	XCL2		Manuela
+Chemokine	XCR1		Manuela
+Cytokine-cytokine receptor interaction	XCR1		Manuela
+NF-kappa B	XIAP		Manuela
+Hippo	YAP1		Manuela
+Cell cycle	YWHAB		Manuela
+Hippo	YWHAB		Manuela
+PI3K-Akt	YWHAB		Manuela
+Cell cycle	YWHAE		Manuela
+Hippo	YWHAE		Manuela
+PI3K-Akt	YWHAE		Manuela
+Cell cycle	YWHAG		Manuela
+Hippo	YWHAG		Manuela
+PI3K-Akt	YWHAG		Manuela
+Cell cycle	YWHAH		Manuela
+Hippo	YWHAH		Manuela
+PI3K-Akt	YWHAH		Manuela
+Cell cycle	YWHAQ		Manuela
+Hippo	YWHAQ		Manuela
+PI3K-Akt	YWHAQ		Manuela
+Cell cycle	YWHAZ		Manuela
+Hippo	YWHAZ		Manuela
+PI3K-Akt	YWHAZ		Manuela
+NF-kappa B	ZAP70		Manuela
+Ras	ZAP70		Manuela
+Cell cycle	ZBTB17		Manuela
+TGF-beta	ZFYVE16		Manuela
+TGF-beta	ZFYVE9		Manuela
+p53	ZMAT3		Manuela
