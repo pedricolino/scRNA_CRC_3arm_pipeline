@@ -14,7 +14,7 @@ misc/
 .tests/
 .vscode
 quarto/
-resources/
+resources/CellUntangler/
 workflow/notebooks/incomplete_or_not_working/
 jupyter_book/_build
 workflow/experimental_notebooks
