@@ -276,7 +276,7 @@ rule CellUntangler:
 ###-------------------- CLUSTERING ------------------------###
 
 rule clustering_monocle3:
-    input: 'results/' + filename + '/chosen_branch/adata_stripped.h5ad'
+    input: 'results/' + filename + '/chosen_branch/srt.rds'
     output: 'results/' + filename + '/chosen_branch/clusters_leiden_monocle3.csv'
     benchmark: 'benchmarks/clustering_monocle3.tsv'
     resources:
@@ -323,7 +323,7 @@ rule clustering_schist:
 #         '-p output_csv {output.clusters_scmiko} '
 
 rule clustering_scMiko:
-    input: 'results/' + filename + '/chosen_branch/adata_stripped.h5ad'
+    input: 'results/' + filename + '/chosen_branch/srt.rds'
     output: 'results/' + filename + '/chosen_branch/clusters_scMiko.csv',
     benchmark: 'benchmarks/clustering_scMiko.tsv'
     resources:
@@ -338,7 +338,7 @@ rule clustering_scMiko:
         '-p output_csv {output} '
 
 rule clustering_silhouette:
-    input: 'results/' + filename + '/chosen_branch/adata_stripped.h5ad'
+    input: 'results/' + filename + '/chosen_branch/srt.rds'
     output: 'results/' + filename + '/chosen_branch/clustering_silhouette.csv'
     benchmark: 'benchmarks/clustering_silhouette.tsv'
     resources:
@@ -378,7 +378,7 @@ rule which_clustering_to_choose:
 
 rule analysis_in_R:
     input:
-        adata = 'results/' + filename + '/chosen_branch/adata_stripped.h5ad',
+        adata = 'results/' + filename + '/chosen_branch/srt.rds',
         clusters = config['chosen_clustering'],
         notebook = 'workflow/notebooks/{in_R}.ipynb'
     output:
@@ -448,7 +448,7 @@ rule analysis_with_pathway_mod:
     resources:
         mem=lambda wildcards, attempt: '%dG' % (100 * attempt * mem_multiplier),
         runtime=lambda wildcards, attempt: 60 * attempt ** 2,
-    conda: env_prefix + 'pathway_mod' + env_suffix
+    conda: env_prefix + 'pathway' + env_suffix
     shell:
         'papermill '
         '{input.notebook} '
