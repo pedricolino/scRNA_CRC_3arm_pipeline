@@ -1,4 +1,4 @@
-name: pathway_mod
+name: pathway
 
 channels:
   - conda-forge
