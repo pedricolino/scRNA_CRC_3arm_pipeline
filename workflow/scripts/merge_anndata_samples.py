@@ -60,7 +60,7 @@ def main():
     try:
         print(f"Writing merged anndata to: {args.output}")
         with open(args.output, 'w') as output_file:
-            adata.write(args.output)
+            adata.write(args.output, compression = "gzip")
         print(f"Combined content written to '{args.output}' successfully.")
     except Exception as e:
         print(f"Error writing to file '{args.output}': {e}")
