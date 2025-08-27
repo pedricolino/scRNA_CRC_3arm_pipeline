@@ -19,3 +19,7 @@ dependencies:
   - openssl<=3.5.0
   - papermill
   - rpy2
+  - pip
+  - pip:
+      - hotspotsc
+      - scvelo
