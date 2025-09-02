@@ -22,6 +22,7 @@ print("Step 3: Parsed arguments")
 # print(sys.path)
 # If running notebook outside of CellUntangler directory, add it to the path
 sys.path.append('../../resources/CellUntangler/')
+sys.path.append('resources/CellUntangler/')
 
 print("Step 4: Updated sys.path")
 
