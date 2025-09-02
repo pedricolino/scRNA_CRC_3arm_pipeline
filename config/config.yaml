@@ -46,7 +46,7 @@ chosen_parameters:
 
 # chosen_branch: 'results/merged/dim_reduc_potential_cc_removal/count_layer__counts/normalization__log1p_norm/scale_data_before_pca__False/genes_for_pca__highly_variable_per_sample/cc_method__cc_genes_out/pca_n_components__50/umap_n_neighbors__30/qc_method__scAutoQC'
 
-chosen_clustering: 'results/merged/chosen_branch/RNA_snn_wo_1_5_6_res.0.3.csv'
+chosen_clustering: 'clusters_leiden_monocle3.csv'
 
 use_metacells: False # use metacells for analysis?
 # used for metacell computation

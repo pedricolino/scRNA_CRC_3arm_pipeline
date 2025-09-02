@@ -42,7 +42,7 @@ else:
     if config["use_metacells"]:
         filename = "merged_metacells"
         metacell_suffix = "/metacells"
-        mem_multiplier = 0.1
+        mem_multiplier = 0.2
         print("Using full dataset with metacells.")
     else:
         print("Using full dataset without metacells.")
@@ -82,6 +82,12 @@ chosen_branch = (
 # chosen_branch = config['chosen_branch']
 # chosen_branch: 'results/merged/dim_reduc_potential_cc_removal/count_layer__counts/normalization__log1p_norm/scale_data_before_pca__False/genes_for_pca__highly_variable_per_sample/cc_method__cc_genes_out/pca_n_components__50/umap_n_neighbors__30/qc_method__scAutoQC'
 
+chosen_clustering = (
+    "results/"
+    + filename
+    + "/chosen_branch/"
+    + config["chosen_clustering"]
+)
 
 # analysis notebook per conda environment
 analysis_in_R = [
@@ -94,11 +100,10 @@ analysis_in_R = [
 ]
 
 analysis_with_decoupler = [
-    "progeny",
+    # "progeny",
 ]
 
 analysis_with_scpca = [
-    "CMS_CellTypist",
     "gene_lists",
     "kill_rate_curves",
     "punzi_2024_like_analysis",
@@ -107,6 +112,10 @@ analysis_with_scpca = [
 
 analysis_with_pathway_mod = [
     # 'gsea_pathway',
+]
+
+analysis_with_preprocessing = [
+    "CMS_CellTypist",
 ]
 
 # print(expand("results/chosen_branch/checkpoint/{in_R}.done", in_R=analysis_in_R))
@@ -119,17 +128,27 @@ include: "rules/per_sample.smk"
 # Progress from one checkpoint to the next by uncommenting the next commented checkpoint 
 rule all:
     input:
+        'results/' + filename + '/chosen_branch/adata.h5ad',
         # 1st checkpoint: choose branch, i.e. which parameters to use
-        "results/" + filename + "/dim_reduc_potential_cc_removal/compare_parameter_options.ipynb",
+        # "results/" + filename + "/dim_reduc_potential_cc_removal/compare_parameter_options.ipynb",
 
         # 2nd checkpoint: choose clustering
         'results/' + filename + '/chosen_branch/srt.rds',
         'results/' + filename + '/chosen_branch/srt_subset.rds',
-        'results/' + filename + '/chosen_branch/ccRemover/xhat.rds',
         'results/' + filename + '/chosen_branch/checkpoint/which_clustering_to_choose.done',
 
         # perform post-clustering analysis
-        # expand('results/chosen_branch/checkpoint/in_R/{in_R}.done', in_R = analysis_in_R),
-        # expand('results/chosen_branch/checkpoint/with_decoupler/{with_decoupler}.done', with_decoupler = analysis_with_decoupler),
-        # expand('results/chosen_branch/checkpoint/with_scpca/{with_scpca}.done', with_scpca = analysis_with_scpca),
-        # expand('results/chosen_branch/checkpoint/with_pathway_mod/{with_pathway_mod}.done', with_pathway_mod = analysis_with_pathway_mod),
+        expand('results/' + filename + '/chosen_branch/checkpoint/in_R/{in_R}.done', in_R = analysis_in_R),
+        expand('results/' + filename + '/chosen_branch/checkpoint/with_decoupler/{with_decoupler}.done', with_decoupler = analysis_with_decoupler),
+        expand('results/' + filename + '/chosen_branch/checkpoint/with_scpca/{with_scpca}.done', with_scpca = analysis_with_scpca),
+        expand('results/' + filename + '/chosen_branch/checkpoint/with_pathway_mod/{with_pathway_mod}.done', with_pathway_mod = analysis_with_pathway_mod),
+        expand('results/' + filename + '/chosen_branch/checkpoint/with_preprocessing/{with_preprocessing}.done', with_preprocessing = analysis_with_preprocessing),
+
+        #  velocyto
+        expand('results/per_sample/{sample}/velocyto/.done', sample=wc),
+
+        # infercnvpy
+        'results/' + filename + '/chosen_branch/checkpoint/infercnvpy/infercnvpy.done',
+
+        'results/' + filename + '/ccRemover/xhat.rds', # does not work bc of Error in La.svd(x, nu, nv) : error code 1 from Lapack routine 'dgesdd'
+        'results/' + filename + '/CellUntangler/.done',
