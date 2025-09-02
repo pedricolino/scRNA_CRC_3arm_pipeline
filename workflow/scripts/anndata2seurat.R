@@ -31,4 +31,8 @@ if (opt$layer_in_X == "counts") {
 	stop("Invalid value for --layer_in_X. Use 'counts' or 'data'.")
 }
 
+# scale data so it does not have to be done in downstream in every notebook that requires scaled data
+srt = FindVariableFeatures(srt, selection.method = "vst", nfeatures = 4000)
+srt = ScaleData(srt)
+
 saveRDS(srt, file = opt$output)
