@@ -22,7 +22,7 @@ def main():
     # input_files = snakemake.input
 
     # extract sample name
-    sample_ids = [match.group() for path in sample_paths if (match := re.search("CE[a-zA-Z0-9_]*", path))]
+    sample_ids = [path.split("/")[-2] for path in sample_paths]
 
     # remove CE_SC_ prefix
     sample_ids = [re.sub("CE_SC_", "", name) for name in sample_ids]
