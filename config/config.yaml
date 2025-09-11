@@ -57,3 +57,9 @@ use_metacells: False # use metacells for analysis?
 set-resources:
   CellUntangler:
     slurm_extra: "'--gres=gpu:tesla:2'"
+
+numbat:
+  script: '/data/cephfs-1/home/users/cemo10_c/work/miniforge3/envs/R/lib/R/library/numbat/bin/pileup_and_phase.R'
+  panel: 'resources/1000G_hg38'
+  genetic_map: 'resources/genetic_map_hg38_withX.txt.gz'
+  snp_vcf: 'resources/genome1K.phase3.SNP_AF5e2.chr1toX.hg38.vcf'
