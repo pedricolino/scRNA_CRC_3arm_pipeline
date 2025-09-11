@@ -21,7 +21,7 @@ print("Step 3: Parsed arguments")
 
 # print(sys.path)
 # If running notebook outside of CellUntangler directory, add it to the path
-sys.path.append('../../resources/CellUntangler/')
+sys.path.append('resources/CellUntangler/')
 sys.path.append('resources/CellUntangler/')
 
 print("Step 4: Updated sys.path")
@@ -62,13 +62,13 @@ print("Step 8: Computed highly variable genes")
 adata.X = adata.layers["counts"].copy()
 print("Step 9: Set adata.X to counts layer")
 
-cell_cycle_genes_path = "../../resources/CellUntangler/cell_cycle_genes/celluntangler_human_cell_cycle_genes.tsv"
+cell_cycle_genes_path = "resources/CellUntangler/cell_cycle_genes/celluntangler_human_cell_cycle_genes.tsv"
 cell_cycle_genes = pd.read_csv(cell_cycle_genes_path, header=None, sep="\t")
 print("Step 10: Loaded cell cycle genes")
 
 if use_ensembl_ids:
 	# add matching gene name from ensembl2symbol to adata.var
-	ensembl2_symbol = pd.read_csv("../../resources/ensembl2genes_cellranger.tsv", sep="\t", header=None, index_col=0)
+	ensembl2_symbol = pd.read_csv("resources/ensembl2genes_cellranger.tsv", sep="\t", header=None, index_col=0)
 	# column one is ensembl id, column two is gene symbol
 	ensembl2_symbol = ensembl2_symbol[1].to_dict()
 	adata.var['gene_name'] = adata.var_names.map(ensembl2_symbol)
