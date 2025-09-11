@@ -17,6 +17,7 @@ dependencies:
   - tqdm
   - scipy
   - openssl<=3.5.0
+  - bioconda::cnmf
   - papermill
   - rpy2
   # - conda-forge::r-xml # for tmod
@@ -25,4 +26,4 @@ dependencies:
       - hotspotsc
       - scvelo
       - cellrank
-      # - gprofiler-official # for enrich function in scanpy
+      - gprofiler-official # for enrich function in scanpy
