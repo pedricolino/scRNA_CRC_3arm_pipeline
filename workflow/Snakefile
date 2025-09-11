@@ -145,10 +145,13 @@ rule all:
         expand('results/' + filename + '/chosen_branch/checkpoint/with_preprocessing/{with_preprocessing}.done', with_preprocessing = analysis_with_preprocessing),
 
         #  velocyto
-        expand('results/per_sample/{sample}/velocyto/.done', sample=wc),
+        # expand('results/per_sample/{sample}/velocyto/.done', sample=wc),
 
         # infercnvpy
         'results/' + filename + '/chosen_branch/checkpoint/infercnvpy/infercnvpy.done',
+
+        # numbat
+        # expand('results/per_sample/{sample}/numbat/preprocessing.done', sample=wc),
 
         'results/' + filename + '/ccRemover/xhat.rds', # does not work bc of Error in La.svd(x, nu, nv) : error code 1 from Lapack routine 'dgesdd'
         'results/' + filename + '/CellUntangler/.done',
