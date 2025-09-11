@@ -18,3 +18,9 @@ resources/CellUntangler/
 workflow/notebooks/incomplete_or_not_working/
 jupyter_book/_build
 workflow/experimental_notebooks
+numbat/
+figures/
+resources/
+.pybiomart.sqlite
+backup/
+recycle_bin/
