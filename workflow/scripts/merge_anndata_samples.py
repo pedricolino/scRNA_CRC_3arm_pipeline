@@ -21,8 +21,8 @@ def main():
     # Not done here bc module imports will fail despite working normally in outside of snakemake in the same conda environment.
     # input_files = snakemake.input
 
-    # extract sample name
-    sample_ids = [path.split("/")[-2] for path in sample_paths]
+    # extract sample name, remove 'metacells/' first if present
+    sample_ids = [path.replace("metacells/", "").split("/")[-2] for path in sample_paths]
 
     # remove CE_SC_ prefix
     sample_ids = [re.sub("CE_SC_", "", name) for name in sample_ids]
