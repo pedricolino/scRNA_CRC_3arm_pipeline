@@ -72,7 +72,7 @@ rule per_sample_analysis:
             "-p input_file {input} "
             "-p output_file {output} "
             "-p qc_method "+config['chosen_parameters']['qc_method']+" "
-            "-p count_layer "+config['chosen_parameters']['count_layer']+" "
+            "-p count_layer "+config['chosen_parameters']['count_layer']+"; "
         "touch {output}" # purposely allow failing which will require manual attention
 
 
