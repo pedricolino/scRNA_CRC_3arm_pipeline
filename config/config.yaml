@@ -3,8 +3,7 @@ conda_envs:
   use_existing_envs: true
   envs_path: '~/work/miniforge3/envs/' # path to conda envs if use_existing_envs is true
 
-# Use Ensembl IDs instead of gene names in the analysis?
-# Most tools, pipelines and tutorials, such as in the Seurat and the ScanPy framework, seem to use gene names by default, either by summing up cell counts with different Ensembl IDs per gene name, which is very debatable, or by adding suffices to the gene names to make them unique. The latter case is not a problem, but the form
+# Use Ensembl IDs instead of gene names in the analysis when possible/useful?
 use_ensembl_ids: true
 
 data:
