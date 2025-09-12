@@ -186,8 +186,8 @@ rule sample_agnostic_analysis:
     benchmark: 'benchmarks/sample_agnostic_analysis.tsv'
     threads: 8
     resources:
-        mem=lambda wildcards, attempt: '%dG' % (400 * attempt),
-        runtime=lambda wildcards, attempt: 24 * 60 * attempt * 2,
+        mem=lambda wildcards, attempt: '%dG' % (200 * attempt),
+        runtime=lambda wildcards, attempt: 4 * 60 * attempt,
     conda: env_prefix + "preprocessing" + env_suffix
     shell:
         "papermill "
@@ -351,7 +351,7 @@ rule clustering_scMiko:
     benchmark: 'benchmarks/clustering_scMiko.tsv'
     resources:
         mem=lambda wildcards, attempt: '%dG' % (200 * attempt * mem_multiplier),
-        runtime=lambda wildcards, attempt: 24 * 60 * attempt,
+        runtime=lambda wildcards, attempt: 4 * 60 * attempt,
     conda: env_prefix + 'R' + env_suffix
     shell:
         'papermill '
@@ -366,7 +366,7 @@ rule clustering_silhouette:
     benchmark: 'benchmarks/clustering_silhouette.tsv'
     resources:
         mem=lambda wildcards, attempt: '%dG' % (200 * attempt * mem_multiplier),
-        runtime=lambda wildcards, attempt: 24 * 60 * attempt,
+        runtime=lambda wildcards, attempt: 4 * 60 * attempt,
     conda: env_prefix + 'R' + env_suffix
     shell:
         'papermill '
