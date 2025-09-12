@@ -131,6 +131,7 @@ rule all:
         'results/' + filename + '/chosen_branch/adata.h5ad',
         # 1st checkpoint: choose branch, i.e. which parameters to use
         # "results/" + filename + "/dim_reduc_potential_cc_removal/compare_parameter_options.ipynb",
+        'results/' + filename + '/chosen_branch/adata_more_dim_red.h5ad',
 
         # 2nd checkpoint: choose clustering
         'results/' + filename + '/chosen_branch/srt.rds',
