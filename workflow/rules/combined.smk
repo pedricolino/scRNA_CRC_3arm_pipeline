@@ -176,6 +176,29 @@ rule save_adata_chosen_branch:
         '-p output_file {output} '
         '-p save_adata True'
 
+
+rule sample_agnostic_analysis:
+    input: 'results/' + filename + '/chosen_branch/adata.h5ad'
+    output: 'results/' + filename + '/chosen_branch/adata_more_dim_red.h5ad'
+    wildcard_constraints:
+         # Exclude patterns starting with "metacells_", otherwise this and the metacell computation rule might have identical output files
+        count_layer="(?!metacells_).*"
+    benchmark: 'benchmarks/sample_agnostic_analysis.tsv'
+    threads: 8
+    resources:
+        mem=lambda wildcards, attempt: '%dG' % (400 * attempt),
+        runtime=lambda wildcards, attempt: 24 * 60 * attempt ** 2,
+    conda: env_prefix + "preprocessing" + env_suffix
+    shell:
+        "papermill "
+            "workflow/notebooks/per_sample_analysis.ipynb "
+            "results/" + filename + "/chosen_branch/adata_more_dim_red.ipynb "
+            "-p input_file {input} "
+            "-p output_file {output} "
+            '-p qc_method ' + config["chosen_parameters"]["qc_method"] + ' '
+            '-p count_layer ' + config["chosen_parameters"]["count_layer"]
+
+
 rule convert_anndata_to_seurat:
     input: 'results/' + filename + '/chosen_branch/adata.h5ad'
     output: 'results/' + filename + '/chosen_branch/srt.rds'
