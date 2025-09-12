@@ -4,8 +4,6 @@ rule quality_control:
         adata = 'results/per_sample/{sample}/adata.h5ad',
     benchmark: 'benchmarks/quality_control/{sample}.tsv'
     threads: 8
-    params:
-        use_ensembl_ids = config['use_ensembl_ids'],
     resources:
         mem=lambda wildcards, attempt: '%dG' % (32 * attempt),
         runtime=lambda wildcards, attempt: 13 * attempt ** 2, # 1h on debug partition, then 4h on short partition, then medium
@@ -15,7 +13,6 @@ rule quality_control:
             "workflow/notebooks/quality_control.ipynb "
             "results/per_sample/{wildcards.sample}/quality_control.ipynb "
             "-p input_file {input} "
-            "-p use_ensembl_ids {params.use_ensembl_ids} "
             "-p output_dir results/per_sample/{wildcards.sample}/ "
 
 
@@ -27,11 +24,9 @@ rule per_sample_analysis:
         count_layer="(?!metacells_).*"
     benchmark: 'benchmarks/per_sample_analysis/{sample}_{count_layer}__{qc_method}.tsv'
     threads: 8
-    params:
-        use_ensembl_ids = config['use_ensembl_ids'],
     resources:
-        mem=lambda wildcards, attempt: '%dG' % (32 * attempt),
-        runtime=lambda wildcards, attempt: 81 * attempt ** 2,
+        mem=lambda wildcards, attempt: '%dG' % (50 * attempt),
+        runtime=lambda wildcards, attempt: 4 * 60 * attempt ** 2,
     conda: env_prefix + "preprocessing" + env_suffix
     shell:
         "papermill "
@@ -39,7 +34,6 @@ rule per_sample_analysis:
             "results/per_sample/{wildcards.sample}/per_sample_analysis_{wildcards.count_layer}_{wildcards.qc_method}.ipynb "
             "-p input_file {input} "
             "-p output_file {output} "
-            "-p use_ensembl_ids {params.use_ensembl_ids} "
             "-p qc_method {wildcards.qc_method} "
             "-p count_layer {wildcards.count_layer}"
 
@@ -60,6 +54,7 @@ rule scAutoQC:
             "-p input_file {input} "
             "-p count_layer {wildcards.count_layer} "
             "-p output_file {output} "
+            # "-p qc_method {wildcards.qc_method} " # snakemake complains
 
 if config['use_metacells']:
     rule SEACells_metacell_computation:
