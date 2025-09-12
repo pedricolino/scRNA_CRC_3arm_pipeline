@@ -18,7 +18,7 @@ rule quality_control:
 
 rule per_sample_analysis:
     input: lambda wildcards: 'results/per_sample/{sample}/adata.h5ad' if wildcards.qc_method == "theislab_tutorial" else 'results/per_sample/{sample}/adata_scAutoQC_{count_layer}.h5ad'
-    output: 'results/per_sample/{sample}/adata_ready_for_merge_{count_layer}__{qc_method}.h5ad'
+    output: temp('results/per_sample/{sample}/adata_ready_for_merge_{count_layer}__{qc_method}.h5ad')
     wildcard_constraints:
          # Exclude patterns starting with "metacells_", otherwise this and the metacell computation rule might have identical output files
         count_layer="(?!metacells_).*"
@@ -40,7 +40,7 @@ rule per_sample_analysis:
 
 rule scAutoQC:
     input: 'results/per_sample/{sample}/adata.h5ad'
-    output: 'results/per_sample/{sample}/adata_scAutoQC_{count_layer}.h5ad'
+    output: temp('results/per_sample/{sample}/adata_scAutoQC_{count_layer}.h5ad')
     benchmark: 'benchmarks/scAutoQC/{sample}_{count_layer}.tsv'
     threads: 8
     resources:
