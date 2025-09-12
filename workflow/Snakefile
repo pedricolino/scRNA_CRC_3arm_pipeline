@@ -19,6 +19,9 @@ else:
     print("no samples detected")
 wc = samples.index  # store samples in wildcard
 
+# extract the second to last string separated by _
+arms = list(set([s.split("_")[-2] for s in wc]))
+arms.append("full")
 
 # location of conda environments
 if config["conda_envs"]["use_existing_envs"]:
@@ -85,7 +88,7 @@ chosen_branch = (
 chosen_clustering = (
     "results/"
     + filename
-    + "/chosen_branch/"
+    + "/chosen_branch/{arm}/"
     + config["chosen_clustering"]
 )
 
@@ -128,29 +131,28 @@ include: "rules/per_sample.smk"
 # Progress from one checkpoint to the next by uncommenting the next commented checkpoint 
 rule all:
     input:
-        'results/' + filename + '/chosen_branch/adata.h5ad',
+        expand('results/' + filename + '/chosen_branch/{arm}/adata.h5ad', arm=arms),
         # 1st checkpoint: choose branch, i.e. which parameters to use
         "results/" + filename + "/dim_reduc_potential_cc_removal/compare_parameter_options.ipynb",
-        'results/' + filename + '/chosen_branch/adata_more_dim_red.h5ad',
+        expand('results/' + filename + '/chosen_branch/{arm}/adata_more_dim_red.h5ad', arm = arms),
         expand('results/per_sample/{sample}/per_sample_analysis_'+config['chosen_parameters']['count_layer']+'__'+config['chosen_parameters']['qc_method']+'.done', sample = wc),
 
         # 2nd checkpoint: choose clustering
-        'results/' + filename + '/chosen_branch/srt.rds',
-        'results/' + filename + '/chosen_branch/srt_subset.rds',
-        'results/' + filename + '/chosen_branch/checkpoint/which_clustering_to_choose.done',
+        expand('results/' + filename + '/chosen_branch/{arm}/srt_subset.rds', arm = arms),
+        expand('results/' + filename + '/chosen_branch/{arm}/checkpoint/which_clustering_to_choose.done', arm = arms),
 
         # perform post-clustering analysis
-        expand('results/' + filename + '/chosen_branch/checkpoint/in_R/{in_R}.done', in_R = analysis_in_R),
-        expand('results/' + filename + '/chosen_branch/checkpoint/with_decoupler/{with_decoupler}.done', with_decoupler = analysis_with_decoupler),
-        expand('results/' + filename + '/chosen_branch/checkpoint/with_scpca/{with_scpca}.done', with_scpca = analysis_with_scpca),
-        expand('results/' + filename + '/chosen_branch/checkpoint/with_pathway_mod/{with_pathway_mod}.done', with_pathway_mod = analysis_with_pathway_mod),
-        expand('results/' + filename + '/chosen_branch/checkpoint/with_preprocessing/{with_preprocessing}.done', with_preprocessing = analysis_with_preprocessing),
+        expand('results/' + filename + '/chosen_branch/{arm}/checkpoint/in_R/{in_R}.done', arm = arms, in_R = analysis_in_R),
+        expand('results/' + filename + '/chosen_branch/{arm}/checkpoint/with_decoupler/{with_decoupler}.done', arm = arms, with_decoupler = analysis_with_decoupler),
+        expand('results/' + filename + '/chosen_branch/{arm}/checkpoint/with_scpca/{with_scpca}.done', arm = arms, with_scpca = analysis_with_scpca),
+        expand('results/' + filename + '/chosen_branch/{arm}/checkpoint/with_pathway_mod/{with_pathway_mod}.done', arm = arms, with_pathway_mod = analysis_with_pathway_mod),
+        expand('results/' + filename + '/chosen_branch/{arm}/checkpoint/with_preprocessing/{with_preprocessing}.done', arm = arms, with_preprocessing = analysis_with_preprocessing),
 
         #  velocyto
         # expand('results/per_sample/{sample}/velocyto/.done', sample=wc),
 
         # infercnvpy
-        'results/' + filename + '/chosen_branch/checkpoint/infercnvpy/infercnvpy.done',
+        expand('results/' + filename + '/chosen_branch/{arm}/checkpoint/infercnvpy/infercnvpy.done', arm = arms),
 
         # numbat
         # expand('results/per_sample/{sample}/numbat/preprocessing.done', sample=wc),
