@@ -205,8 +205,6 @@ rule sample_agnostic_analysis:
             "workflow/notebooks/per_sample_analysis.ipynb "
             "results/" + filename + "/chosen_branch/{wildcards.arm}/adata_more_dim_red.ipynb "
             "-p input_file {input} "
-            "-p output_file {output} "
-            '-p qc_method ' + config["chosen_parameters"]["qc_method"] + ' '
             '-p count_layer ' + config["chosen_parameters"]["count_layer"]
 
 

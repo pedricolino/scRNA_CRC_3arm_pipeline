@@ -70,8 +70,6 @@ rule per_sample_analysis:
             "workflow/notebooks/per_sample_analysis.ipynb "
             "results/per_sample/{wildcards.sample}/per_sample_analysis_"+config['chosen_parameters']['count_layer']+'__'+config['chosen_parameters']['qc_method']+".ipynb "
             "-p input_file {input} "
-            "-p output_file {output} "
-            "-p qc_method "+config['chosen_parameters']['qc_method']+" "
             "-p count_layer "+config['chosen_parameters']['count_layer']+"; "
         "touch {output}" # purposely allow failing which will require manual attention
 
