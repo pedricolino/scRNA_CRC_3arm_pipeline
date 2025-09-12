@@ -1,12 +1,12 @@
 rule quality_control:
     input: lambda wildcards: samples.at[wildcards.sample, 'path']
     output: 
-        adata = 'results/per_sample/{sample}/adata.h5ad',
+        adata = temp('results/per_sample/{sample}/adata.h5ad'),
     benchmark: 'benchmarks/quality_control/{sample}.tsv'
     threads: 8
     resources:
         mem=lambda wildcards, attempt: '%dG' % (32 * attempt),
-        runtime=lambda wildcards, attempt: 13 * attempt ** 2, # 1h on debug partition, then 4h on short partition, then medium
+        # runtime=lambda wildcards, attempt: 13 * attempt ** 2, # 1h on debug partition, then 4h on short partition, then medium
     conda: env_prefix + "preprocessing" + env_suffix
     shell:
         "papermill "
@@ -16,45 +16,65 @@ rule quality_control:
             "-p output_dir results/per_sample/{wildcards.sample}/ "
 
 
-rule per_sample_analysis:
-    input: lambda wildcards: 'results/per_sample/{sample}/adata.h5ad' if wildcards.qc_method == "theislab_tutorial" else 'results/per_sample/{sample}/adata_scAutoQC_{count_layer}.h5ad'
-    output: temp('results/per_sample/{sample}/adata_ready_for_merge_{count_layer}__{qc_method}.h5ad')
-    wildcard_constraints:
-         # Exclude patterns starting with "metacells_", otherwise this and the metacell computation rule might have identical output files
-        count_layer="(?!metacells_).*"
-    benchmark: 'benchmarks/per_sample_analysis/{sample}_{count_layer}__{qc_method}.tsv'
-    threads: 8
-    resources:
-        mem=lambda wildcards, attempt: '%dG' % (50 * attempt),
-        runtime=lambda wildcards, attempt: 4 * 60 * attempt ** 2,
-    conda: env_prefix + "preprocessing" + env_suffix
-    shell:
-        "papermill "
-            "workflow/notebooks/per_sample_analysis.ipynb "
-            "results/per_sample/{wildcards.sample}/per_sample_analysis_{wildcards.count_layer}_{wildcards.qc_method}.ipynb "
-            "-p input_file {input} "
-            "-p output_file {output} "
-            "-p qc_method {wildcards.qc_method} "
-            "-p count_layer {wildcards.count_layer}"
-
-
 rule scAutoQC:
     input: 'results/per_sample/{sample}/adata.h5ad'
-    output: temp('results/per_sample/{sample}/adata_scAutoQC_{count_layer}.h5ad')
-    benchmark: 'benchmarks/scAutoQC/{sample}_{count_layer}.tsv'
+    output: temp('results/per_sample/{sample}/adata_scAutoQC.h5ad')
+    benchmark: 'benchmarks/scAutoQC/{sample}.tsv'
     threads: 8
     resources:
         mem=lambda wildcards, attempt: '%dG' % (16 * attempt),
-        runtime=lambda wildcards, attempt: 6 * attempt ** 2,
+        # runtime=lambda wildcards, attempt: 6 * attempt ** 2,
     conda: env_prefix + "sctk" + env_suffix
     shell:
         "papermill "
             "workflow/notebooks/sctk_scAutoQC.ipynb "
             "results/per_sample/{wildcards.sample}/scAutoQC.ipynb "
             "-p input_file {input} "
-            "-p count_layer {wildcards.count_layer} "
             "-p output_file {output} "
             # "-p qc_method {wildcards.qc_method} " # snakemake complains
+
+
+rule normalization_feature_selection:
+    input: 'results/per_sample/{sample}/adata_scAutoQC.h5ad'
+    output: 'results/per_sample/{sample}/adata_ready_for_merge_{count_layer}__{qc_method}.h5ad'
+    wildcard_constraints:
+         # Exclude patterns starting with "metacells_", otherwise this and the metacell computation rule might have identical output files
+        count_layer="(?!metacells).*",
+        sample="[^/]+"
+    benchmark: 'benchmarks/per_sample_analysis/{sample}_{count_layer}__{qc_method}.tsv'
+    threads: 8
+    resources:
+        mem=lambda wildcards, attempt: '%dG' % (50 * attempt),
+        # runtime=lambda wildcards, attempt: 4 * 60 * attempt ** 2,
+    conda: env_prefix + "preprocessing" + env_suffix
+    shell:
+        "papermill "
+            "workflow/notebooks/normalization_feature_selection.ipynb "
+            "results/per_sample/{wildcards.sample}/normalization_feature_selection_{wildcards.count_layer}_{wildcards.qc_method}.ipynb "
+            "-p input_file {input} "
+            "-p output_file {output} "
+            "-p qc_method {wildcards.qc_method} "
+            "-p count_layer {wildcards.count_layer}"
+
+rule per_sample_analysis:
+    input: 'results/per_sample/{sample}/adata_ready_for_merge_'+config['chosen_parameters']['count_layer']+'__'+config['chosen_parameters']['qc_method']+'.h5ad'
+    output: 'results/per_sample/{sample}/per_sample_analysis_'+config['chosen_parameters']['count_layer']+'__'+config['chosen_parameters']['qc_method']+'.done'
+    benchmark: 'benchmarks/per_sample_analysis/{sample}_'+config['chosen_parameters']['count_layer']+'__'+config['chosen_parameters']['qc_method']+'.tsv'
+    threads: 8
+    resources:
+        mem=lambda wildcards, attempt: '%dG' % (50 * attempt),
+        # runtime=lambda wildcards, attempt: 4 * 60 * attempt ** 2,
+    conda: env_prefix + "preprocessing" + env_suffix
+    shell:
+        "papermill "
+            "workflow/notebooks/per_sample_analysis.ipynb "
+            "results/per_sample/{wildcards.sample}/per_sample_analysis_"+config['chosen_parameters']['count_layer']+'__'+config['chosen_parameters']['qc_method']+".ipynb "
+            "-p input_file {input} "
+            "-p output_file {output} "
+            "-p qc_method "+config['chosen_parameters']['qc_method']+" "
+            "-p count_layer "+config['chosen_parameters']['count_layer']+" "
+        "touch {output}" # purposely allow failing which will require manual attention
+
 
 if config['use_metacells']:
     rule SEACells_metacell_computation:
@@ -64,7 +84,7 @@ if config['use_metacells']:
         threads: 8
         resources:
             mem=lambda wildcards, attempt: '%dG' % (16 * attempt),
-            runtime=lambda wildcards, attempt: 240 * attempt ** 2
+            # runtime=lambda wildcards, attempt: 240 * attempt ** 2
         conda: env_prefix + "seacells" + env_suffix
         shell:
             "papermill "
@@ -81,7 +101,7 @@ rule velocyto:
     threads: 8
     resources:
         mem=lambda wildcards, attempt: '%dG' % (50 * attempt),
-        runtime=lambda wildcards, attempt: 240 * attempt ** 2,
+        # runtime=lambda wildcards, attempt: 240 * attempt ** 2,
     shell:
         "velocyto run {input} resources/genes.gtf -o results/per_sample/{wildcards.sample}/velocyto && touch {output}"
 
@@ -102,7 +122,7 @@ rule numbat_preprocess:
     threads: 32
     resources:
         mem=lambda wildcards, attempt: '%dG' % (50 * attempt),
-        runtime=lambda wildcards, attempt: 60 * 24 * 4 * attempt ** 2,
+        # runtime=lambda wildcards, attempt: 60 * 24 * 4 * attempt ** 2,
     shell:
         "Rscript {input.script} "
         "--label {params.label} "
