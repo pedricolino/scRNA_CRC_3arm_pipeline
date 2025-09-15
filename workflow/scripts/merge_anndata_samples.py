@@ -31,7 +31,6 @@ def main():
     # from sample names split by _ and take the first element as treatment and the second as week number
     sample_treatments = [name.split("_")[0] for name in sample_ids]
     sample_weeks = [name.split("_")[1] for name in sample_ids]
-    sample_treatments = ["Control" if treatment == "C" else treatment for treatment in sample_treatments]
 
     # create a samples dictionary
     samples = dict(zip(sample_ids, zip(sample_paths, sample_treatments, sample_weeks)))
