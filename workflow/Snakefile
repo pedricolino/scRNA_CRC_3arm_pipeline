@@ -152,10 +152,10 @@ rule all:
         # expand('results/per_sample/{sample}/velocyto/.done', sample=wc),
 
         # infercnvpy
-        expand('results/' + filename + '/chosen_branch/{arm}/checkpoint/infercnvpy/infercnvpy.done', arm = arms),
+        expand('results/' + filename + '/chosen_branch/full/checkpoint/infercnvpy/infercnvpy.done', arm = arms),
 
         # numbat
         # expand('results/per_sample/{sample}/numbat/preprocessing.done', sample=wc),
 
-        'results/' + filename + '/ccRemover/xhat.rds', # does not work bc of Error in La.svd(x, nu, nv) : error code 1 from Lapack routine 'dgesdd'
-        'results/' + filename + '/CellUntangler/.done',
+        # 'results/' + filename + '/ccRemover/xhat.rds', # does not work bc of Error in La.svd(x, nu, nv) : error code 1 from Lapack routine 'dgesdd'
+        # 'results/' + filename + '/CellUntangler/.done',
