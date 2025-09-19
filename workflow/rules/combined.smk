@@ -198,7 +198,7 @@ rule sample_agnostic_analysis:
     threads: 8
     resources:
         mem=lambda wildcards, attempt: '%dG' % (200 * attempt),
-        runtime=lambda wildcards, attempt: 4 * 60 * attempt,
+        runtime=lambda wildcards, attempt: 7 * 24 * 60 * attempt,
     conda: env_prefix + "preprocessing" + env_suffix
     shell:
         "papermill "
