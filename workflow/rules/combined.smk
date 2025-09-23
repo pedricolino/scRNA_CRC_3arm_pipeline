@@ -188,13 +188,15 @@ rule split_treatment_arms:
         "python -c 'import scanpy as sc; adata = sc.read_h5ad(\"{input}\"); adata_subset = adata[adata.obs[\"treatment\"] == \"{wildcards.arm}\"]; adata_subset.write_h5ad(\"{output}\")'"
 
 
-rule sample_agnostic_analysis:
+rule standard_analysis:
     input: 'results/' + filename + '/chosen_branch/{arm}/adata.h5ad'
-    output: 'results/' + filename + '/chosen_branch/{arm}/adata_more_dim_red.h5ad'
+    output: 
+        adata = 'results/' + filename + '/chosen_branch/{arm}/adata_standard_analysis.h5ad',
+        deviant_genes = 'results/' + filename + '/chosen_branch/{arm}/deviant_genes.txt',
     wildcard_constraints:
          # Exclude patterns starting with "metacells_", otherwise this and the metacell computation rule might have identical output files
         count_layer="(?!metacells_).*"
-    benchmark: 'benchmarks/sample_agnostic_analysis_{arm}.tsv'
+    benchmark: 'benchmarks/standard_analysis{arm}.tsv'
     threads: 8
     resources:
         mem=lambda wildcards, attempt: '%dG' % (200 * attempt),
@@ -202,11 +204,50 @@ rule sample_agnostic_analysis:
     conda: env_prefix + "preprocessing" + env_suffix
     shell:
         "papermill "
-            "workflow/notebooks/per_sample_analysis.ipynb "
-            "results/" + filename + "/chosen_branch/{wildcards.arm}/adata_more_dim_red.ipynb "
+            "workflow/notebooks/standard_analysis.ipynb "
+            "results/" + filename + "/chosen_branch/{wildcards.arm}/standard_analysis.ipynb "
             "-p input_file {input} "
             "-p output_file {output} "
-            '-p count_layer ' + config["chosen_parameters"]["count_layer"]
+            '-p count_layer ' + config["chosen_parameters"]["count_layer"] + ' '
+            '-p deviant_genes_file {output.deviant_genes} '
+
+rule cNMF:
+    input: 
+        adata = 'results/' + filename + '/chosen_branch/{arm}/adata.h5ad',
+        deviant_genes = 'results/' + filename + '/chosen_branch/{arm}/deviant_genes.txt'
+    output: 'results/' + filename + '/chosen_branch/{arm}/cNMF/.done'
+    benchmark: 'benchmarks/cNMF_{arm}.tsv'
+    resources:
+        mem=lambda wildcards, attempt: '%dG' % (400 * attempt * mem_multiplier),
+        runtime=lambda wildcards, attempt: 7 * 24 * 60 * attempt,
+    conda: env_prefix + 'preprocessing' + env_suffix
+    threads: 32
+    shell:
+        'python '
+        'workflow/scripts/cNMF.py '
+        '-p input_file {input.adata} '
+        '-p count_layer ' + config["chosen_parameters"]["count_layer"] + ' '
+        '-p deviant_genes_file {input.deviant_genes} && '
+        'touch {output}'
+
+rule cNMF_evaluation:
+    input: 
+        adata = 'results/' + filename + '/chosen_branch/{arm}/adata.h5ad',
+        checkpoint = 'results/' + filename + '/chosen_branch/{arm}/cNMF/.done'
+    output: 'results/' + filename + '/chosen_branch/{arm}/cNMF/cNMF_evaluation.done'
+    benchmark: 'benchmarks/cNMF_evaluation_{arm}.tsv'
+    resources:
+        mem=lambda wildcards, attempt: '%dG' % (50 * attempt * mem_multiplier),
+        runtime=lambda wildcards, attempt: 60 * attempt ** 2,
+    conda: env_prefix + 'preprocessing' + env_suffix
+    shell:
+        "papermill "
+            "workflow/notebooks/cNMF_evaluation.ipynb "
+            "results/" + filename + "/chosen_branch/{wildcards.arm}/cNMF_evaluation.ipynb "
+            "-p input_file {input.adata} "
+            '-p count_layer ' + config["chosen_parameters"]["count_layer"] + ' '
+            '-p deviant_genes_file {output.deviant_genes} && '
+            'touch {output}'
 
 
 rule convert_anndata_to_seurat:

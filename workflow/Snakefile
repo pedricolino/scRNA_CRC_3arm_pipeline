@@ -132,30 +132,38 @@ include: "rules/per_sample.smk"
 rule all:
     input:
         expand('results/' + filename + '/chosen_branch/{arm}/adata.h5ad', arm=arms),
-        # 1st checkpoint: choose branch, i.e. which parameters to use
-        "results/" + filename + "/dim_reduc_potential_cc_removal/compare_parameter_options.ipynb",
-        expand('results/' + filename + '/chosen_branch/{arm}/adata_more_dim_red.h5ad', arm = arms),
-        expand('results/per_sample/{sample}/per_sample_analysis_'+config['chosen_parameters']['count_layer']+'__'+config['chosen_parameters']['qc_method']+'.done', sample = wc),
+        
+        #-------- 1st checkpoint: choose branch, i.e. which parameters to use
+        # "results/" + filename + "/dim_reduc_potential_cc_removal/compare_parameter_options.ipynb",
 
-        # 2nd checkpoint: choose clustering
+        #-------- Analysis independent of chosen multi-sample clustering and cell cycle removal
+        # cNMF
+        expand('results/' + filename + '/chosen_branch/{arm}/cNMF/.done', arm = arms),
+        # standard analysis per sample, incl. dim. reduc., clustering, pathway analysis, and cell type annotation
+        expand('results/per_sample/{sample}/per_sample_analysis_'+config['chosen_parameters']['count_layer']+'__'+config['chosen_parameters']['qc_method']+'.done', sample = wc),
+        # infercnvpy
+        expand('results/' + filename + '/chosen_branch/full/checkpoint/infercnvpy/infercnvpy.done', arm = arms),
+
+        #-------- 2nd checkpoint: choose clustering
         expand('results/' + filename + '/chosen_branch/{arm}/srt_subset.rds', arm = arms),
         expand('results/' + filename + '/chosen_branch/{arm}/checkpoint/which_clustering_to_choose.done', arm = arms),
 
-        # perform post-clustering analysis
+        #-------- perform post-clustering analysis
         expand('results/' + filename + '/chosen_branch/{arm}/checkpoint/in_R/{in_R}.done', arm = arms, in_R = analysis_in_R),
         expand('results/' + filename + '/chosen_branch/{arm}/checkpoint/with_decoupler/{with_decoupler}.done', arm = arms, with_decoupler = analysis_with_decoupler),
         expand('results/' + filename + '/chosen_branch/{arm}/checkpoint/with_scpca/{with_scpca}.done', arm = arms, with_scpca = analysis_with_scpca),
         expand('results/' + filename + '/chosen_branch/{arm}/checkpoint/with_pathway_mod/{with_pathway_mod}.done', arm = arms, with_pathway_mod = analysis_with_pathway_mod),
         expand('results/' + filename + '/chosen_branch/{arm}/checkpoint/with_preprocessing/{with_preprocessing}.done', arm = arms, with_preprocessing = analysis_with_preprocessing),
 
-        #  velocyto
+
+        #--------  velocyto
         # expand('results/per_sample/{sample}/velocyto/.done', sample=wc),
 
-        # infercnvpy
-        expand('results/' + filename + '/chosen_branch/full/checkpoint/infercnvpy/infercnvpy.done', arm = arms),
 
-        # numbat
+        #-------- numbat
         # expand('results/per_sample/{sample}/numbat/preprocessing.done', sample=wc),
 
+
+        #-------- experimental methods to remove cell cycle
         # 'results/' + filename + '/ccRemover/xhat.rds', # does not work bc of Error in La.svd(x, nu, nv) : error code 1 from Lapack routine 'dgesdd'
         # 'results/' + filename + '/CellUntangler/.done',
