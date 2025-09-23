@@ -225,9 +225,9 @@ rule cNMF:
     shell:
         'python '
         'workflow/scripts/cNMF.py '
-        '-p input_file {input.adata} '
-        '-p count_layer ' + config["chosen_parameters"]["count_layer"] + ' '
-        '-p deviant_genes_file {input.deviant_genes} && '
+        '--input_file {input.adata} '
+        '--count_layer ' + config["chosen_parameters"]["count_layer"] + ' '
+        '--deviant_genes_file {input.deviant_genes} && '
         'touch {output}'
 
 rule cNMF_evaluation:
