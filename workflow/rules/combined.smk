@@ -207,7 +207,7 @@ rule standard_analysis:
             "workflow/notebooks/standard_analysis.ipynb "
             "results/" + filename + "/chosen_branch/{wildcards.arm}/standard_analysis.ipynb "
             "-p input_file {input} "
-            "-p output_file {output} "
+            "-p output_file {output.adata} "
             '-p count_layer ' + config["chosen_parameters"]["count_layer"] + ' '
             '-p deviant_genes_file {output.deviant_genes} '
 
