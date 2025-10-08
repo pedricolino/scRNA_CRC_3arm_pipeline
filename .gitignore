@@ -24,3 +24,5 @@ resources/
 .pybiomart.sqlite
 backup/
 recycle_bin/
+pdf/
+log
