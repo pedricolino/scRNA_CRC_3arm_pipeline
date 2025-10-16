@@ -50,7 +50,7 @@ rule normalization_feature_selection:
     shell:
         "papermill "
             "workflow/notebooks/normalization_feature_selection.ipynb "
-            "results/per_sample/{wildcards.sample}/normalization_feature_selection_{wildcards.count_layer}_{wildcards.qc_method}.ipynb "
+            "results/per_sample/{wildcards.sample}/normalization_feature_selection_{wildcards.count_layer}__{wildcards.qc_method}.ipynb "
             "-p input_file {input} "
             "-p output_file {output} "
             "-p qc_method {wildcards.qc_method} "
@@ -79,7 +79,7 @@ if config['use_metacells']:
     rule SEACells_metacell_computation:
         input: 'results/per_sample/{sample}/adata_ready_for_merge_{count_layer}__{qc_method}.h5ad'
         output: 'results/per_sample/{sample}' + metacell_suffix + '/adata_ready_for_merge_{count_layer}__{qc_method}.h5ad'
-        benchmark: 'benchmarks/SEACells_metacell_computation/{sample}_{count_layer}_{qc_method}.tsv'
+        benchmark: 'benchmarks/SEACells_metacell_computation/{sample}_{count_layer}__{qc_method}.tsv'
         threads: 8
         resources:
             mem=lambda wildcards, attempt: '%dG' % (16 * attempt),
@@ -88,7 +88,7 @@ if config['use_metacells']:
         shell:
             "papermill "
             "workflow/notebooks/SEACell_computation.ipynb "
-            "results/per_sample/{wildcards.sample}" + metacell_suffix + "/SEACell_computation_{wildcards.count_layer}_{wildcards.qc_method}.ipynb "
+            "results/per_sample/{wildcards.sample}" + metacell_suffix + "/SEACell_computation_{wildcards.count_layer}__{wildcards.qc_method}.ipynb "
             "-p input_file {input} "
             "-p output_file {output} "
             "-p count_layer {wildcards.count_layer} "

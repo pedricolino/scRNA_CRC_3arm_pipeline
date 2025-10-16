@@ -18,7 +18,7 @@ count_layer: ['soupX_counts', 'counts'] # usually 'soupX_counts' or 'counts'
 # quality control method to use
 # 'theislab_tutorial', 'theislab_tutorial_then_scAutoQC' or 'scAutoQC' (which failed miserably in my case)
 # only choose one of the methods including scAutoQC
-qc_method: ['theislab_tutorial', 'scAutoQC']
+qc_method: ['theislabTutorial', 'scAutoQC']
 
 subset:
   use: False # perform analysis after merging of samples on subset (true) or full (false) dataset?
@@ -29,17 +29,17 @@ dim_reduc:
   normalization: 'log1p_norm'
   scale_data_before_pca: [True, False] # scale data before PCA?
   genes_for_pca: ['all', 'globally_highly_variable', 'highly_variable_per_sample'] # which genes to use for PCA
-  cc_method: ['None', 'regress_out', 'cc_genes_out', 'cc_difference_regressed_out', 'cPCA'] # method to remove cell cycle effect
+  cc_method: ['None', 'regress_out', 'cc_genes_out', 'cc_difference_regressed_out'] #, 'cPCA'] # method to remove cell cycle effect
   pca_n_components: 50 # number of components to use for PCA
   umap_n_neighbors: 30 # number of neighbors to use for UMAP
 
 chosen_parameters:
   count_layer: 'counts' # count layer to use for analysis
-  qc_method: 'scAutoQC' # quality control method to use
+  qc_method: 'theislabTutorial' # quality control method to use
   normalization: 'log1p_norm' # normalization method to use
   scale_data_before_pca: False # scale data before PCA?
   genes_for_pca: 'highly_variable_per_sample' # genes to use for PCA
-  cc_method: 'cc_genes_out' # potential cell cycle removal method
+  cc_method: 'None' # potential cell cycle removal method
   pca_n_components: 50 # number of PCA components to use
   umap_n_neighbors: 30 # number of neighbors to use for UMAP
 
